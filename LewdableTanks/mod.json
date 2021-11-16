@@ -13,7 +13,7 @@
 	"DLL": "LewdableTanks.dll",
 	"DLLEntryPoint": "LewdableTanks.Control.Init",
 	"Settings": {
-		"Recovery": "HpLeftConstant",
+		"Recovery": "SimGameConstant",
 		"LostVehicleAction": "ReturnParts",
 		"FixMechPartCost": true,
 		"AddWeaponToDescription": true,
