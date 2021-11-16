@@ -1,3 +1,26 @@
+settings.json
+Who has access
+Not shared
+System properties
+Type
+Unknown File
+Size
+4 KB
+Storage used
+4 KB
+Location
+WarTechIIC
+Owner
+me
+Modified
+Nov 3, 2021 by me
+Opened
+1:31 PM by me
+Created
+Nov 5, 2021 with Google Drive for desktop
+Add a description
+Viewers can download
+
 {
 	"debug": true,
 	"trace": true,
@@ -46,8 +69,8 @@
 		"ClanWolfInExile",
 		"Wolfs_Dragoons"
 	],
-	"dailyAttackChance": 0.1,
-	"dailyRaidChance": 0.1,
+	"dailyAttackChance": 0.4,
+	"dailyRaidChance": 0.6,
 	"distanceFactor": 85,
 	"aggression": {
 		"NoFaction": 0.0
