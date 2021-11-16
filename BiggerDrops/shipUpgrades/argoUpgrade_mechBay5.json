@@ -2,7 +2,7 @@
 	"Description": {
 		"Cost": 0,
 		"Rarity": 0,
-		"Purchasable": true,
+		"Purchasable": false,
 		"UIName": "",
 		"Id": "argoUpgrade_mechBay5",
 		"Name": "Mech Bay 5",
