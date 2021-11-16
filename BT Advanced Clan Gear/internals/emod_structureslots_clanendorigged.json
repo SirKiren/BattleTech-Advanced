@@ -8,14 +8,6 @@
 		"Color": {
 			"UIColor": "Orange"
 		},
-		"DynamicSlots": {
-			"ReservedSlots": 7,
-			"BackgroundColor": "OrangeHalf",
-			"ShowIcon": false,
-			"NameText": "Cobbled Endo-Steel (C)",
-			"BonusAText": "Dynamic Slot",
-			"BonusBText": " "
-		},
 		"StructureRepair": {
 			"StructureTPCost": 1.3,
 			"StructureCBCost": 1.5
@@ -43,8 +35,7 @@
 				"StructureFactor: -50%",
 				"StructureTPCost: 30%",
 				"StructureCBCost: 50%",
-				"CritRes: -25%",
-				"Reserved: 7"
+				"CritRes: -25%"
 			]
 		},
 		"InventorySorter": {
@@ -64,7 +55,7 @@
 		"Icon": "uixSvgIcon_quantity"
 	},
 	"BonusValueA": "50% Structure Weight",
-	"BonusValueB": "Reserves 7 Slots",
+	"BonusValueB": "",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",

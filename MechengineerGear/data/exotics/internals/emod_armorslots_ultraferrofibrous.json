@@ -3,14 +3,6 @@
 		"Color": {
 			"UIColor": "Gold"
 		},
-		"DynamicSlots": {
-			"ReservedSlots": 21,
-			"BackgroundColor": "GoldHalf",
-			"ShowIcon": false,
-			"NameText": "Ultra Ferro",
-			"BonusAText": "Dynamic Slot",
-			"BonusBText": " "
-		},
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "1.2 * [[Chassis.Tonnage]] / 15",
@@ -42,7 +34,6 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"ArmorFactor: -16%",
-				"Reserved: 21",
 				"CASE"
 			]
 		}
@@ -60,7 +51,7 @@
 		"Icon": "uixSvgIcon_action_end"
 	},
 	"BonusValueA": "-16% Armor Weight",
-	"BonusValueB": "Reserves 21 Slots|CASE",
+	"BonusValueB": "CASE",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",

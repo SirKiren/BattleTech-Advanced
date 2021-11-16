@@ -3,13 +3,6 @@
 		"Color": {
 			"UIColor": "Gold"
 		},
-		"DynamicSlots": {
-			"ReservedSlots": 12,
-			"BackgroundColor": "GoldHalf",
-			"ShowIcon": false,
-			"NameText": "Dynamic Slot",
-			"BonusAText": "Dynamic Slot"
-		},
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "[[Chassis.Tonnage]]/10",
@@ -45,7 +38,6 @@
 				"EvaMax: +1",
 				"EvaPips: +1",
 				"Visibility: -30%",
-				"Reserved: 12",
 				"HeatGenerated: +5%",
 				"HeatPerTurn: +3",
 				"ReqECM"

@@ -1,7 +1,7 @@
 {
 	"Name": "BT Advanced Core",
 	"Enabled": true,
-	"Version": "11.4.1",
+	"Version": "11.4",
 	"Description": "For files that have nowhere else to live and are fundamental to the modpack's functionality.",
 	"DataAddendumEntries": [
 		{
@@ -52,7 +52,6 @@
 		"CustomVoices",
 		"CustomShops",
 		"DynamicShops",
-		"ExpandedInitiative",
 		"FYLS",
 		"IRTweaks",
 		"Loading Screen Tips",

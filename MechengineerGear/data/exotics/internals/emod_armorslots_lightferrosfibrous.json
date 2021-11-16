@@ -3,14 +3,6 @@
 		"Color": {
 			"UIColor": "Gold"
 		},
-		"DynamicSlots": {
-			"ReservedSlots": 7,
-			"BackgroundColor": "GoldHalf",
-			"ShowIcon": false,
-			"NameText": "Light Ferro",
-			"BonusAText": "Dynamic Slot",
-			"BonusBText": " "
-		},
 		"Weights": {
 			"ArmorFactor": 0.9434
 		},
@@ -36,8 +28,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ArmorFactor: -6%",
-				"Reserved: 7"
+				"ArmorFactor: -6%"
 			]
 		},
 		"InventorySorter": {
@@ -57,7 +48,6 @@
 		"Icon": "uixSvgIcon_action_end"
 	},
 	"BonusValueA": "-6% Armor Weight",
-	"BonusValueB": "Reserves 7 Slots",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
