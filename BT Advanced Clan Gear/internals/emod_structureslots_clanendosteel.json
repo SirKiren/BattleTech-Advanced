@@ -8,14 +8,6 @@
 		"Color": {
 			"UIColor": "Orange"
 		},
-		"DynamicSlots": {
-			"ReservedSlots": 7,
-			"BackgroundColor": "OrangeHalf",
-			"ShowIcon": false,
-			"NameText": "Endo-Steel (C)",
-			"BonusAText": "Dynamic Slot",
-			"BonusBText": " "
-		},
 		"StructureRepair": {
 			"StructureTPCost": 1.3,
 			"StructureCBCost": 1.5
@@ -42,8 +34,7 @@
 			"Bonuses": [
 				"StructureFactor: -50%",
 				"StructureTPCost: 30%",
-				"StructureCBCost: 50%",
-				"Reserved: 7"
+				"StructureCBCost: 50%"
 			]
 		},
 		"InventorySorter": {
@@ -63,7 +54,7 @@
 		"Icon": "uixSvgIcon_quantity"
 	},
 	"BonusValueA": "50% Structure Weight|",
-	"BonusValueB": "Reserves 7 Slots",
+	"BonusValueB": "",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",

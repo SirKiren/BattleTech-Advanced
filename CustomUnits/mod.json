@@ -22,6 +22,10 @@
 			"Path": "assetbundles"
 		},
 		{
+			"Type": "DesignMaskDef",
+			"Path": "designMasks"
+		},
+		{
 			"Type": "SVGAsset",
 			"Path": "icons"
 		},
@@ -79,7 +83,7 @@
 		},
 		"PartialMovementOnlyWalkByDefault": true,
 		"AllowRotateWhileJumpByDefault": true,
-		"DeployManual": false,
+		"DeployManual": true,
 		"DeployMaxDistanceFromOriginal": 30,
 		"DeployMinDistanceFromEnemy": 300,
 		"fixWaterHeight": true,
@@ -155,7 +159,7 @@
 		"ArgoBaysFix": 0,
 		"BaysCountExternalControl": false,
 		"CanPilotVehicleProbability": 0.5,
-		"CanPilotAlsoMechProbability": 0.0,
+		"CanPilotAlsoMechProbability": 0.1,
 		"SquadStructureIcon": "ba_structure",
 		"SquadArmorOutlineIcon": "ba_armor_outline",
 		"SquadArmorIcon": "ba_armor",

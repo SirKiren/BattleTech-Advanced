@@ -62,7 +62,7 @@
 		},
 		"MatchAllyLanceCountToEnemy": false,
 		"DropWeightInfluence": {
-			"Enable": false,
+			"Enable": true,
 			"EnemySpawnInfluencePerHalfSkullAbove": 0.1,
 			"AllySpawnInfluencePerHalfSkullAbove": -0.1,
 			"EnemySpawnInfluencePerHalfSkullBelow": -0.1,
@@ -137,16 +137,6 @@
 				"MapId": "mapGeneral_lostWorld_vJung",
 				"ContractTypeName": "Rescue",
 				"IncreaseBoundarySizeByPercentage": 0.5
-			},
-			{
-				"MapId": "mapGeneral_Interchange_aDes",
-				"ContractTypeName": "CaptureEscort",
-				"IncreaseBoundarySizeByPercentage": 0.25
-			},
-			{
-				"MapId": "mapGeneral_sandyMesa_aDes",
-				"ContractTypeName": "Rescue",
-				"IncreaseBoundarySizeByPercentage": 0.25
 			}
 		]
 	},

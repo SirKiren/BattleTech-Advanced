@@ -6,14 +6,6 @@
 		"Lootable": {
 			"ItemID": "emod_armorslots_clanferrosfibrous"
 		},
-		"DynamicSlots": {
-			"ReservedSlots": 12,
-			"BackgroundColor": "GoldHalf",
-			"ShowIcon": false,
-			"NameText": "Ferro-Lamellor (C)",
-			"BonusAText": "Dynamic Slot",
-			"BonusBText": " "
-		},
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "2 * [[Chassis.Tonnage]] / 15",
@@ -50,7 +42,6 @@
 				"DamageTaken: -20%",
 				"ArmorProtection: x0.88",
 				"ArmorFactor: -12%",
-				"Reserved: 12",
 				"CASE"
 			]
 		}

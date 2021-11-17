@@ -3,14 +3,6 @@
 		"Color": {
 			"UIColor": "Gold"
 		},
-		"DynamicSlots": {
-			"ReservedSlots": 6,
-			"BackgroundColor": "GoldHalf",
-			"ShowIcon": false,
-			"NameText": "LAM Aluminium Armor",
-			"BonusAText": "Dynamic Slot",
-			"BonusBText": " "
-		},
 		"Weights": {
 			"ArmorFactor": 1.1
 		},
@@ -40,7 +32,6 @@
 				"JumpDistance: 10%",
 				"HeatPerTurn: -9",
 				"ArmorFactor: +10%",
-				"Reserved: 6",
 				"ReqWings"
 			]
 		},
@@ -61,7 +52,6 @@
 		"Icon": "uixSvgIcon_action_end"
 	},
 	"BonusValueA": "-6% Armor Weight",
-	"BonusValueB": "Reserves 7 Slots",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",

@@ -14,14 +14,6 @@
 				"CategoryID": "Armor"
 			}
 		],
-		"DynamicSlots": {
-			"ReservedSlots": 7,
-			"BackgroundColor": "GoldHalf",
-			"ShowIcon": false,
-			"NameText": "Ferro-Fibrous (C)",
-			"BonusAText": "Dynamic Slot",
-			"BonusBText": " "
-		},
 		"Weights": {
 			"ArmorFactor": 0.89286
 		},
@@ -42,7 +34,6 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"ArmorFactor: -11%",
-				"Reserved: 7",
 				"CASE"
 			]
 		}
