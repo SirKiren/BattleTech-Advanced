@@ -1,19 +1,18 @@
 {
 	"Custom": {
 		"Category": [
-			{
-				"CategoryID": "LifeSupportB"
-			},
-			{
-				"CategoryID": "Quirk"
-			}
-		],
+{
+"CategoryID": "Quirk"
+}
+],
 		"Flags": {
-			"Flags": [
+			"flags": [
 				"default",
 				"not_broken",
 				"no_salvage",
-				"autorepair"
+				"autorepair",
+				"ignore_damage",
+				"hide_equip"
 			]
 		},
 		"BonusDescriptions": {
@@ -42,7 +41,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 1,
-	"AllowedLocations": "Head",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

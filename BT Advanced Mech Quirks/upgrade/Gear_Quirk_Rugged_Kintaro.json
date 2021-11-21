@@ -1,36 +1,26 @@
 {
 	"Custom": {
-		"ComponentExplosion": {
-			"StabilityDamage": 100
-		},
+		
 		"Category": [
-			{
-				"CategoryID": "Gyro"
-			},
-			{
-				"CategoryID": "Quirk"
-			}
-		],
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "[[Chassis.Tonnage]]/10",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
-			}
-		},
+{
+"CategoryID": "Quirk"
+}
+],
+		
 		"Flags": {
 			"flags": [
 				"default",
 				"not_broken",
 				"no_salvage",
 				"autorepair",
-				"ignore_damage"
+				"ignore_damage",
+				"hide_equip"
 			]
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
 				"StructureProtection: 55",
-				"GyroStab: 65",
-				"IsGyro"
+				"GyroStab: 65"
 			]
 		},
 		"InventorySorter": {
@@ -58,7 +48,7 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 3,
+	"InventorySize": 1,
 	"Tonnage": 0,
 	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
@@ -119,7 +109,7 @@
 	"ComponentTags": {
 		"items": [
 			"BLACKLISTED",
-			"component_type_variant"
+			"component_type_stock"
 		],
 		"tagSetSourceFile": ""
 	}

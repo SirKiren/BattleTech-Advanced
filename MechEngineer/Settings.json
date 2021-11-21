@@ -256,7 +256,7 @@
 				"Location": "CenterTorso",
 				"Change": {
 					"From": 4,
-					"By": 11,
+					"By": 12,
 					"FromIsMin": false
 				}
 			},

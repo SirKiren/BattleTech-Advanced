@@ -94,7 +94,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 110,
 			"MaxRearArmor": 55,
 			"InternalStructure": 55
@@ -200,30 +200,6 @@
 	"StockRole": "Flanker and Harasser",
 	"YangsThoughts": "The original Firebee used a single LRM-5 backed up by a trio of SRM-2s. The Primitive Engine provided a top speed of 85 km/h, more than enough to engage armored vehicles and infantry, and supporting heavier units. The lack of jump jets, combined with six and a half tons of Primitive Armor, forced pilots to pay attention to the terrain to insure they could move effectively.",
 	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_Primitive_center",
-			"SimGameUID": "",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Primitive",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_PrimitiveRugged_Firebee",
