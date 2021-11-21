@@ -938,9 +938,9 @@
 		"EnabledDescription": "Required by the engine feature to work. Disabled the mech.GetHeatSinkDissipation method."
 	},
 	"MechLabSlots": {
-		"MechLabArmTopPadding": 120,
+		"MechLabArmTopPadding": 145,
 		"MechLabViewMechAnchorY": -20,
-		"MechLabGeneralSlots": 3,
+		"MechLabGeneralSlots": 4,
 		"MechLabGeneralWidgetLabel": "General",
 		"Enabled": true,
 		"HideHelpButton": true,
