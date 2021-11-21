@@ -1,22 +1,19 @@
 {
 	"Custom": {
 		"Category": [
-			{
-				"CategoryID": "Quirk"
-			}
-		],
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "[[Chassis.Tonnage]]/10",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
-			}
-		},
+{
+"CategoryID": "Quirk"
+}
+],
+		
 		"Flags": {
 			"flags": [
 				"default",
 				"not_broken",
 				"no_salvage",
-				"autorepair"
+				"autorepair",
+				"ignore_damage",
+				"hide_equip"
 			]
 		},
 		"BonusDescriptions": {

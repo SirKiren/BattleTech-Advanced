@@ -14,10 +14,11 @@
 		},
 		"Flags": {
 			"flags": [
-				"ignore_damage",
+				"default",
 				"autorepair",
 				"not_broken",
-				"no_salvage"
+				"no_salvage",
+				"vital"
 			]
 		},
 		"BonusDescriptions": {
@@ -186,8 +187,7 @@
 	],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock",
-			"BLACKLISTED"
+			"component_type_stock"
 		],
 		"tagSetSourceFile": ""
 	}

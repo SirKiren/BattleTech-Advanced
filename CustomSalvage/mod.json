@@ -63,7 +63,7 @@
 		],
 		"ExcludeVariants": [],
 		"MaxVariantsInDescription": 5,
-		"UnEquipedMech": false,
+		"UnEquipedMech": true,
 		"BrokenMech": false,
 		"HeadRepaired": false,
 		"LeftArmRepaired": false,

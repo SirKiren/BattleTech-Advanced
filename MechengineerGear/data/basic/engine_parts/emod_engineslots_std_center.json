@@ -18,8 +18,7 @@
 			"flags": [
 				"default",
 				"not_broken",
-				"vital",
-				"not_salvage"
+				"vital"
 			]
 		}
 	},

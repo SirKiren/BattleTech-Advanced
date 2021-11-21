@@ -13,7 +13,7 @@
 	"DLL": "LewdableTanks.dll",
 	"DLLEntryPoint": "LewdableTanks.Control.Init",
 	"Settings": {
-		"Recovery": "SimGameConstant",
+		"Recovery": "HpLeftConstant",
 		"LostVehicleAction": "ReturnParts",
 		"FixMechPartCost": true,
 		"AddWeaponToDescription": true,
@@ -22,7 +22,7 @@
 		"AddTonnageToPrefabID": true,
 		"AllowFrankenTank": true,
 		"VehiclePartCostMult": 0.3,
-		"RecoveryChanceConstantMod": 0,
+		"RecoveryChanceConstantMod": -0.5,
 		"RecoveryChanceHPMod": 0.5,
 		"RecoveryChanceHPBase": -0.5,
 		"NoVehiclePartsTag": "no_parts",

@@ -1,22 +1,21 @@
 {
 	"Custom": {
 		"Category": [
-			{
-				"CategoryID": "Structure"
-			},
-			{
-				"CategoryID": "Quirk"
-			}
-		],
+{
+"CategoryID": "Quirk"
+}
+],
 		"Color": {
 			"UIColor": "Orange"
-		},
+},
 		"Flags": {
 			"flags": [
-				"ignore_damage",
-				"autorepair",
+				"default",
 				"not_broken",
-				"no_salvage"
+				"no_salvage",
+				"autorepair",
+				"ignore_damage",
+				"hide_equip"
 			]
 		},
 		"BonusDescriptions": {

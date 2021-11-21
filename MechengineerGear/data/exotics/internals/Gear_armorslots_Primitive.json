@@ -21,6 +21,7 @@
 		},
 		"Flags": {
 			"flags": [
+				"default",
 				"ignore_damage",
 				"autorepair",
 				"not_broken",
@@ -62,8 +63,7 @@
 	"statusEffects": [],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock",
-			"BLACKLISTED"
+			"component_type_stock"
 		],
 		"tagSetSourceFile": ""
 	}

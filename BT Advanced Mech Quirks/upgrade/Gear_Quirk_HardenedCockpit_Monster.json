@@ -1,21 +1,14 @@
 {
 	"Custom": {
 		"Category": [
-			{
-				"CategoryID": "Cockpit"
-			}
-		],
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "1",
-				"CBillCost": "[[Chassis.Tonnage]]"
-			}
-		},
+{
+"CategoryID": "Quirk"
+}
+],
 		"BonusDescriptions": {
 			"Bonuses": [
 				"Health: +3",
-				"ArmoredCowl: 45",
-				"IsCockpit"
+				"ArmoredCowl: 45"
 			]
 		},
 		"Flags": {
@@ -23,7 +16,9 @@
 				"default",
 				"not_broken",
 				"no_salvage",
-				"autorepair"
+				"autorepair",
+				"ignore_damage",
+				"hide_equip"
 			]
 		},
 		"InventorySorter": {
@@ -53,7 +48,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 1,
-	"AllowedLocations": "Head",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

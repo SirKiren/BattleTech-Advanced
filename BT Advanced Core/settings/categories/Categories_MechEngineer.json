@@ -190,6 +190,28 @@
 			}
 		},
 		{
+			"Name": "Quirk",
+			"DisplayName": "Chassis Quirk",
+			"MaxEquiped": 1,
+			"MinEquiped": 0,
+			"AutoReplace": true,
+			"DefaultCustoms": {
+				"MechConfiguration": {},
+				"InventorySorter": {
+					"SortKey": "CzOrder3"
+				},
+				"Sorter": {
+					"Order": 3
+				},
+				"Flags": {
+					"Flags": [
+						"ignore_damage",
+						"no_salvage"
+					]
+				}
+			}
+		},
+		{
 			"Name": "Gyro",
 			"DisplayName": "Gyro",
 			"MaxEquiped": 1,
@@ -197,10 +219,10 @@
 			"AutoReplace": true,
 			"DefaultCustoms": {
 				"InventorySorter": {
-					"SortKey": "CzOrder3"
+					"SortKey": "CzOrder4"
 				},
 				"Sorter": {
-					"Order": 3
+					"Order": 4
 				},
 				"CriticalEffects": {
 					"PenalizedEffectIDs": [
@@ -251,10 +273,10 @@
 			"AutoReplace": true,
 			"DefaultCustoms": {
 				"InventorySorter": {
-					"SortKey": "CzOrder4"
+					"SortKey": "CzOrder5"
 				},
 				"Sorter": {
-					"Order": 4
+					"Order": 5
 				}
 			}
 		},
@@ -266,10 +288,10 @@
 			"AutoReplace": true,
 			"DefaultCustoms": {
 				"InventorySorter": {
-					"SortKey": "CzOrder5"
+					"SortKey": "CzOrder6"
 				},
 				"Sorter": {
-					"Order": 5
+					"Order": 6
 				}
 			}
 		},
@@ -281,10 +303,10 @@
 			"AutoReplace": true,
 			"DefaultCustoms": {
 				"InventorySorter": {
-					"SortKey": "CzOrder6"
+					"SortKey": "CzOrder7"
 				},
 				"Sorter": {
-					"Order": 6
+					"Order": 7
 				}
 			}
 		},

@@ -33,8 +33,7 @@
 		},
 		"Flags": {
 			"flags": [
-				"ignore_damage",
-				"no_salvage"
+				"ignore_damage"
 			]
 		}
 	},

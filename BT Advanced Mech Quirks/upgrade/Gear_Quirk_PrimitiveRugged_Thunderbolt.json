@@ -1,18 +1,11 @@
 {
 	"Custom": {
 		"Category": [
-			{
-				"CategoryID": "Structure"
-			},
-			{
-				"CategoryID": "Quirk"
-			}
-		],
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "[[Chassis.Tonnage]]/10",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
-			}
+{
+"CategoryID": "Quirk"
+}
+],
+		
 		},
 		"ArmorStructureChanges": {
 			"StructureFactor": 1.5
@@ -20,14 +13,14 @@
 		"StructureRepair": {
 			"StructureTPCost": 1.55,
 			"StructureCBCost": 1.25
-		},
 		"Flags": {
 			"flags": [
 				"default",
 				"not_broken",
 				"no_salvage",
 				"autorepair",
-				"ignore_damage"
+				"ignore_damage",
+				"hide_equip"
 			]
 		},
 		"BonusDescriptions": {
@@ -96,7 +89,7 @@
 	"ComponentTags": {
 		"items": [
 			"BLACKLISTED",
-			"component_type_variant"
+			"component_type_stock"
 		],
 		"tagSetSourceFile": ""
 	}

@@ -6,7 +6,7 @@
 	"useCostByTons": false,
 	"dropCostPerTon": 500,
 	"roundToNearist": 10000,
-	"debug": true,
+	"debug": false,
 	"trace": false,
 	"heatSunkStat": "CACOverrallHeatSinked",
 	 "diffMode" : "System",
