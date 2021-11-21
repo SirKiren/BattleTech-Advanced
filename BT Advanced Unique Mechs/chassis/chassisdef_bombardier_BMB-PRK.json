@@ -1,30 +1,25 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Lower",
-			"RightLimit": "Lower"
-		}
-	},
 	"Description": {
-		"Cost": 5800000,
-		"Rarity": 3,
+		"Cost": 7380000,
+		"Rarity": 2,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Ostwar",
-		"Id": "chassisdef_ostwar_OWR-2Q",
-		"Name": "Ostwar",
-		"Details": "During the run-up to the FedCom Civil War, a wide variety of older mechs were rediscovered. One of them was the Ostwar, with plans for the mech found in a Brian Cache discovered in the Deep Periphery by a band of mercenaries. Kong Interstellar acquired the plans and produced this, a vastly upgraded version of the venerable Ostwar to complement their Ostsol lines. Built on a 260-rated Light Fusion Engine, the Ostwar-2Q carries a recognizably Ostwar loadout: a LRM-20 for ranged firepower and a pair each of Medium Pulses and Streak SRM-6s. Double heat sinks and jump jets give the mech longevity in the fight.",
-		"Icon": "uixTxrIcon_ostwar"
+		"UIName": "The Prick",
+		"Id": "chassisdef_bombardier_BMB-PRK",
+		"Name": "The Prick",
+		"Details": "This mech is a living nightmare, made by a diseased mind with no regard for goodness or sanity. Only an evil man could come up with this but here it is. The Prick, as it's called, carries a MRM-30 but it hardly matters. The real reason this mech is loathed in the arenas is the quartet of Piercing SRM-3s that it carries and that have carried it to dozens of victories. Nobody likes facing it, nobody thought it should exist, but here it is anyway, a curse from an uncaring god on an undeserving world.",
+		"Icon": "uixTxrIcon_bombardier"
 	},
-	"MovementCapDefID": "movedef_ostwar-2MB",
+	"MovementCapDefID": "movedef_crusader_CRD-3R",
 	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_ostwar",
-	"PrefabIdentifier": "chrprfmech_ostwarhotd-001",
-	"PrefabBase": "ostwar",
+	"HardpointDataDefID": "hardpointdatadef_bombardier",
+	"PrefabIdentifier": "chrprfmech_bombardierbase-001",
+	"PrefabBase": "bombardier",
 	"Tonnage": 65,
 	"InitialTonnage": 6.5,
 	"weightClass": "HEAVY",
+	"BattleValue": 7144000,
 	"Heatsinks": 0,
 	"TopSpeed": 64,
 	"TurnRadius": 90,
@@ -44,17 +39,13 @@
 	"Signature": 0,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 70,
+	"MeleeDamage": 75,
 	"MeleeInstability": 35,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 70,
+	"DFADamage": 75,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 70,
+	"DFASelfDamage": 75,
 	"DFAInstability": 35,
-	"ChassisTags": {
-		"items": [],
-		"tagSetSourceFile": ""
-	},
 	"Locations": [
 		{
 			"Location": "Head",
@@ -72,16 +63,7 @@
 		},
 		{
 			"Location": "LeftArm",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 100,
@@ -92,11 +74,11 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Missile",
 					"Omni": false
 				}
 			],
@@ -108,9 +90,18 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 15,
 			"MaxArmor": 210,
 			"MaxRearArmor": 105,
 			"InternalStructure": 105
@@ -141,7 +132,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMount": "Missile",
 					"Omni": false
 				}
 			],
@@ -214,13 +205,19 @@
 			"z": 0
 		}
 	],
-	"VariantName": "OWR-2Q",
-	"StockRole": "Fire Support",
-	"YangsThoughts": "During the run-up to the FedCom Civil War, a wide variety of older mechs were rediscovered. One of them was the Ostwar, with plans for the mech found in a Brian Cache discovered in the Deep Periphery by a band of mercenaries. Kong Interstellar acquired the plans and produced this, a vastly upgraded version of the venerable Ostwar to complement their Ostsol lines. Built on a 260-rated Light Fusion Engine, the Ostwar-2Q carries a recognizably Ostwar loadout: a LRM-20 for ranged firepower and a pair each of Medium Pulses and Streak SRM-6s. Double heat sinks and jump jets give the mech longevity in the fight.",
+	"VariantName": "BMB-PRK",
+	"ChassisTags": {
+		"items": [
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "That Jackass's Mech",
+	"YangsThoughts": "This mech is a living nightmare, made by a diseased mind with no regard for goodness or sanity. Only an evil man could come up with this but here it is. The Prick, as it's called, carries a MRM-30 but it hardly matters. The real reason this mech is loathed in the arenas is the quartet of Piercing SRM-3s that it carries and that have carried it to dozens of victories. Nobody likes facing it, nobody thought it should exist, but here it is anyway, a curse from an uncaring god on an undeserving world.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_Rugged_Ostwar",
+			"ComponentDefID": "Gear_Quirk_EasytoPilot_Bombardier",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -232,12 +229,15 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
-			"hasPrefabName": true
+			"hasPrefabName": false
 		}
 	],
 	"CustomParts": {
