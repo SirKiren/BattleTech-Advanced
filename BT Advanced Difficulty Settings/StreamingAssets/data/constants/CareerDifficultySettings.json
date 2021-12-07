@@ -52,7 +52,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 5,
 			"Options": [
 				{
 					"ID": "diff_FF_Disabled",
@@ -136,7 +136,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 1,
+			"DefaultIndex": 3,
 			"Options": [
 				{
 					"ID": "diff_MC_easy",
@@ -584,7 +584,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 3,
 			"Options": [
 				{
 					"ID": "diff_Ronin_only",
@@ -654,7 +654,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 0,
+			"DefaultIndex": 2,
 			"Options": [
 				{
 					"ID": "diff_CMD_easy",
@@ -725,7 +725,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 3,
+			"DefaultIndex": 5,
 			"Options": [
 				{
 					"ID": "diff_pilotssys_10",
@@ -1019,7 +1019,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 1,
 			"Options": [
 				{
 					"ID": "diff_PCMP_fast",
@@ -1650,7 +1650,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 0,
+			"DefaultIndex": 1,
 			"Options": [
 				{
 					"ID": "diff_Maint_low",
