@@ -210,7 +210,7 @@
 	"YangsThoughts": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Wolverine",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

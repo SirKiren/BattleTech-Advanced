@@ -223,7 +223,7 @@
 	"YangsThoughts": "The Stalker 3H was intended as a seige 'Mech.  Replacing the twin LRM-10s and Large Lasers for paired LRM-20s, the STK-3H is a powerful fire support 'Mech.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CombatComputer_Stalker",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

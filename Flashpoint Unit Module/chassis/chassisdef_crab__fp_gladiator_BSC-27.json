@@ -204,7 +204,7 @@
 	],
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Crab",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

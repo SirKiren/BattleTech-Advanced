@@ -227,7 +227,7 @@
 	"YangsThoughts": "The Highlander 733C sacrifices some of the 733s long range ability, but give it a true brawler profile.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Highlander",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -220,7 +220,7 @@
 	"YangsThoughts": "The definitive anti-aircraft 'Mech, the Rifleman was first fielded in 2505, making it among the earliest 'Mechs ever built. Armed with medium autocannons and a bevy of lasers, the Rifleman is a great fire-support mech but a bad line combatant, thanks to poor armoring.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Rifleman",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -202,7 +202,7 @@
 	"YangsThoughts": "The Katana Kat is a long-range sniping arena variant of the Panther. Armed with twin PPCs and the Panther's traditional CT-mounted SRM-4, the Katana Kat is an able sniper thanks to its DHS and jump jets.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Panther",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

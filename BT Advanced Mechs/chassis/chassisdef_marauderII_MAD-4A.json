@@ -218,7 +218,7 @@
 	"YangsThoughts": "Take your average Marauder.  Pump it up, and make it even more maddening.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CombatComputer_MarauderII",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

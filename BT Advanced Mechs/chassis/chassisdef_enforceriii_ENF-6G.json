@@ -214,7 +214,7 @@
 	"YangsThoughts": "Traditionally seen as a Davion BattleMech, the Enforcer III was commissioned to be redesigned by Victor Steiner-Davion in an effort to rebuild his image within the sundered Federated Commonwealth. While not completely successful in the latter goal, the Enforcer III does succeed in bringing a classic 'Mech up to a more modern standard. Built on an Endo-Steel chassis with a XL Fusion Engine for power, the Enforcer III 4G is based on the 4T version, but strips the Targeting Computer for a bevy of additional ER and pulse lasers while keeping the powerful Gauss Rifle.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Enforcer",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

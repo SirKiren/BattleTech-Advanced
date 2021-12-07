@@ -219,7 +219,7 @@
 	"YangsThoughts": "While the addition of the Lasers removes its reliance on ammunition, the WVR-6M tends to run a bit hot, especially if you are using the Jump Jets.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Wolverine",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -222,7 +222,7 @@
 	"YangsThoughts": "Designed for Periphery forces with money but not too much money, the ICR-2S has the modern touches of Double Heat Sinks and Endo-Steel construction, but the weapons are decidedly Periphery. A pair of SRM-6s and Medium Lasers provide the main punch while a Medium Rifle gives some longer range firepower. Decent armor and the Icarus II's traditional slow speed round out the -2S package. It proved to be a moderate hit with Periphery buyers and found its way onto many Periphery battlefields.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_IcarusII",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

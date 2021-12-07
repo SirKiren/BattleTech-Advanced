@@ -245,7 +245,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CommandMech_BlackKnight",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

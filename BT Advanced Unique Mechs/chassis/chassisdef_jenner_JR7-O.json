@@ -198,7 +198,7 @@
 	"YangsThoughts": "Like many FrankenMechs, the reasoning behind the \"Oxide\" is lost either to time or the untimely end of its creator. This Jenner can't seem to decide whether it wants to be a short-range skirmisher or an excessively mobile fire-support unit. Either way, when its tubes run dry, it's time to use that speed and get out of there ASAP.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Jenner",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

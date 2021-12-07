@@ -214,7 +214,7 @@
 	"YangsThoughts": "The Wolfhound-1B is a variant designation for the Wolfhound-1, made for bookkeeping reasons. Besides the designation, the -1B is the same as the -1..",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Wolfhound",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -222,7 +222,7 @@
 	"YangsThoughts": "The second of the COIL testbed designs, the OTL-4C was designed to carry dual COILs with the base understanding that it would overtax the heat systems completely. The designers intended this from the start since the design was never meant for line combat and was only to be used in testing envrionments. Still, after the project was wrapped up the design specs were sold off to various interested parties and the OTL-4C started appearing on battlefields.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedSensors_Ostsol",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

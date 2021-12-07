@@ -221,7 +221,7 @@
 	"YangsThoughts": "The Sekhmet is a highly customized arena combat design, meant for gladiatorial bouts. Armed with a trio of ER Medium Lasers, a pair of Heavy MGs, and a Light PPC, the Sekhmet can threaten anyone, no matter how far they run or where they hide.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedSensors_Osiris",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

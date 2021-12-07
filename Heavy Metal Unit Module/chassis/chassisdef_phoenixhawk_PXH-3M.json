@@ -198,7 +198,7 @@
 	],
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_PhoenixHawk",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

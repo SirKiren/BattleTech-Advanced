@@ -217,7 +217,7 @@
 	"YangsThoughts": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_MultiTrac_Thunderbolt",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

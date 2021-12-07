@@ -210,7 +210,7 @@
 	"YangsThoughts": "The Marauder is among the most classic of all Mech designs, venerable, powerful, respected. However, the original Marauder, the -1R, is mostly forgotten today. Clad in Ferro-Fibroous armor, it is otherwise the same as the downgraded -3R and is just as formidable.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CommandMech_Marauder",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

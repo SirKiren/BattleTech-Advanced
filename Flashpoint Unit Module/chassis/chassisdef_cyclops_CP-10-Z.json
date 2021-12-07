@@ -237,7 +237,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Cyclops",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

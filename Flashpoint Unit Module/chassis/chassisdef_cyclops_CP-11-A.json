@@ -213,7 +213,7 @@
 	"YangsThoughts": "A common modification of the Cyclops that uses some rediscovered Star League technology, the 11-A was introduced in 3045 and replaces the massive Autocannon/20 for a Gauss Rifle with two tons of ammo. Although doing slightly less damage it has a much larger effective range. Of course, thanks to recovered Star League technology, the 11-A still carries the powerful B2000 battle computer.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Cyclops",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

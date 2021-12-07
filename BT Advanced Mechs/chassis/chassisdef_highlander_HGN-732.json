@@ -227,7 +227,7 @@
 	"YangsThoughts": "The Highlander-732 is the original Highlander, built for the Star League's armies. While it is very similar to the later -733, the big change is that the -732 carries a massive Gauss Rifle, giving it devastating ranged power.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Highlander",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

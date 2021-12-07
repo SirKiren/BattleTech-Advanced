@@ -227,7 +227,7 @@
 	"YangsThoughts": "The Highlander-736 is a new upgrade of the -732 for the ComGuard that is equipped with Double Heat Sinks, a Streak SRM-4 in place of the original 6 pack, an Artemis suite for the LRM-20 and a C3i Computer in the right torso. While these are simple changes, the HGN-736 is a potent force multiplier.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Highlander",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
