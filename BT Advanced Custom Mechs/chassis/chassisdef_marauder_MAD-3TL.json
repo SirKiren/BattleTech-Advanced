@@ -222,7 +222,7 @@
 	"YangsThoughts": "Mad... MAD I tell you!",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CommandMech_Marauder",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

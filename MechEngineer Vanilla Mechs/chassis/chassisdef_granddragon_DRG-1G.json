@@ -228,7 +228,7 @@
 	"YangsThoughts": "Affectionately known as the 'Grand Dragon', the DRG-1G replaces the AC5 with a PPC, Medium Laser and 2 extra Heat Sinks.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CombatComputer_GrandDragon",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

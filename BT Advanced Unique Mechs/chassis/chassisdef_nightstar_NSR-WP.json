@@ -221,7 +221,7 @@
 	"YangsThoughts": "The Wolf Phoenix is a lesser-known arena design for the Nightstar that turns the powerful sniper chassis into a close-range brawler. Armed with two each Large Lasers and Medium Pulse Lasers and a total of four Streak SRM-6s, the Wolf Phoenix excells in close-range combat exclusively.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CommandMech_Nightstar",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

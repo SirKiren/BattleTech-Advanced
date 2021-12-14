@@ -219,7 +219,7 @@
 	"YangsThoughts": "I always had a soft spot for the DRG, it was one of the 'Mechs I first trained on.  Though it is a little bittersweet, as a hiccup in the controls caused me to lose my right foot.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Dragon",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

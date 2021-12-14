@@ -7,7 +7,7 @@
 	},
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedSensors_Ostsol",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

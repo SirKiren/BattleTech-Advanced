@@ -210,7 +210,7 @@
 	"YangsThoughts": "A common field refit employed by some MechWarriors, this model simply removes the rear mounted medium laser and adds an extra heat sink.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Wolfhound",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

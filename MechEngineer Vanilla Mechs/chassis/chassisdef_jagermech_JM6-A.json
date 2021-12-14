@@ -223,7 +223,7 @@
 	"YangsThoughts": "The JagerMech A model attempts to provide an indirect-fire support platform that can dish out damage without ever being seen. It has lower overall focused damage capability, but it usually mounts decent armor.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_JagerMech",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -1,7 +1,7 @@
 {
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CombatComputer_Yeoman",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

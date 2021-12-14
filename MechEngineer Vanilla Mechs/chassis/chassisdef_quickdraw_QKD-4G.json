@@ -202,7 +202,7 @@
 	"YangsThoughts": "Quickdraw 4Gs are among the fastest and most maneuverable of heavy 'Mechs, with decent weaponry. They suffer from problematic heat buildup when using all their features at once, so some caution is needed.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Quickdraw",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -220,7 +220,7 @@
 	"YangsThoughts": "This version of the Emperor was a model introduced in the Age of War. It carried an Autocannon/5 in each arm instead of the LB10-Xs that were used in later versions. It also carried sixteen single heat sinks. It was replaced by the EMP-6A.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Emperor",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -214,7 +214,7 @@
 	"YangsThoughts": "The HTM-CM carries on where the HTM-C left off. Instead of carrying a C3 slave unit, the -CM carries a C3 master computer, allowing it to bolster its lance even more than the -C was able to. It frees up the tonnage for the C3 master by losing a pair of its pulse lasers.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Hatamoto",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

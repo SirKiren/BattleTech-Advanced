@@ -227,7 +227,7 @@
 	"YangsThoughts": "The Highlander 733P is a variant of the 733 model that removes its Autocannon and replaces it with a PPC. It also handles heat buildup better.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Highlander",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

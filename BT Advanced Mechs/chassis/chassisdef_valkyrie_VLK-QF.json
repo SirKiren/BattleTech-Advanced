@@ -196,7 +196,7 @@
 	"YangsThoughts": "The QF model of the Valkyrie was the only common variant of the 'Mech during the Succession Wars. First fielded in 2967, it trades in the medium laser for a Flamer. This allows the 'Mech to work in an incendiary role and also acts as an excellent deterrent to infantry attacks.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Valkyrie",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

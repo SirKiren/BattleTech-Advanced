@@ -223,7 +223,7 @@
 	"YangsThoughts": "The AL variant of the Centurion tends to trade the larger burst damage of an Autocannon for more Energy weaponry and heavier armor. ALs can take an incredible amount of damage for their size but still pack a good punch.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Centurion",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

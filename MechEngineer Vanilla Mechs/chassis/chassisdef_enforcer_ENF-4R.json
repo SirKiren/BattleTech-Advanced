@@ -210,7 +210,7 @@
 	"YangsThoughts": "Enforcer 4R models combine the hefty power of an Autocannon and massive Laser with the mobility of Jump Jets-a deadly combination. Able to engage at medium-long all the way to point-blank range, these 'Mechs are flexible and surprising in combat.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Enforcer",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -240,7 +240,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedSensors_Bellerophon",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

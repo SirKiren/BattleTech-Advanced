@@ -200,7 +200,7 @@
 	"YangsThoughts": "First thing I am doing is ripping out that piece of crap laser and replacing it with something more reliable...",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Panther",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

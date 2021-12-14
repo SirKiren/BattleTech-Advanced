@@ -218,7 +218,7 @@
 	"YangsThoughts": "Introduced during the FedCom Civil War, this Highlander variant replaces the missiles, medium lasers, and jump jets with two Large Lasers and a Heavy Gauss Rifle. The M-7 Gauss Rifle remains in place.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Highlander",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

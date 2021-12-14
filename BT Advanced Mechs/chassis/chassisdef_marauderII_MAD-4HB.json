@@ -236,7 +236,7 @@
 	"YangsThoughts": "Boss, I've got no words. Those damn Marian pirates are absolutely nuts. It's a miracle this thing doesn't blow itself in half when it fires all those rockets but at least it usually blows its target in half instead.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CombatComputer_MarauderII",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

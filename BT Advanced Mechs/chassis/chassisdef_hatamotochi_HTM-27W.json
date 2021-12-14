@@ -230,7 +230,7 @@
 	"YangsThoughts": "The 27W, also known as the Hatamoto-Ku, removes both of the SRM-6 launchers and replaces them with an Autocannon5. The 'Mech has a powerful direct fire capability.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Hatamoto",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -229,7 +229,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_JagerMech",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

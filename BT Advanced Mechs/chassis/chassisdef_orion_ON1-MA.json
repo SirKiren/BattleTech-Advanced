@@ -224,7 +224,7 @@
 	"YangsThoughts": "This is one of the many minor variants of the ON1-M model. The Narc Missile Beacon is removed to allow a larger SRM-6 to replace the four pack. Both missile racks also have Artemis IV Fire Control System to increase accuracy. Finally, medium pulse lasers are mounted in place of original mediums.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CombatComputer_Orion",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

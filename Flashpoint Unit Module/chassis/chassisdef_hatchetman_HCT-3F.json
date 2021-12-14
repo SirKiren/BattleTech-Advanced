@@ -214,7 +214,7 @@
 			"hasPrefabName": true
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Hatchetman",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

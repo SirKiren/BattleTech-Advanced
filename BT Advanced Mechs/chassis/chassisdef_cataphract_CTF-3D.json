@@ -211,7 +211,7 @@
 	],
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Cataphract",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

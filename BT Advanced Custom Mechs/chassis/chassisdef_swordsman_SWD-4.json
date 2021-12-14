@@ -217,7 +217,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Swordsman",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

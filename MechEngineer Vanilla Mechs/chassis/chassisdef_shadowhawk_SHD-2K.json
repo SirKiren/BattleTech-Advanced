@@ -224,7 +224,7 @@
 	"YangsThoughts": "The 2K model is a poor man's Griffin, and is underarmed for its weight class.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_ShadowHawk",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

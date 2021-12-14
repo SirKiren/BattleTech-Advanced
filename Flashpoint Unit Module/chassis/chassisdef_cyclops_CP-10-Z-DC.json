@@ -217,7 +217,7 @@
 	"YangsThoughts": "'Ol one eye here is a real monster.  Back in the Confederation if you saw one of these take the field, you knew we were in for a hell of a battle.  These are the pinnacle of command 'Mechs, though I admit I may be a bit biased.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_Cowl_Cyclops",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
