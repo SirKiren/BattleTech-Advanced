@@ -26,7 +26,7 @@
 		"FixDeletedComponents": true,
 		"FixSaveGameMech": false,
 		"RunAutofixer": true,
-		"OverrideSalvageGeneration": false,
+		"OverrideSalvageGeneration": true,
 		"NoLootCTDestroyed": false,
 		"OverrideRecoveryChance": true,
 		"SalvageUnrecoveredMech": true,

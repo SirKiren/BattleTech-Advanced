@@ -1,0 +1,10 @@
+10:14:51.045 Assembly version: 0.7.0.0
+10:14:51.046 === MOD CONFIG BEGIN ===
+10:14:51.046   DEBUG: False
+10:14:51.046   LeopardRepairCostPerDamage:100
+10:14:51.046   Light Wing  - MonthlyCost:x50000 LeopardDamage:0 MaxRounds:4 MinRounds:3
+10:14:51.046   Medium Wing - MonthlyCost:x75000 LeopardDamage:0.3 MaxRounds:3 MinRounds:2
+10:14:51.046   Heavy Wing  - MonthlyCost:x100000 LeopardDamage:0.6 MaxRounds:2 MinRounds:1
+10:14:51.046 === MOD CONFIG END ===
+10:14:51.046 INFO: No errors reading settings file.
+10:28:46.797  We are in not a priority contract or skirmish, enabling withdrawal.
