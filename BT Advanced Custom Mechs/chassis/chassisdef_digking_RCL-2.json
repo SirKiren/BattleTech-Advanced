@@ -224,7 +224,9 @@
 	],
 	"VariantName": "RCL-2",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"IndustrialMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Militarized IndustrialMech",
@@ -236,19 +238,17 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "Head",
 			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_DigKing",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",

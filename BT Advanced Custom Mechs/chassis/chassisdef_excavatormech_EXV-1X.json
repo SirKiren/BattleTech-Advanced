@@ -208,7 +208,9 @@
 	],
 	"VariantName": "EXV-1X",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"IndustrialMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Excavation IndustrialMech",
@@ -220,7 +222,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

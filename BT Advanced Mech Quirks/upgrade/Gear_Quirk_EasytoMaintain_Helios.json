@@ -19,7 +19,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				
+				"EasyToMaintain"
 			]
 		},
 		"InventorySorter": {
@@ -82,7 +82,7 @@
 	"ComponentTags": {
 		"items": [
 			"BLACKLISTED",
-			"component_type_stock"
+			"component_type_variant"
 		],
 		"tagSetSourceFile": ""
 	}

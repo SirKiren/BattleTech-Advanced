@@ -216,11 +216,10 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_JagerMech",
+			"ComponentDefID": "Gear_Quirk_AntiAirTargeting_JagerMech",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

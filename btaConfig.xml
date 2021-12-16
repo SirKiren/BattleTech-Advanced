@@ -69,7 +69,7 @@
 			<Id>CommunityContent</Id>
 			<canSelect>true</canSelect>
 			<excludePaths>log.txt</excludePaths>
-			<isSelected>true</isSelected>
+			<isSelected>false</isSelected>
 			<jobOrder>0</jobOrder>
 			<jobType>Install</jobType>
 			<optionGroupId>AdditionalOptions</optionGroupId>

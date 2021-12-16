@@ -212,7 +212,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": false,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",

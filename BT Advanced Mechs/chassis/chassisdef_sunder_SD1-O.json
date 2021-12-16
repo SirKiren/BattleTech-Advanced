@@ -235,6 +235,17 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_360Twist_Generic",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_kit_dhs",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
@@ -294,7 +305,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
