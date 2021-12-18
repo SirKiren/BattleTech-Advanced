@@ -2,11 +2,19 @@
 	"Custom": {
 		"BonusDescriptions": {
 			"Bonuses": [
-				"StructureWeightReduction: 50%"
+				"StructureWeightReduction: 50%",
+				"ReservedSlots: 14"
 			]
 		},
 		"Category": {
 			"CategoryID": "Structure"
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 14,
+			"ShowIcon": false,
+			"NameText": "Endo-Steel",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
 		},
 		"Weights": {
 			"StructureFactor": 0.5

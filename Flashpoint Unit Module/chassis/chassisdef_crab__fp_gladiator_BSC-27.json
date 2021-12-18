@@ -7,7 +7,9 @@
 	},
 	"BattleValue": 4124000,
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"HeroMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"DFADamage": 60,
@@ -209,7 +211,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

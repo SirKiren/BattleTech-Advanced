@@ -1,10 +1,13 @@
 {
 	"Custom": {
 		"Category": [
-{
-"CategoryID": "Quirk"
-}
-],
+			{
+				"CategoryID": "ArmHandActuator"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
+		],
 		"ArmActuator": {
 			"Type": "PartHand"
 		},
@@ -19,9 +22,7 @@
 				"default",
 				"not_broken",
 				"no_salvage",
-				"autorepair",
-				"ignore_damage",
-				"hide_equip"
+				"autorepair"
 			]
 		}
 	},
@@ -46,9 +47,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 1,
+	"InventorySize": 2,
 	"Tonnage": 0,
-	"AllowedLocations": "CenterTorso",
+	"AllowedLocations": "Arms",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
@@ -107,7 +108,7 @@
 	],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock",
+			"component_type_variant",
 			"component_type_variant1",
 			"BLACKLISTED"
 		],

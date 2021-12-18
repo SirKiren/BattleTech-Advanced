@@ -111,6 +111,17 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NimbleJumper_Firestarter",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",

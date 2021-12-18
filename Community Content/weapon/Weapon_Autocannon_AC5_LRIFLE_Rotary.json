@@ -36,7 +36,7 @@
 	],
 	"AmmoCategory": "Flamer",
 	"StartingAmmoCapacity": 36,
-	"HeatGenerated": 4,
+	"HeatGenerated": 3,
 	"Damage": 20,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
@@ -48,10 +48,12 @@
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 2,
-	"ShotsWhenFired": 3,
+	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 2,
 	"Instability": 6,
+	"ImprovedBallistic": true,
+	"FireDelayMultiplier": 0.2,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
 	"Description": {
 		"Cost": 150000,
@@ -62,7 +64,7 @@
 		"UIName": "Rotary L. Rifle",
 		"Id": "Weapon_Autocannon_AC5_LRIFLE_Rotary",
 		"Name": "Rotary Light Rifle",
-		"Details": "The Rotary Light Rifle is an update to the ancient Light Rifle that takes notes from the Rotary Autocannons of the 3060s. Essentially, it fires either two or three shots per trigger pull depending on how heavy the operator wants to run the trigger. The Rotary Light Rifle carries 36 rounds. <b><color=#099ff2>VOLATILE!</color></b>",
+		"Details": "The Rotary Light Rifle is an update to the ancient Light Rifle that takes notes from the Rotary Autocannons of the 3060s. Essentially, it fires between one and three shots per trigger pull depending on how heavy the operator wants to run the trigger. The Rotary Light Rifle carries 36 rounds. <b><color=#099ff2>VOLATILE!</color></b>",
 		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},
 	"BonusValueA": "",
@@ -77,6 +79,30 @@
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": true,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"RefireModifier": 1,
+			"HeatGenerated": 3
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": false,
+			"ShotsWhenFired": 2,
+			"RefireModifier": 1,
+			"HeatGenerated": 6
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",

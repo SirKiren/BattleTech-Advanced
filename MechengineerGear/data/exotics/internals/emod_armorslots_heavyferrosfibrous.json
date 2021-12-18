@@ -3,6 +3,14 @@
 		"Color": {
 			"UIColor": "Gold"
 		},
+		"DynamicSlots": {
+			"ReservedSlots": 21,
+			"BackgroundColor": "GoldHalf",
+			"ShowIcon": false,
+			"NameText": "Heavy Ferro",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "1.2 * [[Chassis.Tonnage]] / 15",
@@ -28,7 +36,8 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ArmorFactor: -20%"
+				"ArmorFactor: -20%",
+				"Reserved: 21"
 			]
 		},
 		"InventorySorter": {
@@ -48,6 +57,7 @@
 		"Icon": "uixSvgIcon_action_end"
 	},
 	"BonusValueA": "-20% Armor Weight",
+	"BonusValueB": "Reserves 21 Slots",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",

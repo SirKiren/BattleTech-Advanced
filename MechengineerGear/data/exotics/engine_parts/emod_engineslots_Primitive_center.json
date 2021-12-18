@@ -52,7 +52,7 @@
 		"Id": "emod_engineslots_Primitive_center",
 		"Name": "Primitive Engine",
 		"Details": "Compared to their Star League and Succession War-era counterparts, Primitive Engines are larger and less efficient; typically, modern engines are 80% the size of these early engines for the same amount of power.",
-		"Icon": "uixSvgIcon_equipment_Heatsink"
+		"Icon": "uixSvgIcon_equipment_ThermalExchanger"
 	},
 	"BonusValueA": "20% Increased Weight",
 	"BonusValueB": "",
@@ -94,7 +94,8 @@
 		}],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock"
+			"component_type_stock",
+			"BLACKLISTED"
 		],
 		"tagSetSourceFile": ""
 	}

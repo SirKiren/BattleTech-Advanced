@@ -1,5 +1,8 @@
 {
-	"Custom": {		
+	"Custom": {
+		"ComponentExplosion": {
+			"StabilityDamage": 100
+		},
 		"Category": [
 			{
 			"CategoryID": "Quirk"

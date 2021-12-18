@@ -220,11 +220,10 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Rifleman",
+			"ComponentDefID": "Gear_Quirk_AntiAirTargeting_Rifleman",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -236,7 +235,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",

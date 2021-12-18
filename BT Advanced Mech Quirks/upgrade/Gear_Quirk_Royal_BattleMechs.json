@@ -1,18 +1,19 @@
 {
 	"Custom": {
 		"Category": [
-{
-"CategoryID": "Quirk"
-}
-],
+			{
+				"CategoryID": "LifeSupportB"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
+		],
 		"Flags": {
-			"flags": [
+			"Flags": [
 				"default",
 				"not_broken",
 				"no_salvage",
-				"autorepair",
-				"ignore_damage",
-				"hide_equip"
+				"autorepair"
 			]
 		},
 		"BonusDescriptions": {
@@ -31,7 +32,7 @@
 		"Id": "Gear_Quirk_Royal_BattleMechs",
 		"Name": "Royal Mech Quirk",
 		"Details": "This piece of equipment represents the inherent bonuses that Star League-vintage Royal BattleMechs, have over their regular counterparts. It grants a flat 12 bonus heat venting, regardless of terrain or environment.",
-		"Icon": "uixSvgIcon_equipment_Cockpit"
+		"Icon": "caduceus"
 	},
 	"BonusValueA": "Vents 12 Heat",
 	"BonusValueB": "",
@@ -41,7 +42,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 1,
-	"AllowedLocations": "CenterTorso",
+	"AllowedLocations": "Head",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

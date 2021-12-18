@@ -98,7 +98,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 15,
 			"MaxArmor": 100,
 			"MaxRearArmor": 50,
 			"InternalStructure": 50
@@ -200,7 +200,9 @@
 	],
 	"VariantName": "RCL-1M",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"IndustrialMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Upgunned MiningMech",
@@ -223,7 +225,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
@@ -235,7 +236,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
@@ -247,7 +247,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": -1,
-			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",

@@ -8,6 +8,14 @@
 		"Color": {
 			"UIColor": "Orange"
 		},
+		"DynamicSlots": {
+			"ReservedSlots": 7,
+			"BackgroundColor": "OrangeHalf",
+			"ShowIcon": false,
+			"NameText": "Cobbled Endo-Steel (C)",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
 		"StructureRepair": {
 			"StructureTPCost": 1.3,
 			"StructureCBCost": 1.5
@@ -35,7 +43,8 @@
 				"StructureFactor: -50%",
 				"StructureTPCost: 30%",
 				"StructureCBCost: 50%",
-				"CritRes: -25%"
+				"CritRes: -25%",
+				"Reserved: 7"
 			]
 		},
 		"InventorySorter": {
@@ -51,11 +60,11 @@
 		"UIName": "Cobbled Endo-Steel (C)",
 		"Id": "emod_structureslots_clanendorigged",
 		"Name": "Cobbled-Together Endo-Steel Structure (C)",
-		"Details": "This is the same in most respects as standard Clan Endo-Steel, except that due to its cobbled-together nature and generally coming from multiple doner mechs, this structure has a 25% increased vulnerability to suffering critical hits.\r\n\r\nReserves <b>7</b> Endo-Steel slots to <b>halve</b> your internal structure weight.",
+		"Details": "This is the same in most respects as standard Clan Endo-Steel, except that due to its cobbled-together nature and generally coming from multiple donor mechs, this structure has a 25% increased vulnerability to suffering critical hits.\r\n\r\nReserves <b>7</b> Endo-Steel slots to <b>halve</b> your internal structure weight.",
 		"Icon": "uixSvgIcon_quantity"
 	},
 	"BonusValueA": "50% Structure Weight",
-	"BonusValueB": "",
+	"BonusValueB": "Reserves 7 Slots",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",

@@ -105,6 +105,7 @@
 				"chrprfmech_lancelotbase-001_60",
 				"chrprfmech_talonbase-001_35",
 				"chrprfmech_fireballbase-001_20",
+				"chrprfmech_baboonbase-001_20",
 				"chrprfmech_omegabase-001_30"
 			],
 			"affinityLevels": [
@@ -540,7 +541,9 @@
 				"chrprfmech_lynxbase-001_55",
 				"chrprfmech_bombardierbase-001_65",
 				"chrprfmech_thunderbase-001_70",
-				"chrprfmech_cyclonebase-001_30"
+				"chrprfmech_cyclonebase-001_30",
+				"chrprfmech_phawklegacybase-001_55",
+				"chrprfmech_phawklegacylambase-001_55"
 			],
 			"affinityLevels": [
 				{
@@ -606,7 +609,8 @@
 				"chrprfmech_hoplitebase-001_55",
 				"chrprfmech_hectorbase-001_80",
 				"chrprfmech_shawklambase-001_80",
-				"chrprfmech_omegabase-001_150"
+				"chrprfmech_omegabase-001_150",
+				"chrprfmech_reptarbase-001_35"
 			],
 			"affinityLevels": [
 				{
@@ -713,6 +717,7 @@
 				"chrprfmech_yeomanbase-001_60",
 				"chrprfmech_helepolisbase-001_75",
 				"Orion_75",
+				"Reconquista_75",
 				"chrprfmech_ionlongbowbase-001_85",
 				"chrPrfMech_stalkerBase-001_85",
 				"chrPrfMech_stalkerBase-001_75",
@@ -783,6 +788,7 @@
 				"chrprfmech_ostwarhotd-001_65",
 				"chrprfmech_merlinbase-001_60",
 				"chrprfmech_roughneckbase-001_65",
+				"Corsair_55",
 				"Corsair_75",
 				"Corsair_95",
 				"chrprfmech_titaniibase-001_100",
@@ -970,6 +976,7 @@
 			"chassisNames": [
 				"chrprfmech_roughneckcrane-001_65",
 				"Axman_65",
+				"Surtur_55",
 				"chrPrfMech_archerBase-001_70",
 				"chrPrfMech_awesomeBase-001_80",
 				"chrPrfMech_thugBase-001_80",
@@ -1446,6 +1453,108 @@
 								"operation": "Float_Multiply",
 								"modValue": "1.2",
 								"modType": "System.Single"
+							},
+							"targetingData": {
+								"effectTargetType": "Creator",
+								"effectTriggerType": "Passive",
+								"hideApplicationFloatie": true,
+								"showInStatusPanel": false,
+								"showInTargetPreview": false
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"chassisNames": [
+				"Fa Shih_4",
+				"Infiltrator_4",
+				"IS Standard_4",
+				"Kanazuchi_8",
+				"BA Marauder_9",
+				"Phalanx_6",
+				"BA Ravager_9",
+				"Void_4"
+			],
+			"affinityLevels": [
+				{
+					"missionsRequired": 15,
+					"levelName": "Squirrelly Bastard",
+					"decription": "Hard to catch due to size and skill, gaining +2 defense and +1 evasion at all times.",
+					"effectData": [
+						{
+							"Description": {
+								"Details": "BA Defense Boost",
+								"Icon": "UixSvgIcon_specialEquip_System",
+								"Id": "StatusEffect-Affinity-BattleArmorDefense",
+								"Name": "BA Defense Boost"
+							},
+							"durationData": {
+								"duration": -1,
+								"stackLimit": -1
+							},
+							"effectType": "StatisticEffect",
+							"nature": "Buff",
+							"statisticData": {
+								"statName": "ToHitThisActor",
+								"operation": "Float_Add",
+								"modValue": "2.0",
+								"modType": "System.Single"
+							},
+							"targetingData": {
+								"effectTargetType": "Creator",
+								"effectTriggerType": "Passive",
+								"hideApplicationFloatie": true,
+								"showInStatusPanel": false,
+								"showInTargetPreview": false
+							}
+						},
+						{
+							"Description": {
+								"Details": "BA Evasive Pip Boost",
+								"Icon": "UixSvgIcon_specialEquip_System",
+								"Id": "StatusEffect-Affinity-BattleArmorEvasionPip",
+								"Name": "BA Evasive Pip Boost"
+							},
+							"durationData": {
+								"duration": -1,
+								"stackLimit": -1
+							},
+							"effectType": "StatisticEffect",
+							"nature": "Buff",
+							"statisticData": {
+								"statName": "MaxEvasivePips",
+								"operation": "Int_Add",
+								"modValue": "1",
+								"modType": "System.Int32"
+							},
+							"targetingData": {
+								"effectTargetType": "Creator",
+								"effectTriggerType": "Passive",
+								"hideApplicationFloatie": true,
+								"showInStatusPanel": false,
+								"showInTargetPreview": false
+							}
+						},
+						{
+							"Description": {
+								"Details": "BA Evasive Pip Number",
+								"Icon": "UixSvgIcon_specialEquip_System",
+								"Id": "StatusEffect-Affinity-BattleArmorEvasionPipNum",
+								"Name": "BA Evasive Pip Number"
+							},
+							"durationData": {
+								"duration": -1,
+								"stackLimit": -1
+							},
+							"effectType": "StatisticEffect",
+							"nature": "Buff",
+							"statisticData": {
+								"statName": "EvasivePipsGainedAdditional",
+								"operation": "Int_Add",
+								"modValue": "1",
+								"modType": "System.Int32"
 							},
 							"targetingData": {
 								"effectTargetType": "Creator",
@@ -2177,6 +2286,55 @@
 								"effectTargetType": "Creator",
 								"effectTriggerType": "Passive",
 								"showInStatusPanel": true
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"tag": "Affinity_Virago_BA",
+			"chassisNames": [
+				"Fa Shih_4",
+				"Infiltrator_4",
+				"IS Standard_4",
+				"Kanazuchi_8",
+				"BA Marauder_9",
+				"Phalanx_6",
+				"BA Ravager_9",
+				"Void_4"
+			],
+			"affinityLevels": [
+				{
+					"missionsRequired": 10,
+					"levelName": "Minimizer",
+					"decription": "Virago knows how to be small, gaining a +4 defensive bonus against all attacks. This stacks with the normal Battle Armor affinity of Squirrelly Bastard.",
+					"effectData": [
+						{
+							"Description": {
+								"Details": "Virago's skill in a BA suit gives her a major bonus to defense against all attacks.",
+								"Icon": "UixSvgIcon_specialEquip_System",
+								"Id": "StatusEffect-Affinity-ViragoBA",
+								"Name": "Virage Affinity Defense Boost"
+							},
+							"durationData": {
+								"duration": -1,
+								"stackLimit": -1
+							},
+							"effectType": "StatisticEffect",
+							"nature": "Buff",
+							"statisticData": {
+								"statName": "ToHitThisActor",
+								"operation": "Float_Add",
+								"modValue": "4.0",
+								"modType": "System.Single"
+							},
+							"targetingData": {
+								"effectTargetType": "Creator",
+								"effectTriggerType": "Passive",
+								"hideApplicationFloatie": true,
+								"showInStatusPanel": false,
+								"showInTargetPreview": false
 							}
 						}
 					]
