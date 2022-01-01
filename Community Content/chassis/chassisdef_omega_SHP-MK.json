@@ -15,7 +15,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_CommandMech_Omega",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -155,7 +155,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 18,
+			"InventorySlots": 19,
 			"MaxArmor": 350,
 			"MaxRearArmor": 150,
 			"InternalStructure": 230

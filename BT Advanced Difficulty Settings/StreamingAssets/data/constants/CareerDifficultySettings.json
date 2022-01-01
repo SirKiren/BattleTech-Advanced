@@ -465,7 +465,7 @@
 					"Name": "Generous",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": -1,
-					"CareerScoreModifier": -0.5,
+					"CareerScoreModifier": -0.2,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -493,7 +493,7 @@
 					"Name": "Stingy",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": 1,
-					"CareerScoreModifier": 0.5,
+					"CareerScoreModifier": 0.2,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",

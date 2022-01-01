@@ -16,7 +16,7 @@
         "Debug" : false,
         "Trace" : false,
         "Icons" : {
-            "ElectronicWarfare" : "ECMGear",
+            "ElectronicWarfare" : "uixSvgIcon_equipment_TTS",
             "SensorsDisabled" : "lv_sight-disabled",
             "VisionAndSensors" : "lv_cyber-eye",
             "TargetSensorsMark" : "lv_radar-sweep",

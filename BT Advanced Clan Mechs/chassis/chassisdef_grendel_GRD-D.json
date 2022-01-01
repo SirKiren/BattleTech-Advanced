@@ -17,6 +17,15 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Rugged_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_armorslots_clanferrosfibrous",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

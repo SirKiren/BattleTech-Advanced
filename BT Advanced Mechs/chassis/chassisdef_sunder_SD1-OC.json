@@ -239,9 +239,9 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_360Twist_Generic",
+			"ComponentDefID": "Gear_Quirk_ExtendedTwist_Generic",
 			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -338,6 +338,7 @@
 		}
 	],
 	"CustomParts": {
+		"FiringArc": 150,
 		"CustomParts": []
 	}
 }

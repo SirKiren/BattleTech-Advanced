@@ -25,6 +25,42 @@
 			"Full": "{0} Modifier to Through Armor Critical Chance"
 		},
 		{
+			"Bonus": "AllSkills",
+			"Short": "{0} Skills",
+			"Long": "{0} Skills",
+			"Full": "Modifier of {0} to All Pilot Skills: Allows exceeding maximum skill level."
+		},
+		{
+			"Bonus": "SkillGunnery",
+			"Short": "{0} Gunnery",
+			"Long": "{0} Gunnery",
+			"Full": "Modifier of {0} to Gunnery: Allows exceeding maximum skill level."
+		},
+		{
+			"Bonus": "SkillPiloting",
+			"Short": "{0} Piloting",
+			"Long": "{0} Piloting",
+			"Full": "Modifier of {0} to Piloting: Allows exceeding maximum skill level."
+		},
+		{
+			"Bonus": "SkillGuts",
+			"Short": "{0} Guts",
+			"Long": "{0} Guts",
+			"Full": "Modifier of {0} to Guts: Allows exceeding maximum skill level."
+		},
+		{
+			"Bonus": "SkillTactics",
+			"Short": "{0} Tactics",
+			"Long": "{0} Tactics",
+			"Full": "Modifier of {0} to Tactics: Allows exceeding maximum skill level."
+		},
+		{
+			"Bonus": "FCS",
+			"Short": "FCS",
+			"Long": "FireControlSystems",
+			"Full": "Cockpit Fire Control System: Provides basic targeting and Weapons Control Systems"
+		},
+		{
 			"Bonus": "Thunder",
 			"Short": "Thunder Munition",
 			"Long": "Thunder Munition",
@@ -4426,6 +4462,42 @@
 			"Short": "MagPulse",
 			"Long": "MagPulse Accuracy Penalty",
 			"Full": "MagPulse munitions do little to no damage but instead inflict a {0} point accuracy penalty to the affected enemy. This penalty stacks up to {1} times and lasts until that unit finishes its next activation."
-		}
+		},
+		{
+			"Bonus": "AccuracySR",
+			"Short": "{0} SR Acc",
+			"Long": "{0} SR Accuracy",
+			"Full": "{0} accuracy at Short Range"
+		  },
+		  {
+			"Bonus": "AccuracyMR",
+			"Short": "{0} MedR Acc",
+			"Long": "{0} MedR Accuracy",
+			"Full": "{0} accuracy at Medium Range"
+		  },
+		  {
+			"Bonus": "AccuracyLR",
+			"Short": "{0} LR Acc",
+			"Long": "{0} LR Accuracy",
+			"Full": "{0} accuracy at Long Range"
+		  },
+		  {
+			"Bonus": "AccuracyER",
+			"Short": "{0} ER Acc",
+			"Long": "{0} ER Accuracy",
+			"Full": "{0} accuracy at Extreme Range"
+		  },
+		  {
+			"Bonus": "NightVision",
+			"Short": "NightVision",
+			"Long": "NightVision",
+			"Full": "Night Vision enables Day time visual Detection range during Night and Dark Conditions"
+		  },
+		  {
+			"Bonus": "AdvancedSensors",
+			"Short": "{0} Adv.S.",
+			"Long": "{0} Adv.Sensors",
+			"Full": "Bonus of {0} to sensor detection: provides additional target information"
+		  }
 	]
 }

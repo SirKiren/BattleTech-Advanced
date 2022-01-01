@@ -20,11 +20,13 @@
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Generic",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
+			"GUID": null,
 			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
+			"prefabName": null,
+			"hasPrefabName": false
 		},
 		{
 			"MountedLocation": "CenterTorso",
