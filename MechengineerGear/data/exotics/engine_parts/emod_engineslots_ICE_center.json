@@ -30,6 +30,9 @@
 				"ICESpeed: 20%",
 				"HeatGenerated: +15%"
 			]
+		},		
+		"Lootable": {
+			"ItemID": "lootable_engineslots_ICE_center"
 		}
 	},
 	"Description": {

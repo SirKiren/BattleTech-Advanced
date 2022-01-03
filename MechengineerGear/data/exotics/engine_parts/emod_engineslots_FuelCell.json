@@ -33,7 +33,10 @@
 				"EngineWeight: X1.6",
 				"HeatGenerated: -30%"
 			]
-		}
+		},
+		"Lootable": {
+			"ItemID": "lootable_engineslots_FuelCell_center"
+		  }
 	},
 	"Description": {
 		"Cost": 2250000,

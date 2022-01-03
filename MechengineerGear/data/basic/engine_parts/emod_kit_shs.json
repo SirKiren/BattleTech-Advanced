@@ -23,9 +23,13 @@
 		"Flags": {
 			"flags": [
 				"ignore_damage",
+				"engine_part",
 				"default"
 			]
-		}
+		},
+		"Lootable": {
+			"ItemID": "lootable_kit_shs"
+		  }
 	},
 	"DissipationCapacity": 0,
 	"Description": {

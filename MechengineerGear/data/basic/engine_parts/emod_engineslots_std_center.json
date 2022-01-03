@@ -20,6 +20,9 @@
 				"not_broken",
 				"vital"
 			]
+		},
+		"Lootable": {
+		  "ItemID": "lootable_engineslots_std_center"
 		}
 	},
 	"Description": {

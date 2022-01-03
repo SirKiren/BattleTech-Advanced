@@ -11,6 +11,9 @@
 				"ignore_damage",
 				"default"
 			]
+		},
+		"Lootable": {
+		  "ItemID": "lootable_armorslots_standard"
 		}
 	},
 	"Description": {
