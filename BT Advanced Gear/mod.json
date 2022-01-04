@@ -26,7 +26,15 @@
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "lootable"
+			"Path": "Lootable/Internals"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Lootable/Actuators"
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "Lootable/Engines"
 		},
 		{
 			"Type": "UpgradeDef",
