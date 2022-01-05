@@ -37,12 +37,6 @@
 			"Full": "Modifier of {0} to Gunnery: Allows exceeding maximum skill level."
 		},
 		{
-			"Bonus": "SkillPiloting",
-			"Short": "{0} Piloting",
-			"Long": "{0} Piloting",
-			"Full": "Modifier of {0} to Piloting: Allows exceeding maximum skill level."
-		},
-		{
 			"Bonus": "SkillGuts",
 			"Short": "{0} Guts",
 			"Long": "{0} Guts",
@@ -53,12 +47,6 @@
 			"Short": "{0} Tactics",
 			"Long": "{0} Tactics",
 			"Full": "Modifier of {0} to Tactics: Allows exceeding maximum skill level."
-		},
-		{
-			"Bonus": "FCS",
-			"Short": "FCS",
-			"Long": "FireControlSystems",
-			"Full": "Cockpit Fire Control System: Provides basic targeting and Weapons Control Systems"
 		},
 		{
 			"Bonus": "Thunder",

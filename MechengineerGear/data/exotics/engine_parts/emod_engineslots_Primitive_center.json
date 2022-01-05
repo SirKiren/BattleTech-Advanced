@@ -22,7 +22,7 @@
 				"default",
 				"vital",
 				"not_broken",
-				"no_salvage",
+				"engine_part",
 				"autorepair"
 			]
 		},
@@ -35,7 +35,7 @@
 				"EngineWeight: +20%",
 				"ArmorTPCost: -10%",
 				"ArmorCBCost: -10%",
-				"Signature: +25%",
+				"Signature: +25%"
 			]
 		},
 		"InventorySorter": {

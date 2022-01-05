@@ -170,7 +170,7 @@
 		],
 		"MinDistanceForZone": 50,
 		"MaxDistanceForZone": 288,
-		"DisorderlyWithdrawalCompatibility": false
+		"DisorderlyWithdrawalCompatibility": true
 	},
 	"AI": {
 		"FollowPlayer": {
