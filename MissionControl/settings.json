@@ -62,7 +62,7 @@
 		},
 		"MatchAllyLanceCountToEnemy": false,
 		"DropWeightInfluence": {
-			"Enable": true,
+			"Enable": false,
 			"EnemySpawnInfluencePerHalfSkullAbove": 0.1,
 			"AllySpawnInfluencePerHalfSkullAbove": -0.1,
 			"EnemySpawnInfluencePerHalfSkullBelow": -0.1,
