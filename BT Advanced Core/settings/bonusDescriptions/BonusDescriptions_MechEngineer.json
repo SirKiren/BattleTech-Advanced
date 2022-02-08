@@ -25,6 +25,30 @@
 			"Full": "{0} Modifier to Through Armor Critical Chance"
 		},
 		{
+			"Bonus": "AllSkills",
+			"Short": "{0} Skills",
+			"Long": "{0} Skills",
+			"Full": "Modifier of {0} to All Pilot Skills: Allows exceeding maximum skill level."
+		},
+		{
+			"Bonus": "SkillGunnery",
+			"Short": "{0} Gunnery",
+			"Long": "{0} Gunnery",
+			"Full": "Modifier of {0} to Gunnery: Allows exceeding maximum skill level."
+		},
+		{
+			"Bonus": "SkillGuts",
+			"Short": "{0} Guts",
+			"Long": "{0} Guts",
+			"Full": "Modifier of {0} to Guts: Allows exceeding maximum skill level."
+		},
+		{
+			"Bonus": "SkillTactics",
+			"Short": "{0} Tactics",
+			"Long": "{0} Tactics",
+			"Full": "Modifier of {0} to Tactics: Allows exceeding maximum skill level."
+		},
+		{
 			"Bonus": "Thunder",
 			"Short": "Thunder Munition",
 			"Long": "Thunder Munition",
@@ -756,6 +780,42 @@
 			"Long": "{0} Sensor Stealth",
 			"Full": "{0} Sensor Stealth Initial Signature Reduction. Reduces detection by Sensors."
 		},
+		{
+			"Bonus": "ActiveECM",
+			"Short": "AECM",
+			"Long": "AECM",
+			"Full": "Active ECM Jams Enemies by {0} and reduces Jamming on Allies by {1} within {2} Meters. Light Blue Circle."
+		  },
+		  {
+			"Bonus": "PassiveECM",
+			"Short": "ECM",
+			"Long": "ECM",
+			"Full": "Passive ECM provides the carrier with ECM Shield of {0} and reduces Enemy Jamming by {1} on carrier"
+		  },
+		  {
+			"Bonus": "ECMSelf",
+			"Short": "ECM",
+			"Long": "ECM",
+			"Full": "Active ECM protects the carrier with ECM Shield of {0} and reduces Enemy Jamming by {1} on carrier."
+		  },
+		  {
+			"Bonus": "PersistentECM",
+			"Short": "ECM",
+			"Long": "ECM",
+			"Full": "Persistent Electronic Counter-Measures cannot be Toggled"
+		  },
+		  {
+			"Bonus": "PersistentECMAura",
+			"Short": "ECM",
+			"Long": "ECM",
+			"Full": "Persistent ECM Jams Enemies by {0} and reduces Jamming on Allies by {1} within {2} Meters."
+		  },
+		  {
+			"Bonus": "PersistentECMSelf",
+			"Short": "ECM",
+			"Long": "ECM",
+			"Full": "Persistent ECM provides the carrier with ECM Shield of {0} and reduces Enemy Jamming by {1}"
+		  },
 		{
 			"Bonus": "IsECM",
 			"Short": "ECM",
@@ -1650,6 +1710,24 @@
 			"Full": "C3 Improved Network Unit - Shares Sensor Information"
 		},
 		{
+			"Bonus": "C3Radius",
+			"Short": "Radius",
+			"Long": "{0} Meter C3 Radius",
+			"Full": "{0} meter radius for the C3 system's effects."
+		},
+		{
+			"Bonus": "C3Sytem",
+			"Short": "C3 System",
+			"Long": "C3 System",
+			"Full": "C3 System: Enemies receive {0} Sensor Ping and {1} Visibility/Signature, Allies Receive {2} Sensors and {3} Sight Distance within {4} Meters. Green Circle"
+		  },
+		  {
+			"Bonus": "BoostedC3Sytem",
+			"Short": "BC3 System",
+			"Long": "BC3 System",
+			"Full": "Boosted C3 Systems Resist enemy Jamming by {0}."
+		  },
+		{
 			"Bonus": "NovaCEWS",
 			"Short": "Nova CEWS",
 			"Long": "Nova Combined Electronic Warfare System",
@@ -1834,6 +1912,18 @@
 			"Short": "Sensors B",
 			"Long": "Secondary Sensor System",
 			"Full": "Takes the lower sensor slot."
+		},
+		{
+			"Bonus": "IsLifeSupportA",
+			"Short": "Life Support A",
+			"Long": "Primary Life Support System",
+			"Full": "Takes the upper life support slot."
+		},
+		{
+			"Bonus": "IsLifeSupportB",
+			"Short": "Life Support B",
+			"Long": "Secondary Life Support System",
+			"Full": "Takes the lower life support slot."
 		},
 		{
 			"Bonus": "IsVRPP",
@@ -4366,6 +4456,84 @@
 			"Short": "PAC/2 Ammo",
 			"Long": "PAC/2 Ammo",
 			"Full": "ProtoMech Autocannon/2 Ammo - {0} Shots"
-		}
+		},
+		{
+			"Bonus": "APod",
+			"Short": "A-Pod",
+			"Long": "Anti-Infantry Pod",
+			"Full": "This explosive pod deals area-of-effect damage to units in a small radius. Originally intended for infantry, it has been repurposed for general combat use. It is capable of damaging friendlies so care is required for its application."
+		},
+		{
+			"Bonus": "BPod",
+			"Short": "B-Pod",
+			"Long": "Anti-Battle Armor Pod",
+			"Full": "This explosive pod deals damage specifically and exclusively to Battle Armor. It does not damage the carrying unit."
+		},
+		{
+			"Bonus": "PodRadius",
+			"Short": "Pod Explosion Radius",
+			"Long": "Pod Explosion Radius",
+			"Full": "This explosive pod has a radius of {0} meters, centered on the carrying unit."
+		},
+		{
+			"Bonus": "PodDamage",
+			"Short": "Pod Explosion Damage",
+			"Long": "Pod Explosion Damage",
+			"Full": "This explosive pod deals {0} standard damage, centered on but not damaging the carrying unit."
+		},
+		{
+			"Bonus": "AmbientTargeterRadius",
+			"Short": "Radius",
+			"Long": "{0} Meter Ambient Targeter Radius",
+			"Full": "{0} meter radius for the Ambient Targeter's allied accuracy boost effect."
+		},
+		{
+			"Bonus": "AMSRadius",
+			"Short": "Radius",
+			"Long": "{0} Meter AMS Radius",
+			"Full": "{0} meter radius for AMS coverage."
+		},
+		{
+			"Bonus": "MagPulse",
+			"Short": "MagPulse",
+			"Long": "MagPulse Accuracy Penalty",
+			"Full": "MagPulse munitions do little to no damage but instead inflict a {0} point accuracy penalty to the affected enemy. This penalty stacks up to {1} times and lasts until that unit finishes its next activation."
+		},
+		{
+			"Bonus": "AccuracySR",
+			"Short": "{0} SR Acc",
+			"Long": "{0} SR Accuracy",
+			"Full": "{0} accuracy at Short Range"
+		  },
+		  {
+			"Bonus": "AccuracyMR",
+			"Short": "{0} MedR Acc",
+			"Long": "{0} MedR Accuracy",
+			"Full": "{0} accuracy at Medium Range"
+		  },
+		  {
+			"Bonus": "AccuracyLR",
+			"Short": "{0} LR Acc",
+			"Long": "{0} LR Accuracy",
+			"Full": "{0} accuracy at Long Range"
+		  },
+		  {
+			"Bonus": "AccuracyER",
+			"Short": "{0} ER Acc",
+			"Long": "{0} ER Accuracy",
+			"Full": "{0} accuracy at Extreme Range"
+		  },
+		  {
+			"Bonus": "NightVision",
+			"Short": "NightVision",
+			"Long": "NightVision",
+			"Full": "Night Vision enables Day time visual Detection range during Night and Dark Conditions"
+		  },
+		  {
+			"Bonus": "AdvancedSensors",
+			"Short": "{0} Adv.S.",
+			"Long": "{0} Adv.Sensors",
+			"Full": "Bonus of {0} to sensor detection: provides additional target information"
+		  }
 	]
 }

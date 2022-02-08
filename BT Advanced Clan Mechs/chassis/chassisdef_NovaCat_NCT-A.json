@@ -8,6 +8,15 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_ExtendedTwist_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_clanendosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -303,6 +312,7 @@
 	"StockRole": "Heavy Sniper",
 	"YangsThoughts": "After its defeat on Tukayyid, Khan Severen Leroux of Clan Nova Cat began talks with the Draconis Combine, and, to preserve the Clan both militarily and spiritually, ordered the design and production of the Nova Cat OmniMech. The basic components of this design, combined with its characteristics as an OmniMech, make it very simple to repair and leave room for the large amount of double heat sinks most variants carry. The first variant is armed with 4 ER Large Lasers linked to a targeting computer for increased accuracy. Additional heat sinks keep heat mostly in check, while jump jets rocket the 'Mech up to one hundred and twenty meters at a time.",
 	"CustomParts": {
+		"FiringArc": 150,
 		"CustomParts": []
 	}
 }

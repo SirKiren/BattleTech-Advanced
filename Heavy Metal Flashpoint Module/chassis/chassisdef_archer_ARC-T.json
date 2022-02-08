@@ -220,6 +220,15 @@
 	"YangsThoughts": "Named for Morgan Kell's pirate lover, customized with LosTech he recovered from the Periphery before his return in 3006. Identical to the standard ARC-2R in most respects, the addition on an Endo Steel frame frees up the weight for a Guardian ECM suite and two extra heat sinks, all of which are upgraded to double heat sinks boosting the Tempest's endurance.",
 	"FixedEquipment": [
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Gear_Quirk_Battlefists_Archer",
 			"SimGameUID": "",

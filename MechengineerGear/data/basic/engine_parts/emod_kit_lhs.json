@@ -33,7 +33,8 @@
 		},
 		"Flags": {
 			"flags": [
-				"ignore_damage"
+				"ignore_damage",
+				"engine_part"
 			]
 		}
 	},

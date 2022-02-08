@@ -62,7 +62,7 @@
 		},
 		"MatchAllyLanceCountToEnemy": false,
 		"DropWeightInfluence": {
-			"Enable": true,
+			"Enable": false,
 			"EnemySpawnInfluencePerHalfSkullAbove": 0.1,
 			"AllySpawnInfluencePerHalfSkullAbove": -0.1,
 			"EnemySpawnInfluencePerHalfSkullBelow": -0.1,
@@ -152,6 +152,11 @@
 				"MapId": "mapGeneral_centralPond_uTech",
 				"ContractTypeName": "DefendBase",
 				"IncreaseBoundarySizeByPercentage": 0.2
+			},
+			{
+				"MapId": "mapGeneral_capitolHill_uTech",
+				"ContractTypeName": "ThreeWayBattle",
+				"IncreaseBoundarySizeByPercentage": 0.2
 			}
 		]
 	},
@@ -165,7 +170,7 @@
 		],
 		"MinDistanceForZone": 50,
 		"MaxDistanceForZone": 288,
-		"DisorderlyWithdrawalCompatibility": false
+		"DisorderlyWithdrawalCompatibility": true
 	},
 	"AI": {
 		"FollowPlayer": {

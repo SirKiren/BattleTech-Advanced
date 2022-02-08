@@ -199,6 +199,15 @@
 	],
 	"FixedEquipment": [
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Gear_Quirk_Battlefists_Archer",
 			"SimGameUID": "",

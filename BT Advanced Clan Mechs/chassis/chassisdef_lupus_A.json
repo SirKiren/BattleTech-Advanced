@@ -8,6 +8,15 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_ExtendedTwist_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_clanendosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -293,6 +302,7 @@
 	"StockRole": "Early Omnimech",
 	"YangsThoughts": "The Lupus OmniMech was Clan Coyote's follow-up to the Coyotl. This heavy Omni was able to keep pace with an early Griffin and carried more armor protection as well. This configuration was used for direct fire support roles. A Large Pulse Laser in one arm supported an Ultra AC/10 in the other. A pair of ER Medium Lasers gave the Lupus A additional firepower in case the 'Mech went through all 30 reloads for the autocannon. Twelve double heat sinks kept the heat manageable.",
 	"CustomParts": {
+		"FiringArc": 150,
 		"CustomParts": []
 	}
 }

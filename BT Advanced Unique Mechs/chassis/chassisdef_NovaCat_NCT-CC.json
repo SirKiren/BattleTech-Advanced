@@ -8,6 +8,15 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_ExtendedTwist_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_clanendosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -304,6 +313,7 @@
 	"StockRole": "Gladiator",
 	"YangsThoughts": "A custom configuration of the Nova Cat, the Cobra Cat Hero 'Mech carries an ER Large Laser, ATM-9 and Streak SRM-4 in each arm, supported by an ER Medium Laser in each side torso. Mounting only nineteen double heat sinks, the Cobra Cat carries three tons of ATM ammunition and two of Streak SRM.",
 	"CustomParts": {
+		"FiringArc": 150,
 		"CustomParts": []
 	}
 }

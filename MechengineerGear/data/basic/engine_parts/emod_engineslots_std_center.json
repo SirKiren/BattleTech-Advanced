@@ -1,10 +1,10 @@
 {
 	"Custom": {
 		"WorkOrderCosts": {
-			"Default": {
-				"TechCost": "0",
-				"CBillCost": "0"
-			}
+			"Install": {
+				"TechCost": "0.1 * [[Chassis.Tonnage]]",
+				"CBillCost": "200 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+			  }
 		},
 		"Category": [
 			{
@@ -17,9 +17,12 @@
 		"Flags": {
 			"flags": [
 				"default",
-				"not_broken",
-				"vital"
+				"vital",
+				"engine_part"
 			]
+		},
+		"Lootable": {
+		  "ItemID": "lootable_engineslots_std_center"
 		}
 	},
 	"Description": {

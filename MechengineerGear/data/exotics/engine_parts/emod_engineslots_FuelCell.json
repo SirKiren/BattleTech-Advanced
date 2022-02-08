@@ -23,8 +23,7 @@
 		"Flags": {
 			"flags": [
 				"vital",
-				"engine_part",
-				"no_salvage"
+				"engine_part"
 			]
 		},
 		"BonusDescriptions": {
@@ -33,7 +32,10 @@
 				"EngineWeight: X1.6",
 				"HeatGenerated: -30%"
 			]
-		}
+		},
+		"Lootable": {
+			"ItemID": "lootable_engineslots_FuelCell_center"
+		  }
 	},
 	"Description": {
 		"Cost": 2250000,

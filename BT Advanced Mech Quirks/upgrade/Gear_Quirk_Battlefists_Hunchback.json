@@ -6,9 +6,6 @@
 			},
 			{
 				"CategoryID": "ArmHandActuator"
-			},
-			{
-				"CategoryID": "Quirk"
 			}
 		],
 		"ArmActuator": {

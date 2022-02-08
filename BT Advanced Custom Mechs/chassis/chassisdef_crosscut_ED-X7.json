@@ -206,7 +206,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Primitive",
+			"ComponentDefID": "Gear_Cockpit_Primitive_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
