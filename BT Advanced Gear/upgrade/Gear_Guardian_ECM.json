@@ -1,12 +1,12 @@
 {
-  "Custom": {
-    "Category": [
-      {
-        "CategoryID": "ECM"
-      }
-    ],
-    "BonusDescriptions": {
-      "Bonuses": [
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "ECM"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
         "ECM",
         "ActiveECM: 3, 2, 180",
         "ECMSelf: 1, 1",
@@ -146,40 +146,40 @@
     "Flags": {
       "flags": [
         "not_broken"
-      ]
-    },
-    "InventorySorter": {
-      "SortKey": "00024"
-    }
-  },
-  "StatName": null,
-  "RelativeModifier": 0,
-  "AbsoluteModifier": 0,
-  "Description": {
-    "Cost": 430000,
-    "Rarity": 3,
-    "Purchasable": true,
-    "Manufacturer": "Johnston",
-    "Model": "Guardian ECM",
-    "UIName": "Guardian ECM",
-    "Id": "Gear_Guardian_ECM",
-    "Name": "Guardian ECM",
-    "Details": "The Guardian ECM Suite was introduced in 2597 by Johnston Industries of the Terran Hegemony. Designed to interfere with guided weaponry, targeting computers, and communication systems, the Guardian was typically used to shield allied units from such equipment by emitting a broad-band signal meant to confuse radar, infrared, ultraviolet, magscan and sonar sensors.",
-    "Icon": "uixSvgIcon_equipment_TTS"
-  },
-  "BonusValueA": "",
-  "BonusValueB": "",
-  "ComponentType": "Upgrade",
-  "ComponentSubType": "Prototype_ElectronicWarfare",
-  "PrefabIdentifier": "",
-  "BattleValue": 61,
-  "InventorySize": 1,
-  "Tonnage": 1.5,
-  "AllowedLocations": "All",
-  "DisallowedLocations": "All",
-  "CriticalComponent": false,
-  "Auras": [
-    {
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "00024"
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 430000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "Johnston",
+		"Model": "Guardian ECM",
+		"UIName": "Guardian ECM",
+		"Id": "Gear_Guardian_ECM",
+		"Name": "Guardian ECM",
+		"Details": "The Guardian ECM Suite was introduced in 2597 by Johnston Industries of the Terran Hegemony. Designed to interfere with guided weaponry, targeting computers, and communication systems, the Guardian was typically used to shield allied units from such equipment by emitting a broad-band signal meant to confuse radar, infrared, ultraviolet, magscan and sonar sensors.",
+		"Icon": "circuitry"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+		{
       "Id": "Jammer_Aura",
       "Name": "JAMMED",
       "ReticleColor": "#00f2ff",
@@ -243,34 +243,36 @@
       "State": "Online",
       "ApplySelf": false,
       "AllyStealthAffection": "PositiveTwo",
-      "EnemyStealthAffection": "None",
-      "IsPositiveToAlly": true,
-      "IsNegativeToEnemy": false,
-      "ownerVFX": [],
-      "targetVFX": [],
-      "removeOwnerVFX": [],
-      "removeTargetVFX": [],
-      "ownerSFX": [],
-      "targetSFX": [],
-      "removeOwnerSFX": [],
-      "removeTargetSFX": [],
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
             "stackLimit": -1,
             "uniqueEffectIdStackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "AlliesWithinRange",
-            "range": 0.0,
-            "forceVisRebuild": true,
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
             "Id": "UNJAM",
             "Name": "ECM Anti-Jammer",
             "Details": "Reduce Jamming on Allies",
@@ -281,18 +283,19 @@
             "operation": "Int_Add",
             "modValue": "-2",
             "modType": "System.Int32"
-          },
-          "nature": "Buff"
-        }
-      ]
-    }
-  ],
-  "statusEffects": [],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "ElectronicCounterMeasures"
-    ],
-    "tagSetSourceFile": ""
-  }
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"ElectronicCounterMeasures",
+			"lv-jammer_m2_r6"
+		],
+		"tagSetSourceFile": ""
+	}
 }

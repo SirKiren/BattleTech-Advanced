@@ -21,7 +21,8 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"AntiAirEvasion: +2"
+				"IsSensorsA",
+				"AntiAirEvasion: +3"
 			]
 		},
 		"InventorySorter": {
@@ -77,7 +78,7 @@
 			"statisticData": {
 				"statName": "WeaponIgnoreEVASIVE_AeroUnit",
 				"operation": "Set",
-				"modValue": "-2",
+				"modValue": "-3",
 				"modType": "System.Single",
 				"targetCollection": "Weapon"
 			}

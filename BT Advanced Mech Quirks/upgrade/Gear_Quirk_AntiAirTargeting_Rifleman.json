@@ -21,7 +21,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"AntiAirTargeting: +3"
+				"AntiAirTargeting: +5"
 			]
 		}
 	},
@@ -74,7 +74,7 @@
 			"statisticData": {
 				"statName": "ActorABSOLUTE_AeroUnit",
 				"operation": "Set",
-				"modValue": "-3",
+				"modValue": "-5",
 				"modType": "System.Single",
 				"targetCollection": "Weapon"
 			}
