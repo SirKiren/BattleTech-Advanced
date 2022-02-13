@@ -24,7 +24,7 @@
 		{
 			"Tag": "RoyalMech",
 			"CategoryID": "Cooling",
-			"Type": "Upgrade",
+			"Type": "HeatSinkDef",
 			"DefID": "emod_kit_dhs_royal",
 			"Location": "CenterTorso"
 		}
