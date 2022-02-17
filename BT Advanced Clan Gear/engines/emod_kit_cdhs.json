@@ -32,7 +32,7 @@
 		"Flags": {
 			"flags": [
 				"ignore_damage",
-				"no_salvage"
+				"engine_part"
 			]
 		}
 	},
