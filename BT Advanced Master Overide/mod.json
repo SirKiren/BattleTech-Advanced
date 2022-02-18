@@ -76,7 +76,7 @@
 		{ "Type": "UpgradeDef", "Path": "Vehicle/SLDF/VehicleQuirk" },		
         { "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
         { "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
-		{ "Type": "AmmunitionBoxDef", "Path": "Tech/Ammunition\AmmoBoxes" },	
+		{ "Type": "AmmunitionBoxDef", "Path": "Tech/Ammunition/AmmoBoxes" },	
 		{ "Type": "AmmunitionDef", "Path": "Tech/Ammunition/Ammo" },
 		{ "Type": "WeaponDef", "Path": "Tech/Innersphere/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/Clans/Weapons" },
