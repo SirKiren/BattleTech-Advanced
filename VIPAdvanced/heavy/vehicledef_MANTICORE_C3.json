@@ -97,6 +97,13 @@
 			"DamageLevel": "Functional"
 		},
 		{
+		  "MountedLocation": "Front",
+		  "ComponentDefID": "Tank_Sensors_Generic",
+		  "ComponentDefType": "Upgrade",
+		  "HardpointSlot": -1,
+		  "DamageLevel": "Functional"
+		},
+		{
 			"ComponentDefID": "Gear_C3",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Front",
