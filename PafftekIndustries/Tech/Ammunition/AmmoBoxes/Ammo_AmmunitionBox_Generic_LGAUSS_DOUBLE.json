@@ -1,0 +1,56 @@
+{
+    "Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/a/g/gauss"
+			}
+		],	
+        "Flags": {
+            "flags": [
+                "not_broken"
+            ]
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"CostPerShot: 65",
+				"LightGaussAmmo: 36",
+                "GaussNoBoom"
+            ]
+        },
+		"AmmoCost" : {
+		  "PerUnitCost" : 65
+		}
+    },
+    "AmmoID": "Ammunition_LGAUSS",
+    "Capacity": 36,
+    "Description": {
+        "Cost": 150000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "GAUSS",
+        "UIName": "Ammo Light Gauss[D]",
+        "Id": "Ammo_AmmunitionBox_Generic_LGAUSS_DOUBLE",
+        "Name": "Light Gauss Ammo [D]",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 36 shots.",
+        "Icon": "uixSvgIcon_ammoBox_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 2,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

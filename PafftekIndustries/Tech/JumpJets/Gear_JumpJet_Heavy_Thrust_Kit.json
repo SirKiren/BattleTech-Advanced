@@ -1,0 +1,79 @@
+{
+	"Custom": {
+		"Category": [
+			{
+            "CategoryID": "StandardJJ"
+			}
+		]	
+	},
+    "JumpCapacity" : 1,
+    "MinTonnage" : 60,
+    "MaxTonnage" : 75,
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : true,
+        "Manufacturer" : "Pafftek Industries",
+        "Model" : "Pi Beta 7",
+        "UIName" : "Heavy Vectored Thrust Kit",
+        "Id" : "Gear_JumpJet_Heavy_Thrust_Kit",
+        "Name" : "Vectored Thrust Kit",
+        "Details" : "After studying the Phoenix Hawk, the Designers at Pafftek Industries developed the Heavy Thrust kit as a way to improve Jump Jet performance on a Heavy class mech.   Not as efficent as the origional Vectored Kit, the Heavy Kit none the less gives an extra boost in flight distance.",
+        "Icon" : "uixSvgIcon_action_jump"
+    },
+    "BonusValueA" : "+ 20% Jump Dist.",
+    "BonusValueB" : "",
+    "ComponentType" : "JumpJet",
+    "ComponentSubType" : "Functionality",
+    "PrefabIdentifier" : "JumpJet",
+    "InventorySize" : 2,
+    "Tonnage" : 2,
+    "AllowedLocations" : "Torso, Legs",
+    "DisallowedLocations" : "Head, Arms",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+		{
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Jump-DistanceBoost",
+                "Name" : "JUMP BOOSTER",
+                "Details" : "Increases the distance this unit can travel when jumping by [AMT].",
+                "Icon" : "uixSvgIcon_action_jump"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Add",
+                "modValue" : "0.20",
+                "modType" : "System.Single"
+            }
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

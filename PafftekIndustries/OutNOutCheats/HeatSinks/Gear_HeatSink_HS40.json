@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 40,
+    "Description" : {
+        "Cost" : 150000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Apocalypse Armaments",
+        "Model" : "HS-40",
+        "UIName" : "Heat Sink 40",
+        "Id" : "Gear_HeatSink_HS40",
+        "Name" : "Heat Sink 40",
+        "Details" : "Made from lightweight materials and advance manufacturing techniques resulting in ultra lightweight designs.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 40 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -30,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

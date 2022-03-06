@@ -1,0 +1,25 @@
+{
+   "Description": {
+      "Id": "Ammunition_UAC20_Sabot",
+      "Name": "Ultra AC/20 Sabot Ammo",
+      "UIName": "APFSDS",
+      "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
+      "Icon": null,
+      "Cost": 0,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "Type": "Normal",
+   "Category": "UAC20",
+   "HeatGenerated": 0,
+   "HeatGeneratedModifier": 1,
+   "ArmorDamageModifier": 0.8,
+   "ISDamageModifier": 0.8,
+   "CriticalDamageModifier": 1,
+   	"MinRange": 0.0, 
+	"MaxRange": 200.0, 
+	"ShortRange": 50.0, 
+	"MiddleRange": 100.0, 
+	"LongRange": 200,
+	"APDamage": 10
+}

@@ -1,0 +1,155 @@
+{
+    "Custom": {
+        "Weights": {
+            "ReservedSlots": 3,
+			"EngineFactor": 0.85
+        },
+        "WorkOrderCosts": {
+            "Install": {
+                "TechCost": "1.5 * [[Chassis.Tonnage]] / 2",
+                "CBillCost": "12000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 33"
+            }
+        },
+        "Category" : [
+            {"CategoryID": "EngineShield"},
+            {"CategoryID": "EnginePart"}
+        ],
+        "Linked": {
+            "Links": [
+                {
+                    "ComponentDefId": "emod_engineslots_size3",
+                    "Location": "LeftTorso"
+                },
+                {
+                    "ComponentDefId": "emod_engineslots_size3",
+                    "Location": "RightTorso"
+                }
+            ]
+        },
+		"Flags": {
+            "flags": [
+                    "vital",
+					"engine_part",
+					"no_salvage"
+            ]
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "JumpDistance: 20%",
+                "EvaPips: +1",
+                "EngineReserved: 2",
+                "ReqWings"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00013"
+        }
+    },
+    "DissipationCapacity": 0,
+    "Description": {
+        "Cost": 750000,
+        "Rarity": 10,
+        "Purchasable": false,
+        "Manufacturer": "Allied Aerospace",
+        "Model": "Valkyrie",
+        "UIName": "Engine (LAM)",
+        "Id": "emod_Engine_LAML",
+        "Name": "Land Air Mech Engine",
+        "Details": "The LAML engine is a lightened LAM engine.   This increases the size of the engine at a mass reduction.   In doing so this makes an already fragile LAM even more so, but makes room for more dakka as the saying goes. <b><color=#0066ff>Reserves 6 Slots and requires Jump Turbines</color></b>",
+        "Icon": "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA": "-15% Engine Weight",
+    "BonusValueB": "MOAR POWAH!",
+    "ComponentType": "HeatSink",
+    "ComponentSubType": "Heatsink",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 4,
+    "Tonnage": 0,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "MaxEvasion",
+                "Name": "EVASIVE MOVE",
+                "Details": "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+                "Icon": "uixSvgIcon_action_evasivemove"
+            },
+            "statisticData": {
+                "statName": "MaxEvasivePips",
+                "operation": "Int_Add",
+                "modValue": "1",
+                "modType": "System.Int32"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Jump_Distance-T3",
+                "Name": "JUMP DISTANCE INCREASED",
+                "Details": "Conversion Gear increase Jump Distance by 10%",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "JumpDistanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.2",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

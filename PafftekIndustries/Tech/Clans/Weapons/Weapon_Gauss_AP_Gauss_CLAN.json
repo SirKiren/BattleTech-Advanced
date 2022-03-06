@@ -1,0 +1,83 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/g/magshot"
+			}
+		],	
+    "ComponentExplosion": {
+      "ExplosionDamage": 20,
+      "StabilityDamage": 5
+	},
+    "BonusDescriptions": {
+      "Bonuses": [
+        "WpnRecoil: 1",
+        "IsGauss",
+        "WeaponBoom: 20"
+      ]
+    }
+	},
+    "Category" : "AntiPersonnel",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "MinRange": 0,
+	"MaxRange": 320,
+	"RangeSplit": [
+		75,
+		150,
+		250
+	],
+    "AmmoCategory" : "APGauss",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 4,
+    "Damage" : 5,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 1,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 2,
+	"APDamage": 1,	
+    "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
+    "Description" : {
+        "Cost" : 97000,
+        "Rarity" : 20,
+        "Purchasable" : true,
+        "Manufacturer" : "Pafftek Industries",
+        "Model" : "Magnetic Rail AP Rifle",
+        "UIName" : "AP Gauss Rifle",
+        "Id" : "Weapon_Gauss_AP_Gauss_CLAN",
+        "Name" : "Magnetic Rail AP Rifle",
+        "Details" : "Based on Clan Jade Falcon concepts, a crowd control Anti personell gauss rifle.  Rougly Analogus to the Inner Sphere Magshot rifle, the AP Gauss is a light weight weapon of short to medium range that excells in killing battle armored troops and Elementals.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Gauss",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

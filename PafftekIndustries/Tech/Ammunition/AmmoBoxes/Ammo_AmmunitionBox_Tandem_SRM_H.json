@@ -1,0 +1,62 @@
+{
+	"Custom": {
+		"Category" : [
+			{ "CategoryID" : "a/m/s/srm" }
+		],
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 8,
+			"StabilityDamagePerAmmo": 2
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"Crits: +50%",
+				"SRMDamage: -4",
+				"ArmorDmgMod: -50%",
+				"StructureDmgMod: +25%",
+				"CostPerShot: 100",
+				"SRMAmmo: 50"
+			]
+		},
+		"AmmoCost" : {
+		  "PerUnitCost" : 100
+		}
+	},
+	"AmmoID": "Ammunition_SRM_Tandem",
+	"Capacity": 50,
+	"Description": {
+		"Cost": 60000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "SRM Tandem",
+		"UIName": "Ammo SRM [TDM-H]",
+		"Id": "Ammo_AmmunitionBox_Tandem_SRM_H",
+		"Name": "SRM TandemCharge Ammo",
+		"Details": "Designed to replace standard SRMs with special warheads that penetrate armor and inflict damage to the internal structure of the target, the Tandem-Charge Missile uses a pair of explosives to inflict damage. The first explosive is a shaped charge that penetrates the unit's outer armor, while the second charge is propelled through the newly created breach to damage internal components. Tandem missiles will deal half damage to armor but 25% more to structure. Has 50 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Missile"
+	},
+	"BonusValueA": "-50% Armor Dmg",
+	"BonusValueB": "+50% Structure Dmg",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant1"
+		],
+		"tagSetSourceFile": ""
+	}
+}
