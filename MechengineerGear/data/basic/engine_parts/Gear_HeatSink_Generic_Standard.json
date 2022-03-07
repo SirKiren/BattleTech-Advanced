@@ -12,8 +12,7 @@
 		},
 		"Flags": {
 			"flags": [
-				"not_broken",
-				"no_salvage"
+				"not_broken"
 			]
 		}
 	},
