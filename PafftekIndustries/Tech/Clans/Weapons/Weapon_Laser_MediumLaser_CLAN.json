@@ -1,0 +1,70 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/laser"
+			}
+		]
+	},
+	"Category": "Energy",
+	"Type": "Laser",
+	"WeaponSubType": "MediumLaser",
+	"MinRange": 0,
+	"MaxRange": 360,
+	"RangeSplit": [
+		90,
+		180,
+		270
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 12,
+	"Damage": 20,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -2,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_Laser_Medium",
+	"Description": {
+		"Cost": 120000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "CLANS",
+		"Model": "Medium Laser(C)",
+		"UIName": "M Laser (C)",
+		"Id": "Weapon_Laser_MediumLaser_CLAN",
+		"Name": "M Laser (C)",
+		"Details": "Like many of their other weapons, the Clan Medium Laser is based on an improvement of the standard Innner Sphere Medium Laser.  Lightened Targeting prototcals give a slightly more accurate wepaon while reducing the mass.  The drawback? slightly more heat.",
+		"Icon": "uixSvgIcon_weapon_Energy"
+	},
+	"BonusValueA": "+ 1 Acc.",
+	"BonusValueB": "-1 Evasive Charge",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.75,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant3",
+			"range_standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

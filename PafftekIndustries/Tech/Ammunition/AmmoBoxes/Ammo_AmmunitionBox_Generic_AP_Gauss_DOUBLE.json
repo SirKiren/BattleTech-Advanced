@@ -1,0 +1,56 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/s/a/magshot"
+			}
+		],
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"CostPerShot: 200",
+				"GaussAmmo: 100",
+				"GaussNoBoom"
+			]
+		},
+		"AmmoCost" : {
+		  "PerUnitCost" : 200
+		}
+	},
+	"AmmoID": "Ammunition_APGAUSS",
+	"Capacity": 100,
+	"Description": {
+		"Cost": 7200,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "GAUSS",
+		"UIName": "Ammo AP-Gauss [D]",
+		"Id": "Ammo_AmmunitionBox_Generic_AP_Gauss_DOUBLE",
+		"Name": "AP-Gauss Ammo [D]",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b> Has 100 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Support"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 2,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

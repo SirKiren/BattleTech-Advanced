@@ -1,0 +1,34 @@
+{
+    "DissipationCapacity" : 1,
+    "Description" : {
+        "Cost" : 1000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Apocalypse Armaments",
+        "Model" : "HS-1",
+        "UIName" : "Heat Sink 1",
+        "Id" : "Gear_HeatSink_HS1",
+        "Name" : "Heat Sink 1",
+        "Details" : "Made from lightweight materials and advance manufacturing techniques resulting in ultra lightweight designs.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 1 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

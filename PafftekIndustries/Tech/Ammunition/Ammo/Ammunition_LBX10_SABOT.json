@@ -1,0 +1,27 @@
+{
+   "Description": {
+      "Id": "Ammunition_LBX10_SABOT",
+      "Name": "LBX/10 Ammo",
+      "UIName": "APFSDS",
+      "Details": "Small caliber ammunition designed for long range fire in an AC/2.",
+      "Icon": null,
+      "Cost": 0,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "Type": "Normal",
+   "Category": "LBX10",
+   "HeatGenerated": 0,
+   "AIBattleValue": 90,
+   "HeatGeneratedModifier": 1,
+   	"APDamage": 6,  
+   "ArmorDamageModifier": 0.75,
+   "ISDamageModifier": 0.7,
+   "CriticalDamageModifier": 1.15,
+   	"MinRange": 0.0, 
+	"MaxRange": 100.0, 
+	"ShortRange": 25.0, 
+	"MiddleRange": 50.0, 
+	"LongRange": 75,
+	"statusEffects" :[]
+}

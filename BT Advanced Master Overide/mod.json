@@ -86,7 +86,8 @@
 		{ "Type": "WeaponDef", "Path": "Tech/Periphery/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/Pirates/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/Primitive/Weapons" },
-		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" }		
+		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" },
+		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" }		
 		
 	]
 }

@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 15,
+    "Description" : {
+        "Cost" : 100000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Apocalypse Armaments",
+        "Model" : "HS-15",
+        "UIName" : "Heat Sink 15",
+        "Id" : "Gear_HeatSink_HS15",
+        "Name" : "Heat Sink 15",
+        "Details" : "Made from lightweight materials and advance manufacturing techniques resulting in ultra lightweight designs.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 15 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -15,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

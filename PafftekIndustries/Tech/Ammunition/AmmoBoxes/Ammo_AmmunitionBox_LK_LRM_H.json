@@ -1,0 +1,61 @@
+{
+	"Custom": {
+		"Category" : [
+			{ "CategoryID" : "a/m/l/lrm" }
+		],
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 4,
+			"StabilityDamagePerAmmo": 1
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"WpnAccuracy: +1",
+				"CostPerShot: 70",
+				"LRMAmmo: 60"
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "00040"
+		},
+		"AmmoCost" : {
+		  "PerUnitCost" : 70
+		}
+	},
+	"AmmoID": "Ammunition_LRM_LK",
+	"Capacity": 60,
+	"Description": {
+		"Cost": 160000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "LRM",
+		"UIName": "Ammo LRM Listen Kill[H]",
+		"Id": "Ammo_AmmunitionBox_LK_LRM_H",
+		"Name": "LRM Ammo",
+		"Details": "The Listen Kill system is designed to home in on emissions of enemy battlemechs. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 60 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Missile"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

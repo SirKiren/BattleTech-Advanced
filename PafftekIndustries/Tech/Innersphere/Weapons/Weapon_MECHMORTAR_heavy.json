@@ -1,0 +1,97 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/o/mortar"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"IsMortar",
+				"NoFireInMelee",
+				"WpnRecoil: 2",
+				"ScatterRadius: 30, 90",
+				"AMSImmune"
+			]
+		}
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC2",
+	"MinRange": 240,
+	"MaxRange": 1200,
+	"RangeSplit": [
+		480,
+		720,
+		960
+	],
+	"AmmoCategory": "HvyMORTAR",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 20,
+	"Damage": 30,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 3,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": true,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 4,
+	"AMSImmune": true,
+	"AlternateDamageCalc": false,
+	"FireTerrainChance": 0.0666,
+	"ImprovedBallistic": true,
+	"StatusEffectsPerHit": true,
+	"MissileVolleySize": 1,
+	"MissileVolleyIntervalMultiplier": 0.5,
+	"MinMissRadius": 30,
+	"MaxMissRadius": 90,
+	"FireDelayMultiplier": 0.1,
+	"ProjectileSpeedMultiplier": 0.8,
+	"CantHitUnaffecedByPathing": true,
+	"SpreadRange": 40,
+	"HitGenerator": "Cluster",
+	"WeaponEffectID": "WeaponEffect-Weapon_AC20",
+	"AlwaysIndirectVisuals": true,
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "ICP Industries",
+		"Model": "Mortar Heavy",
+		"UIName": "Mortar/Hvy",
+		"Id": "Weapon_MECHMORTAR_heavy",
+		"Name": "Mortar/Hvy",
+		"Details": "The heavy Mortar fires a large shell in a high arc that falls onto the target. It is typically used against large targets in seige warfare. Though the heavy Mortar was created by the Terran Hegemony, by 2835 the Succession Wars had relegated it to history. With the reintroduction of the Anti-Missile System, engineers revived the Mech Mortar concept as they weren't destroyed by AMS systems. Mortar shells also proved very adaptable, accepting several types of payloads. \n\n <b><color=#ffcc00>Uses Hvy Mortar Ammo.</color></b>",
+		"Icon": "Art-illery"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "mortar",
+	"BattleValue": 0,
+	"InventorySize": 6,
+	"Tonnage": 10,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"mr-resize-3"
+		],
+		"tagSetSourceFile": ""
+	}
+}
