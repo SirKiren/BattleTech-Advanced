@@ -207,11 +207,13 @@
 	],
 	"VariantName": "COR-4N",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"PirateMech"
+		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Spray N Pray",
-	"YangsThoughts": "This is a productionized Frankenmech based on T-Bone's mech... huh!",
+	"StockRole": "Ded Killy to 750",
+	"YangsThoughts": "This is a production Mech, somewhat based on T-Bone's mech... huh!",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
@@ -236,7 +238,7 @@
         },
 		{
 		  "MountedLocation": "LeftTorso",
-		  "ComponentDefID": "emod_engineslots_size2",
+		  "ComponentDefID": "emod_engineslots_size3",
 		  "SimGameUID": null,
 		  "ComponentDefType": "HeatSink",
 		  "HardpointSlot": -1,
@@ -247,7 +249,7 @@
 		},
 		{
 		  "MountedLocation": "RightTorso",
-		  "ComponentDefID": "emod_engineslots_size2",
+		  "ComponentDefID": "emod_engineslots_size3",
 		  "SimGameUID": null,
 		  "ComponentDefType": "HeatSink",
 		  "HardpointSlot": -1,
@@ -258,7 +260,7 @@
 		},
 		{
 		  "MountedLocation": "CenterTorso",
-		  "ComponentDefID": "emod_engineslots_cxl_center",
+		  "ComponentDefID": "emod_engineslots_xl_center",
 		  "SimGameUID": null,
 		  "ComponentDefType": "HeatSink",
 		  "HardpointSlot": -1,

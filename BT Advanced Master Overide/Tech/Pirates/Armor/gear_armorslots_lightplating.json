@@ -1,0 +1,77 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"ArmorFactor: 11%",
+				"Reserved: 8",
+				"ArmorProtection: -20%"
+			]
+		},
+		"ArmorStructureChanges": {
+			"ArmorFactor": 0.8
+		},
+		"Category": {
+			"CategoryID": "Armor"
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 9
+		},
+		"Weights": {
+			"ArmorFactor": 0.89286
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "[[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 50"
+			}
+		},
+		"Flags": {
+			"flags": [
+				"default",
+				"ignore_damage",
+				"autorepair",
+				"not_broken"
+				"no_salvage"
+			]
+		},
+		"Lootable": {
+		  "ItemID": "emod_armorslots_lightplating"
+		}		
+		"InventorySorter": {
+			"SortKey": "00009"
+		}
+	},
+	"Description": {
+		"Cost": 75000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Epic Norris Production",
+		"Model": "Armor",
+		"UIName": "Light Plating",
+		"Id": "gear_armorslots_lightplating",
+		"Name": "Light Plating Armor",
+		"Details": "Utilizing differeing production methods of those by Periphery Armaments Incorperated (PAI), Epic Norris has their own variant of the so called 'retro' Light Plating\r\n\r\nArmor tonnage gets reduced by <b>1/12</b> while taking up <b>9</b> slots and being <b>20%</b> less effective.",
+		"Icon": "uixSvgIcon_action_end"
+	},
+	"BonusValueA": "-12% Armor Weight",
+	"BonusValueB": "-20% Armor Protection.",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

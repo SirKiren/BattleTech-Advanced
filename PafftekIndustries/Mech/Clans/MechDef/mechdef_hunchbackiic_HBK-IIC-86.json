@@ -179,7 +179,18 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_CEU-2000", 
+            "ComponentDefID": "Gear_Cockpit_Sparrow300", 
+            "SimGameUID": null, 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Sensors_Recon_Clan", 
             "SimGameUID": null, 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

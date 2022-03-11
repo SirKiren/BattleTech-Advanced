@@ -4,11 +4,11 @@
 
     "Author": "Pappystein, Etc",
 		"DependsOn": ["bd weapon rebalance", "BT Advanced Custom Mechs", "BT Advanced Gear Component", "BT Advanced Lances", "BT Advanced Mech Quirks", "BT Advanced Mechs",
-		"BT Advanced Turrets",  "Select Pilots BTA Edition", "cFixes", "CommanderPortraitLoader", "CustomFilters", "Custom Ammo Categories", "CustomActivatableEquipment",
+		"BT Advanced Turrets",  "Select Pilots BTA Edition", "cFixes", "CustomFilters", "Custom Ammo Categories", "CustomActivatableEquipment", "Community Content",
 		"CustomComponents", "CustomLocalization", "CustomSalvage", "CustomUnits", "CustomVoices", "CustomShops", "DynamicShops", "IRTweaks", "Loading Screen Tips", "MechEngineer",
 		"MechEngineer Vanilla Mechs", "MechEngineerGear", "IRBTModUtils", "FieldRepairs", "NavigationComputer", "Primitive Mechs", "VIPadvanced", "Mission Control", "BiggerDrops",
 		"BTA Events", "BT Advanced Starters", "ConcreteJungle", "ResultOrientedItems", "ContractLanceRandomizer", "Abilifier", "CAB-Misc", "CAB-Clan Mech", "CAB-IS Mech", "CAB-Tanks",
-		"AbilityRealizer", "SizeMatters", "MechAffinity", "LootMagnet", "SizeMatters", "TisButAScratch", "RolePlayer"],
+		"AbilityRealizer", "SizeMatters", "MechAffinity", "LootMagnet", "SizeMatters", "TisButAScratch", "BT Advanced Unique Mechs"],
 
 
 
@@ -76,7 +76,7 @@
 		{ "Type": "UpgradeDef", "Path": "Vehicle/SLDF/VehicleQuirk" },		
         { "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
         { "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
-		{ "Type": "AmmunitionBoxDef", "Path": "Tech/Ammunition\AmmoBoxes" },	
+		{ "Type": "AmmunitionBoxDef", "Path": "Tech/Ammunition/AmmoBoxes" },	
 		{ "Type": "AmmunitionDef", "Path": "Tech/Ammunition/Ammo" },
 		{ "Type": "WeaponDef", "Path": "Tech/Innersphere/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/Clans/Weapons" },
@@ -87,7 +87,15 @@
 		{ "Type": "WeaponDef", "Path": "Tech/Pirates/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/Primitive/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" },
-		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" }		
-		
+		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" },
+		{ "Type": "CCDefaults", "Path": "Defaults/", "ShouldMergeJSON": false},
+		{ "Type": "ChassisDef", "Path": "Mech/CC_ChassisDef", "AddToDB": true },
+		{ "Type": "ChassisDef", "Path": "Mech/BTACM_Chassisdef", "AddToDB": true },
+		{ "Type": "ChassisDef", "Path": "Mech/BTAM_Chassisdef", "AddToDB": true },
+		{ "Type": "ChassisDef", "Path": "Mech/BTAClan_Chassisdef", "AddToDB": true },	
+		{ "Type": "MechDef", "Path": "Mech/CC_Mechdef", "AddToDB": true },	
+		{ "Type": "MechDef", "Path": "Mech/BTACM_Mechdef", "AddToDB": true },
+		{ "Type": "MechDef", "Path": "Mech/BTAM_Mechdef", "AddToDB": true },
+		{ "Type": "MechDef", "Path": "Mech/BTAClan_Mechdef", "AddToDB": true }
 	]
 }

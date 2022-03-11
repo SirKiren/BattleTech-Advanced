@@ -1,0 +1,25 @@
+{
+	"Settings": [
+		{
+			"Tag": "PirateMech",
+			"CategoryID": "Armor",
+			"Type": "Upgrade",
+			"DefID": "gear_armorslots_lightplating",
+			"Location": "CenterTorso"
+		}
+		{
+			"Tag": "PirateMech",
+			"CategoryID": "SensorsA",
+			"Type": "Upgrade",
+			"DefID": "Gear_Sensors_Passive_Default",
+			"Location": "Head"
+		},
+		{
+			"Tag": "PirateMech",
+			"CategoryID": "SensorsB",
+			"Type": "Upgrade",
+			"DefID": "Gear_FCS_Pirate",
+			"Location": "Head"
+		}
+	]
+}
