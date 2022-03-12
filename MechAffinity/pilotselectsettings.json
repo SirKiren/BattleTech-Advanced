@@ -1,7 +1,7 @@
 {
 	"RoninFromList": 0,
 	"ProceduralPilots": 1,
-	"RandomRonin": 4,
+	"RandomRonin": 7,
 	"PossibleStartingRonin": [
 		"pilot_sim_starter_medusa",
 		"pilot_sim_starter_behemoth",
