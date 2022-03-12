@@ -19,7 +19,7 @@
 	},
     "Category" : "Ballistic",
     "Type" : "Gauss",
-    "WeaponSubType" : "Magshot",
+    "WeaponSubType" : "Gauss",
     "MinRange": 0,
 	"MaxRange": 400,
 	"RangeSplit": [
