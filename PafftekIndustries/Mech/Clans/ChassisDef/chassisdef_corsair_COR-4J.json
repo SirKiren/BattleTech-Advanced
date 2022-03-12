@@ -211,7 +211,9 @@
 	],
 	"VariantName": "COR-4J",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"PirateMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "T-Bone's Ride",

@@ -3,12 +3,16 @@
     "Enabled": true,
 
     "Author": "Pappystein, Etc",
-		"DependsOn": [ "Custom Ammo Categories"],
+		"DependsOn": [ "Custom Ammo Categories", "MechEngineerGear"],
 
 
-
+    "CustomResourceTypes": [
+        "CustomSVGIcon"
+    ],
 
 	"Manifest": [
+		{ "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
+		{ "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
 		{ "Type": "ShipModuleUpgrade", "Path": "Tech/shipUpgrades"},	
 		{ "Type": "UpgradeDef", "Path": "Mech/Clans/MechQuirk", "AddToDB": true },	
 		{ "Type": "ChassisDef", "Path": "Mech/Clans/ChassisDef", "AddToDB": true },	
@@ -123,7 +127,8 @@
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Armor" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/EWAR" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Firecontrol" },	
-		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Sensors" },		
+		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Sensors" },
+        { "Type": "HeatSinkDef", "Path": "Tech/SLDFPreExodus/Heatsinks" },		
 		{ "Type": "UpgradeDef", "Path": "Tech/Solariscircuit/AdvancedDevices" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/Solariscircuit/Armor" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/Solariscircuit/EWAR" },	
@@ -154,7 +159,8 @@
 		{ "Type": "WeaponDef", "Path": "Tech/Periphery/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/Pirates/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/Primitive/Weapons" },
-		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" }		
+		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" },
+		{ "Type": "WeaponDef", "Path": "Tech/FutureTech/Weapons" }		
 		
 	]
 }

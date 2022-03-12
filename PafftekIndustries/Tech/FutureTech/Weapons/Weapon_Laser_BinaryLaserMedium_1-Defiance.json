@@ -1,0 +1,97 @@
+{
+	"Custom": {
+		"Category": [{
+				"CategoryID": "w/e/l/binary"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"WpnCrits: 60%",
+				"IsLaser"
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "02008"
+		}
+	},
+	"Category": "Energy",
+	"Type": "Laser",
+	"WeaponSubType": "LargeLaser",
+	"MinRange": 0,
+	"MaxRange": 400,
+	"RangeSplit": [
+		120,
+		290,
+		375
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 24,
+	"Damage": 36,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1.2,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"DisableClustering": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"FireTerrainChance": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Medium",
+	"Description": {
+		"Cost": 220000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Defiance",
+		"Model": "Binary Laser Medium",
+		"UIName": "Improved Binary Laser Medium",
+		"Id": "Weapon_Laser_BinaryLaserMedium_1-Defiance",
+		"Name": "Improved Blazer Medium",
+		"Details": "Built by combining multiple ER Medium laser cores, the Binary Laser Medium was developed as a miniature version of the so called 'Blazer' Large laser.  \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
+		"Icon": "uixSvgIcon_weapon_Energy"
+	},
+	"BonusValueA": "+ 20% Crit.",
+	"BonusValueB": "-5 Heat Generated",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 3,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [{
+			"Id": "One Core",
+			"UIName": "One Core",
+			"isBaseMode": false,
+			"DamagePerShot": -13,
+			"ProjectilesPerShot": 1,
+			"Instability": 0,
+			"HeatGenerated": 12
+		},
+		{
+			"Id": "Twin Core",
+			"UIName": "Twin Core",
+			"isBaseMode": true
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -19,7 +19,7 @@
 	},
     "Category" : "AntiPersonnel",
     "Type" : "Gauss",
-    "WeaponSubType" : "Gauss",
+    "WeaponSubType" : "Magshot",
     "MinRange": 0,
 	"MaxRange": 320,
 	"RangeSplit": [
