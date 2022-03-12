@@ -12,9 +12,11 @@
 		},
 		"Flags": {
 			"flags": [
-				"default",
-				"no_salvage"
+				"default"
 			]
+		},
+		"Lootable": {
+			"ItemID": "lootable_Cockpit_Generic_Standard"
 		}
 	},
 	"Description": {
