@@ -2,9 +2,6 @@
 	"debug": true,
 	"trace": true,
 	"setActiveFactionsForAllSystems": false,
-	"clearEmployersAndTargetsForSystemTags": [
-		"planet_no_pop"
-	],
 	"ignoreFactions": [
 		"SolarisVII",
 		"NoFaction",
@@ -190,9 +187,7 @@
 	"defaultAttackReward": "BTA_standard_Major_Loot",
 	"defaultRaidReward": "BTA_standard_Major_Loot",
 	"customContractEnums": [
-		10000,
-		10001,
 		10002
 	],
-	"saveFolder": "../../BTASaves"
+	"saveFolder": "../../BTKSaves"
 }
