@@ -13,6 +13,8 @@
 			"ClanWolf",
 			"ClanJadeFalcon",
 			"ClanGhostBear",
+			"ClanNovaCat",
+			"ClanDiamondShark",
 			"unit_notsacellum",
 			"unit_advanced"
 		],
@@ -384,7 +386,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_CEU-1000",
+			"ComponentDefID": "Gear_Cockpit_Hawkeye100",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

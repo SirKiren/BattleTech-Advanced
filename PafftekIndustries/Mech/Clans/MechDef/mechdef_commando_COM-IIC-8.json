@@ -131,7 +131,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_kit_cdhs_royal",
+			"ComponentDefID": "emod_kit_cdhs",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -395,7 +395,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_CEU-3000",
+			"ComponentDefID": "Gear_Cockpit_Hawkeye100",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -406,7 +406,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_CLAN_TTS_ACC",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_OmniLockTTS",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
