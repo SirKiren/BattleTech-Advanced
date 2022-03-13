@@ -402,7 +402,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 0,
+			"DefaultIndex": 1,
 			"Options": [
 				{
 					"ID": "diff_CP_easy",
