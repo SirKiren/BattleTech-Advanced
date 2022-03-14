@@ -1,6 +1,8 @@
 {
-	"DebugMode": false,
+	"DebugMode": true,
 	"VersionCheck": false,
+	"EnableSkirmishMode": true,
+	"DebugSkirmishMode": false,
 	"EnableFlashpointOverrides": false,
 	"RandomSpawns": {
 		"EnableForFlashpoints": false,
