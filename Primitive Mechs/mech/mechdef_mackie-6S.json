@@ -299,7 +299,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,

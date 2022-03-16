@@ -19,7 +19,7 @@
 	"ChassisID": "chassisdef_reconquista_RCQ-0N",
 	"HeraldryID": null,
 	"Description": {
-		"Cost": 1674400,
+		"Cost": 2372000,
 		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": null,
@@ -404,7 +404,7 @@
 		},
 		{
 			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
@@ -415,7 +415,7 @@
 		},
 		{
 			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
@@ -426,7 +426,7 @@
 		},
 		{
 			"MountedLocation": "RightLeg",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
@@ -437,7 +437,7 @@
 		},
 		{
 			"MountedLocation": "RightLeg",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
