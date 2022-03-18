@@ -15,6 +15,9 @@
 			},
 			{
 				"CategoryID": "EnginePart"
+			},
+			{
+				"CategoryID": "SHSKit"
 			}
 		],
 		"Color": {
@@ -24,12 +27,10 @@
 			"flags": [
 				"ignore_damage",
 				"engine_part",
-				"default"
+				"default",
+				"no_salvage"
 			]
-		},
-		"Lootable": {
-			"ItemID": "lootable_kit_shs"
-		  }
+		}
 	},
 	"DissipationCapacity": 0,
 	"Description": {

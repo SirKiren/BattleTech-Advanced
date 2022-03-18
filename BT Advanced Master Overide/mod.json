@@ -3,12 +3,12 @@
     "Enabled": true,
 
     "Author": "Pappystein, Etc",
-		"DependsOn": ["bd weapon rebalance", "BT Advanced Custom Mechs", "BT Advanced Gear Component", "BT Advanced Lances", "BT Advanced Mech Quirks", "BT Advanced Mechs",
+		"DependsOn": ["bd weapon rebalance", "BT Advanced Gear Component", "BT Advanced Lances", "BT Advanced Mech Quirks", "BT Advanced Mechs",
 		"BT Advanced Turrets",  "Select Pilots BTA Edition", "cFixes", "CustomFilters", "Custom Ammo Categories", "CustomActivatableEquipment", "Community Content",
 		"CustomComponents", "CustomLocalization", "CustomSalvage", "CustomUnits", "CustomVoices", "CustomShops", "DynamicShops", "IRTweaks", "Loading Screen Tips", "MechEngineer",
-		"MechEngineer Vanilla Mechs", "MechEngineerGear", "IRBTModUtils", "FieldRepairs", "NavigationComputer", "Primitive Mechs", "VIPadvanced", "Mission Control", "BiggerDrops",
+		 "MechEngineerGear", "IRBTModUtils", "FieldRepairs", "NavigationComputer", "Primitive Mechs", "VIPadvanced", "Mission Control", "BiggerDrops",
 		"BTA Events", "BT Advanced Starters", "ConcreteJungle", "ResultOrientedItems", "ContractLanceRandomizer", "Abilifier", "CAB-Misc", "CAB-Clan Mech", "CAB-IS Mech", "CAB-Tanks",
-		"AbilityRealizer", "SizeMatters", "MechAffinity", "LootMagnet", "SizeMatters", "TisButAScratch", "BT Advanced Unique Mechs"],
+		"AbilityRealizer", "SizeMatters", "MechAffinity", "LootMagnet", "SizeMatters", "TisButAScratch"],
 
 
 

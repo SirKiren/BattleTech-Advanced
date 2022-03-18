@@ -12,8 +12,8 @@
 	},
 	"FixedEquipment": [
 		{
-			"ComponentDefID": "Weapon_C3_Master_Avatar",
-			"ComponentDefType": "Weapon",
+			"ComponentDefID": "Gear_C3_Master_Avatar",
+			"ComponentDefType": "Upgrade",
 			"DamageLevel": "Functional",
 			"GUID": null,
 			"HardpointSlot": -1,

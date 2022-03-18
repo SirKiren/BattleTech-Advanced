@@ -1,5 +1,13 @@
 {
 	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "Heatsink"
+			},
+			{
+				"CategoryID": "BHS"
+			}
+		],
 		"EngineHeatSink": {
 			"FullName": "Basic Heat Sinks",
 			"Abbreviation": "BHS",
@@ -33,7 +41,7 @@
 		"Details": "Heat Sinks actively expel thermal energy generated from firing weaponry or other sources, preventing damage from excessive heat buildup. Their effectiveness can be impacted by the surrounding environment, positively or negatively.",
 		"Icon": "uixSvgIcon_equipment_Heatsink"
 	},
-	"BonusValueA": "- 4 Heat / Turn",
+	"BonusValueA": "- 3 Heat / Turn",
 	"BonusValueB": "",
 	"ComponentType": "HeatSink",
 	"ComponentSubType": "Heatsink",
