@@ -27,8 +27,7 @@
 			"flags": [
 				"ignore_damage",
 				"engine_part",
-				"default",
-				"no_salvage"
+				"default"
 			]
 		}
 	},
