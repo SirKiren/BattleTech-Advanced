@@ -224,12 +224,6 @@
 			]
 		},
 		{
-			"Tag": "NullSig",
-			"IncompatibleTags": [
-				"ECM"
-			]
-		},
-		{
 			"Tag": "Handhold",
 			"IncompatibleTags": [
 				"OmniGyro",
@@ -348,6 +342,19 @@
 				"CDHSKit",
 				"SHSKit",
 				"LHSKit"
+			]
+		},
+		{
+			"Tag": "BHS",
+			"RequiredTags": [
+				"BHSKit"
+			],
+			"IncompatibleTags": [
+				"DHSKit",
+				"PDHSKit",
+				"CDHSKit",
+				"LHSKit",
+				"SHSKit"
 			]
 		}
 	]

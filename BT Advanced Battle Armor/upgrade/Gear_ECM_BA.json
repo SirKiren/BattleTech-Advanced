@@ -1,114 +1,235 @@
 {
-	"Custom": {
-		"Category": [
+    "Custom": {
+        "Category": [
 			{
 				"CategoryID": "BAWeapon"
 			},
 			{
 				"CategoryID": "BAGear"
 			}
-		],
-		"BonusDescriptions": {
-			"Bonuses": [
-				"Defense: +1",
-				"ECMRadius: 30"
-			]
-		},
+        ],
+        "BonusDescriptions": {
+            "Bonuses": [
+				"BAEquipment",
+                 "PersistentECM",
+					"PersistentECMAura: 1, 1, 180",
+					"PersistentECMSelf: 2, 1"
+            ]
+        },
 		"Flags": {
-			"flags": [
-				"no_salvage",
-				"not_broken"
-			]
-		}
-	},
-	"StatName": null,
-	"RelativeModifier": 0,
-	"AbsoluteModifier": 0,
-	"Description": {
-		"Cost": 0,
-		"Rarity": 3,
-		"Purchasable": true,
-		"Manufacturer": "Johnston",
-		"Model": "BA ECM",
-		"UIName": "BA ECM",
-		"Id": "Gear_ECM_BA",
-		"Name": "BA ECM",
-		"Details": "Essentially just a stripped down ECM unit for use by battle armor, the BA ECM provides the same defensive bonus as a standard ECM, but at significantly reduced range. This ECM suite was designed with battle armor-scale stealth armor in mind and works on a different frequency than that equipment, allowing them to work in tandem rather than against each other.",
-		"Icon": "StealthArmor"
-	},
-	"BonusValueA": "",
-	"BonusValueB": "",
-	"ComponentType": "Upgrade",
-	"ComponentSubType": "NotSet",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 1,
-	"Tonnage": 0.175,
-	"AllowedLocations": "All",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"Auras": [
-		{
-			"Id": "Gear_GECM_ECM",
-			"Name": "ECM",
-			"ReticleColor": "#ffffff",
-			"Range": 30,
-			"RemoveOnSensorLock": false,
-			"State": "Persistent",
-			"ApplySelf": true,
-			"AllyStealthAffection": "None",
-			"EnemyStealthAffection": "None",
-			"IsPositiveToAlly": true,
-			"IsNegativeToEnemy": false,
-			"ownerVFX": [],
-			"targetVFX": [],
-			"removeOwnerVFX": [],
-			"removeTargetVFX": [],
-			"ownerSFX": [],
-			"targetSFX": [],
-			"removeOwnerSFX": [],
-			"removeTargetSFX": [],
-			"statusEffects": [
+		  "flags": [
+			"not_broken",
+			"not_destroyed",
+			"ignore_damage",
+			"no_salvage"
+		  ]
+		},
+        "InventorySorter": {
+            "SortKey": "00024"
+        },
+	"MechConfiguration" : {
+                },
+	"HandHeld" : {
+	"Tonnage" : 0,
+	"HandsUsed" : false
+}
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 330000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Ceres",
+        "Model": "ECM",
+        "UIName": "BA ECM",
+        "Id": "Gear_ECM_BA",
+        "Name": "ECM",
+        "Details": "This basic Electronics Counter Measures scrambles Enemy Targeting and Missile Systems and is a efficient upgrade to a 'Mech's standard ECM equipment.",
+        "Icon": "ECMGear"
+    },
+    "BonusValueA": "+1 Defense.",
+    "BonusValueB": "+1 Missile Defense.",
+    "ComponentType": "Upgrade",
+    "ComponentSubType" : "Prototype_ElectronicWarfare",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0.175,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+	 "Auras": [
+        {
+            "Id": "Jammer_Aura",
+            "Name": "JAMMED",
+            "ReticleColor": "#00f2ff",
+            "Range": 180,
+            "HideOnNotSelected": false,
+            "RemoveOnSensorLock": false,
+            "State": "Online",
+            "ApplySelf": false,
+            "AllyStealthAffection": "None",
+            "EnemyStealthAffection": "NegativeOne",
+            "IsPositiveToAlly": false,
+            "IsNegativeToEnemy": true,
+            "ownerVFX": [],
+            "targetVFX": [],
+            "removeOwnerVFX": [],
+            "removeTargetVFX": [],
+            "ownerSFX": [],
+            "targetSFX": [],
+            "removeOwnerSFX": [],
+            "removeTargetSFX": [],
+            "statusEffects": [
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1,
+                        "uniqueEffectIdStackLimit": 1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "specialRules": "NotSet",
+                        "effectTargetType": "EnemiesWithinRange",
+                        "range": 0.0,
+						"forceVisRebuild": true,
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "LV_ECM_JAM",
+                        "Name": "ECM Jammer",
+                        "Details": "Jamming ECM, reduces sensor checks for enemies in field",
+                        "Icon": "uixSvgIcon_action_sensorlock"
+                    },
+                    "statisticData": {
+                        "statName": "LV_ECM_JAMMED",
+                        "operation": "Int_Add",
+                        "modValue": "1",
+                        "modType": "System.Int32"
+                    },
+                    "nature": "Debuff"
+                }
+            ]
+        },
+        {
+            "Id": "ECCM_Anitjam",
+            "Name": "CounterJamming",
+            "ReticleColor": "#00f2ff",
+            "Range": 180,
+            "HideOnNotSelected": false,
+            "RemoveOnSensorLock": false,
+            "State": "Online",
+            "ApplySelf": false,
+            "AllyStealthAffection": "PositiveTwo",
+            "EnemyStealthAffection": "None",
+            "IsPositiveToAlly": true,
+            "IsNegativeToEnemy": false,
+            "ownerVFX": [],
+            "targetVFX": [],
+            "removeOwnerVFX": [],
+            "removeTargetVFX": [],
+            "ownerSFX": [],
+            "targetSFX": [],
+            "removeOwnerSFX": [],
+            "removeTargetSFX": [],
+            "statusEffects": [
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1,
+                        "uniqueEffectIdStackLimit": 1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "AlliesWithinRange",
+                        "range": 0.0,
+                        "forceVisRebuild": true,
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "UNJAM",
+                        "Name": "ECM Anti-Jammer",
+                        "Details": "Reduce Jamming on Allies",
+                        "Icon": "uixSvgIcon_action_sensorlock"
+                    },
+                    "statisticData": {
+                        "statName": "LV_ECM_JAMMED",
+                        "operation": "Int_Add",
+                        "modValue": "-1",
+                        "modType": "System.Int32"
+                    },
+                    "nature": "Buff"
+                }
+            ]
+        }
+    ],
+    "statusEffects": [
 				{
-					"durationData": {
-						"duration": -1,
-						"stackLimit": 1
-					},
-					"targetingData": {
-						"effectTriggerType": "Passive",
-						"specialRules": "NotSet",
-						"effectTargetType": "AlliesWithinRange",
-						"range": 0.0,
-						"forcePathRebuild": false,
-						"forceVisRebuild": false,
-						"showInTargetPreview": false,
-						"showInStatusPanel": true
-					},
-					"effectType": "StatisticEffect",
-					"Description": {
-						"Id": "GECMInterference",
-						"Name": "BA ECM Interference",
-						"Details": "BA ECM making this unit harder to hit, +1 penalty to enemy attacks.",
-						"Icon": "uixSvgIcon_equipment_Gyro"
-					},
-					"statisticData": {
-						"statName": "ToHitThisActor",
-						"operation": "Float_Add",
-						"modValue": "1.0",
-						"modType": "System.Single"
-					},
-					"nature": "Buff"
-				}
-			]
-		}
-	],
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock",
-			"ElectronicCounterMeasures",
-			"lv-jammer_m2_r6"
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator",
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "ECMPassiveShield",
+                        "Name": "ECMPassiveShield",
+                        "Details": "Passive ECM Protection",
+                        "Icon": "uixSvgIcon_equipment_Gyro"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                         "statName": "LV_ECM_SHIELD",
+                        "operation": "Int_Add",
+                        "modValue": "2",
+                        "modType": "System.Int32"
+                    }
+                },
+{
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator",
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "ECMPassiveJam",
+                        "Name": "ECMPassiveJam",
+                        "Details": "Passive Jamming Protection",
+                        "Icon": "uixSvgIcon_equipment_Gyro"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                         "statName": "LV_ECM_JAMMED",
+                        "operation": "Int_Add",
+                        "modValue": "-1",
+                        "modType": "System.Int32"
+                    }
+                }
 		],
-		"tagSetSourceFile": ""
-	}
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "ElectronicCounterMeasures",
+            "PAGear",
+			"BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
 }

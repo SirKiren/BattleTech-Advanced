@@ -1,0 +1,50 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_Commando",
+			"Name": "Commando",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.7,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Tomans"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_PafftekStartingMediums,itemCollection_Mechs_Commando,itemCollection_Mechs_Commando,itemCollection_Mechs_Commando,itemCollection_Mechs_Commando,itemCollection_Mechs_CommandoitemCollection_Vehicle_Arty,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Scout,itemCollection_Mechs_Generic_BattleArmor,itemCollection_Mechs_Generic_BattleArmor"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Steiner:30"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "AuriganPirates:30"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Davion:30"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Wolfs_Dragoons:100"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Rasalhague:30"
+				}
+			]
+		}
+	}]
+}
