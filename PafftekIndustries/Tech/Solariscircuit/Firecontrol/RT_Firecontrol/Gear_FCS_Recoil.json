@@ -39,7 +39,7 @@
     "Id": "Gear_FCS_Recoil",
     "Name": "Weapons Computer",
     "Details": "A Improved FCS that reduces Jamming Chance.",
-    "Icon": "targeting"
+    "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "BonusValueA": "",
   "BonusValueB": "",

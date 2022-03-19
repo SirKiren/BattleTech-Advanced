@@ -96,6 +96,22 @@
 		{ "Type": "MechDef", "Path": "Mech/CC_Mechdef", "AddToDB": true },	
 		{ "Type": "MechDef", "Path": "Mech/BTACM_Mechdef", "AddToDB": true },
 		{ "Type": "MechDef", "Path": "Mech/BTAM_Mechdef", "AddToDB": true },
-		{ "Type": "MechDef", "Path": "Mech/BTAClan_Mechdef", "AddToDB": true }
+		{ "Type": "MechDef", "Path": "Mech/BTAClan_Mechdef", "AddToDB": true },
+		{
+			"Type": "UpgradeDef",
+			"Path": "ChassisDefaults"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "lootable/Internals"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "lootable/Actuators"
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "lootable/Engines"
+		}
 	]
 }

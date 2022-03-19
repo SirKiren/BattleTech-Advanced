@@ -34,7 +34,7 @@
     "Id": "Gear_FCS_Bloodsports",
     "Name": "Solaris Battle FCS",
     "Details": "Originally designed for the Solaris Market, the Angst Clear View 2A provides even further BattleMech performance in Melee over the previous Angst Clear View 1A.",
-    "Icon": "targeting"
+    "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "BonusValueA": "",
   "BonusValueB": "",
@@ -64,7 +64,7 @@
         "Id": "CockpitInitativeEffect",
         "Name": "CockpitTechBonus",
         "Details": "Provides + 1 Initiative and several buffs.",
-        "Icon": "targeting"
+        "Icon": "uixSvgIcon_equipment_Rangefinder"
       },
       "nature": "Buff",
       "statisticData": {

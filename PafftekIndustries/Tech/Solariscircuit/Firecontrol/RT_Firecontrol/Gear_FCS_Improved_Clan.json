@@ -41,7 +41,7 @@
     "Id": "Gear_FCS_Improved_Clan",
     "Name": "Weapons Computer",
     "Details": "A Clan upgraded FCS improving the units targeting systems.",
-    "Icon": "targeting"
+    "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "BonusValueA": "",
   "BonusValueB": "",
@@ -116,7 +116,7 @@
         "Id": "StatusEffect_Cockpit_Skill_Gunnery",
         "Name": "Gunnery Buff",
         "Details": "Buffs Gunnery Skill",
-        "Icon": "targeting"
+        "Icon": "uixSvgIcon_equipment_Rangefinder"
       },
       "nature": "Buff",
       "statisticData": {

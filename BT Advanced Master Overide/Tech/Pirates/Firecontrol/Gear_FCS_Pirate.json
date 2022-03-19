@@ -39,7 +39,7 @@
     "Id": "Gear_FCS_Pirate",
     "Name": "Gut-Punch Mk4 FCS",
     "Details": "The Gut-Punch Mk4 FCS is the latest in broadly available fire control systems on the civilian *ahem* market.   Due to the in-ability to source missile guidance chips, this FCS has a lower chance of hitting and doing damage with missiles.",
-    "Icon": "targeting"
+    "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "BonusValueA": "",
   "BonusValueB": "",
