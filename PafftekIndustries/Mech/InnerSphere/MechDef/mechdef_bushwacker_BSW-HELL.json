@@ -38,10 +38,10 @@
     },
     {
       "Location": "LeftArm",
-      "CurrentArmor": 95,
+      "CurrentArmor": 85,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 45,
-      "AssignedArmor": 95,
+      "AssignedArmor": 85,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
     },
@@ -74,36 +74,45 @@
     },
     {
       "Location": "RightArm",
-      "CurrentArmor": 95,
+      "CurrentArmor": 85,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 45,
-      "AssignedArmor": 95,
+      "AssignedArmor": 85,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
     },
     {
       "Location": "LeftLeg",
-      "CurrentArmor": 125,
+      "CurrentArmor": 120,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 65,
-      "AssignedArmor": 125,
+      "AssignedArmor": 120,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightLeg",
-      "CurrentArmor": 125,
+      "CurrentArmor": 120,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 65,
-      "AssignedArmor": 125,
+      "AssignedArmor": 120,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_Clanheavyferrosfibrous",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true
+    },  
+    {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_OmniLockTTS",
+      "ComponentDefID": "Gear_Sensors_Passive",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -112,7 +121,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Sparrow300",
+      "ComponentDefID": "Gear_Cockpit_FightingHawk600",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -121,16 +130,40 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_TTS_MultiShot",
+      "ComponentDefID": "Gear_TTS_TruTrak1000BP",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_cxl_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_330",
+      "ComponentDefID": "emod_engine_275",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -138,7 +171,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_cooling_3",
+      "ComponentDefID": "emod_engine_cooling_1",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -146,7 +179,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_kit_cdhs",
+      "ComponentDefID": "emod_kit_dhs",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -288,7 +321,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "emod_clancase2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
@@ -298,7 +331,15 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_LRM_iATM3_CLAN",
+      "ComponentDefID": "Weapon_MRM_MRM10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_MRM_MRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -306,25 +347,9 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_iATM3_CLAN",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_iATM3_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_AMS_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 2,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -495,7 +520,7 @@
 			"hasPrefabName": false
 		},
     {
-      "MountedLocation": "CenterTorso",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -503,8 +528,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_Watchdog_CEWS",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Nova_CEWS",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -521,24 +546,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Gauss_HAG30_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Inferno_iATM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_HE_iATM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -546,15 +555,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Hyper_GAUSS_double",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Hyper_GAUSS",
+      "ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -565,30 +566,6 @@
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Gauss_HAG30_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_HS10",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_HS10",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     }

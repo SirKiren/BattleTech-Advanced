@@ -21,46 +21,13 @@
 		},
 		{
             "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "emod_armorslots_clstandard",
+            "ComponentDefID" : "emod_structureslots_endocomposite",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
             "DamageLevel" : "Functional",
             "prefabName" : "",
             "hasPrefabName" : true
-        },
-		{
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "emod_structureslots_standard",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "DamageLevel" : "Functional",
-            "prefabName" : "",
-            "hasPrefabName" : true
-        },
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_cxxl_center",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_engineslots_size4",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "emod_engineslots_size4",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		}
+        }
   ],
   "Description": {
     "Cost": 1205556,
@@ -160,15 +127,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -200,11 +159,15 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
-        },	  
+        },
         {
           "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -218,11 +181,15 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },	  
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],

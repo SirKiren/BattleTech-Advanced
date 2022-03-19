@@ -37,6 +37,9 @@
 		{ "Type": "UpgradeDef", "Path": "Mech/Primitive/MechQuirk" },	
 		{ "Type": "ChassisDef", "Path": "Mech/Primitive/ChassisDef", "AddToDB": true },	
 		{ "Type": "MechDef", "Path": "Mech/Primitive/MechDef", "AddToDB": true },	
+		{ "Type": "UpgradeDef", "Path": "Mech/InnerSphere/MechQuirk" },	
+		{ "Type": "ChassisDef", "Path": "Mech/InnerSphere/ChassisDef", "AddToDB": true },	
+		{ "Type": "MechDef", "Path": "Mech/InnerSphere/MechDef", "AddToDB": true },	
 		{ "Type": "MovementCapabilitiesDef", "Path": "Mech/PAI/MoveDef", "AddToDB": true },
 		{ "Type": "UpgradeDef", "Path": "Mech/PAI/MechQuirk" },	
 		{ "Type": "ChassisDef", "Path": "Mech/PAI/ChassisDef", "AddToDB": true },	
@@ -160,7 +163,8 @@
 		{ "Type": "WeaponDef", "Path": "Tech/Pirates/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/Primitive/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" },
-		{ "Type": "WeaponDef", "Path": "Tech/FutureTech/Weapons" }		
+		{ "Type": "WeaponDef", "Path": "Tech/FutureTech/Weapons" },
+		{ "Type": "SVGAsset", "Path": "Icons", "ShouldMergeJSON": false }
 		
 	]
 }

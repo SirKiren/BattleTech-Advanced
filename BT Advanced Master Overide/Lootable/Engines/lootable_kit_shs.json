@@ -1,12 +1,15 @@
 {
   "Custom": {
     "Category": [
-      {
-        "CategoryID": "Cooling"
-      },
-      {
-        "CategoryID": "EnginePart"
-      }
+		{
+		"CategoryID": "Cooling"
+		},
+		{
+		"CategoryID": "EnginePart"
+		},
+		{
+		"CategoryID": "SHSKit"
+		}
     ],
     "WorkOrderCosts": {
       "Default": {
