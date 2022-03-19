@@ -96,7 +96,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "AbilityT5SensorLock2",
+        "Id": "AbilityT8SensorLock2",
         "Name": "SENSOR LOCK",
         "Details": "SENSOR LOCK",
         "Icon": "uixSvgIcon_status_sensorsImpaired"
