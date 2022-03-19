@@ -33,7 +33,7 @@
     "Id": "Gear_FCS_Magshot",
     "Name": "Silverstreak FCS",
     "Details": "The Eagle Eye 405 FCS evolved as a Magshot and AP Gauss dedicated FCS derrived from the larger Eagle Eye 400 FCS.  Due to the narrower specialization, a full half ton of mass was saved.   This translated into superior unit compatiablity.",
-    "Icon": "targeting"
+    "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "BonusValueA": "",
   "BonusValueB": "",
@@ -63,7 +63,7 @@
         "Id": "StatusEffect-FCS_Energy",
         "Name": "ENERGY WEAPON TTS",
         "Details": "+1Acc, +25% Crit for Energy Weapons.",
-        "Icon": "targeting"
+        "Icon": "uixSvgIcon_equipment_Rangefinder"
       },
       "nature": "Buff",
       "statisticData": {

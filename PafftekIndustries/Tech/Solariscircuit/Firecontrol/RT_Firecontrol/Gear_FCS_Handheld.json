@@ -34,7 +34,7 @@
     "Id": "Gear_FCS_Handheld",
     "Name": "RockEm SockEm FCS",
     "Details": "Designed to interface with Handheld Weaponry does this FCS confer superior flexibility with aiming any such device and HandHeld Melee Weapons",
-    "Icon": "targeting"
+    "Icon": "uixSvgIcon_equipment_Rangefinder"
   },
   "BonusValueA": "",
   "BonusValueB": "",

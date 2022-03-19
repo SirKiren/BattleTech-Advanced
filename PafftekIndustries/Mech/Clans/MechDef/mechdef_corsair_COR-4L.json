@@ -234,7 +234,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TTS_OmniTarget",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_OmniLockTTS",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
