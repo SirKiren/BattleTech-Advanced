@@ -1,4 +1,9 @@
 {
+	"Custom": {
+		"Color": {
+			"UIColor": "Red"
+		},
+	},
     "DissipationCapacity" : 15,
     "Description" : {
         "Cost" : 100000,
