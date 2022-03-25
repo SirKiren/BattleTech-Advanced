@@ -165,7 +165,7 @@
 			"IsMultiplayer": false,
 			"UsesFury": false,
 			"UsesSecondScaledStructureValues": false,
-			"ContractRewardMultiplier": 0.4,
+			"ContractRewardMultiplier": 1.5,
 			"Illustration": "uixTxrSpot_rescueContract",
 			"Icon": "uixSvgIcon_contract_Recovery",
 			"IsPublished": true
@@ -182,7 +182,7 @@
 			"IsMultiplayer": false,
 			"UsesFury": false,
 			"UsesSecondScaledStructureValues": false,
-			"ContractRewardMultiplier": 0.8,
+			"ContractRewardMultiplier": 1.5,
 			"Illustration": "uixTxrSpot_assassinateContract",
 			"Icon": "uixSvgIcon_contract_Assassinate",
 			"IsPublished": true
@@ -233,7 +233,7 @@
 			"IsMultiplayer": false,
 			"UsesFury": false,
 			"UsesSecondScaledStructureValues": false,
-			"ContractRewardMultiplier": 1,
+			"ContractRewardMultiplier": 2,
 			"Illustration": "uixTxrSpot_rescueContract",
 			"Icon": "uixSvgIcon_contract_Recovery",
 			"IsPublished": false
@@ -250,7 +250,7 @@
 			"IsMultiplayer": false,
 			"UsesFury": false,
 			"UsesSecondScaledStructureValues": false,
-			"ContractRewardMultiplier": 1,
+			"ContractRewardMultiplier": 1.5,
 			"Illustration": "uixTxrSpot_rescueContract",
 			"Icon": "uixSvgIcon_contract_Recovery",
 			"IsPublished": false
