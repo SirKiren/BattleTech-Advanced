@@ -1,37 +1,41 @@
 {
-    "Custom": {
-        "BonusDescriptions": {
-            "Bonuses": [
-                "CoolingSystemDHS",
-                "TEHeatgen: -3%",
-                "BankMaxHeat: 5",
-                "BankThreshhold: 5",
-                "HeatPerTurn: -3"
-            ]
-        },
-        "Cooling": {
-            "HeatSinkDefId": "Gear_HeatSink_Generic_Double"
-        },
-        "WorkOrderCosts": {
-            "Default": {
-                "TechCost": "[[Chassis.Tonnage]] / 5",
-                "CBillCost": "10 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 10"
-            },
-            "Install": {
-                "TechCost": "[[Chassis.Tonnage]] / 5",
-                "CBillCost": "10 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 10"
-            }
-        },
-        "Category" : [
-          {"CategoryID": "Cooling"},
-          {"CategoryID": "EnginePart"}
-        ],
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        }
-    },
+	"Custom": {
+		"BonusDescriptions": {
+			"Bonuses": [
+				"CoolingSystemDHS"
+			]
+		},
+		"Cooling": {
+			"HeatSinkDefId": "Gear_HeatSink_Generic_Double"
+		},
+		"WorkOrderCosts": {
+			"Default": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"Install": {
+				"TechCost": "0.4 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
+				"CBillCost": "3500 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "Cooling"
+			},
+			{
+				"CategoryID": "EnginePart"
+			},
+			{
+				"CategoryID": "DHSKit"
+			}
+		],
+		"Flags": {
+			"flags": [
+				"ignore_damage",
+				"engine_part"
+			]
+		}
+	},
     "DissipationCapacity": 3,
     "Description": {
         "Cost": 3500000,

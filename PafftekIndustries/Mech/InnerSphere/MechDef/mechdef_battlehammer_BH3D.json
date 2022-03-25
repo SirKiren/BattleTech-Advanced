@@ -76,7 +76,7 @@
 		"UIName": "BattleHammer BH-3D",
 		"Id": "mechdef_battlehammer_BH3D",
 		"Name": "BattleHammer",
-		"Details": "Pafftek Industries, trying to reduce the cost of the exceptional Battlehammer, made an All innersphere tech version of the Battlehammer.  An all Innersphere tech upgrade to the rather basic BH-2D, the -3D is equiped with Ultra Autocannon/10s and Ferro Fiberous armor equiped with the advanced CASE II system.   While two of the four origional Medium lasers were sacraficed for this upgrade, the other two were upgraded to ER models.  The -3D is available to most houses of the Innersphere, Comstar, WOB and mercenaries need not apply to purchase.",
+		"Details": "Pafftek Industries, trying to reduce the cost of the exceptional Battlehammer, made an All innersphere tech version of the Battlehammer.  As an all Innersphere tech upgrade to the rather basic BH-2D, the -3D is equiped with Ultra Autocannon/10s and Ferro Fiberous armor equiped with the advanced CASE II system.   While two of the four origional Medium lasers were sacraficed for this upgrade, the other two were upgraded to ER models.  The -3D is available to most houses of the Innersphere, Comstar, WOB and mercenaries need not apply to purchase.",
 		"Icon": "uixTxrIcon_battlemaster"
 	},
 	"simGameMechPartCost": 1130000,
