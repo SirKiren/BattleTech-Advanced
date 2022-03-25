@@ -1,0 +1,13 @@
+16:45:08.067 Assembly version: 0.3.1.0
+16:45:08.067 ModDir is:D:\Steam\steamapps\common\BATTLETECH\Mods\MonsterMashup
+16:45:08.067 mod.json settings are:({"Debug":true,"Trace":false,"DeveloperOptions":{"EnableFootprintVis":false,"DebugDamageLocationKillsLinkedTurrets":true}})
+16:45:08.068 === MOD CONFIG BEGIN ===
+16:45:08.068   Debug: True Trace: False
+16:45:08.068   LinkChildInitiative: True
+16:45:08.068 
+16:45:08.068  -- Developer Options --
+16:45:08.068  EnableFootprintVisualization: False
+16:45:08.068  DebugDamageLocationKillsLinkedTurrets: True
+16:45:08.068 === MOD CONFIG END ===
+16:45:08.068 INFO: No errors reading settings file.
+16:45:46.486 Invoking FinishedLoading

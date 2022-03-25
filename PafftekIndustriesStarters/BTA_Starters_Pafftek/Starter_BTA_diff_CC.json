@@ -5,19 +5,24 @@
 		"Action": "ArrayAdd",
 		"Value": {
 			"ID": "diff_CC",
-			"Name": "Dustball",
+			"Name": "Community",
 			"TelemetryEventDesc": "",
 			"DifficultyValue": 0,
 			"CareerScoreModifier": 0.3,
 			"DifficultyConstants": [{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingSystems",
-					"ConstantValue": "MacksDustball"
+					"ConstantValue": "AstralAustralis"
 				},
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
 					"ConstantValue": "itemCollection_Mechs_Hollander,itemCollection_Mechs_Wolfhound,itemCollection_Mechs_Generic_BattleArmor"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "AuriganPirates:40"
 				}
 			]
 		}

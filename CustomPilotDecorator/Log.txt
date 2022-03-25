@@ -1,0 +1,65 @@
+[12:45:04.668]Initing... D:\Steam\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.2
+flush
+flush
+flush
+flush
+[12:45:46.293]FinishedLoading
+[12:45:46.293]customResource:PilotDecorationDef
+ D:\Steam\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_mech.json
+ id:pilotdecorationdef_can_drive_mech
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_mech",
+    "Name": "CAN DRIVE MECHS",
+    "Details": "This pilot can drive mechs of all types",
+    "Icon": "missile-mech"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "can_pilot_generic_mech"
+  ],
+  "shouldNotHaveTags": []
+}
+ D:\Steam\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_vehicle.json
+ id:pilotdecorationdef_can_drive_vehicle
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_vehicle",
+    "Name": "CAN DRIVE VEHICLES",
+    "Details": "This pilot can drive vehicles of all types",
+    "Icon": "tank"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "can_pilot_generic_vehicle"
+  ],
+  "shouldNotHaveTags": []
+}
+ D:\Steam\steamapps\common\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_test.json
+ id:pilotdecorationdef_test
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_test",
+    "Name": "SOME RANDOM ICON",
+    "Details": "Some random description",
+    "Icon": "test_icon"
+  },
+  "Type": 0,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "testingtag"
+  ],
+  "shouldNotHaveTags": []
+}
+[12:45:50.312]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_shadowhawk:D:\Steam\steamapps\common\BATTLETECH\Mods\BT Advanced Mechs\portraits\uixTxrIcon_shadowhawk.dds isGIF:False
+[12:45:53.450]PilotDef.GatherDependencies pilot_default
+[12:45:53.450]PilotDecorationDefHelper.getDecorations pilot_default:
+ tags: BLACKLISTED sample pilot_bracket_low pilot_bracket_mid pilot_bracket_high can_pilot_generic_mech
+ pilotdecorationdef_can_drive_mech
+[12:45:53.517]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_spider:D:\Steam\steamapps\common\BATTLETECH\Mods\BT Advanced Mechs\portraits\uixTxrIcon_spider.dds isGIF:False
+flush

@@ -190,7 +190,9 @@
 	],
 	"VariantName": "TLN-5W-EC",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Scout & Disabler",

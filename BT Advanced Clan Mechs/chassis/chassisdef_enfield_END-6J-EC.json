@@ -203,7 +203,9 @@
 	],
 	"VariantName": "END-6J-EC",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Fire Support & Skirmisher",

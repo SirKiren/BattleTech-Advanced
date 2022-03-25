@@ -1,0 +1,11 @@
+INFO: 2022-03-25T16:44:57 - Initializing us.tbone.CollateralDamage - Version 1.0.0.6
+INFO: 2022-03-25T16:44:57 - EmployerPlanetsOnly: True
+INFO: 2022-03-25T16:44:57 - SupportOrAllyCosts: False
+INFO: 2022-03-25T16:44:57 - SizeFactor: 2.5
+INFO: 2022-03-25T16:44:57 - FlatRate: 10000
+INFO: 2022-03-25T16:44:57 - ContractPayFactorDmg: 0.1
+INFO: 2022-03-25T16:44:57 - PublicNuisanceDamageOffset: 1
+INFO: 2022-03-25T16:44:57 - CollateralDamageObjectiveChance: 1
+INFO: 2022-03-25T16:44:57 - ContractPayFactorBonus: 0.2
+INFO: 2022-03-25T16:44:57 - CDThresholdMin: 1
+INFO: 2022-03-25T16:44:57 - CDThresholdMax: 3

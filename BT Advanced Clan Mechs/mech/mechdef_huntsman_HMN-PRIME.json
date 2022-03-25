@@ -8,9 +8,6 @@
 			"unit_role_brawler",
 			"unit_release",
 			"unit_indirectFire",
-			"ClanWolf",
-			"ClanJadeFalcon",
-			"ClanGhostBear",
 			"ClanNovaCat",
 			"ClanDiamondShark",
 			"unit_notsacellum",
@@ -111,7 +108,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
+			"ComponentDefID": "Gear_FCS_Clan_ARTEMISIV",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

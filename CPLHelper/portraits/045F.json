@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "045F",
+        "Name" : "045F",
+        "Details" : "Random",
+        "Icon" : "045F"
+    },
+    "ID" : "045F",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 6,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 14,
+    "lightRig" : 2,
+    "cameraPosition" : 3,
+    "complexionTex" : 2,
+    "eyebrowTex" : 0,
+    "tattooTex" : 0,
+    "actualTattooTex" : 17,
+    "weights" : [
+        49.92675,
+        6.664726,
+        23.41434,
+        17.95903,
+        0.4186065,
+        1.616539
+    ],
+    "browOffsetY" : 0.001172451,
+    "browOffsetZ" : 0.000145872,
+    "noseBridgeScale" : -0.1551102,
+    "noseTipScale" : -0.2373645,
+    "chinScale" : 0.1105014,
+    "cheekOffsetY" : -0.0028087,
+    "eyeWidth" : 0.03027433,
+    "jawWidth" : -0.009312022,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

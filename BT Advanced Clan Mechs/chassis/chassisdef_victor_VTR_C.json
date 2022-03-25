@@ -206,7 +206,9 @@
 	],
 	"VariantName": "VTR C",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Cavalry",

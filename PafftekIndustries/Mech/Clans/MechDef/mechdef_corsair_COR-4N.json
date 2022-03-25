@@ -371,7 +371,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_FCS_Autocannon",
+			"ComponentDefID": "Gear_Cockpit_FightingHawk600",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

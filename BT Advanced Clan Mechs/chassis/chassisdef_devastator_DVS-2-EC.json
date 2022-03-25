@@ -218,7 +218,9 @@
 	],
 	"VariantName": "DVS-2-EC",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Steel Wall",

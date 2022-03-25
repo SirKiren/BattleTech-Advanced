@@ -208,7 +208,9 @@
 	],
 	"VariantName": "VQ-1S",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Symbolism In Motion",

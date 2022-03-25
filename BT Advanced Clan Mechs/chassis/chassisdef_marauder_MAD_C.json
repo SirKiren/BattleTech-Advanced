@@ -213,7 +213,9 @@
 	],
 	"VariantName": "MAD C",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Sniper & Ranged Assault",

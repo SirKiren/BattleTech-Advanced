@@ -219,7 +219,9 @@
 	],
 	"VariantName": "COR-8R",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"PirateMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Frankenmech",

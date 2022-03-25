@@ -106,7 +106,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TTS_AdvancedTC",
+			"ComponentDefID": "Gear_FCS_AdvancedTC_Clan",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

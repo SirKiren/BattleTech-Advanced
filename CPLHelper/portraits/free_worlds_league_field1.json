@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "free_worlds_league_field1",
+        "Name" : "free_worlds_league_field1",
+        "Details" : "Random",
+        "Icon" : "free_worlds_league_field1"
+    },
+    "ID" : "free_worlds_league_field1",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 1,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 9,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 0,
+    "eyebrowTex" : 0,
+    "tattooTex" : 10,
+    "actualTattooTex" : 15,
+    "weights" : [
+        23.87775,
+        39.74765,
+        8.388752,
+        1.11141,
+        0.01774607,
+        26.85669
+    ],
+    "browOffsetY" : -0.002289554,
+    "browOffsetZ" : 0.003725361,
+    "noseBridgeScale" : 0.02964666,
+    "noseTipScale" : 0.1912463,
+    "chinScale" : 0.1873696,
+    "cheekOffsetY" : 0.0004441052,
+    "eyeWidth" : 0.00258773,
+    "jawWidth" : -0.0526243,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

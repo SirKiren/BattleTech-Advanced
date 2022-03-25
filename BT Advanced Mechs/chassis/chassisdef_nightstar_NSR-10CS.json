@@ -211,9 +211,9 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_C3_Master",
+			"ComponentDefID": "Weapon_C3_Master",
 			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
+			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",

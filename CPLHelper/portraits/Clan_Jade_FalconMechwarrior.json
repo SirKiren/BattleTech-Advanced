@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Clan_Jade_FalconMechwarrior",
+        "Name" : "Clan_Jade_FalconMechwarrior",
+        "Details" : "Random",
+        "Icon" : "Clan_Jade_FalconMechwarrior"
+    },
+    "ID" : "Clan_Jade_FalconMechwarrior",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 1,
+    "eyebrowTex" : 1,
+    "tattooTex" : 8,
+    "actualTattooTex" : 0,
+    "weights" : [
+        20.19495,
+        5.28823,
+        5.214895,
+        9.418927,
+        27.88459,
+        31.99841
+    ],
+    "browOffsetY" : 0.006858629,
+    "browOffsetZ" : 0.00442405,
+    "noseBridgeScale" : 0.1508203,
+    "noseTipScale" : 0.0294572,
+    "chinScale" : 0.04673273,
+    "cheekOffsetY" : 0.001722605,
+    "eyeWidth" : 0.001314431,
+    "jawWidth" : -0.07987614,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_02",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

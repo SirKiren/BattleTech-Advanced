@@ -23,22 +23,6 @@
 		{
 			"Type": "HeatSinkDef",
 			"Path": "heatsink"
-		},
-		{
-			"Type": "UpgradeDef",
-			"Path": "lootable/Internals"
-		},
-		{
-			"Type": "UpgradeDef",
-			"Path": "lootable/Actuators"
-		},
-		{
-			"Type": "HeatSinkDef",
-			"Path": "lootable/Engines"
-		},
-		{
-			"Type": "UpgradeDef",
-			"Path": "ChassisDefaults"
 		}
 	]
 }

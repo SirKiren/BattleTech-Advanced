@@ -9,6 +9,8 @@
 			"ClanWolf",
 			"ClanGhostBear",
 			"ClanJadeFalcon",
+			"ClanNovaCat",
+			"ClanDiamondShark",
 			"unit_notsacellum"
 		],
 		"tagSetSourceFile": ""
@@ -181,7 +183,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
+			"ComponentDefID": "Gear_FCS_Clan_ARTEMISIV",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

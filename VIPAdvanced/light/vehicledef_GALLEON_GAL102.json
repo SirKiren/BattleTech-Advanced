@@ -159,6 +159,13 @@
 			"DamageLevel": "Functional"
 		},
 		{
+		  "MountedLocation": "Front",
+		  "ComponentDefID": "Tank_Sensors_Generic",
+		  "ComponentDefType": "Upgrade",
+		  "HardpointSlot": -1,
+		  "DamageLevel": "Functional"
+		},
+		{
 			"MountedLocation": "Left",
 			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
 			"ComponentDefType": "HeatSink",

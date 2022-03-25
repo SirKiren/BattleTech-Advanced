@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "026M",
+        "Name" : "026M",
+        "Details" : "Random",
+        "Icon" : "026M"
+    },
+    "ID" : "026M",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 2,
+    "complexionTex" : 2,
+    "eyebrowTex" : 4,
+    "tattooTex" : 5,
+    "actualTattooTex" : 0,
+    "weights" : [
+        71.17916,
+        0.2935892,
+        0.04481972,
+        0.006820753,
+        0.00805547,
+        28.46755
+    ],
+    "browOffsetY" : 0.005063279,
+    "browOffsetZ" : -0.006512933,
+    "noseBridgeScale" : -0.0003727674,
+    "noseTipScale" : -0.01776341,
+    "chinScale" : 0.1652854,
+    "cheekOffsetY" : -0.0003489441,
+    "eyeWidth" : -0.0296991,
+    "jawWidth" : -0.004286683,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

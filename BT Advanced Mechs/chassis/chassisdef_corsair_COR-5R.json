@@ -212,7 +212,9 @@
 	],
 	"VariantName": "COR-5R",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"PirateMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Frankenmech",

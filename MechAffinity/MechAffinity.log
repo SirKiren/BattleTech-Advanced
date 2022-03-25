@@ -1,574 +1,79 @@
-INFO: 2022-03-19T15:15:52 - customResource:AffinitiesDef
-INFO: 2022-03-19T15:15:52 - chassisAffinities:20
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id
-INFO: 2022-03-19T15:15:52 -   level:Zippy
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_0
-INFO: 2022-03-19T15:15:52 -   level:Evasive
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_1
-INFO: 2022-03-19T15:15:52 -   level:Nimble
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_2
-INFO: 2022-03-19T15:15:52 -   level:Encouraging
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_3
-INFO: 2022-03-19T15:15:52 -   level:Precise_Shot
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_4
-INFO: 2022-03-19T15:15:52 -   level:Keen-Eyed
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_5
-INFO: 2022-03-19T15:15:52 -   level:Agile
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_6
-INFO: 2022-03-19T15:15:52 -   level:Sturdy
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_7
-INFO: 2022-03-19T15:15:52 -   level:Cool-Running
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_8
-INFO: 2022-03-19T15:15:52 -   level:Ice_Cold
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_9
-INFO: 2022-03-19T15:15:52 -   level:Resistant
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_10
-INFO: 2022-03-19T15:15:52 -   level:Unlimited_Power
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_11
-INFO: 2022-03-19T15:15:52 -   level:Brawler
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_12
-INFO: 2022-03-19T15:15:52 -   level:Command_Unit
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_13
-INFO: 2022-03-19T15:15:52 -   level:Stabilized
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_14
-INFO: 2022-03-19T15:15:52 -   level:Sharpshooter
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_15
-INFO: 2022-03-19T15:15:52 -   level:Long-Range_Specialist
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_16
-INFO: 2022-03-19T15:15:52 -   level:Goomba_Stomper
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_17
-INFO: 2022-03-19T15:15:52 -   level:Squirrelly_Bastard
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_18
-INFO: 2022-03-19T15:15:52 -   level:Armor_Block
-INFO: 2022-03-19T15:15:52 - taggedAffinities:16
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_19
-INFO: 2022-03-19T15:15:52 -   level:Speed_King
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_20
-INFO: 2022-03-19T15:15:52 -   level:Too_Angry_to_Die
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_21
-INFO: 2022-03-19T15:15:52 -   level:Choppy_Choppy
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_22
-INFO: 2022-03-19T15:15:52 -   level:Warfighter
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_23
-INFO: 2022-03-19T15:15:52 -   level:Beats_By_Crab
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_24
-INFO: 2022-03-19T15:15:52 -   level:Shield_of_Faith
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_25
-INFO: 2022-03-19T15:15:52 -   level:Radar_Jammer
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_26
-INFO: 2022-03-19T15:15:52 -   level:Little_Purple_Tank
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_27
-INFO: 2022-03-19T15:15:52 -   level:Foundation's_Edge
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_28
-INFO: 2022-03-19T15:15:52 -   level:Wizard_of_Camelot
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_29
-INFO: 2022-03-19T15:15:52 -   level:On_the_Wings_of_Angels
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_30
-INFO: 2022-03-19T15:15:52 -   level:Bring_Your_Pretty_Face_To_My_Axe
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_31
-INFO: 2022-03-19T15:15:52 -   level:Make_It_Rain
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_32
-INFO: 2022-03-19T15:15:52 -   level:Can't_Break_Me
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_33
-INFO: 2022-03-19T15:15:52 -   level:Minimizer
-INFO: 2022-03-19T15:15:52 -  id:please_fill_it_with_some_unique_id_34
-INFO: 2022-03-19T15:15:52 -   level:Battle_Brother
-INFO: 2022-03-19T15:15:52 - quirkAffinities:0
-INFO: 2022-03-19T15:15:52 - globalAffinities:2
-INFO: 2022-03-19T15:15:52 -  id:Comfortable_(5)
-INFO: 2022-03-19T15:15:52 -  id:Attuned_(10)
-INFO: 2022-03-19T15:16:51 - finding mechdef affinity descriptor for Monster LAM Omni MNST-3R-LAM-PRIME
-DEBUG: 2022-03-19T15:16:51 - Found prefab: MonsterLamOmni_150
-DEBUG: 2022-03-19T15:16:51 - adding chassis affinity descriptor for Precise Shot
-INFO: 2022-03-19T15:16:51 - finding mechdef affinity descriptor for Annihilator ANH-2A
-DEBUG: 2022-03-19T15:16:51 - Found prefab: chrPrfMech_annihilatorBase-001_100
-DEBUG: 2022-03-19T15:16:51 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:16:52 - finding mechdef affinity descriptor for Annihilator ANH_1G
-DEBUG: 2022-03-19T15:16:52 - Found prefab: chrPrfMech_annihilatorBase-001_100
-DEBUG: 2022-03-19T15:16:52 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:16:53 - finding mechdef affinity descriptor for Archangel C-ANG-Deicio
-DEBUG: 2022-03-19T15:16:53 - Found prefab: chrprfmech_archangelbase-001_100
-INFO: 2022-03-19T15:16:54 - finding mechdef affinity descriptor for Atlas II AS7-D-H
-DEBUG: 2022-03-19T15:16:54 - Found prefab: chrPrfMech_atlasBase-001_100
-DEBUG: 2022-03-19T15:16:54 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:16:54 - finding mechdef affinity descriptor for Bane BNE-1
-DEBUG: 2022-03-19T15:16:54 - Found prefab: chrprfmech_ionbanebase-001_100
-DEBUG: 2022-03-19T15:16:54 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:16:54 - finding mechdef affinity descriptor for Bane BNE-3
-DEBUG: 2022-03-19T15:16:54 - Found prefab: chrprfmech_ionbanebase-001_100
-DEBUG: 2022-03-19T15:16:54 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:16:54 - finding mechdef affinity descriptor for Devastator DVS-3
-DEBUG: 2022-03-19T15:16:54 - Found prefab: chrprfmech_masondevbase-001_100
-DEBUG: 2022-03-19T15:16:54 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:16:55 - finding mechdef affinity descriptor for Dire Wolf DW-A
-DEBUG: 2022-03-19T15:16:55 - Found prefab: DireWolf_100
-DEBUG: 2022-03-19T15:16:55 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:16:55 - finding mechdef affinity descriptor for Dire Wolf DW-Prime
-DEBUG: 2022-03-19T15:16:55 - Found prefab: DireWolf_100
-DEBUG: 2022-03-19T15:16:55 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:16:56 - finding mechdef affinity descriptor for Grand Titan T-IT-N10M
-DEBUG: 2022-03-19T15:16:56 - Found prefab: chrprfmech_grandtitanbase-001_100
-DEBUG: 2022-03-19T15:16:56 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:16:56 - finding mechdef affinity descriptor for Imp IMP-1X
-DEBUG: 2022-03-19T15:16:56 - Found prefab: chrprfmech_impbase-001_100
-DEBUG: 2022-03-19T15:16:56 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:16:57 - finding mechdef affinity descriptor for Kaiju KGC-KJ
-DEBUG: 2022-03-19T15:16:57 - Found prefab: chrPrfMech_kingcrabBase-001_100
-DEBUG: 2022-03-19T15:16:57 - adding chassis affinity descriptor for Precise Shot
-INFO: 2022-03-19T15:16:58 - finding mechdef affinity descriptor for King Crab KGC-001
-DEBUG: 2022-03-19T15:16:58 - Found prefab: chrPrfMech_kingcrabBase-001_100
-DEBUG: 2022-03-19T15:16:58 - adding chassis affinity descriptor for Precise Shot
-INFO: 2022-03-19T15:16:59 - finding mechdef affinity descriptor for Mackie MSK-9F
-DEBUG: 2022-03-19T15:16:59 - Found prefab: chrprfmech_mackiebase-001_100
-DEBUG: 2022-03-19T15:16:59 - adding chassis affinity descriptor for Encouraging
-INFO: 2022-03-19T15:17:00 - finding mechdef affinity descriptor for Mackie MSK-11R
-DEBUG: 2022-03-19T15:17:00 - Found prefab: chrprfmech_mackiebase-001_100
-DEBUG: 2022-03-19T15:17:00 - adding chassis affinity descriptor for Encouraging
-INFO: 2022-03-19T15:17:00 - finding mechdef affinity descriptor for Primitive Mackie MSK-5S
-DEBUG: 2022-03-19T15:17:00 - Found prefab: chrprfmech_mackiebase-001_100
-DEBUG: 2022-03-19T15:17:00 - adding chassis affinity descriptor for Encouraging
-INFO: 2022-03-19T15:17:01 - finding mechdef affinity descriptor for Marauder II MAD-5C
-DEBUG: 2022-03-19T15:17:01 - Found prefab: chrprfmech_marauderiibase-001_100
-DEBUG: 2022-03-19T15:17:01 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:17:03 - finding mechdef affinity descriptor for Marauder II MAD-5JK
-DEBUG: 2022-03-19T15:17:03 - Found prefab: chrprfmech_marauderiibase-001_100
-DEBUG: 2022-03-19T15:17:03 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:17:33 - finding mechdef affinity descriptor for Mackie MSK-10J
-DEBUG: 2022-03-19T15:17:33 - Found prefab: chrprfmech_mackiebase-001_100
-DEBUG: 2022-03-19T15:17:33 - adding chassis affinity descriptor for Encouraging
-INFO: 2022-03-19T15:17:33 - finding mechdef affinity descriptor for Primitive Mackie MSK-5S
-DEBUG: 2022-03-19T15:17:33 - Found prefab: chrprfmech_mackiebase-001_100
-DEBUG: 2022-03-19T15:17:33 - adding chassis affinity descriptor for Encouraging
-INFO: 2022-03-19T15:17:34 - finding mechdef affinity descriptor for Marauder II MAD-5C
-DEBUG: 2022-03-19T15:17:34 - Found prefab: chrprfmech_marauderiibase-001_100
-DEBUG: 2022-03-19T15:17:34 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:17:34 - finding mechdef affinity descriptor for Marauder II MAD-5B
-DEBUG: 2022-03-19T15:17:34 - Found prefab: chrprfmech_marauderiibase-001_100
-DEBUG: 2022-03-19T15:17:34 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:17:35 - finding mechdef affinity descriptor for Ragnarok RGNK-2
-DEBUG: 2022-03-19T15:17:35 - Found prefab: chrprfmech_summonerbase-001_100
-DEBUG: 2022-03-19T15:17:35 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:17:36 - finding mechdef affinity descriptor for Stone Rhino STR-6
-DEBUG: 2022-03-19T15:17:36 - Found prefab: chrprfmech_stonerhinobase-001_100
-DEBUG: 2022-03-19T15:17:36 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:17:37 - finding mechdef affinity descriptor for The Boar's Head AS7-BH
-DEBUG: 2022-03-19T15:17:37 - Found prefab: chrPrfMech_atlasBase-001_100
-DEBUG: 2022-03-19T15:17:37 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:17:37 - finding mechdef affinity descriptor for Titan TI-1G
-DEBUG: 2022-03-19T15:17:37 - Found prefab: chrprfmech_titaniibase-001_100
-DEBUG: 2022-03-19T15:17:37 - adding chassis affinity descriptor for Resistant
-INFO: 2022-03-19T15:17:38 - finding mechdef affinity descriptor for Ultraviolet DW-UV
-DEBUG: 2022-03-19T15:17:38 - Found prefab: DireWolf_100
-DEBUG: 2022-03-19T15:17:38 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:17:39 - finding mechdef affinity descriptor for Alacorn Mk.VI
-DEBUG: 2022-03-19T15:17:39 - Found prefab: chrprfvhcl_iralacorn_95
-INFO: 2022-03-19T15:17:40 - finding mechdef affinity descriptor for Banshee BNC-6S
-DEBUG: 2022-03-19T15:17:40 - Found prefab: chrPrfMech_bansheeBase-001_95
-DEBUG: 2022-03-19T15:17:40 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:17:41 - finding mechdef affinity descriptor for Banshee BNC-SB
-DEBUG: 2022-03-19T15:17:41 - Found prefab: chrPrfMech_bansheeBase-001_95
-DEBUG: 2022-03-19T15:17:41 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:17:41 - finding mechdef affinity descriptor for Bull Shark BSK-M4
-DEBUG: 2022-03-19T15:17:41 - Found prefab: chrPrfMech_bullsharkBase-001_95
-DEBUG: 2022-03-19T15:17:41 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:17:43 - finding mechdef affinity descriptor for Corsair COR-8R
-DEBUG: 2022-03-19T15:17:43 - Found prefab: Corsair_95
-DEBUG: 2022-03-19T15:17:43 - adding chassis affinity descriptor for Resistant
-INFO: 2022-03-19T15:17:43 - finding mechdef affinity descriptor for Corsair COR-7A2
-DEBUG: 2022-03-19T15:17:43 - Found prefab: Corsair_95
-DEBUG: 2022-03-19T15:17:43 - adding chassis affinity descriptor for Resistant
-INFO: 2022-03-19T15:17:43 - finding mechdef affinity descriptor for Executioner EXE-E
-DEBUG: 2022-03-19T15:17:43 - Found prefab: chrprfmech_executionerbase-001_95
-DEBUG: 2022-03-19T15:17:43 - adding chassis affinity descriptor for Nimble
-INFO: 2022-03-19T15:17:44 - finding mechdef affinity descriptor for Johanne HA1-JO
-DEBUG: 2022-03-19T15:17:44 - Found prefab: chrPrfMech_hauptmannbase-001_95
-DEBUG: 2022-03-19T15:17:44 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:17:45 - finding mechdef affinity descriptor for Nightstar NSR-9J
-DEBUG: 2022-03-19T15:17:45 - Found prefab: chrprfmech_nightstarbase-001_95
-DEBUG: 2022-03-19T15:17:45 - adding chassis affinity descriptor for Long-Range Specialist
-INFO: 2022-03-19T15:17:45 - finding mechdef affinity descriptor for Ravager COR-RA
-DEBUG: 2022-03-19T15:17:45 - Found prefab: Corsair_95
-DEBUG: 2022-03-19T15:17:45 - adding chassis affinity descriptor for Resistant
-INFO: 2022-03-19T15:17:46 - finding mechdef affinity descriptor for Sorcerer SRC-2K
-DEBUG: 2022-03-19T15:17:46 - Found prefab: chrprfmech_sorcererbase-001_95
-DEBUG: 2022-03-19T15:17:46 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:17:47 - finding mechdef affinity descriptor for Puma PAT-005
-DEBUG: 2022-03-19T15:17:47 - Found prefab: chrprfvhcl_puma_95
-INFO: 2022-03-19T15:17:50 - finding mechdef affinity descriptor for Turkina TRK-H
-DEBUG: 2022-03-19T15:17:50 - Found prefab: chrprfmech_turkinabase-001_95
-DEBUG: 2022-03-19T15:17:50 - adding chassis affinity descriptor for Goomba Stomper
-INFO: 2022-03-19T15:17:51 - finding mechdef affinity descriptor for Sorcerer SRC-2K
-DEBUG: 2022-03-19T15:17:51 - Found prefab: chrprfmech_sorcererbase-001_95
-DEBUG: 2022-03-19T15:17:51 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:17:52 - finding mechdef affinity descriptor for Ravager COR-RA
-DEBUG: 2022-03-19T15:17:52 - Found prefab: Corsair_95
-DEBUG: 2022-03-19T15:17:52 - adding chassis affinity descriptor for Resistant
-INFO: 2022-03-19T15:17:53 - finding mechdef affinity descriptor for Sorcerer SRC-2K
-DEBUG: 2022-03-19T15:17:53 - Found prefab: chrprfmech_sorcererbase-001_95
-DEBUG: 2022-03-19T15:17:53 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:17:54 - finding mechdef affinity descriptor for Turkina TRK-H
-DEBUG: 2022-03-19T15:17:54 - Found prefab: chrprfmech_turkinabase-001_95
-DEBUG: 2022-03-19T15:17:54 - adding chassis affinity descriptor for Goomba Stomper
-INFO: 2022-03-19T15:17:55 - finding mechdef affinity descriptor for Turkina TRK-D
-DEBUG: 2022-03-19T15:17:55 - Found prefab: chrprfmech_turkinabase-001_95
-DEBUG: 2022-03-19T15:17:55 - adding chassis affinity descriptor for Goomba Stomper
-INFO: 2022-03-19T15:17:57 - finding mechdef affinity descriptor for Blood Asp BAS-Prime
-DEBUG: 2022-03-19T15:17:57 - Found prefab: chrprfmech_bloodaspbase-001_90
-DEBUG: 2022-03-19T15:17:57 - adding chassis affinity descriptor for Agile
-INFO: 2022-03-19T15:17:58 - finding mechdef affinity descriptor for Cyclops CP-13-M
-DEBUG: 2022-03-19T15:17:58 - Found prefab: chrPrfMech_cyclopsBase-001_90
-DEBUG: 2022-03-19T15:17:58 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:17:59 - finding mechdef affinity descriptor for Cyclops CP-10-Q
-DEBUG: 2022-03-19T15:17:59 - Found prefab: chrPrfMech_cyclopsBase-001_90
-DEBUG: 2022-03-19T15:17:59 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:17:59 - finding mechdef affinity descriptor for Emperor EMP-6A-EC
-DEBUG: 2022-03-19T15:17:59 - Found prefab: chrprfmech_emperorbase-001_90
-DEBUG: 2022-03-19T15:17:59 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:18:00 - finding mechdef affinity descriptor for Primitive Emperor EMP-1A
-DEBUG: 2022-03-19T15:18:00 - Found prefab: chrprfmech_emperorbase-001_90
-DEBUG: 2022-03-19T15:18:00 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:18:01 - finding mechdef affinity descriptor for Highlander HGN-694
-DEBUG: 2022-03-19T15:18:01 - Found prefab: Highlander_90
-DEBUG: 2022-03-19T15:18:01 - adding chassis affinity descriptor for Goomba Stomper
-INFO: 2022-03-19T15:18:01 - finding mechdef affinity descriptor for Highlander HGN-736
-DEBUG: 2022-03-19T15:18:01 - Found prefab: Highlander_90
-DEBUG: 2022-03-19T15:18:01 - adding chassis affinity descriptor for Goomba Stomper
-INFO: 2022-03-19T15:18:02 - finding mechdef affinity descriptor for Juggernaut JG-R9T2
-DEBUG: 2022-03-19T15:18:02 - Found prefab: chrprfmech_juggernautbase-001_90
-DEBUG: 2022-03-19T15:18:02 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:18:03 - finding mechdef affinity descriptor for Kingfisher KNG-H
-DEBUG: 2022-03-19T15:18:03 - Found prefab: chrprfmech_ionkingfisherbase-001_90
-DEBUG: 2022-03-19T15:18:03 - adding chassis affinity descriptor for Resistant
-INFO: 2022-03-19T15:18:04 - finding mechdef affinity descriptor for Kingfisher KNG-Prime
-DEBUG: 2022-03-19T15:18:04 - Found prefab: chrprfmech_ionkingfisherbase-001_90
-DEBUG: 2022-03-19T15:18:04 - adding chassis affinity descriptor for Resistant
-INFO: 2022-03-19T15:18:05 - finding mechdef affinity descriptor for Mad Cat Mk II 1
-DEBUG: 2022-03-19T15:18:05 - Found prefab: chrprfmech_madcatmkiibase-001_90
-DEBUG: 2022-03-19T15:18:05 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:18:05 - finding mechdef affinity descriptor for Mauler MAL-3R
-DEBUG: 2022-03-19T15:18:05 - Found prefab: chrprfmech_maulerbase-001_90
-DEBUG: 2022-03-19T15:18:05 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:18:06 - finding mechdef affinity descriptor for Primitive Ymir BWP-X1
-DEBUG: 2022-03-19T15:18:06 - Found prefab: Ymir_90
-INFO: 2022-03-19T15:18:07 - finding mechdef affinity descriptor for Pulverizer PUL-4L
-DEBUG: 2022-03-19T15:18:07 - Found prefab: chrprfmech_pulverizerbase-001_90
-DEBUG: 2022-03-19T15:18:07 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:18:07 - finding mechdef affinity descriptor for Sunder SD1-OC
-DEBUG: 2022-03-19T15:18:07 - Found prefab: chrprfmech_ionsunderbase-001_90
-DEBUG: 2022-03-19T15:18:07 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:18:08 - finding mechdef affinity descriptor for Supernova SNV-P
-DEBUG: 2022-03-19T15:18:08 - Found prefab: chrprfmech_supernovabase-001_90
-DEBUG: 2022-03-19T15:18:08 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:18:09 - finding mechdef affinity descriptor for Ymir BWP-3A
-DEBUG: 2022-03-19T15:18:09 - Found prefab: Ymir_90
-INFO: 2022-03-19T15:18:10 - finding mechdef affinity descriptor for BattleHammer BH-1A
-DEBUG: 2022-03-19T15:18:10 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:18:10 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:18:12 - finding mechdef affinity descriptor for BattleHammer BH-2D
-DEBUG: 2022-03-19T15:18:12 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:18:12 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:18:14 - finding mechdef affinity descriptor for BattleHammer BH-2D
-DEBUG: 2022-03-19T15:18:14 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:18:14 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:18:14 - finding mechdef affinity descriptor for BattleHammer BH-1A
-DEBUG: 2022-03-19T15:18:14 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:18:14 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:18:14 - finding mechdef affinity descriptor for BattleHammer BH-2G
-DEBUG: 2022-03-19T15:18:14 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:18:14 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:18:14 - finding mechdef affinity descriptor for BattleMaster BLR-1D
-DEBUG: 2022-03-19T15:18:14 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:18:14 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:18:15 - finding mechdef affinity descriptor for BattleMaster BLR-GSD
-DEBUG: 2022-03-19T15:18:15 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:18:15 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:18:15 - finding mechdef affinity descriptor for BattleMaster BLR-1D
-DEBUG: 2022-03-19T15:18:15 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:18:15 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:18:16 - finding mechdef affinity descriptor for BattleHammer BH-3D
-DEBUG: 2022-03-19T15:18:16 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:18:16 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:18:17 - finding mechdef affinity descriptor for BattleHammer BH-2G
-DEBUG: 2022-03-19T15:18:17 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:18:17 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:25:00 - finding mechdef affinity descriptor for BattleHammer BH-2D
-DEBUG: 2022-03-19T15:25:00 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:25:00 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:25:01 - finding mechdef affinity descriptor for BattleMaster BLR-4S
-DEBUG: 2022-03-19T15:25:01 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:25:01 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:25:01 - finding mechdef affinity descriptor for BattleMaster BLR-5K
-DEBUG: 2022-03-19T15:25:01 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:25:01 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:25:01 - finding mechdef affinity descriptor for BattleMaster BLR-4S
-DEBUG: 2022-03-19T15:25:01 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:25:01 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:25:02 - finding mechdef affinity descriptor for BattleHammer BH-2G
-DEBUG: 2022-03-19T15:25:02 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:25:02 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:25:03 - finding mechdef affinity descriptor for BattleMaster BLR-4S
-DEBUG: 2022-03-19T15:25:03 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:25:03 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:25:40 - finding mechdef affinity descriptor for Viking VKG-2M
-DEBUG: 2022-03-19T15:25:40 - Found prefab: chrprfmech_masonvikingbase-001_90
-DEBUG: 2022-03-19T15:25:40 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:25:40 - finding mechdef affinity descriptor for BattleHammer BH-2G
-DEBUG: 2022-03-19T15:25:40 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:25:40 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:25:41 - finding mechdef affinity descriptor for BattleMaster BLR-5K
-DEBUG: 2022-03-19T15:25:41 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:25:41 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:25:42 - finding mechdef affinity descriptor for BattleMaster BLR-1G-DC
-DEBUG: 2022-03-19T15:25:42 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:25:42 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:25:43 - finding mechdef affinity descriptor for Crockett CRK-5003-1
-DEBUG: 2022-03-19T15:25:43 - Found prefab: chrprfmech_crkbase-001_85
-DEBUG: 2022-03-19T15:25:43 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:25:44 - finding mechdef affinity descriptor for Hellslinger BLR-1GHE
-DEBUG: 2022-03-19T15:25:44 - Found prefab: chrPrfMech_battlemasterBase-001_85
-DEBUG: 2022-03-19T15:25:44 - adding chassis affinity descriptor for Command Unit
-INFO: 2022-03-19T15:25:45 - finding mechdef affinity descriptor for Longbow LGB-8Q
-DEBUG: 2022-03-19T15:25:45 - Found prefab: Longbow_85
-DEBUG: 2022-03-19T15:25:45 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:25:45 - finding mechdef affinity descriptor for Primitive Longbow LGB-0C
-DEBUG: 2022-03-19T15:25:45 - Found prefab: chrprfmech_ionlongbowbase-001_85
-INFO: 2022-03-19T15:25:46 - finding mechdef affinity descriptor for Osteon EON-1
-DEBUG: 2022-03-19T15:25:46 - Found prefab: chrprfmech_osteonbase-001_85
-DEBUG: 2022-03-19T15:25:46 - adding chassis affinity descriptor for Precise Shot
-INFO: 2022-03-19T15:25:47 - finding mechdef affinity descriptor for Seraph H-SER-O-DEICIO
-DEBUG: 2022-03-19T15:25:47 - Found prefab: chrprfmech_seraphbase-001_85
-DEBUG: 2022-03-19T15:25:47 - adding chassis affinity descriptor for Precise Shot
-INFO: 2022-03-19T15:25:48 - finding mechdef affinity descriptor for Stalker STK-6M
-DEBUG: 2022-03-19T15:25:48 - Found prefab: chrPrfMech_stalkerBase-001_85
-DEBUG: 2022-03-19T15:25:48 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:25:49 - finding mechdef affinity descriptor for Stalker STK-7L
-DEBUG: 2022-03-19T15:25:49 - Found prefab: chrPrfMech_stalkerBase-001_85
-DEBUG: 2022-03-19T15:25:49 - adding chassis affinity descriptor for Ice Cold
-INFO: 2022-03-19T15:25:49 - finding mechdef affinity descriptor for Templar TLR1-OS
-DEBUG: 2022-03-19T15:25:49 - Found prefab: chrprfmech_templarbase-001_85
-DEBUG: 2022-03-19T15:25:49 - adding chassis affinity descriptor for Unlimited Power
-INFO: 2022-03-19T15:25:50 - finding mechdef affinity descriptor for Warhawk WHK-A
-DEBUG: 2022-03-19T15:25:50 - Found prefab: chrprfmech_warhawkbase-001_85
-DEBUG: 2022-03-19T15:25:50 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:25:51 - finding mechdef affinity descriptor for Warhawk WHK-Prime
-DEBUG: 2022-03-19T15:25:51 - Found prefab: chrprfmech_warhawkbase-001_85
-DEBUG: 2022-03-19T15:25:51 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:25:51 - finding mechdef affinity descriptor for Awesome AWS-8T
-DEBUG: 2022-03-19T15:25:51 - Found prefab: chrPrfMech_awesomeBase-001_80
-DEBUG: 2022-03-19T15:25:51 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:25:53 - finding mechdef affinity descriptor for Charger CGR-1A9
-DEBUG: 2022-03-19T15:25:53 - Found prefab: chrprfmech_chargerhotd-001_80
-DEBUG: 2022-03-19T15:25:53 - adding chassis affinity descriptor for Agile
-INFO: 2022-03-19T15:25:53 - finding mechdef affinity descriptor for Devastator DVE-5B Mk.3
-DEBUG: 2022-03-19T15:25:53 - Found prefab: chrprfvhcl_devastatorbase_80
-INFO: 2022-03-19T15:25:54 - finding mechdef affinity descriptor for Gargoyle GAR-E
-DEBUG: 2022-03-19T15:25:54 - Found prefab: chrprfmech_gargoylebase-001_80
-DEBUG: 2022-03-19T15:25:54 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:25:55 - finding mechdef affinity descriptor for Gesen GOL-GS
-DEBUG: 2022-03-19T15:25:55 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:25:55 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:25:55 - finding mechdef affinity descriptor for Goliath GOL-5D
-DEBUG: 2022-03-19T15:25:55 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:25:55 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:25:56 - finding mechdef affinity descriptor for Hatamoto-Hi HTM-27U
-DEBUG: 2022-03-19T15:25:56 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:25:56 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:25:57 - finding mechdef affinity descriptor for Gesen GOL-GS
-DEBUG: 2022-03-19T15:25:57 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:25:57 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:26:00 - finding mechdef affinity descriptor for Goliath GOL-2H
-DEBUG: 2022-03-19T15:26:00 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:26:00 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:26:26 - finding mechdef affinity descriptor for Hatamoto-Hi HTM-27U
-DEBUG: 2022-03-19T15:26:26 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:26:26 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:26:27 - finding mechdef affinity descriptor for Goliath GOL-5D
-DEBUG: 2022-03-19T15:26:27 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:26:27 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:26:28 - finding mechdef affinity descriptor for Goliath GOL-4S
-DEBUG: 2022-03-19T15:26:28 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:26:28 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:26:29 - finding mechdef affinity descriptor for Goliath GOL-3M
-DEBUG: 2022-03-19T15:26:29 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:26:29 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:26:31 - finding mechdef affinity descriptor for Goliath GOL-5D
-DEBUG: 2022-03-19T15:26:31 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:26:31 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:26:31 - finding mechdef affinity descriptor for Hatamoto-Chi HTM-28T
-DEBUG: 2022-03-19T15:26:31 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:26:31 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:26:32 - finding mechdef affinity descriptor for Hatamoto-Chi HTM-28T
-DEBUG: 2022-03-19T15:26:32 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:26:32 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:26:33 - finding mechdef affinity descriptor for Hatamoto-Hi HTM-CM
-DEBUG: 2022-03-19T15:26:33 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:26:33 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:26:34 - finding mechdef affinity descriptor for Heavy Rifle Carrier
-DEBUG: 2022-03-19T15:26:34 - Found prefab: chrprfvhcl_carriertac20_80
-INFO: 2022-03-19T15:26:35 - finding mechdef affinity descriptor for Legacy LGC-01
-DEBUG: 2022-03-19T15:26:35 - Found prefab: chrprfmech_legacybase-001_80
-DEBUG: 2022-03-19T15:26:35 - adding chassis affinity descriptor for Nimble
-INFO: 2022-03-19T15:26:36 - finding mechdef affinity descriptor for Naga NGA-D
-DEBUG: 2022-03-19T15:26:36 - Found prefab: chrprfmech_nagabase-001_80
-DEBUG: 2022-03-19T15:26:36 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:26:37 - finding mechdef affinity descriptor for Naga NGA-A
-DEBUG: 2022-03-19T15:26:37 - Found prefab: chrprfmech_nagabase-001_80
-DEBUG: 2022-03-19T15:26:37 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:26:38 - finding mechdef affinity descriptor for Legacy LGC-02
-DEBUG: 2022-03-19T15:26:38 - Found prefab: chrprfmech_legacybase-001_80
-DEBUG: 2022-03-19T15:26:38 - adding chassis affinity descriptor for Nimble
-INFO: 2022-03-19T15:26:38 - finding mechdef affinity descriptor for Hector LAM HOR-5X
-DEBUG: 2022-03-19T15:26:38 - Found prefab: chrprfmech_hectorbase-001_80
-DEBUG: 2022-03-19T15:26:38 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:26:39 - finding mechdef affinity descriptor for Maul WHM-IIC-ML
-DEBUG: 2022-03-19T15:26:39 - Found prefab: chrprfmech_warhammeriicbase-001_80
-DEBUG: 2022-03-19T15:26:39 - adding chassis affinity descriptor for Encouraging
-INFO: 2022-03-19T15:26:40 - finding mechdef affinity descriptor for Naga NGA-C
-DEBUG: 2022-03-19T15:26:40 - Found prefab: chrprfmech_nagabase-001_80
-DEBUG: 2022-03-19T15:26:40 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:26:41 - finding mechdef affinity descriptor for Pretty Baby AWS-PB
-DEBUG: 2022-03-19T15:26:41 - Found prefab: chrPrfMech_awesomeBase-001_80
-DEBUG: 2022-03-19T15:26:41 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:26:41 - finding mechdef affinity descriptor for Pretty Baby AWS-PB
-DEBUG: 2022-03-19T15:26:41 - Found prefab: chrPrfMech_awesomeBase-001_80
-DEBUG: 2022-03-19T15:26:41 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:26:42 - finding mechdef affinity descriptor for Salamander PPR-5S
-DEBUG: 2022-03-19T15:26:42 - Found prefab: chrprfmech_salamanderbase-001_80
-DEBUG: 2022-03-19T15:26:42 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:26:44 - finding mechdef affinity descriptor for Schiltron Prime
-DEBUG: 2022-03-19T15:26:44 - Found prefab: chrprfvhcl_gurzilbase_80
-INFO: 2022-03-19T15:26:44 - finding mechdef affinity descriptor for Schiltron Prime
-DEBUG: 2022-03-19T15:26:44 - Found prefab: chrprfvhcl_gurzilbase_80
-INFO: 2022-03-19T15:26:46 - finding mechdef affinity descriptor for Thug THG-12E
-DEBUG: 2022-03-19T15:26:46 - Found prefab: chrPrfMech_thugBase-001_80
-DEBUG: 2022-03-19T15:26:46 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:26:48 - finding mechdef affinity descriptor for Schiltron Prime
-DEBUG: 2022-03-19T15:26:48 - Found prefab: chrprfvhcl_gurzilbase_80
-INFO: 2022-03-19T15:26:49 - finding mechdef affinity descriptor for Santa's Sled GOL-SS
-DEBUG: 2022-03-19T15:26:49 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:26:49 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:26:51 - finding mechdef affinity descriptor for Schiltron Prime
-DEBUG: 2022-03-19T15:26:51 - Found prefab: chrprfvhcl_gurzilbase_80
-INFO: 2022-03-19T15:26:52 - finding mechdef affinity descriptor for Schiltron Prime
-DEBUG: 2022-03-19T15:26:52 - Found prefab: chrprfvhcl_gurzilbase_80
-INFO: 2022-03-19T15:26:52 - finding mechdef affinity descriptor for Santa's Sled GOL-SS
-DEBUG: 2022-03-19T15:26:52 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:26:52 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:26:53 - finding mechdef affinity descriptor for Salamander PPR-6S
-DEBUG: 2022-03-19T15:26:53 - Found prefab: chrprfmech_salamanderbase-001_80
-DEBUG: 2022-03-19T15:26:53 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:26:53 - finding mechdef affinity descriptor for Skokomish
-DEBUG: 2022-03-19T15:26:53 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:26:53 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:26:54 - finding mechdef affinity descriptor for Skokomish
-DEBUG: 2022-03-19T15:26:54 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:26:54 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:26:54 - finding mechdef affinity descriptor for Thug THG-11C
-DEBUG: 2022-03-19T15:26:54 - Found prefab: chrPrfMech_thugBase-001_80
-DEBUG: 2022-03-19T15:26:54 - adding chassis affinity descriptor for Brawler
-INFO: 2022-03-19T15:26:55 - finding mechdef affinity descriptor for Victor VTR-9K
-DEBUG: 2022-03-19T15:26:55 - Found prefab: chrPrfMech_victorBase-001_80
-DEBUG: 2022-03-19T15:26:55 - adding chassis affinity descriptor for Agile
-INFO: 2022-03-19T15:26:55 - finding mechdef affinity descriptor for Victor VTR-9K
-DEBUG: 2022-03-19T15:26:55 - Found prefab: chrPrfMech_victorBase-001_80
-DEBUG: 2022-03-19T15:26:55 - adding chassis affinity descriptor for Agile
-INFO: 2022-03-19T15:26:56 - finding mechdef affinity descriptor for Victor VTR-9A
-DEBUG: 2022-03-19T15:26:56 - Found prefab: chrPrfMech_victorBase-001_80
-DEBUG: 2022-03-19T15:26:56 - adding chassis affinity descriptor for Agile
-INFO: 2022-03-19T15:26:57 - finding mechdef affinity descriptor for Warhammer IIC 1
-DEBUG: 2022-03-19T15:26:57 - Found prefab: chrprfmech_warhammeriicbase-001_80
-DEBUG: 2022-03-19T15:26:57 - adding chassis affinity descriptor for Encouraging
-INFO: 2022-03-19T15:26:58 - finding mechdef affinity descriptor for Zeus ZEU-6S
-DEBUG: 2022-03-19T15:26:58 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:26:58 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:26:59 - finding mechdef affinity descriptor for Zeus ZEU-9S2
-DEBUG: 2022-03-19T15:26:59 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:26:59 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:27:01 - finding mechdef affinity descriptor for Zeus ZEU-6S-DC
-DEBUG: 2022-03-19T15:27:01 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:27:01 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:27:01 - finding mechdef affinity descriptor for Zeus ZEU-6T
-DEBUG: 2022-03-19T15:27:01 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:27:01 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:27:02 - finding mechdef affinity descriptor for Zeus ZEU-X-X
-DEBUG: 2022-03-19T15:27:02 - Found prefab: chrprfmech_zeusxbase-001_80
-DEBUG: 2022-03-19T15:27:02 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:27:02 - finding mechdef affinity descriptor for Zeus ZEU-9S2
-DEBUG: 2022-03-19T15:27:02 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:27:02 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:27:03 - finding mechdef affinity descriptor for Zeus ZEU-6S
-DEBUG: 2022-03-19T15:27:03 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:27:03 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:27:03 - finding mechdef affinity descriptor for Victor VTR-9A
-DEBUG: 2022-03-19T15:27:03 - Found prefab: chrPrfMech_victorBase-001_80
-DEBUG: 2022-03-19T15:27:03 - adding chassis affinity descriptor for Agile
-INFO: 2022-03-19T15:27:04 - finding mechdef affinity descriptor for Victor VTR-9K
-DEBUG: 2022-03-19T15:27:04 - Found prefab: chrPrfMech_victorBase-001_80
-DEBUG: 2022-03-19T15:27:04 - adding chassis affinity descriptor for Agile
-INFO: 2022-03-19T15:27:04 - finding mechdef affinity descriptor for Skokomish
-DEBUG: 2022-03-19T15:27:04 - Found prefab: chrPrfMech_zeusBase-001_80
-DEBUG: 2022-03-19T15:27:04 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:27:04 - finding mechdef affinity descriptor for Salamander PPR-7S
-DEBUG: 2022-03-19T15:27:04 - Found prefab: chrprfmech_salamanderbase-001_80
-DEBUG: 2022-03-19T15:27:04 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:27:05 - finding mechdef affinity descriptor for Partisan Heavy Tank
-DEBUG: 2022-03-19T15:27:05 - Found prefab: chrprfvhcl_partisanbase_80
-INFO: 2022-03-19T15:27:05 - finding mechdef affinity descriptor for Naga NGA-D
-DEBUG: 2022-03-19T15:27:05 - Found prefab: chrprfmech_nagabase-001_80
-DEBUG: 2022-03-19T15:27:05 - adding chassis affinity descriptor for Keen-Eyed
-INFO: 2022-03-19T15:27:05 - finding mechdef affinity descriptor for Legacy LGC-01
-DEBUG: 2022-03-19T15:27:05 - Found prefab: chrprfmech_legacybase-001_80
-DEBUG: 2022-03-19T15:27:05 - adding chassis affinity descriptor for Nimble
-INFO: 2022-03-19T15:27:06 - finding mechdef affinity descriptor for Heavy Rifle Carrier
-DEBUG: 2022-03-19T15:27:06 - Found prefab: chrprfvhcl_carriertac20_80
-INFO: 2022-03-19T15:27:06 - finding mechdef affinity descriptor for Hatamoto-Hi HTM-CM
-DEBUG: 2022-03-19T15:27:06 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:27:06 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:27:06 - finding mechdef affinity descriptor for Hatamoto-Chi HTM-28T
-DEBUG: 2022-03-19T15:27:06 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:27:06 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:27:06 - finding mechdef affinity descriptor for Gesen GOL-GS
-DEBUG: 2022-03-19T15:27:06 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:27:06 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:27:07 - finding mechdef affinity descriptor for Goliath GOL-5D
-DEBUG: 2022-03-19T15:27:07 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:27:07 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:27:07 - finding mechdef affinity descriptor for Hatamoto-Hi HTM-C
-DEBUG: 2022-03-19T15:27:07 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:27:07 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:27:07 - finding mechdef affinity descriptor for Hatamoto-Chi HTM-31K
-DEBUG: 2022-03-19T15:27:07 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:27:07 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:29:31 - finding mechdef affinity descriptor for Goliath GOL-1H
-DEBUG: 2022-03-19T15:29:31 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:29:31 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:29:31 - finding mechdef affinity descriptor for Goliath GOL-2H
-DEBUG: 2022-03-19T15:29:31 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:29:31 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:29:59 - finding mechdef affinity descriptor for Hatamoto-Hi HTM-CM
-DEBUG: 2022-03-19T15:29:59 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:29:59 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:29:59 - finding mechdef affinity descriptor for Hatamoto-Chi HTM-28T
-DEBUG: 2022-03-19T15:29:59 - Found prefab: chrPrfMech_hatamotochiBase-001_80
-DEBUG: 2022-03-19T15:29:59 - adding chassis affinity descriptor for Sturdy
-INFO: 2022-03-19T15:30:00 - finding mechdef affinity descriptor for Gesen GOL-GS
-DEBUG: 2022-03-19T15:30:00 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:30:00 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:30:00 - finding mechdef affinity descriptor for Goliath GOL-1H
-DEBUG: 2022-03-19T15:30:00 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:30:00 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:30:23 - finding mechdef affinity descriptor for Gargoyle GAR-D
-DEBUG: 2022-03-19T15:30:23 - Found prefab: chrprfmech_gargoylebase-001_80
-DEBUG: 2022-03-19T15:30:23 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:30:23 - finding mechdef affinity descriptor for Gargoyle GAR-C
-DEBUG: 2022-03-19T15:30:23 - Found prefab: chrprfmech_gargoylebase-001_80
-DEBUG: 2022-03-19T15:30:23 - adding chassis affinity descriptor for Zippy
-INFO: 2022-03-19T15:30:24 - finding mechdef affinity descriptor for Goliath GOL-4S
-DEBUG: 2022-03-19T15:30:24 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:30:24 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:30:24 - finding mechdef affinity descriptor for Goliath GOL-5D
-DEBUG: 2022-03-19T15:30:24 - Found prefab: Goliath_80
-DEBUG: 2022-03-19T15:30:24 - adding chassis affinity descriptor for Stabilized
-INFO: 2022-03-19T15:31:34 - Tracker Stat: PqMechSkillTracker, value: 0
-INFO: 2022-03-19T15:31:34 - Tracker Stat: PqMedSkillTracker, value: 0
-INFO: 2022-03-19T15:31:34 - Tracker Stat: PqMoraleTracker, value: 0
+INFO: 2022-03-25T16:45:46 - customResource:AffinitiesDef
+INFO: 2022-03-25T16:45:46 - chassisAffinities:20
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id
+INFO: 2022-03-25T16:45:46 -   level:Zippy
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_0
+INFO: 2022-03-25T16:45:46 -   level:Evasive
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_1
+INFO: 2022-03-25T16:45:46 -   level:Nimble
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_2
+INFO: 2022-03-25T16:45:46 -   level:Encouraging
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_3
+INFO: 2022-03-25T16:45:46 -   level:Precise_Shot
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_4
+INFO: 2022-03-25T16:45:46 -   level:Keen-Eyed
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_5
+INFO: 2022-03-25T16:45:46 -   level:Agile
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_6
+INFO: 2022-03-25T16:45:46 -   level:Sturdy
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_7
+INFO: 2022-03-25T16:45:46 -   level:Cool-Running
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_8
+INFO: 2022-03-25T16:45:46 -   level:Ice_Cold
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_9
+INFO: 2022-03-25T16:45:46 -   level:Resistant
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_10
+INFO: 2022-03-25T16:45:46 -   level:Unlimited_Power
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_11
+INFO: 2022-03-25T16:45:46 -   level:Brawler
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_12
+INFO: 2022-03-25T16:45:46 -   level:Command_Unit
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_13
+INFO: 2022-03-25T16:45:46 -   level:Stabilized
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_14
+INFO: 2022-03-25T16:45:46 -   level:Sharpshooter
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_15
+INFO: 2022-03-25T16:45:46 -   level:Long-Range_Specialist
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_16
+INFO: 2022-03-25T16:45:46 -   level:Goomba_Stomper
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_17
+INFO: 2022-03-25T16:45:46 -   level:Squirrelly_Bastard
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_18
+INFO: 2022-03-25T16:45:46 -   level:Armor_Block
+INFO: 2022-03-25T16:45:46 - taggedAffinities:16
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_19
+INFO: 2022-03-25T16:45:46 -   level:Speed_King
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_20
+INFO: 2022-03-25T16:45:46 -   level:Too_Angry_to_Die
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_21
+INFO: 2022-03-25T16:45:46 -   level:Choppy_Choppy
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_22
+INFO: 2022-03-25T16:45:46 -   level:Warfighter
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_23
+INFO: 2022-03-25T16:45:46 -   level:Beats_By_Crab
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_24
+INFO: 2022-03-25T16:45:46 -   level:Shield_of_Faith
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_25
+INFO: 2022-03-25T16:45:46 -   level:Radar_Jammer
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_26
+INFO: 2022-03-25T16:45:46 -   level:Little_Purple_Tank
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_27
+INFO: 2022-03-25T16:45:46 -   level:Foundation's_Edge
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_28
+INFO: 2022-03-25T16:45:46 -   level:Wizard_of_Camelot
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_29
+INFO: 2022-03-25T16:45:46 -   level:On_the_Wings_of_Angels
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_30
+INFO: 2022-03-25T16:45:46 -   level:Bring_Your_Pretty_Face_To_My_Axe
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_31
+INFO: 2022-03-25T16:45:46 -   level:Make_It_Rain
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_32
+INFO: 2022-03-25T16:45:46 -   level:Can't_Break_Me
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_33
+INFO: 2022-03-25T16:45:46 -   level:Minimizer
+INFO: 2022-03-25T16:45:46 -  id:please_fill_it_with_some_unique_id_34
+INFO: 2022-03-25T16:45:46 -   level:Battle_Brother
+INFO: 2022-03-25T16:45:46 - quirkAffinities:0
+INFO: 2022-03-25T16:45:46 - globalAffinities:2
+INFO: 2022-03-25T16:45:46 -  id:Comfortable_(5)
+INFO: 2022-03-25T16:45:46 -  id:Attuned_(10)

@@ -175,7 +175,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
+			"ComponentDefID": "Gear_FCS_ARTIV",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Front",
 			"HardpointSlot": -1,
@@ -285,6 +285,13 @@
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
+		},
+		{
+		  "MountedLocation": "Front",
+		  "ComponentDefID": "Tank_Sensors_Generic",
+		  "ComponentDefType": "Upgrade",
+		  "HardpointSlot": -1,
+		  "DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Turret",

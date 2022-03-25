@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Khulan_utr",
+        "Name" : "guiTxrPort_Khulan_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Khulan_utr"
+    },
+    "ID" : "guiTxrPort_Khulan_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 0,
+    "complexionTex" : 1,
+    "eyebrowTex" : 5,
+    "tattooTex" : 1,
+    "actualTattooTex" : 0,
+    "weights" : [
+        70.97758,
+        0.7343187,
+        0.01692284,
+        0.001700271,
+        28.24308,
+        0.02641505
+    ],
+    "browOffsetY" : -0.00639808,
+    "browOffsetZ" : 0.002912413,
+    "noseBridgeScale" : 0.04035342,
+    "noseTipScale" : 0.1687829,
+    "chinScale" : -0.1494626,
+    "cheekOffsetY" : 0.002649993,
+    "eyeWidth" : 0.01959625,
+    "jawWidth" : -0.04655451,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

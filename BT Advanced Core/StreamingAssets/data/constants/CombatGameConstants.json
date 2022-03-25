@@ -35,35 +35,171 @@
 		"ShutdownCausesInjury": false,
 		"ShowPeakHeat": false
 	},
-	"Visibility": {
-		"BaseSpotterDistance": 375.0,
-		"BaseSensorDistance": 500.0,
-		"FiredWeaponsEffect": {
-			"durationData": {
-				"duration": 1,
-				"ticksOnEndOfRound": true,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "OnActivation",
-				"effectTargetType": "SingleTarget"
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "FiredWeaponsSignatureEffect",
-				"Name": "FIRED WEAPONS",
-				"Details": "+125% SIGNATURE",
-				"Icon": "uixSvgIcon_genericDiamond"
-			},
-			"statisticData": {
-				"statName": "SensorSignatureModifier",
-				"operation": "Float_Add",
-				"modValue": "0.25",
-				"modType": "System.Single"
-			},
-			"nature": "Debuff"
-		}
-	},
+"Visibility": {
+    "BaseSpotterDistance": 1.0,
+    "SpotterTacticsMultiplier": 0.0,
+    "RatioFullVis": 0.79,
+    "RatioObstructedVis": 0.41,
+    "MinRatioFromActors": 0.2,
+    "ShutDownVisibilityModifier": 1.0,
+    "ShutDownSignatureModifier": 0.5,
+    "BaseSensorDistance": 1.0,
+    "UseAsymmetricalSensors": true,
+    "ShowExtendedBlipsBeforeContact": false,
+    "ExtendedSensorDistanceMultiplier": 1.0,
+    "SensorHysteresisAdditive": 50.0,
+    "ShutdownSpottingDistanceMultiplier": 0.1,
+    "ProneSpottingDistanceMultiplier": 0.25,
+    "AllowRearArcSpotting": true,
+    "NumSensorLockSteps": 1,
+    "SensorLockSingleStepEffect": {
+      "durationData": {
+        "duration": 12,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTargetType": "SingleTarget",
+        "forceVisRebuild": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityT5SensorLock",
+        "Name": "SENSOR LOCK",
+        "Details": "SENSOR LOCK",
+        "Icon": "uixSvgIcon_action_sensorlock"
+      },
+      "statisticData": {
+        "statName": "SensorSignatureModifier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      },
+      "nature": "Debuff"
+    },
+    "NumSensorLockImpairedEffects": 1,
+    "SensorsImpairedEffect": {
+      "durationData": {
+        "duration": 8,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTargetType": "SingleTarget",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "forceVisRebuild": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityT8SensorLock2",
+        "Name": "SENSOR LOCK",
+        "Details": "SENSOR LOCK",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "SpottingVisibilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    },
+    "SensorLockAntiStealthEffect": {
+      "durationData": {
+        "duration": 6,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTargetType": "SingleTarget",
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "SensorLockAntiStealthEffect",
+        "Name": "SENSOR LOCK: STEALTH SUPPRESSED",
+        "Details": "Sensor Lock suppresses Stealth on this unit for 1 Round.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "LV_PROBE_PING",
+        "operation": "Int_Add",
+        "modValue": "6",
+        "modType": "System.Int32"
+      }
+    },
+    "FiredWeaponsEffect": {
+      "durationData": {
+        "duration": 24,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "SingleTarget"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "FiredWeaponsSignatureEffect",
+        "Name": "FIRED WEAPONS",
+        "Details": "+60% SIGNATURE",
+        "Icon": "uixSvgIcon_genericDiamond"
+      },
+      "statisticData": {
+        "statName": "SensorSignatureModifier",
+        "operation": "Float_Multiply",
+        "modValue": "1.6",
+        "modType": "System.Single"
+      },
+      "nature": "Debuff"
+    },
+    "FiredWeaponsAntiStealthEffect": {
+      "durationData": {
+        "duration": 12,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "SingleTarget",
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "FiredWeaponsAntiStealthEffect",
+        "Name": "FIRED WEAPONS: STEALTH SUPPRESSED",
+        "Details": "Firing weapons suppresses Stealth on this unit for 1 Round.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "statisticData": {
+        "statName": "SpottingVisibilityMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.4",
+        "modType": "System.Single"
+      },
+      "nature": "Debuff"
+    },
+    "MaxShadowingDistance": 80.0,
+    "NumShadowingSteps": -1,
+    "GhostStatePipThreshold": 2,
+    "GhostStateHidesBlips": true
+  },
 	"ToHit": {
 		"ToHitBaseFloor": 0.8,
 		"ToHitGunneryDivisor": 100,
