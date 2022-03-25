@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Male_Rank3_3",
+        "Name" : "Male_Rank3_3",
+        "Details" : "Random",
+        "Icon" : "Male_Rank3_3"
+    },
+    "ID" : "Male_Rank3_3",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 14,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 4,
+    "lightRig" : 2,
+    "cameraPosition" : 4,
+    "complexionTex" : 1,
+    "eyebrowTex" : 4,
+    "tattooTex" : 10,
+    "actualTattooTex" : 0,
+    "weights" : [
+        28.79322,
+        19.68585,
+        5.971304,
+        3.979991,
+        4.533441,
+        37.03619
+    ],
+    "browOffsetY" : 0.003220195,
+    "browOffsetZ" : 0.004804818,
+    "noseBridgeScale" : 0.1171953,
+    "noseTipScale" : -0.2954982,
+    "chinScale" : -0.1762199,
+    "cheekOffsetY" : 0.001860027,
+    "eyeWidth" : -0.02367992,
+    "jawWidth" : -0.04516691,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_02",
+    "eyeColorId" : "Eye_02",
+    "hairRootId" : "Hair_09",
+    "hairTipId" : "Hair_09",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

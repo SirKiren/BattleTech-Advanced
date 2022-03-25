@@ -8,7 +8,7 @@
 		"CustomComponents", "CustomLocalization", "CustomSalvage", "CustomUnits", "CustomVoices", "CustomShops", "DynamicShops", "IRTweaks", "Loading Screen Tips", "MechEngineer",
 		 "MechEngineerGear", "IRBTModUtils", "FieldRepairs", "NavigationComputer", "Primitive Mechs", "VIPadvanced", "Mission Control", "BiggerDrops",
 		"BTA Events", "BT Advanced Starters", "ConcreteJungle", "ResultOrientedItems", "ContractLanceRandomizer", "Abilifier", "CAB-Misc", "CAB-Clan Mech", "CAB-IS Mech", "CAB-Tanks",
-		"AbilityRealizer", "SizeMatters", "MechAffinity", "LootMagnet", "SizeMatters", "TisButAScratch"],
+		"AbilityRealizer", "MechAffinity", "LootMagnet", "SizeMatters", "TisButAScratch"],
 
 
 
@@ -60,7 +60,11 @@
 		{ "Type": "UpgradeDef", "Path": "Tech/Primitive/Armor" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/Primitive/EWAR" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/Primitive/Firecontrol" },	
-		{ "Type": "UpgradeDef", "Path": "Tech/Primitive/Sensors" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Primitive/Sensors" },		
+		{ "Type": "UpgradeDef", "Path": "Tech/Generic/Firecontrol" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Generic/Sensors" },		
+		{ "Type": "UpgradeDef", "Path": "Tech/DefaultItems" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Clans/Cockpit" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/AdvancedDevices" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Armor" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/EWAR" },	
@@ -89,29 +93,9 @@
 		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" },
 		{ "Type": "CCDefaults", "Path": "Defaults/", "ShouldMergeJSON": false},
-		{ "Type": "ChassisDef", "Path": "Mech/CC_ChassisDef", "AddToDB": true },
-		{ "Type": "ChassisDef", "Path": "Mech/BTACM_Chassisdef", "AddToDB": true },
-		{ "Type": "ChassisDef", "Path": "Mech/BTAM_Chassisdef", "AddToDB": true },
-		{ "Type": "ChassisDef", "Path": "Mech/BTAClan_Chassisdef", "AddToDB": true },	
-		{ "Type": "MechDef", "Path": "Mech/CC_Mechdef", "AddToDB": true },	
-		{ "Type": "MechDef", "Path": "Mech/BTACM_Mechdef", "AddToDB": true },
-		{ "Type": "MechDef", "Path": "Mech/BTAM_Mechdef", "AddToDB": true },
-		{ "Type": "MechDef", "Path": "Mech/BTAClan_Mechdef", "AddToDB": true },
-		{
-			"Type": "UpgradeDef",
-			"Path": "ChassisDefaults"
-		},
-		{
-			"Type": "UpgradeDef",
-			"Path": "lootable/Internals"
-		},
-		{
-			"Type": "UpgradeDef",
-			"Path": "lootable/Actuators"
-		},
-		{
-			"Type": "HeatSinkDef",
-			"Path": "lootable/Engines"
-		}
+		{ "Type": "UpgradeDef", "Path": "ChassisDefaults" },
+		{ "Type": "UpgradeDef",	"Path": "lootable/Internals" },
+		{ "Type": "UpgradeDef",	"Path": "lootable/Actuators" },
+		{ "Type": "HeatSinkDef", "Path": "lootable/Engines" }
 	]
 }

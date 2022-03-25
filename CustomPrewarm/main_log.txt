@@ -1,0 +1,8 @@
+[12:44:58.055]Initing... D:\Steam\steamapps\common\BATTLETECH\Mods\CustomPrewarm version: 0.0.0.4
+ game dlls dir:D:\Steam\steamapps\common\BATTLETECH\BattleTech_Data\Managed
+ self dll nameCustomPrewarm.dll
+[12:45:46.092]FinishedLoading
+[12:45:47.947]Reading local settings
+[12:45:47.964]SaveManager:D:\Steam\steamapps\common\BATTLETECH\BTKSaves\local\S0
+[12:45:51.277]MainMenu.EnableCareerLoadIfCareerSaves
+[12:45:51.278]SaveGameStructure.GetAllCareerSlots gameType:19

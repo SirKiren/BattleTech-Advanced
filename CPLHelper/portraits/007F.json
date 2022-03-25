@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "007F",
+        "Name" : "007F",
+        "Details" : "Random",
+        "Icon" : "007F"
+    },
+    "ID" : "007F",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 5,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 3,
+    "complexionTex" : 3,
+    "eyebrowTex" : 0,
+    "tattooTex" : 5,
+    "actualTattooTex" : 0,
+    "weights" : [
+        34.53505,
+        46.38228,
+        17.41731,
+        0.4724566,
+        0.4479571,
+        0.7449526
+    ],
+    "browOffsetY" : 0.006258678,
+    "browOffsetZ" : 0.003978818,
+    "noseBridgeScale" : -0.06847703,
+    "noseTipScale" : 0.1043225,
+    "chinScale" : 0.01329854,
+    "cheekOffsetY" : -0.004459456,
+    "eyeWidth" : -0.03004499,
+    "jawWidth" : 0.0002506137,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_14",
+    "hairTipId" : "Hair_14",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

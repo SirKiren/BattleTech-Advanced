@@ -253,7 +253,9 @@
 	],
 	"VariantName": "AS7 C",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Juggernaut & Close Assault",

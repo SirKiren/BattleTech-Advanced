@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "018M",
+        "Name" : "018M",
+        "Details" : "Random",
+        "Icon" : "018M"
+    },
+    "ID" : "018M",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 3,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 10,
+    "lightRig" : 2,
+    "cameraPosition" : 4,
+    "complexionTex" : 5,
+    "eyebrowTex" : 3,
+    "tattooTex" : 6,
+    "actualTattooTex" : 17,
+    "weights" : [
+        20.66323,
+        31.68606,
+        31.7186,
+        10.8071,
+        1.244014,
+        3.880993
+    ],
+    "browOffsetY" : -0.002444501,
+    "browOffsetZ" : -0.002157332,
+    "noseBridgeScale" : 0.03419955,
+    "noseTipScale" : -0.1305432,
+    "chinScale" : -0.07401178,
+    "cheekOffsetY" : 0.002458015,
+    "eyeWidth" : -0.02591132,
+    "jawWidth" : -0.005087221,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

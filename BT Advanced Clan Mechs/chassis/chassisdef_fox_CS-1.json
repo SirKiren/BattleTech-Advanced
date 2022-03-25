@@ -241,7 +241,9 @@
 	],
 	"VariantName": "CS-1",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Early Clan Mech",

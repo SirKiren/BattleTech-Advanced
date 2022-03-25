@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_SE03_PirateLeader_def_utr",
+        "Name" : "guiTxrPort_SE03_PirateLeader_def_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_SE03_PirateLeader_def_utr"
+    },
+    "ID" : "guiTxrPort_SE03_PirateLeader_def_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 6,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 5,
+    "eyebrowTex" : 5,
+    "tattooTex" : 1,
+    "actualTattooTex" : 11,
+    "weights" : [
+        61.08961,
+        11.6597,
+        2.412575,
+        0.1697444,
+        0.003801985,
+        24.66457
+    ],
+    "browOffsetY" : -0.004084361,
+    "browOffsetZ" : 0.003192883,
+    "noseBridgeScale" : 0.1562546,
+    "noseTipScale" : -0.1903088,
+    "chinScale" : 0.1250052,
+    "cheekOffsetY" : 0.001852976,
+    "eyeWidth" : 0.04895305,
+    "jawWidth" : 0.03457896,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

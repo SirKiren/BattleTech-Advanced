@@ -204,7 +204,9 @@
 	],
 	"VariantName": "STY-2C-EC",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher",

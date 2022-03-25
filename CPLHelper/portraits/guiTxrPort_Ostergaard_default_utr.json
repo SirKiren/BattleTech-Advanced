@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Ostergaard_default_utr",
+        "Name" : "guiTxrPort_Ostergaard_default_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Ostergaard_default_utr"
+    },
+    "ID" : "guiTxrPort_Ostergaard_default_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 5,
+    "cameraPosition" : 0,
+    "complexionTex" : 1,
+    "eyebrowTex" : 2,
+    "tattooTex" : 5,
+    "actualTattooTex" : 13,
+    "weights" : [
+        36.47375,
+        8.585898,
+        8.148181,
+        9.088421,
+        7.097044,
+        30.60671
+    ],
+    "browOffsetY" : 0.001856645,
+    "browOffsetZ" : -0.005221832,
+    "noseBridgeScale" : -0.02613723,
+    "noseTipScale" : -0.1618922,
+    "chinScale" : -0.1896961,
+    "cheekOffsetY" : 0.004679453,
+    "eyeWidth" : -0.04859031,
+    "jawWidth" : -0.009016335,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

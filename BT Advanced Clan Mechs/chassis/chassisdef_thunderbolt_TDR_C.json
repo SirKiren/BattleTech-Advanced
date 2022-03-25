@@ -206,7 +206,9 @@
 	],
 	"VariantName": "TDR C",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"EClanMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Skirmisher & Brawler",

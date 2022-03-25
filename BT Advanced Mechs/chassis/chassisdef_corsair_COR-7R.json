@@ -215,7 +215,9 @@
 	],
 	"VariantName": "COR-7R",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"PirateMech"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Frankenmech",

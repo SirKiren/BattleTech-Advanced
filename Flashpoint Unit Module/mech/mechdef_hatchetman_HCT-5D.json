@@ -366,7 +366,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"ComponentDefID": "Gear_TTS_AdvancedTC",
+			"ComponentDefID": "Gear_FCS_AdvancedTC",
 			"ComponentDefType": "Upgrade",
 			"DamageLevel": "Functional",
 			"GUID": null,

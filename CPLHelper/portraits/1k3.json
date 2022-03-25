@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "1k3",
+        "Name" : "1k3",
+        "Details" : "Random",
+        "Icon" : "1k3"
+    },
+    "ID" : "1k3",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 8,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 11,
+    "lightRig" : 3,
+    "cameraPosition" : 3,
+    "complexionTex" : 3,
+    "eyebrowTex" : 3,
+    "tattooTex" : 8,
+    "actualTattooTex" : 0,
+    "weights" : [
+        35.14235,
+        31.05172,
+        32.06771,
+        0.7143738,
+        0.957421,
+        0.06641942
+    ],
+    "browOffsetY" : -0.006135528,
+    "browOffsetZ" : 0.006465397,
+    "noseBridgeScale" : -0.05185039,
+    "noseTipScale" : -0.2712434,
+    "chinScale" : 0.1470087,
+    "cheekOffsetY" : -0.002944092,
+    "eyeWidth" : -0.04291464,
+    "jawWidth" : 0.09270499,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

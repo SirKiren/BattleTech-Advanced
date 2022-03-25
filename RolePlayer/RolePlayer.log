@@ -1,0 +1,215 @@
+INFO: 2022-03-25T16:45:01 - Loaded AI-Heat-Normal for tag: ai_heat_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Normal for tag: ai_heat_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Normal for tag: ai_heat_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Normal for tag: ai_heat_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Normal for tag: ai_heat_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-DFA-Normal for tag: ai_dfa_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Normal for tag: ai_dfa_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Normal for tag: ai_dfa_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Normal for tag: ai_dfa_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Normal for tag: ai_dfa_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Flank-Normal for tag: ai_flank_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Normal for tag: ai_flank_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Normal for tag: ai_flank_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Normal for tag: ai_flank_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Normal for tag: ai_flank_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Lancemates-Normal for tag: ai_lance_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Normal for tag: ai_lance_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Normal for tag: ai_lance_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Normal for tag: ai_lance_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Normal for tag: ai_lance_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Melee-Normal for tag: ai_melee_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Normal for tag: ai_melee_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Normal for tag: ai_melee_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Normal for tag: ai_melee_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Normal for tag: ai_melee_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Move-Normal for tag: ai_move_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Normal for tag: ai_move_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Normal for tag: ai_move_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Normal for tag: ai_move_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Normal for tag: ai_move_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Priority-Normal for tag: ai_priority_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Normal for tag: ai_priority_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Normal for tag: ai_priority_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Normal for tag: ai_priority_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Normal for tag: ai_priority_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Reserve-Normal for tag: ai_reserve_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Normal for tag: ai_reserve_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Normal for tag: ai_reserve_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Normal for tag: ai_reserve_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Normal for tag: ai_reserve_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Shooting-Normal for tag: ai_shooting_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Normal for tag: ai_shooting_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Normal for tag: ai_shooting_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Normal for tag: ai_shooting_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Normal for tag: ai_shooting_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Surrounded-Normal for tag: ai_surrounded_normal
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Normal for tag: ai_surrounded_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Normal for tag: ai_surrounded_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Normal for tag: ai_surrounded_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Normal for tag: ai_surrounded_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Normal for tag: ai_heat_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Normal for tag: ai_heat_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Normal for tag: ai_heat_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Normal for tag: ai_heat_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Normal for tag: ai_dfa_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Normal for tag: ai_dfa_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Normal for tag: ai_dfa_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Normal for tag: ai_dfa_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Normal for tag: ai_flank_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Normal for tag: ai_flank_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Normal for tag: ai_flank_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Normal for tag: ai_flank_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Normal for tag: ai_lance_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Normal for tag: ai_lance_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Normal for tag: ai_lance_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Normal for tag: ai_lance_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Normal for tag: ai_lethalself_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Normal for tag: ai_melee_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Normal for tag: ai_melee_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Normal for tag: ai_melee_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Normal for tag: ai_melee_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Normal for tag: ai_move_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Normal for tag: ai_move_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Normal for tag: ai_move_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Normal for tag: ai_move_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Normal for tag: ai_priority_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Normal for tag: ai_priority_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Normal for tag: ai_priority_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Normal for tag: ai_priority_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Normal for tag: ai_reserve_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Normal for tag: ai_reserve_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Normal for tag: ai_reserve_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Normal for tag: ai_reserve_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Normal for tag: ai_shooting_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Normal for tag: ai_shooting_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Normal for tag: ai_shooting_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Normal for tag: ai_shooting_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Normal for tag: ai_surrounded_normal, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Normal for tag: ai_surrounded_normal, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Normal for tag: ai_surrounded_normal, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Normal for tag: ai_surrounded_normal, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Heat-High for tag: ai_heat_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-High for tag: ai_heat_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-High for tag: ai_heat_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-High for tag: ai_heat_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-High for tag: ai_heat_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Heat-YOLO for tag: ai_heat_yolo
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-YOLO for tag: ai_heat_yolo, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-YOLO for tag: ai_heat_yolo, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-YOLO for tag: ai_heat_yolo, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-YOLO for tag: ai_heat_yolo, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-DFA-High for tag: ai_dfa_high
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-High for tag: ai_dfa_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-High for tag: ai_dfa_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-High for tag: ai_dfa_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-High for tag: ai_dfa_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Flank-High for tag: ai_flank_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-High for tag: ai_flank_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-High for tag: ai_flank_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-High for tag: ai_flank_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-High for tag: ai_flank_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Lancemates-High for tag: ai_lance_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-High for tag: ai_lance_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-High for tag: ai_lance_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-High for tag: ai_lance_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-High for tag: ai_lance_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-LethalSelfDamage-High for tag: ai_lethalself_high
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-High for tag: ai_lethalself_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-High for tag: ai_lethalself_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-High for tag: ai_lethalself_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-High for tag: ai_lethalself_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Melee-High for tag: ai_melee_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-High for tag: ai_melee_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-High for tag: ai_melee_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-High for tag: ai_melee_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-High for tag: ai_melee_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Move-High for tag: ai_move_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-High for tag: ai_move_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-High for tag: ai_move_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-High for tag: ai_move_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-High for tag: ai_move_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Priority-High for tag: ai_priority_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-High for tag: ai_priority_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-High for tag: ai_priority_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-High for tag: ai_priority_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-High for tag: ai_priority_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Reserve-High for tag: ai_reserve_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-High for tag: ai_reserve_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-High for tag: ai_reserve_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-High for tag: ai_reserve_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-High for tag: ai_reserve_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Shooting-High for tag: ai_shooting_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-High for tag: ai_shooting_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-High for tag: ai_shooting_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-High for tag: ai_shooting_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-High for tag: ai_shooting_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Surrounded-High for tag: ai_surrounded_high
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-High for tag: ai_surrounded_high, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-High for tag: ai_surrounded_high, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-High for tag: ai_surrounded_high, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-High for tag: ai_surrounded_high, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Heat-Low for tag: ai_heat_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Low for tag: ai_heat_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Low for tag: ai_heat_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Low for tag: ai_heat_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Heat-Low for tag: ai_heat_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-DFA-Low for tag: ai_dfa_low
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Low for tag: ai_dfa_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Low for tag: ai_dfa_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Low for tag: ai_dfa_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-DFA-Low for tag: ai_dfa_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Flank-Low for tag: ai_flank_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Low for tag: ai_flank_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Low for tag: ai_flank_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Low for tag: ai_flank_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Flank-Low for tag: ai_flank_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Lancemates-Low for tag: ai_lance_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Low for tag: ai_lance_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Low for tag: ai_lance_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Low for tag: ai_lance_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Lancemates-Low for tag: ai_lance_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-LethalSelfDamage-Low for tag: ai_lethalself_low
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Low for tag: ai_lethalself_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Low for tag: ai_lethalself_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Low for tag: ai_lethalself_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-LethalSelfDamage-Low for tag: ai_lethalself_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Melee-Low for tag: ai_melee_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Low for tag: ai_melee_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Low for tag: ai_melee_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Low for tag: ai_melee_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Melee-Low for tag: ai_melee_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Move-Low for tag: ai_move_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Low for tag: ai_move_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Low for tag: ai_move_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Low for tag: ai_move_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Move-Low for tag: ai_move_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Priority-Low for tag: ai_priority_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Low for tag: ai_priority_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Low for tag: ai_priority_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Low for tag: ai_priority_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Priority-Low for tag: ai_priority_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Reserve-Low for tag: ai_reserve_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Low for tag: ai_reserve_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Low for tag: ai_reserve_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Low for tag: ai_reserve_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Reserve-Low for tag: ai_reserve_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Shooting-Low for tag: ai_shooting_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Low for tag: ai_shooting_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Low for tag: ai_shooting_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Low for tag: ai_shooting_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Shooting-Low for tag: ai_shooting_low, with Mood Ruthless
+INFO: 2022-03-25T16:45:01 - Loaded AI-Surrounded-Low for tag: ai_surrounded_low
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Low for tag: ai_surrounded_low, with Mood Defensive
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Low for tag: ai_surrounded_low, with Mood Aggressive
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Low for tag: ai_surrounded_low, with Mood SensorLocking
+INFO: 2022-03-25T16:45:01 - Applied AI-Surrounded-Low for tag: ai_surrounded_low, with Mood Ruthless
+ERROR: 2022-03-25T16:45:01 - Missing Behaviour file: role_vtol

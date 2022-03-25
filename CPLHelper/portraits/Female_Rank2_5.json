@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Female_Rank2_5",
+        "Name" : "Female_Rank2_5",
+        "Details" : "Random",
+        "Icon" : "Female_Rank2_5"
+    },
+    "ID" : "Female_Rank2_5",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 10,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 3,
+    "eyebrowTex" : 5,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        24.6139,
+        45.41764,
+        16.22608,
+        13.19074,
+        0.4560489,
+        0.09559023
+    ],
+    "browOffsetY" : 0.001241451,
+    "browOffsetZ" : 0.006219849,
+    "noseBridgeScale" : 0.1347825,
+    "noseTipScale" : -0.1711531,
+    "chinScale" : 0.1488157,
+    "cheekOffsetY" : -0.001113555,
+    "eyeWidth" : 0.02848009,
+    "jawWidth" : 0.06465624,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_09",
+    "hairTipId" : "Hair_09",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}
