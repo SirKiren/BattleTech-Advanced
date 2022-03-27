@@ -28,7 +28,7 @@
     },
 		"Color": {
 		"UIColor": "DarkGray"
-	},
+	}
   },
   "DissipationCapacity": 0,
   "Description": {
