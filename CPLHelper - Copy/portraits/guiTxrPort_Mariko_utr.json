@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Mariko_utr",
+        "Name" : "guiTxrPort_Mariko_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Mariko_utr"
+    },
+    "ID" : "guiTxrPort_Mariko_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 2,
+    "complexionTex" : 2,
+    "eyebrowTex" : 2,
+    "tattooTex" : 8,
+    "actualTattooTex" : 3,
+    "weights" : [
+        58.68615,
+        24.32955,
+        9.360305,
+        0.4645082,
+        6.001802,
+        1.157686
+    ],
+    "browOffsetY" : 0.005136237,
+    "browOffsetZ" : -0.004916138,
+    "noseBridgeScale" : -0.01037653,
+    "noseTipScale" : -0.2769088,
+    "chinScale" : 0.01908486,
+    "cheekOffsetY" : 0.0005122786,
+    "eyeWidth" : 0.002244622,
+    "jawWidth" : 0.02341234,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

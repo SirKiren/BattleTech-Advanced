@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Inaria",
+        "Name" : "Inaria",
+        "Details" : "Random",
+        "Icon" : "Inaria"
+    },
+    "ID" : "Inaria",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 9,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 4,
+    "complexionTex" : 5,
+    "eyebrowTex" : 1,
+    "tattooTex" : 10,
+    "actualTattooTex" : 1,
+    "weights" : [
+        30.92339,
+        53.97585,
+        12.59549,
+        1.277788,
+        0.2573026,
+        0.9701813
+    ],
+    "browOffsetY" : -0.001710524,
+    "browOffsetZ" : -0.005585973,
+    "noseBridgeScale" : 0.1980812,
+    "noseTipScale" : -0.2786024,
+    "chinScale" : -0.1681725,
+    "cheekOffsetY" : -0.002255737,
+    "eyeWidth" : -0.006781656,
+    "jawWidth" : -0.06623056,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

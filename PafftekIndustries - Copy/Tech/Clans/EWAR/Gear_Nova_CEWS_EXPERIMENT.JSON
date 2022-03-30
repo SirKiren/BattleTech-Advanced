@@ -1,0 +1,901 @@
+{
+	"Custom": {
+		"Category": [{
+				"CategoryID": "ECM"
+			},
+			{
+				"CategoryID": "Probe"
+			},
+			{
+				"CategoryID": "AdvECM"
+			},
+			{
+				"CategoryID": "C3i"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"EWSytem",
+				"ActiveEWS: 2, 2, 210",
+				"EWSSelf: 1, 1",
+				"EWSProbe: 15%, 2, 1, 210",
+				"C3Sytem: 1, 10%, 6%, 4%, 210",
+				"ActiveHeatPerTurn: +6"
+			]
+		},
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "00024"
+		},
+		"ActivatableComponent": {
+			"CanActivateAfterMove": true,
+			"CanActivateAfterFire": false,
+			"SafeActivation": true,
+			"ButtonName": "Stealth",
+			"ActiveByDefault": true,
+			"ActivationIsBuff": true,
+			"CanNotBeActivatedManualy": false,
+			"NoUniqueCheck": true,
+			"ActivationMessage": "EWAR On",
+			"DeactivationMessage": "EWAR Off",
+			"OnDeactivate": {
+				"Activate": [],
+				"Deactivate": [
+					"ECM/ESM/C3i"
+				]
+			}
+		},
+		"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"ticksOnActivations": false,
+					"useActivationsOfTarget": false,
+					"ticksOnEndOfRound": false,
+					"ticksOnMovements": false,
+					"stackLimit": -1,
+					"clearedWhenAttacked": false
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"triggerLimit": 0,
+					"extendDurationOnTrigger": 0,
+					"specialRules": "NotSet",
+					"effectTargetType": "Creator",
+					"range": 0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "StatusEffect-Attack_ToHitMissile-Nova",
+					"Name": "Missile WEAPON HIT CHANCE IMPROVED",
+					"Details": "Missile weapon attacks have their hit improved by 3.",
+					"Icon": "uixSvgIcon_equipment_TTS"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"appliesEachTick": false,
+					"effectsPersistAfterDestruction": false,
+					"statName": "AccuracyModifier",
+					"operation": "Float_Add",
+					"modValue": "-3.0",
+					"modType": "System.Single",
+					"additionalRules": "NotSet",
+					"targetCollection": "Weapon",
+					"targetWeaponCategory": "Missile",
+					"targetWeaponType": "NotSet",
+					"targetAmmoCategory": "NotSet",
+					"targetWeaponSubType": "NotSet"
+				},
+				"tagData": null,
+				"floatieData": null,
+				"actorBurningData": null,
+				"vfxData": null,
+				"instantModData": null,
+				"poorlyMaintainedEffectData": null
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"ticksOnActivations": false,
+					"useActivationsOfTarget": false,
+					"ticksOnEndOfRound": false,
+					"ticksOnMovements": false,
+					"stackLimit": -1,
+					"clearedWhenAttacked": false
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"triggerLimit": 0,
+					"extendDurationOnTrigger": 0,
+					"specialRules": "NotSet",
+					"effectTargetType": "Creator",
+					"range": 0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "StatusEffect-Attack_ToHitBallistic-Nova",
+					"Name": "BALLISTIC WEAPON HIT CHANCE IMPROVED",
+					"Details": "Ballistic weapon attacks have their hit improved by 5.",
+					"Icon": "uixSvgIcon_equipment_TTS"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"appliesEachTick": false,
+					"effectsPersistAfterDestruction": false,
+					"statName": "AccuracyModifier",
+					"operation": "Float_Add",
+					"modValue": "-3.0",
+					"modType": "System.Single",
+					"additionalRules": "NotSet",
+					"targetCollection": "Weapon",
+					"targetWeaponCategory": "Ballistic",
+					"targetWeaponType": "NotSet",
+					"targetAmmoCategory": "NotSet",
+					"targetWeaponSubType": "NotSet"
+				},
+				"tagData": null,
+				"floatieData": null,
+				"actorBurningData": null,
+				"vfxData": null,
+				"instantModData": null,
+				"poorlyMaintainedEffectData": null
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"ticksOnActivations": false,
+					"useActivationsOfTarget": false,
+					"ticksOnEndOfRound": false,
+					"ticksOnMovements": false,
+					"stackLimit": -1,
+					"clearedWhenAttacked": false
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"triggerLimit": 0,
+					"extendDurationOnTrigger": 0,
+					"specialRules": "NotSet",
+					"effectTargetType": "Creator",
+					"range": 0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "StatusEffect-Attack_ToHitEnergy-Nova",
+					"Name": "ENERGY WEAPON HIT CHANCE IMPROVED",
+					"Details": "Energy weapon attacks have their hit improved by 5.",
+					"Icon": "uixSvgIcon_equipment_TTS"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"appliesEachTick": false,
+					"effectsPersistAfterDestruction": false,
+					"statName": "AccuracyModifier",
+					"operation": "Float_Add",
+					"modValue": "-3.0",
+					"modType": "System.Single",
+					"additionalRules": "NotSet",
+					"targetCollection": "Weapon",
+					"targetWeaponCategory": "Energy",
+					"targetWeaponType": "NotSet",
+					"targetAmmoCategory": "NotSet",
+					"targetWeaponSubType": "NotSet"
+				},
+				"tagData": null,
+				"floatieData": null,
+				"actorBurningData": null,
+				"vfxData": null,
+				"instantModData": null,
+				"poorlyMaintainedEffectData": null
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"ticksOnActivations": false,
+					"useActivationsOfTarget": false,
+					"ticksOnEndOfRound": false,
+					"ticksOnMovements": false,
+					"stackLimit": -1,
+					"clearedWhenAttacked": false
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"triggerLimit": 0,
+					"extendDurationOnTrigger": 0,
+					"specialRules": "NotSet",
+					"effectTargetType": "Creator",
+					"range": 0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": true
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "StatusEffect-IndirectAccuracy_Add-T3",
+					"Name": "MISSILE WEAPON INDIRECT HIT CHANCE IMPROVED",
+					"Details": "Indirect fire penalties reduced by 5.",
+					"Icon": "uixSvgIcon_equipment_Cockpit"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"appliesEachTick": false,
+					"effectsPersistAfterDestruction": false,
+					"statName": "ToHitIndirectModifier",
+					"operation": "Float_Add",
+					"modValue": "-1.0",
+					"modType": "System.Single",
+					"additionalRules": "NotSet",
+					"targetCollection": "Weapon",
+					"targetWeaponCategory": "Missile",
+					"targetWeaponType": "NotSet",
+					"targetAmmoCategory": "NotSet",
+					"targetWeaponSubType": "NotSet"
+				},
+				"tagData": null,
+				"floatieData": null,
+				"actorBurningData": null,
+				"vfxData": null,
+				"instantModData": null,
+				"poorlyMaintainedEffectData": null
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "MineFieldDetection",
+					"Name": "Active Probe (Passive)",
+					"Details": "Detects Minefields",
+					"Icon": "uixSvgIcon_status_ECM-ghost"
+				},
+				"statisticData": {
+					"statName": "MinefieldDetection",
+					"operation": "Float_Add",
+					"modValue": "1",
+					"modType": "System.Single"
+				},
+				"nature": "Buff"
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "LV_PROBE_CARRIER",
+					"Name": "Active Probe (Passive)",
+					"Details": "Reduces effectiveness of stealthed and ECM shielded units",
+					"Icon": "uixSvgIcon_status_ECM-ghost"
+				},
+				"statisticData": {
+					"statName": "LV_PROBE_CARRIER",
+					"operation": "Int_Add",
+					"modValue": "2",
+					"modType": "System.Int32"
+				},
+				"nature": "Buff"
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "LV_ADVANCED_SENSORS",
+					"Name": "Advanced Sensors",
+					"Details": "Provides detailed information on enemy units",
+					"Icon": "uixSvgIcon_status_ECM-ghost"
+				},
+				"statisticData": {
+					"statName": "LV_ADVANCED_SENSORS",
+					"operation": "Int_Add",
+					"modValue": "1",
+					"modType": "System.Int32"
+				},
+				"nature": "Buff"
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "AdvancedProbeSensor",
+					"Name": "Probe Sensor",
+					"Details": "Increased Sight/Sensors/Health.",
+					"Icon": "uixSvgIcon_equipment_Comms"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"statName": "SensorDistanceAbsolute",
+					"operation": "Float_Multiply",
+					"modValue": "1.15",
+					"modType": "System.Single"
+				}
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "AdvancedProbeSight",
+					"Name": "Probe Sight",
+					"Details": "Increases spotting distance by 50m.",
+					"Icon": "uixSvgIcon_equipment_Comms"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"statName": "SpotterDistanceAbsolute",
+					"operation": "Float_Multiply",
+					"modValue": "1.15",
+					"modType": "System.Single"
+				}
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "ECMPassiveShield",
+					"Name": "ECMPassiveShield",
+					"Details": "Passive ECM Protection",
+					"Icon": "uixSvgIcon_equipment_Gyro"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"statName": "LV_ECM_SHIELD",
+					"operation": "Int_Add",
+					"modValue": "1",
+					"modType": "System.Int32"
+				}
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "ECMPassiveJam",
+					"Name": "ECMPassiveJam",
+					"Details": "Passive Jamming Protection",
+					"Icon": "uixSvgIcon_equipment_Gyro"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"statName": "LV_ECM_JAMMED",
+					"operation": "Int_Add",
+					"modValue": "-1",
+					"modType": "System.Int32"
+				}
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": 1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"forceVisRebuild": true,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "LV_Shares_Vision",
+					"Name": "Vision Sharing",
+					"Details": "Shows their vision when lancemates move",
+					"Icon": "uixSvgIcon_status_ECM-ghost"
+				},
+				"statisticData": {
+					"statName": "LV_SHARES_VISION",
+					"operation": "Set",
+					"modValue": "true",
+					"modType": "System.Boolean"
+				},
+				"nature": "Buff"
+			}, {
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "Creator",
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "EWAR_Heat_Generation_EWAR",
+					"Name": "Increased Heat",
+					"Details": "Heat generation",
+					"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"statName": "HeatGenerated",
+					"operation": "Float_Add",
+					"modValue": "6",
+					"modType": "System.Single",
+					"targetCollection": "Weapon"
+				}
+			},
+			{
+				"durationData": {
+					"duration": -1,
+					"ticksOnActivations": false,
+					"useActivationsOfTarget": false,
+					"ticksOnEndOfRound": false,
+					"ticksOnMovements": false,
+					"stackLimit": -1,
+					"clearedWhenAttacked": false
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"triggerLimit": 0,
+					"extendDurationOnTrigger": 0,
+					"specialRules": "NotSet",
+					"effectTargetType": "Creator",
+					"range": 0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "NullSigSystem-DamageReduction",
+					"Name": "Null Signature Damage Reduction",
+					"Details": "This mech is so hard to hit that most weapons are glancing hits, reducing incoming damage.",
+					"Icon": "uixSvgIcon_equipment_ActuatorArm"
+				},
+				"nature": "Buff",
+				"statisticData": {
+					"appliesEachTick": false,
+					"effectsPersistAfterDestruction": false,
+					"statName": "DamageReductionMultiplierAll",
+					"operation": "Float_Multiply",
+					"modValue": "0.8",
+					"modType": "System.Single"
+				},
+				"tagData": null,
+				"floatieData": null,
+				"actorBurningData": null,
+				"vfxData": null,
+				"instantModData": null,
+				"poorlyMaintainedEffectData": null
+			}
+		],
+		"offlineStatusEffects": [{
+				"targetingData": {
+					"effectTriggerType": "OnActivation",
+					"effectTargetType": "EnemiesWithinRange",
+					"alsoTargetsCreator": true,
+					"forceVisRebuild": true
+				},
+				"effectType": "ActiveAbility",
+				"Description": {
+					"Id": "Nova_Ping",
+					"Name": "Nova PING",
+					"Details": "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+					"Icon": "uixSvgIcon_action_sensorlock"
+				},
+				"activeAbilityEffectData": {
+					"abilityName": "AbilityDef_ActiveProbe_NOVA"
+				}
+			}
+
+		]
+	},
+
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 2200000,
+		"Rarity": 6,
+		"Purchasable": true,
+		"Manufacturer": "Clan",
+		"Model": "Nova CEWS (C)EXP",
+		"UIName": "Nova CEWS (C)EXP",
+		"Id": "Gear_Nova_CEWS_EXPERIMENT",
+		"Name": "Nova CEWS (C)EXP",
+		"Details": "The rogue scientists of the Society developed the Nova CEWS after hearing about the C3 Systems used by the Inner Sphere. Taking the Watchdog Electronic Warfare suite and adding the Command, Control, Communication and Intelligence features to it, the Society made the already superior Watchdog system into a major paradigm shifting device.  In addition to the Active Probe, ECM, ESM and C3i features, the Nova CEWS enhanced the ability of a Mechwarrior or vehicle pilot to more accurately lay down fire in combat.  In ACTIVE mode, grants bonus to Gunnery skill, and uses 6 system heat.  In PASSIVE mode, a Ping option is available that for 9 heat will target lock all enemies in range.",
+		"Icon": "circuitry"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "Prototype_ElectronicWarfare",
+	"PrefabIdentifier": "",
+	"BattleValue": 60,
+	"InventorySize": 1,
+	"Tonnage": 1.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [{
+			"Id": "C3SystemEnemy",
+			"Name": "C3 Scan",
+			"ReticleColor": "#00e600",
+			"Range": 210,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "NegativeOne",
+			"IsPositiveToAlly": false,
+			"IsNegativeToEnemy": true,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forceVisRebuild": true,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3M-SensorInfo",
+						"Name": "C3 Sensor Information",
+						"Details": "Shares Sensor Information on nearby Targets",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_PROBE_PING",
+						"operation": "Int_Add",
+						"modValue": "1",
+						"modType": "System.Int32"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forceVisRebuild": true,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3DetectionStrengthSignature",
+						"Name": "C3 Signature Detection",
+						"Details": "C3 Signature Statuseffect.",
+						"Icon": "uixSvgIcon_equipment_TTS"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "SensorSignatureModifier",
+						"operation": "Float_Multiply",
+						"modValue": "1.1",
+						"modType": "System.Single"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forceVisRebuild": true,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3DetectionStrengthVisibility",
+						"Name": "C3 Visibility Detection",
+						"Details": "C3 Visibility Statuseffect.",
+						"Icon": "uixSvgIcon_equipment_TTS"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "SpottingVisibilityMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "1.1",
+						"modType": "System.Single"
+					}
+				}
+			]
+		},
+		{
+			"Id": "C3System_Allies",
+			"Name": "C3 Network",
+			"ReticleColor": "#00e600",
+			"Range": 210,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "AlliesWithinRange",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3AllySensor",
+						"Name": "SLIC Black Ops",
+						"Details": "Increased Sight/Sensors/Health.",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "SensorDistanceAbsolute",
+						"operation": "Float_Multiply",
+						"modValue": "1.06",
+						"modType": "System.Single"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "AlliesWithinRange",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3AllySight",
+						"Name": "SPOTTING DISTANCE INCREASED",
+						"Details": "Increases spotting distance by 50m.",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "SpotterDistanceAbsolute",
+						"operation": "Float_Multiply",
+						"modValue": "1.04",
+						"modType": "System.Single"
+					}
+				}
+			]
+		},
+		{
+			"Id": "MINEDETECTIONAURA",
+			"Name": "Minesweeper",
+			"ReticleColor": "white",
+			"LineType": "Dots",
+			"isSpining": false,
+			"MinefieldDetector": true,
+			"HideOnNotSelected": true,
+			"Range": 210,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": false,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": []
+		},
+		{
+			"Id": "ECM_Aura",
+			"Name": "ECM",
+			"ReticleColor": "#a31aff",
+			"Range": 210,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "PositiveOne",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "AlliesWithinRange",
+					"range": 0.0,
+					"forceVisRebuild": true,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "LV_ECM_SHIELD",
+					"Name": "ECM Buff",
+					"Details": "Ally ECM Shield",
+					"Icon": "uixSvgIcon_status_ECM-missileDef"
+				},
+				"statisticData": {
+					"statName": "LV_ECM_SHIELD",
+					"operation": "Int_Add",
+					"modValue": "2",
+					"modType": "System.Int32"
+				},
+				"nature": "Buff"
+			}]
+		},
+		{
+			"Id": "ECCM_Aura",
+			"Name": "ECCM",
+			"ReticleColor": "#a31aff",
+			"Range": 210,
+			"HideOnNotSelected": false,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "Nullify",
+			"IsPositiveToAlly": false,
+			"IsNegativeToEnemy": true,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"effectTargetType": "EnemiesWithinRange",
+					"range": 0.0,
+					"forceVisRebuild": true,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "LV_ECCM_SHIELD",
+					"Name": "ECCM Debuff",
+					"Details": "ECCM Shield Reduction",
+					"Icon": "uixSvgIcon_status_ECM-missileDef"
+				},
+				"statisticData": {
+					"statName": "LV_ECM_SHIELD",
+					"operation": "Int_Add",
+					"modValue": "-2",
+					"modType": "System.Int32"
+				},
+				"nature": "Debuff"
+			}]
+		}
+	],
+	"statusEffects": [
+
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"ElectronicCounterMeasures"
+		],
+		"tagSetSourceFile": ""
+	}
+}

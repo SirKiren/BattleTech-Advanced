@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_DavionRep_utr",
+        "Name" : "guiTxrPort_DavionRep_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_DavionRep_utr"
+    },
+    "ID" : "guiTxrPort_DavionRep_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 10,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 2,
+    "complexionTex" : 3,
+    "eyebrowTex" : 0,
+    "tattooTex" : 0,
+    "actualTattooTex" : 0,
+    "weights" : [
+        48.22073,
+        27.63067,
+        0.1711857,
+        21.83768,
+        0.1394737,
+        2.000263
+    ],
+    "browOffsetY" : 0.00352812,
+    "browOffsetZ" : -0.002256334,
+    "noseBridgeScale" : -0.1721937,
+    "noseTipScale" : -0.1134158,
+    "chinScale" : -0.09875419,
+    "cheekOffsetY" : 0.002535831,
+    "eyeWidth" : 0.04110416,
+    "jawWidth" : 0.0592097,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

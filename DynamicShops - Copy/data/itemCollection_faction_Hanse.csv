@@ -1,0 +1,12 @@
+itemCollection_faction_Hanse,,,
+emod_armorslots_ferrosfibrous,Upgrade,0,1
+emod_case,Upgrade,0,1
+Gear_HeatSink_Prototype_Double,HeatSink,0,1
+emod_kit_dhs_proto,HeatSink,0,1
+mechdef_loaderking_LDR-K-1,Mech,0,1
+mechdef_loaderking_LDR-K-2,Mech,0,1
+mechdef_loaderking_LDR-K-3,Mech,0,1
+vehicledef_KIROV,Mech,0,10
+vehicledef_KIROV_LRM,Mech,0,10
+vehicledef_KIROV_TURBO,Mech,0,10
+Gear_Contract_Mech_Mackie_Hanse,Upgrade,0,1

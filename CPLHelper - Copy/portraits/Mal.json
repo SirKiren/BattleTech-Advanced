@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Mal",
+        "Name" : "Mal",
+        "Details" : "Random",
+        "Icon" : "Mal"
+    },
+    "ID" : "Mal",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 2,
+    "eyebrowTex" : 2,
+    "tattooTex" : 1,
+    "actualTattooTex" : 0,
+    "weights" : [
+        57.22039,
+        17.68334,
+        24.9244,
+        0.03142466,
+        0.1177475,
+        0.0226884
+    ],
+    "browOffsetY" : 0.001687795,
+    "browOffsetZ" : 0.000413787,
+    "noseBridgeScale" : -0.01324136,
+    "noseTipScale" : -0.2928734,
+    "chinScale" : -0.01565688,
+    "cheekOffsetY" : 0.001860272,
+    "eyeWidth" : -0.04491532,
+    "jawWidth" : 0.07738099,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

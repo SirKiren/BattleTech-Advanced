@@ -1,0 +1,11 @@
+[CameraUnchained @ 3/25/2022 12:49:10 PM] CLEANED UP
+[CameraUnchained @ 3/25/2022 12:49:10 PM] Logger.Initialize(D:\Steam\steamapps\common\BATTLETECH\Mods\PafftekIndustries_Optional_Mods\CameraUnchained\CameraUnchained.log, 1, D:\Steam\steamapps\common\BATTLETECH\Mods\PafftekIndustries_Optional_Mods\CameraUnchained, CameraUnchained)
+[CameraUnchained @ 3/25/2022 12:49:10 PM] Logger.OverrideDebugLevel(CameraUnchained)
+----------------------------------------------------------------------------------------------------
+[CameraUnchained @ 3/25/2022 12:49:10 PM] EXCEPTION:
+Message: Sequence contains no elements<br/>
+StackTrace:   at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at Logger.OverrideDebugLevel (System.String modName) [0x0003b] in <d01a87cec4754c689ba1c2adda7217a1>:0 
+----------------------------------------------------------------------------------------------------
+[CameraUnchained @ 3/25/2022 12:49:10 PM] FAILED to override the DebugLevel and/or the LogLocation for Mod: CameraUnchained
+[CameraUnchained @ 3/25/2022 12:49:10 PM] CONTINUING to log in this file with the default CameraUnchained.DebugLevel: 1

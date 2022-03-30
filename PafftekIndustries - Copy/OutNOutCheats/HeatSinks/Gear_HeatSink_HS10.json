@@ -1,0 +1,38 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Red"
+		},
+	},
+    "DissipationCapacity" : 10,
+    "Description" : {
+        "Cost" : 75000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Apocalypse Armaments",
+        "Model" : "HS-10",
+        "UIName" : "Heat Sink 10",
+        "Id" : "Gear_HeatSink_HS10",
+        "Name" : "Heat Sink 10",
+        "Details" : "Made from lightweight materials and advance manufacturing techniques resulting in ultra lightweight designs.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 10 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

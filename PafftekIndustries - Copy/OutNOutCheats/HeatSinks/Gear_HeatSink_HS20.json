@@ -1,0 +1,40 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Red"
+		},
+	},
+    "DissipationCapacity" : 20,
+    "Description" : {
+        "Cost" : 15000,
+        "Rarity" : 20,
+        "Purchasable" : true,
+        "Manufacturer" : "Apocalypse Armaments",
+        "Model" : "HS-20",
+        "UIName" : "Heat Sink 20",
+        "Id" : "Gear_HeatSink_HS20",
+        "Name" : "Heat Sink 20",
+        "Details" : "Made from lightweight materials and advance manufacturing techniques resulting in ultra lightweight designs.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 20 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -20,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+			"BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

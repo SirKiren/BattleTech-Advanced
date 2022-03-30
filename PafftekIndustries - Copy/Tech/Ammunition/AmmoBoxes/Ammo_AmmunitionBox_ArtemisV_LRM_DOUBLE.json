@@ -1,0 +1,70 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "LRMARTIVAmmo"
+			},
+			{
+				"CategoryID": "a/m/l/lrm"
+			}
+		],
+		"Tag": "ArtemisIV",
+		"RequiredCategory": {
+			"CategoryID": "MissTTSART"
+		},
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 4,
+			"StabilityDamagePerAmmo": 1
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"PipsIgnored: +2",
+				"CostPerShot: 30",
+				"LRMCrit: 100%",
+				"LRMAmmo: 120",
+				"ReqArtemis"
+			]
+		},
+		"AmmoCost" : {
+		  "PerUnitCost" : 30
+		}
+	},
+	"AmmoID": "Ammunition_LRM_ArtemisV",
+	"Capacity": 270,
+	"Description": {
+		"Cost": 900000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "LRM Artemis V",
+		"UIName": "Ammo LRM ART-V[D]",
+		"Id": "Ammo_AmmunitionBox_ArtemisV_LRM_DOUBLE",
+		"Name": "LRM Artemis V Ammo[Dbl]",
+		"Details": "Artemis V LRM's have a ''smart'' Warhead, like their older brothern.  This ''smart'' guidance system is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy . Has 270 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Missile"
+	},
+	"BonusValueA": "+2 Accuracy|+100% Crit|",
+	"BonusValueB": "+2 Indirect Accuracy",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 2,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant1"
+		],
+		"tagSetSourceFile": ""
+	}
+}

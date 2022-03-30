@@ -1,0 +1,62 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "Heatsink"
+			},
+			{
+				"CategoryID": "BHS"
+			}
+		],
+		"EngineHeatSink": {
+			"FullName": "Basic Heat Sinks",
+			"Abbreviation": "BHS",
+			"Tag": "BHS"
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"Dissipation: 3"
+			]
+		},
+		"Color": {
+			"UIColor": "DarkGray"
+		},		
+		"Flags": {
+			"flags": [
+				"not_broken",
+				"no_salvage"
+			]
+		}
+	},
+	"DissipationCapacity": 3,
+	"Description": {
+		"Cost": 30000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Basic",
+		"UIName": "Basic Heat Sink",
+		"Id": "Gear_HeatSink_Generic_Basic",
+		"Name": "Heat Sink Basic (B)",
+		"Details": "Heat Sinks actively expel thermal energy generated from firing weaponry or other sources, preventing damage from excessive heat buildup. Their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+		"Icon": "uixSvgIcon_equipment_Heatsink"
+	},
+	"BonusValueA": "- 3 Heat / Turn",
+	"BonusValueB": "",
+	"ComponentType": "HeatSink",
+	"ComponentSubType": "Heatsink",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

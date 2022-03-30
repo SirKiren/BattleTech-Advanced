@@ -1,0 +1,107 @@
+{
+   "Description": {
+      "Id": "Ammunition_LBX20_SABOT",
+      "Name": "LBX/20 APFSDS Ammo",
+      "UIName": "APFSDS",
+      "Details": "Small caliber ammunition designed for long range fire in an AC/2.",
+      "Icon": null,
+      "Cost": 0,
+      "Rarity": 0,
+      "Purchasable": false
+   },
+   "Type": "Normal",
+   "Category": "LBX20",
+   "HeatGenerated": 0,
+   "AIBattleValue": 90,
+   "HeatGeneratedModifier": 1,
+   "ArmorDamageModifier": 0.8,
+   "ISDamageModifier": 0.6,
+   "CriticalDamageModifier": 1,
+	"MinRange": 0.0, 
+	"MaxRange": 200.0, 
+	"ShortRange": 50.0, 
+	"MiddleRange": 100.0, 
+	"LongRange": 200,
+	"APDamage": 12,
+	"statusEffects" :[
+		{
+            "Description" : {
+                "Id" : "StatusEffect-BH-PerfectAimStructureDamage",
+                "Name" : "PERFECT AIM",
+                "Details" : "The Bounty Hunter's attacks bypass armor and deal structure damage to the target.",
+                "Icon" : "UixSvgIcon_specialAbility_HiredGuns"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "StructureDamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "12.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon"
+            }
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-BH-PerfectAimAttackFloatie",
+                "Name" : "PERFECT AIM",
+                "Details" : "PERFECT AIM",
+                "Icon" : "UixSvgIcon_specialAbility_HiredGuns"
+            },
+            "effectType" : "FloatieEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : 1,
+                "stackLimit" : 0,
+                "triggerLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnWeaponFire",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "floatieData" : {
+                "targetCollection" : "NotSet"
+            }
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-BH-PerfectAimHitFloatie",
+                "Name" : "ARMOR BYPASSED",
+                "Details" : "ARMOR BYPASSED",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "FloatieEffect",
+            "nature" : "Debuff",
+            "durationData" : {
+                "duration" : 1,
+                "stackLimit" : 0,
+                "triggerLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "effectTargetType" : "SingleTarget",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+            "floatieData" : {
+                "targetCollection" : "NotSet"
+            }
+        }
+	]
+
+	
+}

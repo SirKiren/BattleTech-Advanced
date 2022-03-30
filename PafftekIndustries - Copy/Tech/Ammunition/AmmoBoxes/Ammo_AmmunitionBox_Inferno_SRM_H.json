@@ -1,0 +1,62 @@
+{
+	"Custom": {
+		"Category" : [
+			{ "CategoryID" : "a/m/s/srm" }
+		],
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 1,
+			"HeatDamagePerAmmo": 7,
+			"StabilityDamagePerAmmo": 1
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"HeatDamage: +3",
+				"SRMDamage: -5",
+				"Inferno: 3",
+				"CostPerShot: 200",
+				"ISRMAmmo: 50",
+				"OHDamage: 10%"
+			]
+		},
+		"AmmoCost" : {
+		  "PerUnitCost" : 200
+		}
+	},
+	"AmmoID": "Ammunition_SRM_Inferno",
+	"Capacity": 50,
+	"Description": {
+		"Cost": 10000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "SRM",
+		"UIName": "Ammo SRM [INF-H]",
+		"Id": "Ammo_AmmunitionBox_Inferno_SRM_H",
+		"Name": "Inferno SRM",
+		"Details": "Infernos are special fuel-air missile munitions that are a development of the incendiary weapons of the mid-twentieth century. They combine flammable chemicals with an adhesive compound to shower their targets with a burning gel. This gel is designed to increase a 'Mech's heat levels to the point where the DI computer shuts down the 'Mech's Fusion Engine. Dramatically reduced direct explosive damage is the trade-off. Has 100 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Missile"
+	},
+	"BonusValueA": "-7 Damage",
+	"BonusValueB": "+4 Heat Damage",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

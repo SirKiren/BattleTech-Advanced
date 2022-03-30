@@ -1,0 +1,380 @@
+{
+	"Phase": {
+		"PhaseSpecial": 1,
+		"PhaseLight": 10,
+		"PhaseMedium": 10,
+		"PhaseHeavy": 10,
+		"PhaseAssault": 10,
+		"PhaseLightVehicle": 4,
+		"PhaseMediumVehicle": 6,
+		"PhaseHeavyVehicle": 8,
+		"PhaseAssaultVehicle": 10,
+		"PhaseLightTurret": 3,
+		"PhaseMediumTurret": 5,
+		"PhaseHeavyTurret": 7,
+		"PhaseAssaultTurret": 10
+	},
+	"Heat": {
+		"OverheatLevel": 0.7,
+		"MaxHeat": 150,
+		"WalkHeat": 0,
+		"SprintHeat": 5,
+		"JumpHeatUnitSize": 6,
+		"JumpHeatPerUnit": 1,
+		"JumpHeatMin": 5,
+		"EngineDamageHeat": 0,
+		"InternalHeatSinkCount": 0,
+		"DefaultHeatSinkDissipationCapacity": 3,
+		"StartupSinkRatio": 0.75,
+		"GlobalHeatIncreaseMultiplier": 1.0,
+		"GlobalHeatSinkMultiplier": 1.0,
+		"CriticalHeatPerLocationLight": 0,
+		"CriticalHeatPerLocationMedium": 0,
+		"CriticalHeatPerLocationHeavy": 0,
+		"CriticalHeatPerLocationAssault": 0,
+		"ShutdownCausesInjury": false,
+		"ShowPeakHeat": false
+	},
+"Visibility": {
+    "BaseSpotterDistance": 1.0,
+    "SpotterTacticsMultiplier": 0.0,
+    "RatioFullVis": 0.79,
+    "RatioObstructedVis": 0.41,
+    "MinRatioFromActors": 0.2,
+    "ShutDownVisibilityModifier": 1.0,
+    "ShutDownSignatureModifier": 0.5,
+    "BaseSensorDistance": 1.0,
+    "UseAsymmetricalSensors": true,
+    "ShowExtendedBlipsBeforeContact": false,
+    "ExtendedSensorDistanceMultiplier": 1.0,
+    "SensorHysteresisAdditive": 50.0,
+    "ShutdownSpottingDistanceMultiplier": 0.1,
+    "ProneSpottingDistanceMultiplier": 0.25,
+    "AllowRearArcSpotting": true,
+    "NumSensorLockSteps": 1,
+    "SensorLockSingleStepEffect": {
+      "durationData": {
+        "duration": 12,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTargetType": "SingleTarget",
+        "forceVisRebuild": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityT5SensorLock",
+        "Name": "SENSOR LOCK",
+        "Details": "SENSOR LOCK",
+        "Icon": "uixSvgIcon_action_sensorlock"
+      },
+      "statisticData": {
+        "statName": "SensorSignatureModifier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      },
+      "nature": "Debuff"
+    },
+    "NumSensorLockImpairedEffects": 1,
+    "SensorsImpairedEffect": {
+      "durationData": {
+        "duration": 8,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTargetType": "SingleTarget",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "forceVisRebuild": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityT8SensorLock2",
+        "Name": "SENSOR LOCK",
+        "Details": "SENSOR LOCK",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "SpottingVisibilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    },
+    "SensorLockAntiStealthEffect": {
+      "durationData": {
+        "duration": 6,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTargetType": "SingleTarget",
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "SensorLockAntiStealthEffect",
+        "Name": "SENSOR LOCK: STEALTH SUPPRESSED",
+        "Details": "Sensor Lock suppresses Stealth on this unit for 1 Round.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "LV_PROBE_PING",
+        "operation": "Int_Add",
+        "modValue": "6",
+        "modType": "System.Int32"
+      }
+    },
+    "FiredWeaponsEffect": {
+      "durationData": {
+        "duration": 24,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "SingleTarget"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "FiredWeaponsSignatureEffect",
+        "Name": "FIRED WEAPONS",
+        "Details": "+60% SIGNATURE",
+        "Icon": "uixSvgIcon_genericDiamond"
+      },
+      "statisticData": {
+        "statName": "SensorSignatureModifier",
+        "operation": "Float_Multiply",
+        "modValue": "1.6",
+        "modType": "System.Single"
+      },
+      "nature": "Debuff"
+    },
+    "FiredWeaponsAntiStealthEffect": {
+      "durationData": {
+        "duration": 12,
+        "ticksOnEndOfRound": true,
+        "ticksOnMovements": true,
+        "ticksOnActivations": true,
+        "stackLimit": 10
+      },
+      "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "SingleTarget",
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "FiredWeaponsAntiStealthEffect",
+        "Name": "FIRED WEAPONS: STEALTH SUPPRESSED",
+        "Details": "Firing weapons suppresses Stealth on this unit for 1 Round.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "statisticData": {
+        "statName": "SpottingVisibilityMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.4",
+        "modType": "System.Single"
+      },
+      "nature": "Debuff"
+    },
+    "MaxShadowingDistance": 80.0,
+    "NumShadowingSteps": -1,
+    "GhostStatePipThreshold": 2,
+    "GhostStateHidesBlips": true
+  },
+	"ToHit": {
+		"ToHitBaseFloor": 0.8,
+		"ToHitGunneryDivisor": 100,
+		"ToHitAssault": 0,
+		"ToHitHeavy": 0,
+		"ToHitMedium": 0,
+		"ToHitLight": 0,
+		"ToHitVehicleAssault": 0,
+		"ToHitVehicleHeavy": 0,
+		"ToHitVehicleMedium": 0,
+		"ToHitVehicleLight": 0,
+		"ToHitTurretAssault": 0,
+		"ToHitTurretHeavy": 0,
+		"ToHitTurretMedium": 0,
+		"ToHitTurretLight": 0,
+		"ToHitMinimumRange": 8,
+		"ToHitShortRange": 0,
+		"ToHitMediumRange": 2,
+		"ToHitLongRange": 4,
+		"ToHitMaximumRange": 6,
+		"ToHitElevationLevelHeight": 20,
+		"ToHitSelfSprinted": 1,
+		"ToHitSelfWalkLight": 1,
+		"ToHitSelfWalkMedium": 1,
+		"ToHitSelfWalkHeavy": 1,
+		"ToHitSelfWalkAssault": 1,
+		"ToHitSelfWalkVehicle": 2,
+		"SensorLockStripsEvasivePips": true,
+		"SensorLockPipsStripped": 2,
+		"StrayShotsEnabled": true,
+		"StrayShotsHitUnits": true,
+		"StrayShotValidTargets": 0,
+		"ToHitMovingTargetDistances": [
+			70,
+			100,
+			130,
+			160,
+			190,
+			220,
+			260,
+			300
+		],
+		"EvasivePipsMovingTarget": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8
+		],
+		"ToHitMovingPipUMs": [
+			2,
+			4,
+			6,
+			8,
+			10,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18
+		]
+	},
+	"ResolutionConstants": {
+		"MeleeDamageMultiplierTurret": 2.0,
+		"MeleeDamageMultiplierVehicle": 1.8,
+		"DefaultUnsteadyThreshold": 40,
+		"AICritChanceBaseMultiplier": 1.0,
+		"VehicleEvasiveResultMultiplier": 1,
+		"VehiclesGetGuarded": true,
+		"MinCritChance": 10,
+		"COILUsesJumping": false,
+		"COILMultipliesShots": false,
+		"MissOffsetHorizontalMin": 1.5,
+		"MissOffsetHorizontalMax": 3.0,
+		"MissOffsetVerticalMin": 3.0,
+		"MissOffsetVerticalMax": 6.0
+	},
+	"CombatValueMultipliers": {
+		"ArmorMultiplierVehicle": 1.0,
+		"StructureMultiplierVehicle": 1.25
+	},
+	"MoraleConstants": {
+		"MoraleMin": 0,
+		"MoraleMax": 60,
+		"CanUseInspireLevel": 40,
+		"OffensivePushCost": 50,
+		"OffensivePushLowMoraleCost": 60,
+		"OffensivePushHighMoraleCost": 40,
+		"DefensivePushCost": 50,
+		"DefensivePushLowMoraleCost": 60,
+		"DefensivePushHighMoraleCost": 40,
+		"ChangeEnemyAmmoExplodes": 5,
+		"ChangeEnemyLocationDestroyed": 2,
+		"ChangeEnemyKnockedDown": 2,
+		"ChangeDFADealt": 10,
+		"ChangeEnemyDestroyedLight": 2,
+		"ChangeEnemyDestroyedMedium": 4,
+		"ChangeEnemyDestroyedHeavy": 6,
+		"ChangeEnemyDestroyedAssault": 8,
+		"ChangeObjectiveCompleted": 5,
+		"ChangeObjectiveFailed": -10,
+		"ChangeAllyAmmoExplodes": -10,
+		"ChangeAllyLocationDestroyed": -5,
+		"ChangeAllyKnockedDown": -5,
+		"ChangeDFAReceived": -10,
+		"ChangeAllyDestroyedLight": -5,
+		"ChangeAllyDestroyedMedium": -5,
+		"ChangeAllyDestroyedHeavy": -10,
+		"ChangeAllyDestroyedAssault": -10,
+		"BaselineAddFromSimGameThresholds": [
+			0,
+			11,
+			21,
+			31,
+			41
+		],
+		"BaselineAddFromSimGameValues": [
+			0,
+			5,
+			10,
+			15,
+			20
+		]
+	},
+	"CombatUIConstants": {
+		"COIL_Footstep_Charge_Med": 2.0,
+		"COIL_Footstep_Charge_Max": 4.0,
+		"COIL_Projectile_Charge_Med": 70.0,
+		"COIL_Projectile_Charge_Max": 140.0,
+		"MoraleCostAttackDescription": {
+			"Name": "PRECISION STRIKE COST",
+			"Details": "Cost: 50 Resolve"
+		},
+		"MoraleCostAttackDescriptionLow": {
+			"Name": "PRECISION STRIKE COST LOW",
+			"Details": "Cost: <color=#F04228FF>60 Resolve (this MechWarrior has Low Spirits)</color>"
+		},
+		"MoraleCostAttackDescriptionHigh": {
+			"Name": "PRECISION STRIKE COST HIGH",
+			"Details": "Cost: <color=#85DBF6FF>40 Resolve (this MechWarrior has High Spirits)</color>"
+		},
+		"MoraleAttackDescription": {
+			"Name": "PRECISE STRIKE",
+			"Details": "Take a Precise Strike against a single target at largely reduced Difficulty. The target's next Initiative is reduced by 1 (to a minimum of 1).\n"
+		},
+		"MoraleDefendDescription": {
+			"Name": "VIGILANCE",
+			"Details": "Gain GUARDED and ENTRENCHED and remove all stability damage. Your next Initiative is increased by 1 (to a maximum of 5).\n"
+		},
+		"MoraleCostDefendDescription": {
+			"Name": "VIGILANCE COST",
+			"Details": "Cost: 50 Resolve"
+		},
+		"MoraleCostDefendDescriptionLow": {
+			"Name": "VIGILANCE COST LOW",
+			"Details": "Cost: <color=#F04228FF>60 Resolve (this MechWarrior has Low Spirits)</color>"
+		},
+		"MoraleCostDefendDescriptionHigh": {
+			"Name": "VIGILANCE COST HIGH",
+			"Details": "Cost: <color=#85DBF6FF>40 Resolve (this MechWarrior has High Spirits)</color>"
+		}
+	},
+	"MoveConstants": {
+		"LegDestroyedPenalty": 0,
+		"LegDamageRedPenalty": 0,
+		"LegDamageYellowPenalty": 0
+	},
+	"CameraConstants": {
+		"MinHeightAboveTerrain": 20.0,
+		"MaxHeightAboveTerrain": 700.0,
+		"ZoomSpeed": 1800.0
+	}
+}

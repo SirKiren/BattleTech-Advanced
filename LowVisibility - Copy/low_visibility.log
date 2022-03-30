@@ -1,0 +1,17 @@
+16:45:07.804 INFO: No errors reading settings file.
+16:45:07.807 Assembly version: 1.1.0.0
+16:45:07.808 === MOD CONFIG BEGIN ===
+16:45:07.808   DEBUG:False Trace:False
+16:45:07.808   == Probability ==
+16:45:07.808 ProbabilitySigma:3, ProbabilityMu:0
+16:45:07.808   == Sensors ==
+16:45:07.808 Type Ranges - Mech: 510 Trooper: 120 Vehicle: 360 Turret: 300 UnknownType: 100
+16:45:07.808 MinimumRange: 150  FirstTurnForceFailedChecks: True  MaxECMDetailsPenalty: -11
+16:45:07.808   == Vision ==
+16:45:07.808 Vision Ranges - Bright: 850 Dim:230 Dark:110
+16:45:07.808 Range Multis - Rain/Snow: x0.6 Light Fog: x0.6 HeavyFog: x0.2
+16:45:07.808 Minimum range: 90 ScanRange: 150
+16:45:07.808   == FogOfWar ==
+16:45:07.810 RedrawFogOfWarOnActivation: True  ShowTerrainThroughFogOfWar: True
+16:45:07.810   == Attacking ==
+16:45:07.810 === MOD CONFIG END ===

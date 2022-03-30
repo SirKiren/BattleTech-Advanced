@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "2j",
+        "Name" : "2j",
+        "Details" : "Random",
+        "Icon" : "2j"
+    },
+    "ID" : "2j",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 15,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 13,
+    "lightRig" : 4,
+    "cameraPosition" : 4,
+    "complexionTex" : 3,
+    "eyebrowTex" : 5,
+    "tattooTex" : 9,
+    "actualTattooTex" : 0,
+    "weights" : [
+        63.06398,
+        13.91596,
+        0.3881693,
+        0.4698609,
+        0.000700622,
+        22.16132
+    ],
+    "browOffsetY" : 0.0001757075,
+    "browOffsetZ" : 0.00633766,
+    "noseBridgeScale" : 0.04235056,
+    "noseTipScale" : 0.1884394,
+    "chinScale" : -0.03865788,
+    "cheekOffsetY" : 0.002252879,
+    "eyeWidth" : 0.04933465,
+    "jawWidth" : 0.03914623,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

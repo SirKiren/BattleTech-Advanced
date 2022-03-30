@@ -1,0 +1,67 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "MRMApolloAmmo"
+			},
+			{
+				"CategoryID": "a/m/s/mrm"
+			}
+		],	
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"RequiredCategory": {
+			"CategoryID": "ApolloTTS"
+		},
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 0.5,
+			"StabilityDamagePerAmmo": 0.1875
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"MRMAccuracy: +1",
+				"WpnCrits: 20%",
+				"CostPerShot: 12",
+				"MRMAmmo: 380"
+			]
+		},
+		"AmmoCost" : {
+		  "PerUnitCost" : 12
+		}
+	},
+	"AmmoID": "Ammunition_MRM_Improved",
+	"Capacity": 380,
+	"Description": {
+		"Cost": 26000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "MRM",
+		"UIName": "Ammo MRM Apollo[D-P]",
+		"Id": "Ammo_AmmunitionBox_Improved_MRM_DOUBLE_Protected",
+		"Name": "MRM Apollo Ammo[Protected Double]",
+		"Details": "Improved Medium Range Missiles are a redesign of the MRM from the ground up. By exchanging the propellent for a newer blend and swapping out the explosive core for a shaped charge the missiles’ aerodynamic structure was able to be refined. This lead to an all around improvement in accuracy through improved aerodynamics and fin stabilization. This is a protected bin, with flame and explosive reducing baffles, that reduces damage in the advent of an Ammo Explosion.   However it is still recommended to equip C.A.S.E! Has 380 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Missile"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 2,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

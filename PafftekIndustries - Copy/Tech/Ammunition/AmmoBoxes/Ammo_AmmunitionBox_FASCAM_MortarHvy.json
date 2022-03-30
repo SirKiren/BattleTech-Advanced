@@ -1,0 +1,59 @@
+{
+	"Custom": {
+		"Category" : [
+			{ "CategoryID" : "a/a/o/mortar" }
+		],
+		"Flags": {
+			"flags": [
+				"not_broken"
+			]
+		},
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 100,
+			"StabilityDamagePerAmmo": 25
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"AreaOfEffect: 100",
+				"AreaOfEffectDmg: 40",
+				"CostPerShot: 200",
+				"MortarAmmo: 10"
+			]
+		},
+		"AmmoCost" : {
+		  "PerUnitCost" : 200
+		}
+	},
+	"AmmoID": "Ammunition_MortarHvy_FASCAM",
+	"Capacity": 10,
+	"Description": {
+		"Cost": 80000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "ICP Industries",
+		"Model": "HvyMORTAR",
+		"UIName": "Ammo Hvy Mortar FASCAM",
+		"Id": "Ammo_AmmunitionBox_FASCAM_MortarHvy",
+		"Name": "Hvy Mortar FASCAM Ammo",
+		"Details": "Heavy Mortar shells deliver a massive Explosive payload, able to damage several units on impact. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 10 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

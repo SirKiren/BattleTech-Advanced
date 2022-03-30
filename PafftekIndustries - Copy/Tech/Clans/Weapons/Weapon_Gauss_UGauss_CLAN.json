@@ -1,0 +1,103 @@
+{
+    "Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/g/gaussrifle"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],	
+        "ComponentExplosion": {
+            "ExplosionDamage": 100,
+            "HeatDamage": 30,
+            "StabilityDamage": 25
+        }
+
+    },
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 90,
+    "MaxRange": 950,
+    "RangeSplit": [
+        200,
+        380,
+        800
+    ],
+    "AmmoCategory": "GAUSS",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 7,
+    "Damage": 75,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 1,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 4,
+    "Instability": 25,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 3240000,
+        "Rarity": 10,
+        "Purchasable": true,
+        "Manufacturer": "CLAN",
+        "Model": "Auto Mag Cannon",
+        "UIName": "Ultra Gauss Rifle (C)",
+        "Id": "Weapon_Gauss_UGauss_CLAN",
+        "Name": "Ultra Gauss Rifle (C)",
+        "Details": "Clan Engineers, having cought wind of the Inner Sphere's 'Rotary' Gauss by the Blackwell Corporation, developed their own, Refined version.  While maxing out at two shots, and being slightly larger than the Inner Sphere 'prototype,' the Ultra Gauss gains some abilties the Inner Sphere have yet to replicate.  In single shot mode it adds extra power to it's Strike, and in Dual or 'Ultra' mode, there is a much lower chance of miss-alignment causing failure.<b><color=#099ff2>VOLATILE!</color></b>",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "+RNG and Accuracy OR",
+    "BonusValueB": "Multi Fire",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Gauss",
+    "BattleValue": 0,
+    "InventorySize": 6,
+    "Tonnage": 16,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": true,
+			"ShotsWhenFired": 0,
+			"APDamage": 8,
+			"EvasivePipsIgnored": 1			
+			
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"RefireModifier": 1,
+			"HeatGenerated": 5,
+			"FlatJammingChance": 0.10,
+			"ShortRange": -25.0,
+            "MiddleRange": -50.0,
+            "LongRange": -75.0,
+            "MaxRange": -100.0
+		}
+	],	
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_extreme"		
+        ],
+        "tagSetSourceFile": ""
+    }
+}

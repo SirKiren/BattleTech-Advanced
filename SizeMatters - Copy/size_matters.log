@@ -1,0 +1,13 @@
+16:45:01.136 Assembly version: 0.2.2.1
+16:45:01.136 ModDir is:D:\Steam\steamapps\common\BATTLETECH\Mods\SizeMatters
+16:45:01.136 mod.json settings are:({"Debug":true,"Trace":false,"TonnageDivisor":15.0,"TonnageCap":100.0,"ModifierCap":5,"VirtualTonnage":{"LightTurret":40.0,"MediumTurret":60.0,"HeavyTurret":80.0,"DefaultTurret":100.0,"Building":60.0},"StatisticsToAddPerTon":{"CACIncomingHeatMult":-0.0025}})
+16:45:01.137 === MOD CONFIG BEGIN ===
+16:45:01.137   DEBUG: True Trace: False
+16:45:01.137 
+16:45:01.137   TonnageDivisor: 15  TonnageCap: 100  ModifierCap: 5
+16:45:01.137   Virtual Tonnage - Turrets => light: 40  medium: 60  heavy: 80
+16:45:01.137   Virtual Tonnage - Building: 60
+16:45:01.137   StatisticsToAddPerTon:
+16:45:01.138     CACIncomingHeatMult: -0.0025
+16:45:01.138 === MOD CONFIG END ===
+16:45:01.138 INFO: No errors reading settings file.

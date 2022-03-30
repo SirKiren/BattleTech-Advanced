@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_plato_p",
+        "Name" : "pilot_at_plato_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_plato_p"
+    },
+    "ID" : "pilot_at_plato_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 1,
+    "complexionTex" : 5,
+    "eyebrowTex" : 5,
+    "tattooTex" : 4,
+    "actualTattooTex" : 11,
+    "weights" : [
+        54.57768,
+        11.19257,
+        7.605472,
+        2.253927,
+        0.4831145,
+        23.88724
+    ],
+    "browOffsetY" : 0.001837058,
+    "browOffsetZ" : -0.004139474,
+    "noseBridgeScale" : -0.1149132,
+    "noseTipScale" : 0.1940425,
+    "chinScale" : -0.1102726,
+    "cheekOffsetY" : 0.002148553,
+    "eyeWidth" : 0.0151801,
+    "jawWidth" : 0.06585684,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "f6",
+        "Name" : "f6",
+        "Details" : "Random",
+        "Icon" : "f6"
+    },
+    "ID" : "f6",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 4,
+    "complexionTex" : 5,
+    "eyebrowTex" : 3,
+    "tattooTex" : 5,
+    "actualTattooTex" : 10,
+    "weights" : [
+        58.9673,
+        22.30122,
+        1.400539,
+        15.77368,
+        1.435772,
+        0.1214959
+    ],
+    "browOffsetY" : 0.000596862,
+    "browOffsetZ" : 0.001251994,
+    "noseBridgeScale" : -0.1904996,
+    "noseTipScale" : -0.03427531,
+    "chinScale" : -0.03042452,
+    "cheekOffsetY" : -0.004227937,
+    "eyeWidth" : -0.04607526,
+    "jawWidth" : 0.03667881,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_14",
+    "hairTipId" : "Hair_14",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

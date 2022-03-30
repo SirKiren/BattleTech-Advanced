@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "replacement_behemoth",
+        "Name" : "replacement_behemoth",
+        "Details" : "Random",
+        "Icon" : "replacement_behemoth"
+    },
+    "ID" : "replacement_behemoth",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 15,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 12,
+    "lightRig" : 3,
+    "cameraPosition" : 1,
+    "complexionTex" : 2,
+    "eyebrowTex" : 1,
+    "tattooTex" : 8,
+    "actualTattooTex" : 0,
+    "weights" : [
+        30.12893,
+        19.98554,
+        7.408394,
+        31.51198,
+        10.87443,
+        0.09073681
+    ],
+    "browOffsetY" : 0.002644523,
+    "browOffsetZ" : -0.003699521,
+    "noseBridgeScale" : -0.1633495,
+    "noseTipScale" : 0.2692103,
+    "chinScale" : 0.05590691,
+    "cheekOffsetY" : -0.004787914,
+    "eyeWidth" : 0.03012357,
+    "jawWidth" : -0.08247571,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_01",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}
