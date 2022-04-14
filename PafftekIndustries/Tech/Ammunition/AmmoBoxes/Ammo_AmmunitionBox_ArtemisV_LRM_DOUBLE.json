@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "LRMARTIVAmmo"
+				"CategoryID": "LRMARTVAmmo"
 			},
 			{
 				"CategoryID": "a/m/l/lrm"
@@ -10,7 +10,7 @@
 		],
 		"Tag": "ArtemisIV",
 		"RequiredCategory": {
-			"CategoryID": "MissTTSART"
+			"CategoryID": "MissTTSARTV"
 		},
 		"Flags": {
 			"flags": [

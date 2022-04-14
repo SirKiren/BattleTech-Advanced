@@ -1,0 +1,120 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/ac"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+			]
+		}
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC10",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		300,
+		300,
+		450
+	],
+	"AmmoCategory": "AC10",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 10,
+	"Damage": 45,
+	"OverheatedDamageMultiplier": 0.7,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 1,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 3,
+	"Instability": 35,
+	"ImprovedBallistic": true,	
+	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Imperator",
+		"Model": "Heavy Autocannon",
+		"UIName": "Imperator AC/10 Pirate",
+		"Id": "Weapon_Autocannon_AC10_P-Imperator",
+		"Name": "Imperator AC/10 Pirate",
+		"Details": "A shipment of Imperator Heavy Autocannons in Class 10 went missing many years ago.  This rather large shipment has appeared on several mechs in the periphery since then as the Imperator AC/10 Pirate Autocannon.   The Imperator AC/10 Pirate Autocannon has 5 Fire modes; BASE, in which the Pirate AC behaves like a standard AC/10 for the most part. AP or armor piercing, where damage is traded for Through Armor Damage but has a 1 turn cooldown.  ACC or Accuracy, where the ability to hit with this Autocannon is greatly increased, again with a two turn cooldown. RapidFire where the Pirate Autocannon fires a three round burst with all the attend advantages and disadvantages, a three round cooldown is here as well.  Lastly, Is Ranged fire mode.  This dramatically increases the Reach of the Pirate Autocannon, for a trade off of a 2 turn cooldown before firing again.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC10",
+	"BattleValue": 0,
+	"InventorySize": 7,
+	"Tonnage": 12,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "lv1",
+			"UIName": "Base",
+			"isBaseMode": true
+		},
+		{
+			"Id": "lv2",
+			"UIName": "AP",
+			"isBaseMode": false,
+			"DamagePerShot": -7,
+			"APDamage":5,
+			"HeatGenerated": 4,
+			"Cooldown": 1			
+		},
+		{
+			"Id": "lv3",
+			"UIName": "Acc",
+			"DamagePerShot": -5,
+			"AccuracyModifier": -3,
+			"EvasivePipsIgnored": 3,
+			"Cooldown": 1			
+		},
+		{
+			"Id": "lv4",
+			"UIName": "RapidFire",
+			"isBaseMode": false,
+			"Cooldown": 2,
+			"ShotsWhenFired": 3,
+			"RefireModifier": 5,
+			"HeatGenerated": 22
+		},
+	
+		{
+			"Id": "lv5",
+			"UIName": "Range",
+			"DamagePerShot": -5,
+			"EvasivePipsIgnored": 1,
+			"Cooldown": 2,
+			"MaxRange": 240.0,
+			"ShortRange": 30.0,
+			"MediumRange": 60.0,
+			"LongRange": 120.0			
+		}
+	],	
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant1",
+			"range_long"
+		],
+		"tagSetSourceFile": ""
+	}
+}

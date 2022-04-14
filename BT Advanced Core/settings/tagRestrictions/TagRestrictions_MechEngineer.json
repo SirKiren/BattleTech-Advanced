@@ -64,6 +64,15 @@
 			]
 		},
 		{
+			"Tag": "ProtoImprovedJJ",
+			"IncompatibleTags": [
+				"StandardJJ",
+				"SHJJ",
+				"MechanicalJJ",
+				"DirectionalJJ"
+			]
+		},
+		{
 			"Tag": "StandardJJ",
 			"IncompatibleTags": [
 				"ImprovedJJ",
@@ -139,6 +148,26 @@
 			]
 		},
 		{
+			"Tag": "LRMARTVAmmo",
+			"IncompatibleTags": [
+				"ArtemisTTS",
+				"ApolloTTS"
+				"StreakRLRM"
+			],
+			"RequiredTags": [
+				"ArtemisVTTS"
+			]
+		},
+		{
+			"Tag": "StreakRLRM",
+			"IncompatibleTags": [
+				"ArtemisTTS",
+				"ApolloTTS"
+				"ArtemisVTTS"
+			],
+			"RequiredTags": []
+		},
+		{
 			"Tag": "SRMARTIVAmmo",
 			"IncompatibleTags": [],
 			"RequiredTags": [
@@ -154,6 +183,12 @@
 		},
 		{
 			"Tag": "MissTTSART",
+			"IncompatibleTags": [
+				"MissTTS"
+			]
+		},
+		{
+			"Tag": "MissTTSARTV",
 			"IncompatibleTags": [
 				"MissTTS"
 			]
@@ -205,14 +240,12 @@
 		{
 			"Tag": "C3Slave",
 			"IncompatibleTags": [
-				"C3Master",
 				"C3i"
 			]
 		},
 		{
 			"Tag": "C3Master",
 			"IncompatibleTags": [
-				"C3Slave",
 				"C3i"
 			]
 		},

@@ -1,0 +1,127 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"StabilityDamage": 125
+		},
+		"Category": [
+			{
+				"CategoryID": "Quirk"
+			}
+		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.2"
+			}
+		},
+		"Flags": {
+			"flags": [
+				"default",
+				"not_broken",
+				"no_salvage",
+				"autorepair",
+				"ignore_damage"
+			]
+		},
+		"ArmorStructureChanges": {
+			"StructureFactor": 1.5
+		},
+		"StructureRepair": {
+			"StructureTPCost": 1.55,
+			"StructureCBCost": 1.25
+		},		
+		"BonusDescriptions": {
+			"Bonuses": [
+				"IsGyro"
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "00019"
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 99,
+		"Purchasable": false,
+		"Manufacturer": "Quirk",
+		"Model": "Enforcer I",
+		"UIName": "PAI Enforcer I Quirks",
+		"Id": "Gear_Quirk_Enforcer1A",
+		"Name": "Enforcer I Quirks",
+		"Details": "This piece of gear represents the Crusader's inherent Easy to Maintain quirk. This means the Crusader's mechbay refits are extremely fast.",
+		"Icon": "uixSvgIcon_equipment_Gyro"
+	},
+	"BonusValueA": "Fast Refits",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "GyroGenericThreshhold",
+				"Name": "Gyroscopic Orientation",
+				"Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData": {
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Add",
+				"modValue": "75.0",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "PrimStructureReinforcement",
+				"Name": "Reinforced Structure",
+				"Details": "Reinforced Structure provides crit reduction.",
+				"Icon": "uixSvgIcon_action_end"
+			},
+			"statisticData": {
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.5",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"BLACKLISTED",
+			"component_type_variant"
+		],
+		"tagSetSourceFile": ""
+	}
+}
