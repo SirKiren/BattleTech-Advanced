@@ -40,7 +40,8 @@
 			"RedHareRegiment",
 			"BlackCalderaDefense",
 			"unit_notsacellum",
-		"unit_bracket_high"
+			"unit_rarity_3",
+			"unit_bracket_high"
 	  
     ],
     "tagSetSourceFile": ""

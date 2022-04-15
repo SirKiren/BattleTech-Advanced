@@ -15,6 +15,7 @@
 			"ClanWolf",
 			"ClanJadeFalcon",
 			"ClanGhostBear",
+			"ClanNovaCat",
 			"nofaction",
 			"MercenaryReviewBoard",
 			"betrayers",
@@ -32,7 +33,8 @@
 			"RedHareRegiment",
 			"BlackCalderaDefense",
 			"unit_notsacellum",
-		"unit_bracket_high"
+			"unit_rarity_1",
+			"unit_bracket_high"
 	  
     ],
     "tagSetSourceFile": ""

@@ -25,9 +25,9 @@
 			"AuriganPirates",
 			"AuriganDirectorate",
 			"AuriganRestoration",
-				   "FlakJackals",
- "Tortuga",
-                  "LocalsBrockwayRefugees",
+			"FlakJackals",
+			"Tortuga",
+			"LocalsBrockwayRefugees",
 			"MasonsMarauders",
 			"SteelBeast",
 			"KellHounds",
@@ -46,6 +46,7 @@
 			"BountyHunterAssociates",
 			"BaumannGroup",
 			"BlackWidowCompany",
+			"unit_rarity_1",
 			"unit_notsacellum"
 		],
 		"tagSetSourceFile": ""

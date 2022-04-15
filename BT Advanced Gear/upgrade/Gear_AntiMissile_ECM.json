@@ -1,0 +1,327 @@
+{
+	"Custom": {
+		"Category": [{
+			"CategoryID": "ECM"
+		}],
+		"Flags": {
+			"flags": [
+				"not_broken",
+				"no_salvage"
+			]
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"Defense: +1",
+				"AntiMissileDefense: +4",
+				"ECMRadius: 120"
+			]
+		},
+		"ActivatableComponent": {
+			"CanActivateAfterMove": true,
+			"CanActivateAfterFire": true,
+			"SafeActivation": true,
+			"ButtonName": "ECM Mode",
+			"CanNotBeActivatedManualy": false,
+			"NoUniqueCheck": true,
+			"ActiveByDefault": false,
+			"ActivationMessage": "Active",
+			"DeactivationMessage": "Passive",
+			"Linkage": {
+				"OnActivate": {
+					"Activate": [],
+					"Deactivate": []
+				},
+				"OnDeactivate": {
+					"Activate": [],
+					"Deactivate": []
+				}
+			},
+			"statusEffects": [{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ECMPassiveShield",
+						"Name": "ECMPassiveShield",
+						"Details": "Passive ECM Protection",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_ECM_SHIELD",
+						"operation": "Int_Add",
+						"modValue": "1",
+						"modType": "System.Int32"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ECMPassiveJam",
+						"Name": "ECMPassiveJam",
+						"Details": "Passive Jamming Protection",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_ECM_JAMMED",
+						"operation": "Int_Add",
+						"modValue": "-1",
+						"modType": "System.Int32"
+					}
+				}
+			],
+			"offlineStatusEffects": [{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ECMPassiveShield",
+						"Name": "ECMPassiveShield",
+						"Details": "Passive ECM Protection",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_ECM_SHIELD",
+						"operation": "Int_Add",
+						"modValue": "4",
+						"modType": "System.Int32"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ECMPassiveJam",
+						"Name": "ECMPassiveJam",
+						"Details": "Passive Jamming Protection",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_ECM_JAMMED",
+						"operation": "Int_Add",
+						"modValue": "-3",
+						"modType": "System.Int32"
+					}
+				}
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "00024"
+		}
+	},
+
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 1000000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "Hellespont",
+		"Model": "Arrowhead",
+		"UIName": "Anti-Missile ECM",
+		"Id": "Gear_AntiMissile_ECM",
+		"Name": "Anti-Missile ECM",
+		"Details": "Designed and integrated into the experimental Raven-4LX, the Anti-Missile ECM combines the circuitry of a Guardian ECM with a unique sensor scrabler that interfers with incoming missile targeting. The Anti-Missile ECM emits a special signal that actively scrambles incoming missile fire in an area around the unit, keeping the Raven-4LX and its allies safe under even the heaviest weapons fire. However, the effect proved prone to maintenance woes and remains experimental.",
+		"Icon": "circuitry"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 3,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [{
+			"Id": "Jammer_Aura",
+			"Name": "JAMMED",
+			"ReticleColor": "#00f2ff",
+			"Range": 180,
+			"HideOnNotSelected": false,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "NegativeOne",
+			"IsPositiveToAlly": false,
+			"IsNegativeToEnemy": true,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1,
+					"uniqueEffectIdStackLimit": 1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"specialRules": "NotSet",
+					"effectTargetType": "EnemiesWithinRange",
+					"range": 0.0,
+					"forceVisRebuild": true,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "LV_ECM_JAM",
+					"Name": "ECM Jammer",
+					"Details": "Jamming ECM, reduces sensor checks for enemies in field",
+					"Icon": "uixSvgIcon_action_sensorlock"
+				},
+				"statisticData": {
+					"statName": "LV_ECM_JAMMED",
+					"operation": "Int_Add",
+					"modValue": "3",
+					"modType": "System.Int32"
+				},
+				"nature": "Debuff"
+			}]
+		},
+		{
+			"Id": "ECCM_Anitjam",
+			"Name": "CounterJamming",
+			"ReticleColor": "#00f2ff",
+			"Range": 180,
+			"HideOnNotSelected": true,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": false,
+			"AllyStealthAffection": "PositiveTwo",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1,
+					"uniqueEffectIdStackLimit": 1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"specialRules": "NotSet",
+					"effectTargetType": "AlliesWithinRange",
+					"range": 0.0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": true
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "UNJAM",
+					"Name": "ECM Anti-Jammer",
+					"Details": "Reduce Jamming on Allies",
+					"Icon": "uixSvgIcon_action_sensorlock"
+				},
+				"statisticData": {
+					"statName": "LV_ECM_JAMMED",
+					"operation": "Int_Add",
+					"modValue": "-2",
+					"modType": "System.Int32"
+				},
+				"nature": "Buff"
+			}]
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"specialRules": "NotSet",
+				"effectTargetType": "AlliesWithinRange",
+				"range": 0.0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect_AntiMissileECM",
+				"Name": "Missile Scrambling",
+				"Details": "The Anti-Missile ECM scrambles enemy missile fire, giving a +4 penalty to enemy missile attacks. This penalty stacks with the normal ECM effect.",
+				"Icon": "circuitry"
+			},
+			"statisticData": {
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "4.0",
+				"modType": "System.Single",
+				"targetAmmoCategory": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "Missile",
+				"targetWeaponSubType": "NotSet",
+				"targetWeaponType": "NotSet"
+			},
+			"nature": "Buff"
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"ElectronicCounterMeasures",
+			"lv-jammer_m2_r6"
+		],
+		"tagSetSourceFile": ""
+	}
+}

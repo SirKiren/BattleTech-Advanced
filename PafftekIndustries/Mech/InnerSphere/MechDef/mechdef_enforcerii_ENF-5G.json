@@ -28,6 +28,7 @@
 			"BroadswordLegion",
 			"Moderbjorn",
 			"BountyHunterAssociates",
+			"unit_rarity_3",
 			"BaumannGroup",		
 			"BlackWidowCompany",
 			"unit_notsacellum"
@@ -45,7 +46,7 @@
 		"UIName": "Enforcer II ENF-5G",
 		"Id": "mechdef_enforcerii_ENF-5G",
 		"Name": "Enforcer II",
-		"Details": "Following the introduction of the ENF-5D Enforcer II, a limited run ENF-5G was produced.   The -5G swapped out all ballistic weapons for Energy weapons.  As equipped the Enforcer was used as an escort, and scout mech behind enemy lines.   It's lack of dependance on the ammunition supply chain would greatly aid this mech in it's designed roles.",
+		"Details": "The limited production run Enforcer II ENF-5G was developed by CampaignonAnon Mech Werks shortly after the introduction of the standard Davion Enforcer II ENF-5D.   The -5G swapped out all ballistic weapons for Energy weapons.  As equipped the Enforcer was used as an escort, and scout mech behind enemy lines.   It's lack of dependance on the ammunition supply chain would greatly aid this mech in it's designed roles.",
 		"Icon": "uixTxrIcon_enforcer"
 	},
 	"simGameMechPartCost": 520000,
