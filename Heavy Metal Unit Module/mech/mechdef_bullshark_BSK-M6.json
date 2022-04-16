@@ -464,6 +464,7 @@
 			"unit_assault",
 			"unit_release",
 			"unit_ready",
+			"unit_rarity_4",
 			"unit_role_flanker",
 			"unit_range_medium",
 			"unit_armor_high",
