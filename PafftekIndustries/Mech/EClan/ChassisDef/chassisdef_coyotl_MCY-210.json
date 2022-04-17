@@ -1,0 +1,287 @@
+{
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Lower",
+			"RightLimit": "Lower"
+		}
+	},
+	"Description": {
+		"Cost": 6872000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Coyotl",
+		"Id": "chassisdef_coyotl_MCY-210",
+		"Name": "Coyotl",
+		"Details": "An Omnimech Evololution of the 'not named clan's Mercury II, the Coyotl is the first Omnimech ever produced.  Developed by 'Clan Coyote' It intered production in 2854.  Utilizes early clan tech.",
+		"Icon": "uixTxrIcon_champion"
+	},
+	"MovementCapDefID": "movedef_champion_CHP-2N",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_champion",
+	"PrefabIdentifier": "chrprfmech_championbase-001",
+	"PrefabBase": "champion",
+	"Tonnage": 40,
+	"InitialTonnage": 4,
+	"weightClass": "MEDIUM",
+	"BattleValue": 5383000,
+	"Heatsinks": 0,
+	"TopSpeed": 150,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"EngageRangeModifier": 0,
+	"MeleeDamage": 45,
+	"MeleeInstability": 20,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 45,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 45,
+	"DFAInstability": 20,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 13,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 13,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -2,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "MCY-210",
+	"ChassisTags": {
+		"items": [
+      "ClanMech",
+      "OmniMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Medium Scout",
+	"YangsThoughts": "The origional Omnimech, I never thought I would see one in our mech bay.  Kind of dated don't you think?",
+	"FixedEquipment": [
+		{
+		  "MountedLocation": "CenterTorso",
+		  "ComponentDefID": "Gear_Gyro_Omnimech",
+		  "SimGameUID": null,
+		  "ComponentDefType": "Upgrade",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "CenterTorso",
+		  "ComponentDefID": "emod_engine_280",
+		  "SimGameUID": null,
+		  "ComponentDefType": "HeatSink",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "LeftTorso",
+		  "ComponentDefID": "emod_engineslots_size2",
+		  "SimGameUID": null,
+		  "ComponentDefType": "HeatSink",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "RightTorso",
+		  "ComponentDefID": "emod_engineslots_size2",
+		  "SimGameUID": null,
+		  "ComponentDefType": "HeatSink",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "CenterTorso",
+		  "ComponentDefID": "emod_engineslots_cxl_center",
+		  "SimGameUID": null,
+		  "ComponentDefType": "HeatSink",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "CenterTorso",
+		  "ComponentDefID": "emod_structureslots_clanendosteel",
+		  "ComponentDefType": "Upgrade",
+		  "HardpointSlot": -1,
+		  "DamageLevel": "Functional",
+		  "prefabName": "",
+		  "hasPrefabName": true
+		}
+	]
+}

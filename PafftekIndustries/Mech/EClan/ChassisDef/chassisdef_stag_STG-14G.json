@@ -1,0 +1,237 @@
+{
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Hand",
+			"RightLimit": "Lower"
+		}
+	},
+	"Description": {
+		"Cost": 4492428,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Stag",
+		"Id": "chassisdef_stag_STG-14G",
+		"Name": "Stag",
+		"Details": "Made to SLDF standards, the Stag 14G is a basic upgrade of the Vulcan chassis to that of medium class line combatant mech.   This mech is exceedingly rare in the Clan 2nd line units.",
+		"Icon": "uixTxrIcon_vulcan"
+	},
+  "MovementCapDefID": "movedef_huntsman",
+  "PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_preta",
+	"PrefabIdentifier": "chrPrfMech_pretabase-001",
+	"PrefabBase": "preta",
+	"Tonnage": 45,
+	"InitialTonnage": 4.5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 4252000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 50,
+	"MeleeInstability": 45,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 45,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 45,
+	"DFAInstability": 45,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 13.5,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 13.5,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13.5,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 13.5,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 13.5,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -2,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"VariantName": "STG-14G",
+	"ChassisTags": {
+		"items": [
+      "RoyalMech"	
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Skirmisher",
+	"YangsThoughts": "This Mech is unique and we do not know where it comes from.   It appears to be an evolution of the Vulcan but aside from some structural items being the same size it has nothing really in common with that mech.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Generic",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	]
+}

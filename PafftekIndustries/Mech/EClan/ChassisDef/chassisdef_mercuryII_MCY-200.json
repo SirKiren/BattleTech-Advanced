@@ -1,0 +1,246 @@
+{
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Lower",
+			"RightLimit": "Lower"
+		}
+	},
+	"Description": {
+		"Cost": 6872000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Mercury II",
+		"Id": "chassisdef_mercuryII_MCY-200",
+		"Name": "Mercury II",
+		"Details": "While the inital production version of the Mercury II is not an Omni-mech,  The later 'rebranded' Coyotl, is.  The Mercury II was ceated by the 'not named clan' as a medium weight scout, to expand the capabilites of the well beloved Mercury.  While the Mercury II gives up a little speed, it gains Jumpjets, and with an all laser armarment, and advanced sensor electrionics, it is a superior scout.",
+		"Icon": "uixTxrIcon_champion"
+	},
+	"MovementCapDefID": "movedef_champion_CHP-2N",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_champion",
+	"PrefabIdentifier": "chrprfmech_championbase-001",
+	"PrefabBase": "champion",
+	"Tonnage": 40,
+	"InitialTonnage": 4,
+	"weightClass": "MEDIUM",
+	"BattleValue": 5383000,
+	"Heatsinks": 0,
+	"TopSpeed": 150,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"EngageRangeModifier": 0,
+	"MeleeDamage": 45,
+	"MeleeInstability": 20,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 45,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 45,
+	"DFAInstability": 20,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 13,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 13,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -2,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "MCY-200",
+	"ChassisTags": {
+		"items": [
+				"RoyalMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Medium Scout",
+	"YangsThoughts": "So, this mech was only in production for like 3 years.  How do we have one?  Still for old Starleague tech it is a good 40 ton scout!",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoPilot_MercuryII",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	]
+}
