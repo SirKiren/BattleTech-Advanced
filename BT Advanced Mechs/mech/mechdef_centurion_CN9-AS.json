@@ -16,6 +16,7 @@
 		"items": [
 			"unit_mech",
 			"unit_medium",
+			"unit_rarity_3",
 			"Marian",
 			"BLACKLISTED"
 		],
