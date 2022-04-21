@@ -106,7 +106,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 16,
 			"MaxArmor": 290,
 			"MaxRearArmor": 145,
 			"InternalStructure": 145
@@ -223,7 +223,7 @@
 	"YangsThoughts": "Developed by Stefan Amaris as a wunderwaffen during the Amaris Civil War that destroyed the Star League, the Rifleman III was quickly destroyed and forgotten for centuries. However, in the old RWR, the Rim Collection discovered a hidden bunker with the Rifleman III and plans for its construction in the late 3050s. This is a newly constructed Rifleman III, though the Rim Collection could not replicate the Null Signature System. Instead of the Gauss Rifles, the RF2-L mounts 8 LB-2X Autocannons with 6 tons of ammunition for extended firefights.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_MultiTrac_RiflemanIII",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

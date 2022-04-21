@@ -121,6 +121,13 @@
 			"DamageLevel": "Functional"
 		},
 		{
+		  "MountedLocation": "Front",
+		  "ComponentDefID": "Tank_Sensors_Generic",
+		  "ComponentDefType": "Upgrade",
+		  "HardpointSlot": -1,
+		  "DamageLevel": "Functional"
+		},
+		{
 			"ComponentDefID": "Tank_CargoComponent_CLAN",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Rear",
