@@ -96,7 +96,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 14,
+			"InventorySlots": 17,
 			"MaxArmor": 120,
 			"MaxRearArmor": 60,
 			"InternalStructure": 60
@@ -208,7 +208,7 @@
 	"YangsThoughts": "Following Rasalhagian independence, distrust of Comstar's motives led to engineers acquiring design information on the defunct Davion Project Phoenix, and designing a 'Super Valkyrie,' playing on the Republic's Scandinavian character. Incorporating 2 Medium Pulse lasers and 3 LRM5s mated with Artemis IV guidance systems, the design never made it to production as it was eclipsed by more common, cheaper mechs that Rasalhague quickly managed to produce.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "Head",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Valkyrie",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

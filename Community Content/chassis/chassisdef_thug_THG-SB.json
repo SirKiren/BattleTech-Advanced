@@ -226,7 +226,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "Head",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Thug",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

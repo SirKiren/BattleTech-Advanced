@@ -92,7 +92,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 14,
+			"InventorySlots": 17,
 			"MaxArmor": 120,
 			"MaxRearArmor": 60,
 			"InternalStructure": 60
@@ -204,7 +204,7 @@
 	"YangsThoughts": "Upon integrating the KungsArmé into their armed forces, Clan Ghost Bear found a great many things to criticize about their performance, but also a few scant positives. The development of the Super Valkyrie in particular intrigued clan scientists. When the time came to reward valiant former KungsArmé soldiers they received this mech, based on that shelved design.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "Head",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Valkyrie",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
