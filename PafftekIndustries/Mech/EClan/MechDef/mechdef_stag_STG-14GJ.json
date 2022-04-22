@@ -408,7 +408,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-Clan_1",
+			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-Clan",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,

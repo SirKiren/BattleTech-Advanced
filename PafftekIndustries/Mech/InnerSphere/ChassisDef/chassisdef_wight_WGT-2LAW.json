@@ -7,7 +7,7 @@
   },
   "FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Generic",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
@@ -37,7 +37,7 @@
     "UIName": "Wight",
     "Id": "chassisdef_wight_WGT-2LAW",
     "Name": "Wight",
-    "Details": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design.",
+    "Details": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design. Built by Luthian Armor Works via a sub contract with Wakazashi Enterprises.",
     "Icon": "uixTxrIcon_panther"
   },
   "VariantName": "WGT-2LAW",
@@ -48,7 +48,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Light Brawler",
-  "YangsThoughts": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design.",
+  "YangsThoughts": "Giving up Firepower and Durability might be the way of the light mech.  I don't have to like it but these meches are more fragile than the 1LAWs that preceeded them.",
   "MovementCapDefID": "movedef_stinger_STG-3R",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_wight",
@@ -105,7 +105,16 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }	  
+	  ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 80,
@@ -128,7 +137,16 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }	  
+	  ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 80,
@@ -140,18 +158,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
           "Omni": false
         },
         {

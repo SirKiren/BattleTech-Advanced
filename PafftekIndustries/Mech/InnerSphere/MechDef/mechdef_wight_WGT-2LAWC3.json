@@ -5,7 +5,7 @@
 			"unit_mech",
 			"unit_light",
 			"unit_ready",
-			"unit_rarity_4",
+			"unit_rarity_3",
 			"unit_lance_assassin",
 			"unit_role_sniper",
 			"unit_advanced",
@@ -13,43 +13,27 @@
 			"unit_jumpOK",
 			"ComStar",
 			"WordOfBlake",
-			"Steiner",
 			"Marik",
 			"Kurita",
-			"Davion",
 			"Rasalhague",
 			"Mercenaries",
-			"MagistracyOfCanopus",
-			"TaurianConcordat",
 			"AuriganPirates",
-			"MercenaryReviewBoard",
-			"SelfEmployed",
-			"SteelBeast",
-			"KellHounds",
-			"RazorbackMercs",
 			"HostileMercenaries",
-			"GrayDeathLegion",
-			"BlackCalderaDefense_Hidden",
-			"GraysGhosts",
-			"BroadswordLegion",
-			"Moderbjorn",
-			"BountyHunterAssociates",
-			"BlackWidowCompany",
 			"unit_notsacellum"  
-    ],
+			],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "chassisdef_wight_WGT-1LAW",
+  "ChassisID": "chassisdef_wight_WGT-2LAWC3",
   "Description": {
     "Cost": 127642,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Wight WGT-1LAW/SC",
-    "Id": "mechdef_wight_WGT-1LAW",
-    "Name": "Wight WGT-1LAW/SC",
-    "Details": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design.  This variant is produced identically by both StarCorps in the Lyrian Alliance and Luthian Armor Works via Wakazashi Enterprises sub contract.",
+    "UIName": "Wight WGT-2LAWC3",
+    "Id": "mechdef_wight_WGT-2LAWC3",
+    "Name": "Wight WGT-2LAWC3",
+    "Details": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design. Built by Luthian Armor Works via a sub contract with Wakazashi Enterprises.  This is the standard C3 Slave conversion.",
     "Icon": "uixTxrIcon_panther"
   },
   "simGameMechPartCost": 127642,
@@ -131,7 +115,7 @@
   "inventory": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_heavyferrosfibrous",
+      "ComponentDefID": "emod_armorslots_lightferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -321,9 +305,57 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+      "ComponentDefID": "Gear_C3",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_PPC_Light_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Improved_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_JumpJet_Improved_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Improved_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Improved_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Improved_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -336,15 +368,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },	
-    {
-      "MountedLocation": "RightTorso",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -353,9 +377,9 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PPC_Heavy_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     }

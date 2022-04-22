@@ -7,7 +7,7 @@
   },
   "FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Generic",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
