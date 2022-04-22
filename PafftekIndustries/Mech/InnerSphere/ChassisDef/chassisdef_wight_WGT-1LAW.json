@@ -7,7 +7,7 @@
   },
   "FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Generic",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
@@ -37,7 +37,7 @@
     "UIName": "Wight",
     "Id": "chassisdef_wight_WGT-1LAW",
     "Name": "Wight",
-    "Details": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design.",
+    "Details": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design.  This variant is produced identically by both StarCorps in the Lyrian Alliance and Luthian Armor Works via Wakazashi Enterprises sub contract.",
     "Icon": "uixTxrIcon_panther"
   },
   "VariantName": "WGT-1LAW",
