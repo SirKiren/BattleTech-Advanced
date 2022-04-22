@@ -18,7 +18,7 @@
         "StealthReserved: 1",
         "ActiveSignature: -70%",
         "ActiveHeatGenerated: +15%",
-        "ActiveHeatPerTurn: +10"
+        "ActiveHeatPerTurn: +2"
       ]
     },
     "ActivatableComponent": {

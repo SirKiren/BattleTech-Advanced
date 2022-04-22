@@ -96,6 +96,7 @@
 		{ "Type": "UpgradeDef", "Path": "ChassisDefaults" },
 		{ "Type": "UpgradeDef",	"Path": "lootable/Internals" },
 		{ "Type": "UpgradeDef",	"Path": "lootable/Actuators" },
-		{ "Type": "HeatSinkDef", "Path": "lootable/Engines" }
+		{ "Type": "HeatSinkDef", "Path": "lootable/Engines" },
+		{ "Type": "AbilityDef", "Path": "Abilities" }
 	]
 }

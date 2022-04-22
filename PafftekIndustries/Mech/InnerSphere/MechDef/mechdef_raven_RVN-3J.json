@@ -3,9 +3,24 @@
 		"items": [
 			"unit_mech",
 			"unit_release",
+			"unit_rarity_2",
 			"unit_light",
 			"unit_lance_support",
-			"unit_role_scout"
+			"unit_role_scout",
+			"ComStar",
+			"Steiner",
+			"Marik",
+			"Davion",
+			"Liao",
+			"MagistracyOfCanopus",
+			"TaurianConcordat",
+			"EmeraldDawn",
+			"SianTriumphant",
+			"DuchyOfAndurien",
+			"BlackCalderaDefense",
+			"BlackCalderaDefense_Hidden",
+			"HouseKhulan",
+			"unit_notsacellum"
 		],
 		"tagSetSourceFile": ""
 	},

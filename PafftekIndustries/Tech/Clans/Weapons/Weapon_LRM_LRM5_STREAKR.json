@@ -1,0 +1,112 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/m/l/lrm"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"WpnAccuracy: +1",
+				"PipsIgnored: +1",
+				"Streak",
+				"NoIndirect",
+				"MissileHealth: 1"
+			]
+		}
+	},
+	"Category": "Missile",
+	"Type": "LRM",
+	"WeaponSubType": "LRM5",
+	"MinRange": 0,
+	"MaxRange": 700,
+	"RangeSplit": [
+		230,
+		375,
+		500
+	],
+	"AmmoCategory": "STREAKLRM",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 12,
+	"Damage": 4,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"Streak": true,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 5,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 1,
+	"FireTerrainChance": 0,
+	"ImprovedBallistic": true,
+	"ProjectileSpeedMultiplier": 1.5,
+	"MissileHealth": 1,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+	"Description": {
+		"Cost": 120000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "CLAN",
+		"Model": "Long-Range Missile Launcher",
+		"UIName": "Streak LRM5 (C)R",
+		"Id": "Weapon_LRM_LRM5_STREAKR",
+		"Name": "LRM5 (C)R",
+		"Details": "An improvement on the standard Clan Streak LRM launchers the Streak-R series combines the ability to utilize both Streak ammo as well as regular 'dumb' LRM munitions.   It does so with some costs incured, as it can not fire any of the Artemis family of LRM missiles and is in fact incompatable with any mech that has either ArtemisIV, ArtemisV  or Apollo guidance systems on the same chassis.  The Direct fire modes, STREAK and DIRECT are Line of sight only at maximum accuracy.   STREAK mode utilizes Streak LRM ammunition.  DIRECT mode utilizes any non Artemis standard LRM ammunition.   The third firemode IDF or in-direct fire, utilizes any non Artemis Standard LRM ammunition.  Due to the complexity of the guidance system and the ammunition dual feed, it is impossible to use the Artemis IV, or Artemis V or MRM Apollo guidance computers on the same platform.\n\n<b><color=#ffcc00>Can not work with Artemis IV, Artemis V, or Apollo systems.</color></b>",
+		"Icon": "MRM"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "lrm5",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 2,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "STREAK",
+			"UIName": "STREAK",
+			"isBaseMode": true,
+			"AmmoCategory": "STREAKLRM",
+			"HitGenerator": "Streak",
+			"MissileHealth": 1
+		},
+		{
+			"Id": "STD",
+			"UIName": "DIRECT",	 
+			"isBaseMode": false,
+			"IndirectFireCapable": false,
+			"AmmoCategory": "LRM",
+			"MissileHealth": 1
+		},
+		{
+			"Id": "IDF",
+			"UIName": "IDF",
+			"isBaseMode": false,
+			"ImprovedBallistic": true,
+			"AlwaysIndirectVisuals": true,
+			"IndirectFireCapable": true,
+			"AmmoCategory": "LRM",
+			"MissileHealth": 1
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"StreakRLRM"
+		],
+		"tagSetSourceFile": ""
+	}
+}

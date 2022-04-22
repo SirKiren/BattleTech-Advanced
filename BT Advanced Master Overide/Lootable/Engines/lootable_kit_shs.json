@@ -35,9 +35,9 @@
         "ignore_damage"
       ]
     },
-    "HeatSinkingCost": {
-      "HeatUpkeepCost": 5
-    }
+		"Color": {
+		"UIColor": "DarkGray"
+	}	
   },
   "DissipationCapacity": 0,
   "Description": {

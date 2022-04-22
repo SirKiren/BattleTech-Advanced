@@ -71,6 +71,7 @@
 			"BountyHunterAssociates",
 			"BaumannGroup",
 			"BlackWidowCompany",
+			"unit_rarity_3",
 			"unit_notsacellum",
 			"unit_bracket_high"
 
@@ -474,6 +475,28 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		,
+		{
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Piercing_AC10",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -493,29 +516,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
+		}},
 		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",

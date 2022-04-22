@@ -1,0 +1,124 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/a/ams"
+			}
+		],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"AMS",
+				"OLAMSAttacks",
+				"AMSShots: 15",
+				"AMSAcc: 20%",
+				"OLAMSHeat: 5",
+				"OLAMSJam: 60%",
+				"OLAMSShots: 30",
+				"AMSDamage: 1"
+			]
+		}
+	},
+	"Category": "AntiPersonnel",
+	"Type": "MachineGun",
+	"WeaponSubType": "MachineGun",
+	"MinRange": 0,
+	"MaxRange": 100,
+	"RangeSplit": [
+		70,
+		80,
+		90
+	],
+	"AmmoCategory": "MG",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 3,
+	"Damage": 0,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 0,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 0,
+	"IsAMS": true,
+	"IsAAMS": true,
+	"NotUseInMelee": true,
+	"AMSDamage": 1,
+	"WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "MK-V",
+		"UIName": "P-AMS",
+		"Id": "Weapon_PAMS",
+		"Name": "Anti-Missile System",
+		"Details": "While not as accurate as the Innersphere forfather, the Pafftek Industries PAMS Mk-V is unique in that it stays true to it's machinegun roots. \n\n<b><color=#ffcc00>Uses MG Ammo.  The Tracking software prevents use of this weapon in melee attacks.</color></b> \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
+		"Icon": "uixSvgIcon_equipment_TTS"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "MachineGun",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0.75,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "On",
+			"UIName": "On",
+			"isBaseMode": true,
+			"AMSShootsEveryAttack": false,
+			"ShotsWhenFired": 15,
+			"FlatJammingChance": 0.20,
+			"AMSHitChance": 0.20
+		},
+		{
+			"Id": "Overload",
+			"UIName": "Overload",
+			"isBaseMode": false,
+			"AMSShootsEveryAttack": true,
+			"ShotsWhenFired": 30,
+			"AMSHitChance": 0.25,
+			"FlatJammingChance": 0.5,
+			"HeatGenerated": 2
+		},
+        {
+            "Id": "MG",
+            "UIName": "MG Mode",
+            "isBaseMode": false,
+            "ShotsWhenFired": 2,
+            "DamagePerShot": 3.0,
+            "HeatGenerated": 1,
+            "FlatJammingChance": 0.1,
+            "GunneryJammingMult": 0.015,
+            "GunneryJammingBase": 5
+        },		
+		{
+			"Id": "Off",
+			"UIName": "Off",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0,
+			"AMSHitChance": 0.0
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_close"
+		],
+		"tagSetSourceFile": ""
+	}
+}

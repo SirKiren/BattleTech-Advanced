@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_MainMediums,itemCollection_Mechs_Stinger,itemCollection_Mechs_Wasp,itemCollection_Mechs_Hornet,itemCollection_Mechs_FireBee,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Scout,itemCollection_Mechs_Generic_BattleArmor,itemCollection_Mechs_Generic_BattleArmor"
+					"ConstantValue": "itemCollection_Mechs_MainMediums,itemCollection_Mechs_Stinger,itemCollection_Mechs_Wasp,itemCollection_Mechs_Hornet,itemCollection_Mechs_FireBee,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Scout,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything"
 				},
 				{
 					"ConstantType": "CareerMode",

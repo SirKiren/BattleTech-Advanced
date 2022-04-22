@@ -49,7 +49,7 @@
   "ComponentSubType": "Prototype_ElectronicWarfare",
   "PrefabIdentifier": "",
   "BattleValue": 70,
-  "InventorySize": 1,
+  "InventorySize": 2,
   "Tonnage": 1.5,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
@@ -186,6 +186,24 @@
     }
   ],
   "statusEffects": [
+    {
+      "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "EnemiesWithinRange",
+        "alsoTargetsCreator": true,
+        "forceVisRebuild": true
+      },
+      "effectType": "ActiveAbility",
+      "Description": {
+        "Id": "UAV_Ping",
+        "Name": "UAV PING",
+        "Details": "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+        "Icon": "uixSvgIcon_action_sensorlock"
+      },
+      "activeAbilityEffectData": {
+        "abilityName": "AbilityDef_EWS_Ping"
+      }
+    },  
     {
       "durationData": {
         "duration": -1,

@@ -6,7 +6,10 @@
       },
       {
         "CategoryID": "EnginePart"
-      }
+      },
+		{
+		"CategoryID": "SHSKit"
+		}
     ],
     "WorkOrderCosts": {
       "Default": {

@@ -1,0 +1,35 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [{
+		"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+		"Action": "ArrayAdd",
+		"Value": {
+			"ID": "diff_AntiBlake",
+			"Name": "Anti-Blake",
+			"TelemetryEventDesc": "",
+			"DifficultyValue": 0,
+			"CareerScoreModifier": 0.7,
+			"DifficultyConstants": [{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingSystems",
+					"ConstantValue": "Fomalhaut"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_Primitive_Medium,itemCollection_Mechs_PafftekStartingMediums,itemCollection_Mechs_Starting_Ives_Light,itemCollection_Mechs_Starting_Davion_Light,itemCollection_Mechs_Starting_Kurita_Light,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Scout"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Kurita:30"
+				},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "AuriganPirates:30"
+				}
+			]
+		}
+	}]
+}
