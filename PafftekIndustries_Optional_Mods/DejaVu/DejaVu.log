@@ -1,9 +1,10 @@
-INFO: 2022-05-06T18:25:38 - Initializing us.tbone.DejaVu - Version 1.0.2.0
-INFO: 2022-05-06T18:37:54 - Adding INC-3 to dejaVuMechs
-INFO: 2022-05-06T18:37:54 - Adding COM-1D to dejaVuMechs
-INFO: 2022-05-06T18:44:16 - Mech COM-1D got < 2 kills, removing from dejavu.
-INFO: 2022-05-06T18:45:43 - Added MechInventory for Incubus INC-3 to DejaVuInventories
-INFO: 2022-05-06T18:45:43 - Processing MechDef sans ChassisDef: mechdef_incubus_3
-INFO: 2022-05-06T18:45:43 - Added -bJ to mechdefID: mechdef_incubus_3-bJ and UIName: Incubus INC-3
-INFO: 2022-05-06T18:45:43 - Set def.ChassisID to chassisdef_incubus_3, def.Description.Id to mechdef_incubus_3-bJ and def.Description.UIName to Incubus INC-3-bJ
-INFO: 2022-05-06T18:45:43 - Serialized mechdef_incubus_3-bJ mechDef to .json
+INFO: 2022-05-07T13:30:36 - Initializing us.tbone.DejaVu - Version 1.0.2.0
+INFO: 2022-05-07T13:48:37 - DV-8G already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T13:53:08 - Mech DV-8G got < 2 kills, removing from dejavu.
+INFO: 2022-05-07T14:02:36 - FRB-2L already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - DV-8G already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - STN-3L already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - Adding WSP-3W to dejaVuMechs
+INFO: 2022-05-07T14:02:36 - Maxim already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - Regulator already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - PLX-BA already exists in dejaVuMechs or AllMechs

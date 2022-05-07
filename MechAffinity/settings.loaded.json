@@ -109,7 +109,7 @@
         "chrPrfMech_thunderboltBase-001_65",
         "chrPrfMech_zeusBase-001_80",
         "chrprfmech_zeusxbase-001_80",
-        "Bullshark_95",
+        "chrPrfMech_bullsharkBase-001_95",
         "chrprfmech_dasherbase-001_20",
         "chrPrfMech_viperbase-001_40",
         "chrprfmech_blacklannerbase-001_55",
@@ -331,8 +331,7 @@
         "chrprfmech_vanquisherbase-001_100",
         "chrprfmech_sentinelbase-001_40",
         "chrprfmech_nighthawkbase-001_35",
-        "chrprfmech_toyamabase-001_75",
-        "chrprfmech_iondevabase-001_70"
+        "chrprfmech_toyamabase-001_75"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -407,7 +406,6 @@
         "chrprfmech_penbase-001_75",
         "chrprfmech_whitworthbase-001_40",
         "chrprfmech_hermesbase-001_30",
-        "chrprfmech_screamerbase-001_55",
         "chrprfmech_screamermechbase-001_55",
         "chrprfmech_falconbase-001_30",
         "chrprfmech_seraphbase-001_85"
@@ -787,8 +785,7 @@
         "chrprfmech_ionraptorbase-001_70",
         "chrprfmech_ionraptor2base-001_70",
         "chrprfmech_visionquestbase-001_60",
-        "chrprfmech_bellerophonbase-001_60",
-        "chrprfmech_libertybase-001_65"
+        "chrprfmech_bellerophonbase-001_60"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -858,8 +855,7 @@
         "chrprfmech_shayubase-001_40",
         "chrprfmech_minskbase-001_70",
         "chrprfmech_gunslingerbase-001_85",
-        "chrprfmech_shootistbase-001_70",
-        "chrprfmech_archangelbase-001_100"
+        "chrprfmech_shootistbase-001_70"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -1062,8 +1058,7 @@
         "chrprfmech_redreaperbase-001_75",
         "chrprfmech_digkingbase-001_30",
         "chrPrfMech_hatchetmanBase-001_45",
-        "chrprfmech_iongrigoribase-001_60",
-        "chrPrfMech_pretabase-001_45"
+        "chrprfmech_iongrigoribase-001_60"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -1298,7 +1293,6 @@
         "Rifleman_60",
         "Rifleman_50",
         "RiflemanII_80",
-        "chrprfmech_curifleman3base-001_90",
         "chrPrfMech_assassinBase-001_40",
         "chrprfmech_ymirbase-001_90"
       ],
@@ -1353,7 +1347,7 @@
           "id": "Long-Range_Specialist",
           "missionsRequired": 15,
           "levelName": "Long-Range Specialist",
-          "decription": "Gains +6 accuracy at extreme range, but has worse accuracy the closer the target is.",
+          "decription": "Gains +4 accuracy at extreme range, but has worse accuracy the closer the target is.",
           "affinities": [],
           "effectData": [
             {
@@ -1378,7 +1372,7 @@
               "statisticData": {
                 "statName": "CACExtraLongRangeAccuracyMod",
                 "operation": "Float_Add",
-                "modValue": "-6.0",
+                "modValue": "-4.0",
                 "modType": "System.Single"
               }
             },
@@ -1404,7 +1398,7 @@
               "statisticData": {
                 "statName": "CACLongRangeAccuracyMod",
                 "operation": "Float_Add",
-                "modValue": "-2.0",
+                "modValue": "-1.0",
                 "modType": "System.Single"
               }
             },
@@ -1482,7 +1476,7 @@
               "statisticData": {
                 "statName": "CACMinRangeAccuracyMod",
                 "operation": "Float_Add",
-                "modValue": "2.0",
+                "modValue": "3.0",
                 "modType": "System.Single"
               }
             }
@@ -1571,11 +1565,11 @@
         "IS Standard_4",
         "Ying Long_4",
         "Theseus_4",
-        "Salamander_5",
+        "Salamander_4",
         "Rottweiler_4",
         "Void_4",
         "Raiden_4",
-        "Gnome_7.5",
+        "Gnome_4",
         "Asterion_4",
         "Tengu_8",
         "Elemental_5",
@@ -2326,12 +2320,6 @@
       "chassisNames": [
         "Wasplam_30",
         "Stingerlam_30",
-        "MonsterLamOmni_150",
-        "chrprfmech_phawklegacylambase-001_55",
-        "chrprfmech_shawklambase-001_80",
-        "Urbie-LAM_30",
-        "chrprfmech_screamerbase-001_55",
-        "chrprfmech_screamermechbase-001_55",
         "chrprfmech_phawklammechbase-001_50"
       ],
       "idType": "AssemblyVariant",
@@ -2519,9 +2507,9 @@
       "id": "please_fill_it_with_some_unique_id_33",
       "tag": "Affinity_Virago_BA",
       "chassisNames": [
-        "Gnome_7.5",
+        "Gnome_4",
         "Golem_10",
-        "Salamander_5",
+        "Salamander_4",
         "Elemental_5"
       ],
       "idType": "AssemblyVariant",
@@ -2556,7 +2544,7 @@
                 "effectTargetType": "Creator",
                 "effectTriggerType": "Passive",
                 "hideApplicationFloatie": true,
-                "showInStatusPanel": true,
+                "showInStatusPanel": false,
                 "showInTargetPreview": false
               }
             }

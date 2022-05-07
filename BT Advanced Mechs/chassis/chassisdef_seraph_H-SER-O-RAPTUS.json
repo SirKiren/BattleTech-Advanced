@@ -361,8 +361,7 @@
 	"VariantName": "H-SER-O-RAPTUS",
 	"ChassisTags": {
 		"items": [
-			"OmniMech",
-			"Celestial"
+			"OmniMech"
 		],
 		"tagSetSourceFile": ""
 	},

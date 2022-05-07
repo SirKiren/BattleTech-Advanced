@@ -218,8 +218,7 @@
 	"VariantName": "X-DVA-O-LATERUS",
 	"ChassisTags": {
 		"items": [
-			"OmniMech",
-			"Celestial"
+			"OmniMech"
 		],
 		"tagSetSourceFile": ""
 	},

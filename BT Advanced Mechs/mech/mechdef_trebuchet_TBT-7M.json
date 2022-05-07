@@ -3,9 +3,9 @@
 		"items": [
 			"unit_indirectFire",
 			"unit_release",
+			"unit_rarity_6",
 			"unit_mech",
 			"unit_medium",
-			"unit_rarity_6",
 			"unit_ready",
 			"unit_lance_support",
 			"unit_role_sniper",
@@ -20,6 +20,7 @@
 			"Locals",
 			"Marian",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"TaurianConcordat",
 			"LocalsBrockwayRefugees",
 			"MasonsMarauders",

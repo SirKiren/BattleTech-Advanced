@@ -3,6 +3,7 @@
 		"items": [
 			"unit_advanced",
 			"unit_release",
+			"unit_rarity_3",
 			"unit_mech",
 			"unit_heavy",
 			"unit_ready",
@@ -14,7 +15,6 @@
 			"ClanGhostBear",
 			"ClanNovaCat",
 			"ClanDiamondShark",
-			"unit_rarity_3",
 			"unit_notsacellum"
 		],
 		"tagSetSourceFile": ""

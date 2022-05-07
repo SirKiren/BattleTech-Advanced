@@ -3,9 +3,9 @@
 		"items": [
 			"unit_generic",
 			"unit_bracket_low",
-			"unit_rarity_4",
 			"unit_bracket_med",
 			"unit_release",
+			"unit_rarity_4",
 			"unit_jumpOK",
 			"unit_mech",
 			"unit_medium",
@@ -31,6 +31,7 @@
 			"Liao",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"AuriganPirates",

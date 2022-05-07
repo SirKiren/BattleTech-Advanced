@@ -2,14 +2,15 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
-			"unit_rarity_4",
 			"unit_assault",
 			"unit_lance_tank",
 			"unit_role_sniper",
 			"unit_role_brawler",
 			"unit_jumpOK",
 			"unit_release",
+			"unit_rarity_4",
 			"ComStar",
+			"WordOfBlake",
 			"unit_notsacellum"
 		],
 		"tagSetSourceFile": ""

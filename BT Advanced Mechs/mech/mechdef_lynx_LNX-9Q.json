@@ -2,8 +2,8 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
-			"unit_jumpOK",
 			"unit_rarity_6",
+			"unit_jumpOK",
 			"unit_mech",
 			"unit_medium",
 			"unit_ready",
@@ -16,6 +16,7 @@
 			"DarkCaste",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"LocalsBrockwayRefugees",
 			"MasonsMarauders",
 			"SteelBeast",

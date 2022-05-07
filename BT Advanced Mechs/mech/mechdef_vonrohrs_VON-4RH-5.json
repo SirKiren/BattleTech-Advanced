@@ -2,12 +2,12 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
-			"unit_rarity_4",
 			"unit_heavy",
 			"unit_indirectFire",
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"unit_release",
+			"unit_rarity_4",
 			"Rasalhague",
 			"unit_notsacellum"
 		],

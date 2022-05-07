@@ -234,9 +234,7 @@
 	],
 	"VariantName": "SHD-7CS",
 	"ChassisTags": {
-		"items": [
-		"ComStar"
-		],
+		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",

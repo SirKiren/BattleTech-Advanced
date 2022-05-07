@@ -5,7 +5,7 @@
 		"CustomParts": []
 	},
 	"Description": {
-		"Id": "vehiclechassisdef_REGULATOR",
+		"Id": "vehiclechassisdef_REGULATOR_A",
 		"Name": "Regulator",
 		"Details": "The Regulator hovertank was the result of the Capellan Confederation refining its surviving industries to produce better combat vehicles after the Fourth Succession War and the revival of Star League technology from the Helm Memory Core.  The Regulator has been given 6 tons of Ferro-Fibrous armor, which are concentrated heavily on the front and turret. Consequently, other areas of the tank are thinner, leaving it vulnerable to heavy damage from the sides and rear. The General Motors 170 fusion engine gives it considerable speed and agility, however, making up somewhat for the thin protection on the flanks.",
 		"Icon": "Regulator",

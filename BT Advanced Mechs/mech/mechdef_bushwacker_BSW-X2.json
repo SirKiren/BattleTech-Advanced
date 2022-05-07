@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_6",
 			"unit_jumpOK",
 			"unit_mech",
 			"unit_medium",
@@ -9,9 +10,9 @@
 			"unit_role_brawler",
 			"Steiner",
 			"Davion",
-			"unit_rarity_6",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"LocalsBrockwayRefugees",
 			"MasonsMarauders",
 			"SteelBeast",

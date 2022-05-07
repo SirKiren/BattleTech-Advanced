@@ -3,8 +3,8 @@
 		"items": [
 			"unit_indirectFire",
 			"unit_release",
-			"unit_mech",
 			"unit_rarity_5",
+			"unit_mech",
 			"unit_medium",
 			"unit_ready",
 			"unit_lance_tank",
@@ -12,6 +12,7 @@
 			"Steiner",
 			"Davion",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"LocalsBrockwayRefugees",
 			"MasonsMarauders",
 			"SteelBeast",

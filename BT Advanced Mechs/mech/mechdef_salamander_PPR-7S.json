@@ -3,10 +3,11 @@
 		"items": [
 			"unit_mech",
 			"unit_assault",
-			"unit_rarity_6",
 			"unit_release",
+			"unit_rarity_6",
 			"unit_lance_support",
 			"unit_role_sniper",
+			"unit_jumpOK",
 			"Steiner",
 			"unit_notsacellum"
 		],

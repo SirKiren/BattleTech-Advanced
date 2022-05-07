@@ -3,8 +3,8 @@
 		"items": [
 			"unit_jumpOK",
 			"unit_release",
-			"unit_mech",
 			"unit_rarity_4",
+			"unit_mech",
 			"unit_medium",
 			"unit_ready",
 			"unit_lance_support",
@@ -20,6 +20,7 @@
 			"Steiner",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"LocalsBrockwayRefugees",

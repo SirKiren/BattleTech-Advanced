@@ -1,10 +1,8 @@
 {
 	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "ECM"
-			}
-		],
+		"Category": [{
+			"CategoryID": "ECM"
+		}],
 		"Flags": {
 			"flags": [
 				"not_broken",
@@ -16,6 +14,133 @@
 				"Defense: +1",
 				"AntiMissileDefense: +4",
 				"ECMRadius: 120"
+			]
+		},
+		"ActivatableComponent": {
+			"CanActivateAfterMove": true,
+			"CanActivateAfterFire": true,
+			"SafeActivation": true,
+			"ButtonName": "ECM Mode",
+			"CanNotBeActivatedManualy": false,
+			"NoUniqueCheck": true,
+			"ActiveByDefault": false,
+			"ActivationMessage": "Active",
+			"DeactivationMessage": "Passive",
+			"Linkage": {
+				"OnActivate": {
+					"Activate": [],
+					"Deactivate": []
+				},
+				"OnDeactivate": {
+					"Activate": [],
+					"Deactivate": []
+				}
+			},
+			"statusEffects": [{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ECMPassiveShield",
+						"Name": "ECMPassiveShield",
+						"Details": "Passive ECM Protection",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_ECM_SHIELD",
+						"operation": "Int_Add",
+						"modValue": "1",
+						"modType": "System.Int32"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ECMPassiveJam",
+						"Name": "ECMPassiveJam",
+						"Details": "Passive Jamming Protection",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_ECM_JAMMED",
+						"operation": "Int_Add",
+						"modValue": "-1",
+						"modType": "System.Int32"
+					}
+				}
+			],
+			"offlineStatusEffects": [{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ECMPassiveShield",
+						"Name": "ECMPassiveShield",
+						"Details": "Passive ECM Protection",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_ECM_SHIELD",
+						"operation": "Int_Add",
+						"modValue": "4",
+						"modType": "System.Int32"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ECMPassiveJam",
+						"Name": "ECMPassiveJam",
+						"Details": "Passive Jamming Protection",
+						"Icon": "uixSvgIcon_equipment_Gyro"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "LV_ECM_JAMMED",
+						"operation": "Int_Add",
+						"modValue": "-3",
+						"modType": "System.Int32"
+					}
+				}
 			]
 		},
 		"InventorySorter": {
@@ -48,16 +173,68 @@
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
-	"Auras": [
-		{
-			"Id": "Gear_GECM_ECM",
-			"Name": "ECM",
-			"ReticleColor": "#ffffff",
-			"Range": 120,
+	"Auras": [{
+			"Id": "Jammer_Aura",
+			"Name": "JAMMED",
+			"ReticleColor": "#00f2ff",
+			"Range": 180,
+			"HideOnNotSelected": false,
 			"RemoveOnSensorLock": false,
-			"State": "Persistent",
-			"ApplySelf": true,
+			"State": "Online",
+			"ApplySelf": false,
 			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "NegativeOne",
+			"IsPositiveToAlly": false,
+			"IsNegativeToEnemy": true,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1,
+					"uniqueEffectIdStackLimit": 1
+				},
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"specialRules": "NotSet",
+					"effectTargetType": "EnemiesWithinRange",
+					"range": 0.0,
+					"forceVisRebuild": true,
+					"showInTargetPreview": false,
+					"showInStatusPanel": false
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "LV_ECM_JAM",
+					"Name": "ECM Jammer",
+					"Details": "Jamming ECM, reduces sensor checks for enemies in field",
+					"Icon": "uixSvgIcon_action_sensorlock"
+				},
+				"statisticData": {
+					"statName": "LV_ECM_JAMMED",
+					"operation": "Int_Add",
+					"modValue": "3",
+					"modType": "System.Int32"
+				},
+				"nature": "Debuff"
+			}]
+		},
+		{
+			"Id": "ECCM_Anitjam",
+			"Name": "CounterJamming",
+			"ReticleColor": "#00f2ff",
+			"Range": 180,
+			"HideOnNotSelected": true,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": false,
+			"AllyStealthAffection": "PositiveTwo",
 			"EnemyStealthAffection": "None",
 			"IsPositiveToAlly": true,
 			"IsNegativeToEnemy": false,
@@ -69,73 +246,72 @@
 			"targetSFX": [],
 			"removeOwnerSFX": [],
 			"removeTargetSFX": [],
-			"statusEffects": [
-				{
-					"durationData": {
-						"duration": -1,
-						"stackLimit": 1
-					},
-					"targetingData": {
-						"effectTriggerType": "Passive",
-						"specialRules": "NotSet",
-						"effectTargetType": "AlliesWithinRange",
-						"range": 0.0,
-						"forcePathRebuild": false,
-						"forceVisRebuild": false,
-						"showInTargetPreview": false,
-						"showInStatusPanel": true
-					},
-					"effectType": "StatisticEffect",
-					"Description": {
-						"Id": "GECMInterference",
-						"Name": "GECM Interference",
-						"Details": "Guardian ECM making this unit harder to hit, +1 penalty to enemy attacks.",
-						"Icon": "circuitry"
-					},
-					"statisticData": {
-						"statName": "ToHitThisActor",
-						"operation": "Float_Add",
-						"modValue": "1.0",
-						"modType": "System.Single"
-					},
-					"nature": "Buff"
+			"statusEffects": [{
+				"durationData": {
+					"duration": -1,
+					"stackLimit": -1,
+					"uniqueEffectIdStackLimit": 1
 				},
-				{
-					"durationData": {
-						"duration": -1,
-						"stackLimit": 1
-					},
-					"targetingData": {
-						"effectTriggerType": "Passive",
-						"specialRules": "NotSet",
-						"effectTargetType": "AlliesWithinRange",
-						"range": 0.0,
-						"forcePathRebuild": false,
-						"forceVisRebuild": false,
-						"showInTargetPreview": false,
-						"showInStatusPanel": true
-					},
-					"effectType": "StatisticEffect",
-					"Description": {
-						"Id": "StatusEffect_AntiMissileECM",
-						"Name": "Missile Scrambling",
-						"Details": "The Anti-Missile ECM scrambles enemy missile fire, giving a +4 penalty to enemy missile attacks. This penalty stacks with the normal ECM effect.",
-						"Icon": "circuitry"
-					},
-					"statisticData": {
-						"statName": "ToHitThisActor",
-						"operation": "Float_Add",
-						"modValue": "4.0",
-						"modType": "System.Single",
-						"targetAmmoCategory": "NotSet",
-						"targetCollection": "Weapon",
-						"targetWeaponCategory": "Missile",
-						"targetWeaponSubType": "NotSet",
-						"targetWeaponType": "NotSet"
-					},
-					"nature": "Buff"
-				}
-			]
+				"targetingData": {
+					"effectTriggerType": "Passive",
+					"specialRules": "NotSet",
+					"effectTargetType": "AlliesWithinRange",
+					"range": 0.0,
+					"forcePathRebuild": false,
+					"forceVisRebuild": false,
+					"showInTargetPreview": false,
+					"showInStatusPanel": true
+				},
+				"effectType": "StatisticEffect",
+				"Description": {
+					"Id": "UNJAM",
+					"Name": "ECM Anti-Jammer",
+					"Details": "Reduce Jamming on Allies",
+					"Icon": "uixSvgIcon_action_sensorlock"
+				},
+				"statisticData": {
+					"statName": "LV_ECM_JAMMED",
+					"operation": "Int_Add",
+					"modValue": "-2",
+					"modType": "System.Int32"
+				},
+				"nature": "Buff"
+			}]
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"specialRules": "NotSet",
+				"effectTargetType": "AlliesWithinRange",
+				"range": 0.0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect_AntiMissileECM",
+				"Name": "Missile Scrambling",
+				"Details": "The Anti-Missile ECM scrambles enemy missile fire, giving a +4 penalty to enemy missile attacks. This penalty stacks with the normal ECM effect.",
+				"Icon": "circuitry"
+			},
+			"statisticData": {
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "4.0",
+				"modType": "System.Single",
+				"targetAmmoCategory": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "Missile",
+				"targetWeaponSubType": "NotSet",
+				"targetWeaponType": "NotSet"
+			},
+			"nature": "Buff"
 		}
 	],
 	"statusEffects": [],

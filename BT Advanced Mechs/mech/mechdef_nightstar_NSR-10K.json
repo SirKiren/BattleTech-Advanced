@@ -3,12 +3,11 @@
 		"items": [
 			"unit_mech",
 			"unit_assault",
-			"unit_rarity_3",
 			"unit_lance_assassin",
 			"unit_role_sniper",
 			"unit_release",
+			"unit_rarity_3",
 			"unit_jumpOK",
-			"ComStar",
 			"Kurita",
 			"unit_notsacellum"
 		],

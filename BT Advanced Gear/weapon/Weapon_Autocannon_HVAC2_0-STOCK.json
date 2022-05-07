@@ -49,7 +49,6 @@
 	"AOECapable": true,
 	"AOERange": 30,
 	"AOEDamage": 15,
-	"AOEEffectsFalloff": true,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC2",
 	"Description": {
 		"Cost": 50000,

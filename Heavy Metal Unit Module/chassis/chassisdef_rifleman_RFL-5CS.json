@@ -213,9 +213,7 @@
 	],
 	"VariantName": "RFL-5CS",
 	"ChassisTags": {
-		"items": [
-		"ComStar"
-		],
+		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Tukayyid AA Support",

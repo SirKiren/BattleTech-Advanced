@@ -1,9 +1,0 @@
-16:45:06.952 Assembly version: 0.7.0.0
-16:45:06.953 === MOD CONFIG BEGIN ===
-16:45:06.953   DEBUG: False
-16:45:06.953   LeopardRepairCostPerDamage:100
-16:45:06.953   Light Wing  - MonthlyCost:x50000 LeopardDamage:0 MaxRounds:4 MinRounds:3
-16:45:06.953   Medium Wing - MonthlyCost:x75000 LeopardDamage:0.3 MaxRounds:3 MinRounds:2
-16:45:06.953   Heavy Wing  - MonthlyCost:x100000 LeopardDamage:0.6 MaxRounds:2 MinRounds:1
-16:45:06.953 === MOD CONFIG END ===
-16:45:06.953 INFO: No errors reading settings file.

@@ -2,8 +2,8 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
-			"unit_jumpOK",
 			"unit_rarity_2",
+			"unit_jumpOK",
 			"unit_mech",
 			"unit_medium",
 			"unit_ready",
@@ -19,6 +19,7 @@
 			"Liao",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"Outworld",

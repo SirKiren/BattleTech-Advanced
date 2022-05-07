@@ -3,8 +3,8 @@
 		"items": [
 			"unit_mech",
 			"unit_release",
-			"unit_heavy",
 			"unit_rarity_5",
+			"unit_heavy",
 			"unit_lance_vanguard",
 			"unit_role_flanker",
 			"ComStar",
@@ -19,6 +19,7 @@
 			"Rasalhague",
 			"Ives",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"LocalsBrockwayRefugees",
 			"MasonsMarauders",
 			"SteelBeast",

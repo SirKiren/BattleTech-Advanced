@@ -2,10 +2,10 @@
 	"MechTags": {
 		"items": [
 			"unit_generic",
-			"unit_rarity_4",
 			"unit_bracket_med",
 			"unit_indirectFire",
 			"unit_release",
+			"unit_rarity_4",
 			"unit_mech",
 			"unit_medium",
 			"unit_ready",
@@ -25,6 +25,7 @@
 			"Davion",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"AuriganPirates",

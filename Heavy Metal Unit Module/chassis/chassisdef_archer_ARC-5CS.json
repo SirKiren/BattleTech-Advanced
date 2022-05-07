@@ -246,9 +246,7 @@
 	],
 	"VariantName": "ARC-5CS",
 	"ChassisTags": {
-		"items": [
-		"ComStar"
-		],
+		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Tukayyid Artillery",

@@ -3,11 +3,11 @@
 		"items": [
 			"unit_mech",
 			"unit_assault",
-			"unit_rarity_3",
 			"unit_indirectFire",
 			"unit_lance_assassin",
 			"unit_role_brawler",
 			"unit_release",
+			"unit_rarity_3",
 			"Liao",
 			"unit_notsacellum"
 		],

@@ -2,16 +2,17 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_4",
 			"unit_mech",
 			"unit_heavy",
 			"unit_lance_tank",
-			"unit_rarity_4",
 			"unit_role_sniper",
 			"unit_bracket_high",
 			"unit_generic",
 			"Marik",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"AuriganPirates",
 			"FlakJackals",
 			"MagistracyOfCanopus",

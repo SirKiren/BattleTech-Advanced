@@ -2,9 +2,9 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_6",
 			"unit_mech",
 			"unit_light",
-			"unit_rarity_6",
 			"unit_ready",
 			"unit_lance_support",
 			"unit_role_sniper",
@@ -12,6 +12,7 @@
 			"Rasalhague",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"LocalsBrockwayRefugees",
 			"MasonsMarauders",
 			"SteelBeast",

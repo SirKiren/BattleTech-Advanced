@@ -230,9 +230,7 @@
 	],
 	"VariantName": "SHD-11CS",
 	"ChassisTags": {
-		"items": [
-		"ComStar"
-		],
+		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",

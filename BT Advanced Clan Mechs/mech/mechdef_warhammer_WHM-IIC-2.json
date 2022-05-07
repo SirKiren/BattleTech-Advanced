@@ -3,7 +3,6 @@
 		"items": [
 			"unit_mech",
 			"unit_assault",
-			"unit_rarity_5",
 			"unit_lance_vanguard",
 			"unit_role_flanker",
 			"ClanWolf",
@@ -13,7 +12,8 @@
 			"ClanDiamondShark",
 			"unit_notsacellum",
 			"unit_indirectFire",
-			"unit_release"
+			"unit_release",
+			"unit_rarity_5"
 		],
 		"tagSetSourceFile": ""
 	},

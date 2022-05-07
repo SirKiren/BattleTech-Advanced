@@ -1,5 +1,8 @@
 itemCollection_Mechs_UrbPaff,,,
-mechdef_urbanmech_UM-LAM,Mech,1,4
-mechdef_urbanmech_UM-R60SB,Mech,1,4
-mechdef_urbanmech_UM-XMAS,Mech,1,4
-mechdef_urbanmech_UM-RM-Prime,Mech,1,4
+mechdef_urbanmech_UM-LAM,Mech,1,3
+mechdef_urbanmech_UM-R60SB,Mech,1,2
+mechdef_urbanmech_UM-XMAS,Mech,1,2
+mechdef_urbanmech_UM-RM-Prime,Mech,1,2
+mechdef_urbanmech_UM-R26,Mech,1,4
+mechdef_urbanmech_UM-R27,Mech,1,4
+mechdef_urbanmech_UM-R28,Mech,1,4

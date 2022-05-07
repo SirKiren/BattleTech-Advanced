@@ -2,9 +2,9 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_6",
 			"unit_mech",
 			"unit_assault",
-			"unit_rarity_6",
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"Steiner",
@@ -12,6 +12,7 @@
 			"DarkCaste",
 			"Liao",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"FlakJackals",
 			"MasonsMarauders",
 			"SteelBeast",

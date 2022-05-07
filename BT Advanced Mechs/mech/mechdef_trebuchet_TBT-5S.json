@@ -2,9 +2,9 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_4",
 			"unit_mech",
 			"unit_medium",
-			"unit_rarity_4",
 			"unit_lance_vanguard",
 			"unit_role_flanker",
 			"unit_bracket_med",
@@ -17,6 +17,7 @@
 			"Liao",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"Outworld",

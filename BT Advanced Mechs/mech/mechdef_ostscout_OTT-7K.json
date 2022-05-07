@@ -3,9 +3,9 @@
 		"items": [
 			"unit_generic",
 			"unit_bracket_low",
-			"unit_rarity_1",
 			"unit_jumpOK",
 			"unit_release",
+			"unit_rarity_1",
 			"unit_mech",
 			"unit_light",
 			"unit_ready",
@@ -21,6 +21,7 @@
 			"Liao",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"FlakJackals",
 			"MasonsMarauders",
 			"SteelBeast",

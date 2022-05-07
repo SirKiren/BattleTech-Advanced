@@ -2,8 +2,8 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
-			"unit_medium",
 			"unit_rarity_6",
+			"unit_medium",
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"unit_indirectFire",

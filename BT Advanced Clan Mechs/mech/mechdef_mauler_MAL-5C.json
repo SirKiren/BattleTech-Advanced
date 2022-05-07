@@ -3,10 +3,10 @@
 		"items": [
 			"unit_mech",
 			"unit_assault",
-			"unit_rarity_5",
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"unit_release",
+			"unit_rarity_5",
 			"ClanGhostBear",
 			"unit_notsacellum"
 		],

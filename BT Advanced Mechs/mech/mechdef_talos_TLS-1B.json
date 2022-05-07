@@ -2,15 +2,16 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_4",
 			"unit_medium",
 			"unit_lance_tank",
-			"unit_rarity_4",
 			"unit_role_brawler",
 			"unit_indirectFire",
 			"unit_mech",
 			"unit_generic",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"AuriganPirates",

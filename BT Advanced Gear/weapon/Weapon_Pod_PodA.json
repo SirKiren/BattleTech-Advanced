@@ -9,6 +9,9 @@
 			"ExplosionDamagePerAmmo": 10,
 			"StabilityDamagePerAmmo": 5
 		},
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.05
+        },
 		"BonusDescriptions": {
 			"Bonuses": [
 				"APod",
@@ -43,7 +46,6 @@
 	"AOECapable": true,
 	"AOEDamage": 35,
 	"AOERange": 30,
-	"AOEEffectsFalloff": true,
 	"IFFDef": "notblanksowontdamageselfbutcandamagefriendlies",
 	"IndirectFireCapable": false,
 	"RefireModifier": 0,

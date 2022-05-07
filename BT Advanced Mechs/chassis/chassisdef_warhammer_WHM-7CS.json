@@ -220,9 +220,7 @@
 	],
 	"VariantName": "WHM-7CS",
 	"ChassisTags": {
-		"items": [
-		"ComStar"
-		],
+		"items": [],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Tukayyid Brawler",

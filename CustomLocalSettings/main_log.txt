@@ -1,3 +1,0 @@
-[12:44:58.035]Initing... D:\Steam\steamapps\common\BATTLETECH\Mods\CustomLocalSettings version: 1.0.0.0
-[12:45:46.089]FinishedLoading
-[12:45:47.947]SaveManager:D:\Steam\steamapps\common\BATTLETECH\BTKSaves\local\S0
