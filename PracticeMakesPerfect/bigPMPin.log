@@ -1,52 +1,1208 @@
-INFO: 2022-03-25T16:49:14 - Initializing PracticeMakesPerfect - Version 1.0.1.10
-INFO: 2022-03-25T16:49:14 - Initializing StratComs!
-INFO: 2022-03-25T16:49:14 - Adding effects for Strategic Resolve!
-INFO: 2022-03-25T16:49:14 - Adding effects for Strategic Defense!
-INFO: 2022-03-25T16:49:14 - Adding effects for Strategic Accuracy!
-INFO: 2022-03-25T16:49:14 - Initializing OpForSpecs!
-INFO: 2022-03-25T16:49:14 - Adding effects for Federated Suns: Katherine's Favor!
-INFO: 2022-03-25T16:49:14 - Adding effects for Lyran Alliance: Victor's Favor!
-INFO: 2022-03-25T16:49:14 - Adding effects for Free Worlds League: SAFEty Isn't Guaranteed!
-INFO: 2022-03-25T16:49:14 - Adding effects for Draconis Combine: The Way of Bushido!
-INFO: 2022-03-25T16:49:14 - Adding effects for Capellan Confederation: Twirl That Moustache!
-INFO: 2022-03-25T16:49:14 - Adding effects for ComStar: Nobody Likes Their ISP!
-INFO: 2022-03-25T16:49:14 - Adding effects for Magistracy Of Canopus: Breaking the Trinity!
-INFO: 2022-03-25T16:49:14 - Adding effects for Taurian Concordat: Oppressor of Freedom!
-INFO: 2022-03-25T16:49:14 - Adding effects for Marian Hegemony: Breaker of Chains!
-INFO: 2022-03-25T16:49:14 - Adding effects for Outworlds Alliance: Bringer of Chains!
-INFO: 2022-03-25T16:49:14 - Adding effects for Free Rasalhague Republic: Give Us Back Our Worlds!
-INFO: 2022-03-25T16:49:14 - Adding effects for Aurigan Restoration: Free the Reach!!
-INFO: 2022-03-25T16:49:14 - Adding effects for Aurigan Directorate: Tyrant Breaker!
-INFO: 2022-03-25T16:49:14 - Adding effects for Rim Collection: Amaris or Am I Wrong!
-INFO: 2022-03-25T16:49:14 - Adding effects for Circinus Federation: Order To the Chaos!
-INFO: 2022-03-25T16:49:14 - Adding effects for Tortuga Dominions: Piracy Doesn't Pay!
-INFO: 2022-03-25T16:49:14 - Adding effects for Aurigan Pirates: Piracy Doesn't Pay!
-INFO: 2022-03-25T16:49:14 - Adding effects for JarnFolk: Killing the Competition!
-INFO: 2022-03-25T16:49:14 - Adding effects for Hanseatic League: Killing the Competition!
-INFO: 2022-03-25T16:49:14 - Adding effects for Chainelane Isles: Internal Chaos!
-INFO: 2022-03-25T16:49:14 - Adding effects for Locals: Centralized Government!
-INFO: 2022-03-25T16:49:14 - Adding effects for Clan Wolf: Dog Catcher!
-INFO: 2022-03-25T16:49:14 - Adding effects for Clan Jade Falcon: Turkey Season!
-INFO: 2022-03-25T16:49:14 - Adding effects for Clan Ghost Bear: Loaded For Bear!
-INFO: 2022-03-25T16:49:14 - Adding effects for Clan Nova Cat: Bad Trip!
-INFO: 2022-03-25T16:49:14 - Adding effects for St. Ives: Gonna Give Them The St. Ives Blues!
-INFO: 2022-03-25T16:49:14 - Adding effects for Word of Blake: Damn Toaster Worshippers!
-INFO: 2022-03-25T16:49:14 - Adding effects for default Increased Damage!
-INFO: 2022-03-25T16:49:14 - Adding effects for default Damage Resistance!
-INFO: 2022-03-25T16:49:14 - Initializing MissionSpecs!
-INFO: 2022-03-25T16:49:14 - Adding effects for Simple Battle: They Were Coming Right At Me!!
-INFO: 2022-03-25T16:49:14 - Adding effects for Three-Way Battle: Institutional Chaos!
-INFO: 2022-03-25T16:49:14 - Adding effects for Assassinate: Headhunter!
-INFO: 2022-03-25T16:49:14 - Adding effects for Solo Duel: Master Duelist!
-INFO: 2022-03-25T16:49:14 - Adding effects for Duo Duel: Master Duelist!
-INFO: 2022-03-25T16:49:14 - Adding effects for Capture Base: Turrets Syndrome!
-INFO: 2022-03-25T16:49:14 - Adding effects for Destroy Base: Demolition Expert!
-INFO: 2022-03-25T16:49:14 - Adding effects for Defend Base: Bulwark Writ Large!
-INFO: 2022-03-25T16:49:14 - Adding effects for Attack and Defend: Combined Tactics!
-INFO: 2022-03-25T16:49:14 - Adding effects for Capture-Escort: Shield of Faith!
-INFO: 2022-03-25T16:49:14 - Adding effects for Ambush Convoy: Tankssassin!
-INFO: 2022-03-25T16:49:14 - Adding effects for Target Acquisition: Welcome to the Race Track!
-INFO: 2022-03-25T16:49:14 - Adding effects for Rescue/Recovery: Need For Speed!
-INFO: 2022-03-25T16:49:14 - Adding effects for Blackout: Hazard Pay!
-INFO: 2022-03-25T16:49:14 - Adding effects for default Increased Damage!
-INFO: 2022-03-25T16:49:14 - Adding effects for default Damage Resistance!
+INFO: 2022-05-06T18:25:32 - Initializing PracticeMakesPerfect - Version 1.0.1.10
+INFO: 2022-05-06T18:25:32 - Initializing StratComs!
+INFO: 2022-05-06T18:25:32 - Adding effects for Strategic Resolve!
+INFO: 2022-05-06T18:25:32 - Adding effects for Strategic Defense!
+INFO: 2022-05-06T18:25:32 - Adding effects for Strategic Accuracy!
+INFO: 2022-05-06T18:25:32 - Initializing OpForSpecs!
+INFO: 2022-05-06T18:25:32 - Adding effects for Federated Suns: Katherine's Favor!
+INFO: 2022-05-06T18:25:32 - Adding effects for Lyran Alliance: Victor's Favor!
+INFO: 2022-05-06T18:25:32 - Adding effects for Free Worlds League: SAFEty Isn't Guaranteed!
+INFO: 2022-05-06T18:25:32 - Adding effects for Draconis Combine: The Way of Bushido!
+INFO: 2022-05-06T18:25:32 - Adding effects for Capellan Confederation: Twirl That Moustache!
+INFO: 2022-05-06T18:25:32 - Adding effects for ComStar: Nobody Likes Their ISP!
+INFO: 2022-05-06T18:25:32 - Adding effects for Magistracy Of Canopus: Breaking the Trinity!
+INFO: 2022-05-06T18:25:32 - Adding effects for Taurian Concordat: Oppressor of Freedom!
+INFO: 2022-05-06T18:25:32 - Adding effects for Marian Hegemony: Breaker of Chains!
+INFO: 2022-05-06T18:25:32 - Adding effects for Outworlds Alliance: Bringer of Chains!
+INFO: 2022-05-06T18:25:32 - Adding effects for Free Rasalhague Republic: Give Us Back Our Worlds!
+INFO: 2022-05-06T18:25:32 - Adding effects for Aurigan Restoration: Free the Reach!!
+INFO: 2022-05-06T18:25:32 - Adding effects for Aurigan Directorate: Tyrant Breaker!
+INFO: 2022-05-06T18:25:32 - Adding effects for Rim Collection: Amaris or Am I Wrong!
+INFO: 2022-05-06T18:25:32 - Adding effects for Circinus Federation: Order To the Chaos!
+INFO: 2022-05-06T18:25:32 - Adding effects for Tortuga Dominions: Piracy Doesn't Pay!
+INFO: 2022-05-06T18:25:32 - Adding effects for Aurigan Pirates: Piracy Doesn't Pay!
+INFO: 2022-05-06T18:25:32 - Adding effects for JarnFolk: Killing the Competition!
+INFO: 2022-05-06T18:25:32 - Adding effects for Hanseatic League: Killing the Competition!
+INFO: 2022-05-06T18:25:32 - Adding effects for Chainelane Isles: Internal Chaos!
+INFO: 2022-05-06T18:25:32 - Adding effects for Locals: Centralized Government!
+INFO: 2022-05-06T18:25:32 - Adding effects for Clan Wolf: Dog Catcher!
+INFO: 2022-05-06T18:25:32 - Adding effects for Clan Jade Falcon: Turkey Season!
+INFO: 2022-05-06T18:25:32 - Adding effects for Clan Ghost Bear: Loaded For Bear!
+INFO: 2022-05-06T18:25:32 - Adding effects for Clan Nova Cat: Bad Trip!
+INFO: 2022-05-06T18:25:32 - Adding effects for St. Ives: Gonna Give Them The St. Ives Blues!
+INFO: 2022-05-06T18:25:32 - Adding effects for Word of Blake: Damn Toaster Worshippers!
+INFO: 2022-05-06T18:25:32 - Adding effects for default Increased Damage!
+INFO: 2022-05-06T18:25:32 - Adding effects for default Damage Resistance!
+INFO: 2022-05-06T18:25:32 - Initializing MissionSpecs!
+INFO: 2022-05-06T18:25:32 - Adding effects for Simple Battle: They Were Coming Right At Me!!
+INFO: 2022-05-06T18:25:32 - Adding effects for Three-Way Battle: Institutional Chaos!
+INFO: 2022-05-06T18:25:32 - Adding effects for Assassinate: Headhunter!
+INFO: 2022-05-06T18:25:32 - Adding effects for Solo Duel: Master Duelist!
+INFO: 2022-05-06T18:25:32 - Adding effects for Duo Duel: Master Duelist!
+INFO: 2022-05-06T18:25:32 - Adding effects for Capture Base: Turrets Syndrome!
+INFO: 2022-05-06T18:25:32 - Adding effects for Destroy Base: Demolition Expert!
+INFO: 2022-05-06T18:25:32 - Adding effects for Defend Base: Bulwark Writ Large!
+INFO: 2022-05-06T18:25:32 - Adding effects for Attack and Defend: Combined Tactics!
+INFO: 2022-05-06T18:25:32 - Adding effects for Capture-Escort: Shield of Faith!
+INFO: 2022-05-06T18:25:32 - Adding effects for Ambush Convoy: Tankssassin!
+INFO: 2022-05-06T18:25:32 - Adding effects for Target Acquisition: Welcome to the Race Track!
+INFO: 2022-05-06T18:25:32 - Adding effects for Rescue/Recovery: Need For Speed!
+INFO: 2022-05-06T18:25:32 - Adding effects for Blackout: Hazard Pay!
+INFO: 2022-05-06T18:25:32 - Adding effects for default Increased Damage!
+INFO: 2022-05-06T18:25:32 - Adding effects for default Damage Resistance!
+INFO: 2022-05-06T18:27:37 - Initializing Default OpForSpecs!
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for MagistracyOfCanopus!
+INFO: 2022-05-06T18:27:37 - Adding [the Magistracy of Canopus]: Increased Damage for MagistracyOfCanopus!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Magistracy of Canopus]: Damage Resistance for MagistracyOfCanopus!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Davion!
+INFO: 2022-05-06T18:27:37 - Adding [the Federated Suns]: Increased Damage for Davion!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Federated Suns]: Damage Resistance for Davion!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for AuriganDirectorate!
+INFO: 2022-05-06T18:27:37 - Adding [the Aurigan Directorate]: Increased Damage for AuriganDirectorate!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Aurigan Directorate]: Damage Resistance for AuriganDirectorate!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Kurita!
+INFO: 2022-05-06T18:27:37 - Adding [the Draconis Combine]: Increased Damage for Kurita!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Draconis Combine]: Damage Resistance for Kurita!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Liao!
+INFO: 2022-05-06T18:27:37 - Adding [the Capellan Confederation]: Increased Damage for Liao!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Capellan Confederation]: Damage Resistance for Liao!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Locals!
+INFO: 2022-05-06T18:27:37 - Adding [the Planetary Government]: Increased Damage for Locals!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Planetary Government]: Damage Resistance for Locals!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Marik!
+INFO: 2022-05-06T18:27:37 - Adding [the Free Worlds League]: Increased Damage for Marik!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Free Worlds League]: Damage Resistance for Marik!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for AuriganPirates!
+INFO: 2022-05-06T18:27:37 - Adding [the local pirate organization]: Increased Damage for AuriganPirates!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the local pirate organization]: Damage Resistance for AuriganPirates!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for AuriganRestoration!
+INFO: 2022-05-06T18:27:37 - Adding [the Aurigan Coalition]: Increased Damage for AuriganRestoration!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Aurigan Coalition]: Damage Resistance for AuriganRestoration!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Steiner!
+INFO: 2022-05-06T18:27:37 - Adding [the Lyran Commonwealth]: Increased Damage for Steiner!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Lyran Commonwealth]: Damage Resistance for Steiner!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for TaurianConcordat!
+INFO: 2022-05-06T18:27:37 - Adding [the Taurian Concordat]: Increased Damage for TaurianConcordat!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [the Taurian Concordat]: Damage Resistance for TaurianConcordat!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Chainelane!
+INFO: 2022-05-06T18:27:37 - Adding [Chainelane Isles]: Increased Damage for Chainelane!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Chainelane Isles]: Damage Resistance for Chainelane!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Circinus!
+INFO: 2022-05-06T18:27:37 - Adding [Circinus Federation]: Increased Damage for Circinus!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Circinus Federation]: Damage Resistance for Circinus!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for ClanGhostBear!
+INFO: 2022-05-06T18:27:37 - Adding [Clan Ghost Bear]: Increased Damage for ClanGhostBear!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Clan Ghost Bear]: Damage Resistance for ClanGhostBear!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for ClanJadeFalcon!
+INFO: 2022-05-06T18:27:37 - Adding [Clan Jade Falcon]: Increased Damage for ClanJadeFalcon!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Clan Jade Falcon]: Damage Resistance for ClanJadeFalcon!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for ClanNovaCat!
+INFO: 2022-05-06T18:27:37 - Adding [Clan Nova Cat]: Increased Damage for ClanNovaCat!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Clan Nova Cat]: Damage Resistance for ClanNovaCat!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for ClanWolf!
+INFO: 2022-05-06T18:27:37 - Adding [Clan Wolf]: Increased Damage for ClanWolf!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Clan Wolf]: Damage Resistance for ClanWolf!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for ComStar!
+INFO: 2022-05-06T18:27:37 - Adding [ComStar]: Increased Damage for ComStar!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [ComStar]: Damage Resistance for ComStar!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Delphi!
+INFO: 2022-05-06T18:27:37 - Adding [New Delphi Compact]: Increased Damage for Delphi!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [New Delphi Compact]: Damage Resistance for Delphi!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Hanse!
+INFO: 2022-05-06T18:27:37 - Adding [Hanseatic League]: Increased Damage for Hanse!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Hanseatic League]: Damage Resistance for Hanse!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Ives!
+INFO: 2022-05-06T18:27:37 - Adding [St. Ives Compact]: Increased Damage for Ives!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [St. Ives Compact]: Damage Resistance for Ives!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for JarnFolk!
+INFO: 2022-05-06T18:27:37 - Adding [JarnFolk]: Increased Damage for JarnFolk!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [JarnFolk]: Damage Resistance for JarnFolk!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Marian!
+INFO: 2022-05-06T18:27:37 - Adding [Marian Hegemony]: Increased Damage for Marian!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Marian Hegemony]: Damage Resistance for Marian!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Outworld!
+INFO: 2022-05-06T18:27:37 - Adding [Outworld Alliance]: Increased Damage for Outworld!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Outworld Alliance]: Damage Resistance for Outworld!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Rasalhague!
+INFO: 2022-05-06T18:27:37 - Adding [Free Rasalhague Republic]: Increased Damage for Rasalhague!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Free Rasalhague Republic]: Damage Resistance for Rasalhague!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Rim!
+INFO: 2022-05-06T18:27:37 - Adding [Rim Collection]: Increased Damage for Rim!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Rim Collection]: Damage Resistance for Rim!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for Tortuga!
+INFO: 2022-05-06T18:27:37 - Adding [Tortuga Dominions]: Increased Damage for Tortuga!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Tortuga Dominions]: Damage Resistance for Tortuga!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Processing default OpForSpecs for WordOfBlake!
+INFO: 2022-05-06T18:27:37 - Adding [Word of Blake]: Increased Damage for WordOfBlake!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Adding [Word of Blake]: Damage Resistance for WordOfBlake!
+ 1st effectdata Id was IncreasedDamagePassive
+INFO: 2022-05-06T18:27:37 - Initializing Default MissionSpecs!
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for SimpleBattle!
+INFO: 2022-05-06T18:27:37 - Adding [SimpleBattle]: Increased Damage for SimpleBattleDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [SimpleBattle]: Damage Resistance for SimpleBattleDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for DestroyBase!
+INFO: 2022-05-06T18:27:37 - Adding [DestroyBase]: Increased Damage for DestroyBaseDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [DestroyBase]: Damage Resistance for DestroyBaseDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for CaptureBase!
+INFO: 2022-05-06T18:27:37 - Adding [CaptureBase]: Increased Damage for CaptureBaseDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [CaptureBase]: Damage Resistance for CaptureBaseDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for CaptureEscort!
+INFO: 2022-05-06T18:27:37 - Adding [CaptureEscort]: Increased Damage for CaptureEscortDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [CaptureEscort]: Damage Resistance for CaptureEscortDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for Rescue!
+INFO: 2022-05-06T18:27:37 - Adding [Rescue]: Increased Damage for RescueDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [Rescue]: Damage Resistance for RescueDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for Assassinate!
+INFO: 2022-05-06T18:27:37 - Adding [Assassinate]: Increased Damage for AssassinateDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [Assassinate]: Damage Resistance for AssassinateDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for DefendBase!
+INFO: 2022-05-06T18:27:37 - Adding [DefendBase]: Increased Damage for DefendBaseDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [DefendBase]: Damage Resistance for DefendBaseDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for AmbushConvoy!
+INFO: 2022-05-06T18:27:37 - Adding [AmbushConvoy]: Increased Damage for AmbushConvoyDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [AmbushConvoy]: Damage Resistance for AmbushConvoyDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for FireMission!
+INFO: 2022-05-06T18:27:37 - Adding [FireMission]: Increased Damage for FireMissionDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [FireMission]: Damage Resistance for FireMissionDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for ThreeWayBattle!
+INFO: 2022-05-06T18:27:37 - Adding [ThreeWayBattle]: Increased Damage for ThreeWayBattleDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [ThreeWayBattle]: Damage Resistance for ThreeWayBattleDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for AttackDefend!
+INFO: 2022-05-06T18:27:37 - Adding [AttackDefend]: Increased Damage for AttackDefendDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [AttackDefend]: Damage Resistance for AttackDefendDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for SoloDuel!
+INFO: 2022-05-06T18:27:37 - Adding [SoloDuel]: Increased Damage for SoloDuelDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [SoloDuel]: Damage Resistance for SoloDuelDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for DuoDuel!
+INFO: 2022-05-06T18:27:37 - Adding [DuoDuel]: Increased Damage for DuoDuelDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [DuoDuel]: Damage Resistance for DuoDuelDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Processing default MissionSpecs for Blackout!
+INFO: 2022-05-06T18:27:37 - Adding [Blackout]: Increased Damage for BlackoutDamageBuff!
+ 1st effectdata Id was IncreasedDamage2
+INFO: 2022-05-06T18:27:37 - Adding [Blackout]: Damage Resistance for BlackoutDamageResistance!
+ 1st effectdata Id was SB_DmgResist
+INFO: 2022-05-06T18:27:37 - Deserializing op4State and removing from company tags
+INFO: 2022-05-06T18:27:37 - Deserializing op4Tracker and removing from company tags
+INFO: 2022-05-06T18:27:37 - Deserializing missionState and removing from company tags
+INFO: 2022-05-06T18:27:37 - Deserializing missionTracker and removing from company tags
+INFO: 2022-05-06T18:27:37 - Deserializing activeStratCom and removing from company tags
+INFO: 2022-05-06T18:27:37 - Successfully deserialized or determined deserializing unnecessary.
+INFO: 2022-05-06T18:27:47 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:47 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:47 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:47 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:56 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:57 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:58 - Total discount from specs: 0
+INFO: 2022-05-06T18:27:58 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:00 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Added Kotare to MissionSpecMap with iGUID spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2
+INFO: 2022-05-06T18:28:01 - Added Kotare to OpForSpecMap with iGUID spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2
+INFO: 2022-05-06T18:28:01 - Added Kotare to MissionsTracker with iGUID spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2
+INFO: 2022-05-06T18:28:01 - Added Kotare to OpForKillsTracker with iGUID spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:28:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:29:13 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:29:13 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:29:13 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:29:13 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:29:13 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:29:59 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:29:59 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:29:59 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:29:59 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:29:59 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:31:03 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:31:03 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:31:03 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:31:03 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:31:03 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:31:17 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:31:17 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:31:17 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:31:17 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:31:17 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:31:42 - Total discount from specs: 0
+INFO: 2022-05-06T18:31:42 - Total discount from specs: 0
+INFO: 2022-05-06T18:35:29 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:35:29 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:35:29 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:35:29 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:35:29 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:35:42 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:35:42 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:35:42 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:35:42 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:35:42 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:37:57 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:37:57 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:37:57 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:37:57 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:37:57 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:38:34 - Initializing bonus effectXP stat for Slapdash
+INFO: 2022-05-06T18:38:34 - Initializing bonus effectXP stat for Raza5
+INFO: 2022-05-06T18:38:34 - Initializing bonus effectXP stat for Gunner
+INFO: 2022-05-06T18:38:35 - Initializing bonus effectXP stat for Gunner
+INFO: 2022-05-06T18:39:45 - ActiveContract.Override.ContractTypeValue.Name: DuoDuel
+INFO: 2022-05-06T18:39:45 - processing Resolve Generation Increased for SlapdashspGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89
+INFO: 2022-05-06T18:39:45 - Applying stratcomSlapdash_StatusEffect-OfficerTrainee
+INFO: 2022-05-06T18:39:45 - Slapdash was missing OpForKillsTEMPTracker. Adding an empty one.
+INFO: 2022-05-06T18:39:45 - Initializing Slapdash's OpForKillsTEMPTracker for target team Rasalhague.
+INFO: 2022-05-06T18:39:45 - processing Resolve Generation Increased for Raza5spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1
+INFO: 2022-05-06T18:39:45 - Applying stratcomRaza5_StatusEffect-OfficerTrainee
+INFO: 2022-05-06T18:39:45 - Raza5 was missing OpForKillsTEMPTracker. Adding an empty one.
+INFO: 2022-05-06T18:39:45 - Initializing Raza5's OpForKillsTEMPTracker for target team Rasalhague.
+INFO: 2022-05-06T18:40:08 - Matching effect found: PainterEffect from Raza5 targeting Blackjack Omni BJ2-OA. No double-dipping!
+INFO: 2022-05-06T18:40:08 - No existing effect PainterEffect from Raza5 targeting Blackjack Omni BJ2-OA. Adding 50 to Raza5's 'effectXP' pilot stat. No double-dipping until effect expires.
+INFO: 2022-05-06T18:40:12 - Getting key for Slapdash.
+INFO: 2022-05-06T18:40:12 - Getting key for Raza5.
+INFO: 2022-05-06T18:40:35 - Getting key for Slapdash.
+INFO: 2022-05-06T18:40:35 - Getting key for Raza5.
+INFO: 2022-05-06T18:41:23 - Adding 1 to Slapdash's Rasalhague OpForTracker.
+INFO: 2022-05-06T18:41:43 - Matching effect found: PainterEffect from Raza5 targeting Dervish DV-6M. No double-dipping!
+INFO: 2022-05-06T18:41:43 - No existing effect PainterEffect from Raza5 targeting Dervish DV-6M. Adding 50 to Raza5's 'effectXP' pilot stat. No double-dipping until effect expires.
+INFO: 2022-05-06T18:41:48 - Getting key for Slapdash.
+INFO: 2022-05-06T18:41:48 - Getting key for Raza5.
+INFO: 2022-05-06T18:41:52 - Should be menage a trois.
+INFO: 2022-05-06T18:41:52 - Getting key for Slapdash.
+INFO: 2022-05-06T18:41:52 - Getting key for Raza5.
+INFO: 2022-05-06T18:41:52 - Getting key for Slapdash.
+INFO: 2022-05-06T18:41:52 - Getting key for Raza5.
+INFO: 2022-05-06T18:42:22 - Matching effect found: PainterEffect from Raza5 targeting Dervish DV-6M. No double-dipping!
+INFO: 2022-05-06T18:42:30 - Getting key for Slapdash.
+INFO: 2022-05-06T18:42:30 - Getting key for Raza5.
+INFO: 2022-05-06T18:42:57 - Should be menage a trois.
+INFO: 2022-05-06T18:42:57 - Getting key for Slapdash.
+INFO: 2022-05-06T18:42:57 - Getting key for Raza5.
+INFO: 2022-05-06T18:43:20 - Adding 1 to Slapdash's Rasalhague OpForTracker.
+INFO: 2022-05-06T18:43:24 - OpForKillsTEMPTracker was 2
+INFO: 2022-05-06T18:43:24 - 0 tagged Mission Specs found for Slapdash.
+INFO: 2022-05-06T18:43:24 - No key for DuoDuel found in Slapdash's MissionsTracker. Adding it with default value 0.
+INFO: 2022-05-06T18:43:24 - Adding 1 to Slapdash's MissionsTracker for DuoDuel
+INFO: 2022-05-06T18:43:24 - No key for Rasalhague found in Slapdash's OpForKillsTracker. Adding it with default value 0.
+INFO: 2022-05-06T18:43:24 - Adding 2 Rasalhague kills to Slapdash's OpForKillsTracker
+INFO: 2022-05-06T18:43:24 - OpForKillsTEMPTracker was 0
+INFO: 2022-05-06T18:43:24 - 0 tagged Mission Specs found for Raza5.
+INFO: 2022-05-06T18:43:24 - No key for DuoDuel found in Raza5's MissionsTracker. Adding it with default value 0.
+INFO: 2022-05-06T18:43:24 - Adding 1 to Raza5's MissionsTracker for DuoDuel
+INFO: 2022-05-06T18:43:24 - No key for Rasalhague found in Raza5's OpForKillsTracker. Adding it with default value 0.
+INFO: 2022-05-06T18:43:24 - Adding 0 Rasalhague kills to Raza5's OpForKillsTracker
+INFO: 2022-05-06T18:43:24 - 0 in bounties awarded.
+INFO: 2022-05-06T18:43:24 - Employer Reputation Change: 8 x 1 = 8
+INFO: 2022-05-06T18:43:24 - Target Reputation Change: -6 x 1 = -6
+INFO: 2022-05-06T18:43:24 - Contract Payout: (947100 x 1) + 0 = 947100
+INFO: 2022-05-06T18:44:09 - No bounties awarded.
+INFO: 2022-05-06T18:44:16 - adding 88XP to Slapdash for mech kill, contract multiplier
+INFO: 2022-05-06T18:44:16 - adding 88XP to Slapdash for mech kill, contract multiplier
+INFO: 2022-05-06T18:44:16 - adding 50XP to Slapdash for mech kill, flat bonus
+INFO: 2022-05-06T18:44:16 - adding 50XP to Slapdash for mech kill, flat bonus
+INFO: 2022-05-06T18:44:16 - adding 0XP from Structure Damage and 0XP from Armor Damage to Slapdash
+INFO: 2022-05-06T18:44:16 - adding stat effectXP: 0XP to Slapdash from per-use effects/ability bonuses
+INFO: 2022-05-06T18:44:16 - adding 0XP to Slapdash following formula ContractXP * ModInit.modSettings.missionXPEffects * (effectXP/ModInit.modSettings.missionXPeffectBonusDivisor)
+INFO: 2022-05-06T18:44:16 - Total bonus XP awarded to Slapdash: 276
+INFO: 2022-05-06T18:44:16 - adding 0XP from Structure Damage and 0XP from Armor Damage to Raza5
+INFO: 2022-05-06T18:44:16 - adding stat effectXP: 100XP to Raza5 from per-use effects/ability bonuses
+INFO: 2022-05-06T18:44:16 - adding 219XP to Raza5 following formula ContractXP * ModInit.modSettings.missionXPEffects * (effectXP/ModInit.modSettings.missionXPeffectBonusDivisor)
+INFO: 2022-05-06T18:44:16 - Total bonus XP awarded to Raza5: 319
+INFO: 2022-05-06T18:45:37 - Total discount from specs: 0
+INFO: 2022-05-06T18:45:37 - Total discount from specs: 0
+INFO: 2022-05-06T18:45:37 - Total discount from specs: 0
+INFO: 2022-05-06T18:45:37 - Total discount from specs: 0
+INFO: 2022-05-06T18:45:56 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:45:56 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6,"Rasalhague":0},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{"Rasalhague":2},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:45:56 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:45:56 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2,"DuoDuel":1},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{"DuoDuel":1},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:45:56 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:48:57 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:48:57 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6,"Rasalhague":0},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{"Rasalhague":2},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:48:57 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:48:57 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2,"DuoDuel":1},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{"DuoDuel":1},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:48:57 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".
+INFO: 2022-05-06T18:49:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:49:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:52:56 - Total discount from specs: 0
+INFO: 2022-05-06T18:52:56 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:00 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:00 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:00 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:01 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:15 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:16 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:17 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:18 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:19 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:20 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:21 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:22 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:23 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:23 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:23 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:23 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:23 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:23 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:23 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:26 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:27 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:28 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:29 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:30 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:31 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:34 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:35 - Total discount from specs: 0
+INFO: 2022-05-06T18:56:51 - Serialized op4State and adding to company tags.
+
+State was PMP_OP4SPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":["ClanWolfIncreasedDamage","ClanWolfDecreasedDamage"],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":["ClanWolfIncreasedDamage"],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":["ClanWolfIncreasedDamage"],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:56:51 - Serialized op4Tracker and adding to company tags.
+
+State was PMP_OP4TRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"ClanWolf":0},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"ClanWolf":11},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"ClanWolf":4},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"ClanWolf":3},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ClanWolf":3},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"ClanWolf":6,"Rasalhague":0},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"ClanWolf":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"Hanse":0,"ClanWolf":1},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{"Rasalhague":2},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"ClanWolf":4},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:56:51 - Serialized missionState and adding to company tags.
+
+State was PMP_MISSIONSPEC_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":[],"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":[],"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":[],"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":[],"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":[],"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":[],"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":[],"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":[],"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":[],"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":[],"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":[],"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":[],"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":[],"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":[],"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":[],"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":[]}.
+INFO: 2022-05-06T18:56:51 - Serialized missionTracker and adding to company tags.
+
+State was PMP_MISSIONTRACKER_{"spGUID_pilot_sim_starter_dekkerb5a28543-3e35-4837-b2fd-001005aee4e4":{"CaptureBase":1},"spGUID_pilot_tbone_t-bone75de143e-b124-4f44-922e-8f979faa1ec5":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Harmony94b0ea67-0c4f-4f17-9553-6365ecafe212":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Hardball8800f586-cecd-4e6a-ac65-039aa853b0a6":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_DuncanFisher2ee2ed2b-00e4-418e-b92b-4f18f221af5f":{},"spGUID_pilot_lts_Shadee10486c3-913a-4992-920f-79a59c2c0426":{},"spGUID_pilot_tr_Turtrus5b8ebe86-2b79-467b-bccf-fda8919a9e6e":{"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_Raza50c298c4c-250b-4511-ac9d-056726debfb1":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2,"DuoDuel":1},"spGUID_pilot_wiki_Pharaoh70f34d4d-3109-46a7-971b-93430f47e627":{},"spGUID_PilotGen_SGRef_49003f537c-b8b0-4072-8037-f01c4164f996":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_commandere92c2376-0418-4119-9aee-c6a32909f605":{"SoloDuel":1,"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_at_Slapdash980b5532-cc3e-44f5-b7a8-cb05210f8c89":{"DuoDuel":1},"spGUID_PilotGen_SGRef_1343866c8c376-97ca-4b1f-ac2e-52a56eddc704":{"CaptureBase":1,"ThreeWayBattle":1,"Assassinate":1,"SimpleBattle":2},"spGUID_pilot_bd_Webb5e99d6c6-dffd-4985-ae54-b5240729e742":{},"spGUID_pilot_tl_TaintedLoki9ab33d4c-efb7-4c70-9ffb-2b808ce7afcb":{},"spGUID_pilot_bd_Smoke0bf92bf4-36d0-48c6-aee6-570f89cf0cb2":{}}.
+INFO: 2022-05-06T18:56:51 - Serialized activeStratCom and adding to company tags.
+
+State was PMP_ACTIVESTRATCOM_"StrategicResolve".

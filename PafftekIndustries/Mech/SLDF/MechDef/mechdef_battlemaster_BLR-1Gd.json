@@ -8,8 +8,9 @@
             "unit_lance_tank",
             "unit_role_brawler",
 			"unit_royal",
-			"comstar",
-			"davion"
+			"unit_rarity_1",
+			"ComStar",
+			"Davion"
         ],
         "tagSetSourceFile": ""
     },

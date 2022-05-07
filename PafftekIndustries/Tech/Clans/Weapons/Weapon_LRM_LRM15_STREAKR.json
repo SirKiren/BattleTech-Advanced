@@ -67,8 +67,7 @@
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
-	"Modes": [
-		{
+	"Modes": [{
 			"Id": "STREAK",
 			"UIName": "STREAK",
 			"isBaseMode": true,
@@ -78,11 +77,10 @@
 		},
 		{
 			"Id": "STD",
-			"UIName": "DIRECT",	 
+			"UIName": "DIRECT",
 			"isBaseMode": false,
 			"IndirectFireCapable": false,
 			"AmmoCategory": "LRM",
-			"HitGenerator": "Cluster",
 			"MissileHealth": 1
 		},
 		{
@@ -93,9 +91,8 @@
 			"AlwaysIndirectVisuals": true,
 			"IndirectFireCapable": true,
 			"AmmoCategory": "LRM",
-			"HitGenerator": "Cluster",
 			"MissileHealth": 1
-		}	
+		}
 	],
 	"statusEffects": [],
 	"ComponentTags": {

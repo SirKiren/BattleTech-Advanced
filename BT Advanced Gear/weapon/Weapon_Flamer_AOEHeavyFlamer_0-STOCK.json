@@ -54,6 +54,7 @@
 	"AOERange": 45,
 	"AOEDamage": 10,
 	"AOEHeatDamage": 10,
+	"AOEEffectsFalloff": true,
 	"TrooperSquadDamageModifier": 2,
 	"WeaponEffectID": "WeaponEffect-Weapon_Flamer",
 	"Description": {

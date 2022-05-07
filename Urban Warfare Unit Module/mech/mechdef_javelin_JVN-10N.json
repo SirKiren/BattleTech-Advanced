@@ -2,9 +2,9 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_5",
 			"unit_mech",
 			"unit_light",
-			"unit_rarity_5",
 			"unit_lance_vanguard",
 			"unit_role_scout",
 			"unit_bracket_med",
@@ -28,6 +28,7 @@
 			"DarkCaste",
 			"Ives",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"AuriganPirates",

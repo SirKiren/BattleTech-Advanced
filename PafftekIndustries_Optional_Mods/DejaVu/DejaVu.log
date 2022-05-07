@@ -1,1 +1,9 @@
-INFO: 2022-03-25T16:45:06 - Initializing us.tbone.DejaVu - Version 1.0.2.0
+INFO: 2022-05-06T18:25:38 - Initializing us.tbone.DejaVu - Version 1.0.2.0
+INFO: 2022-05-06T18:37:54 - Adding INC-3 to dejaVuMechs
+INFO: 2022-05-06T18:37:54 - Adding COM-1D to dejaVuMechs
+INFO: 2022-05-06T18:44:16 - Mech COM-1D got < 2 kills, removing from dejavu.
+INFO: 2022-05-06T18:45:43 - Added MechInventory for Incubus INC-3 to DejaVuInventories
+INFO: 2022-05-06T18:45:43 - Processing MechDef sans ChassisDef: mechdef_incubus_3
+INFO: 2022-05-06T18:45:43 - Added -bJ to mechdefID: mechdef_incubus_3-bJ and UIName: Incubus INC-3
+INFO: 2022-05-06T18:45:43 - Set def.ChassisID to chassisdef_incubus_3, def.Description.Id to mechdef_incubus_3-bJ and def.Description.UIName to Incubus INC-3-bJ
+INFO: 2022-05-06T18:45:43 - Serialized mechdef_incubus_3-bJ mechDef to .json

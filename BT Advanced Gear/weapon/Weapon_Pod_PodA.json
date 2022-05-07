@@ -43,6 +43,7 @@
 	"AOECapable": true,
 	"AOEDamage": 35,
 	"AOERange": 30,
+	"AOEEffectsFalloff": true,
 	"IFFDef": "notblanksowontdamageselfbutcandamagefriendlies",
 	"IndirectFireCapable": false,
 	"RefireModifier": 0,

@@ -1,0 +1,84 @@
+{
+    "Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/heavy"
+			}
+		],	
+        "ComponentExplosion": {
+            "ExplosionDamage": 40,
+            "HeatDamage": 25,
+            "StabilityDamage": 15
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "ImpHeavyLaser: 40"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "02008"
+        }
+    },
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaser",
+    "MinRange": 0,
+	  "MaxRange": 675,
+	  "RangeSplit": [
+		200,
+		350,
+		480
+	  ],
+    "AmmoCategory": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 70,
+    "Damage": 80,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 7.5,
+	"APDamage": 6,	
+	"FireTerrainChance": 0.225,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+    "Description": {
+        "Cost": 3016000,
+        "Rarity": 10,
+        "Purchasable": true,
+        "Manufacturer": "CLAN",
+        "Model": "Large Laser",
+        "UIName": "L. I. Heavy Laser (C)++",
+        "Id": "Weapon_Laser_ImprovedHeavyLargeLaser_CLAN_2",
+        "Name": "I. Heavy L Laser (C)++",
+        "Details": "Just as exlposive as the previous generation of Improved Heavy Lasers, this variant gives up damage for an improved armor piercing capablity.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 3,
+    "Tonnage": 5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

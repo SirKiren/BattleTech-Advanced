@@ -2,10 +2,10 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_6",
 			"unit_mech",
 			"unit_light",
 			"unit_lance_vanguard",
-			"unit_rarity_6",
 			"unit_role_scout",
 			"unit_bracket_med",
 			"unit_generic",
@@ -14,6 +14,7 @@
 			"Davion",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"LocalsBrockwayRefugees",
 			"MasonsMarauders",
 			"SteelBeast",

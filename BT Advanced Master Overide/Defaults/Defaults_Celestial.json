@@ -1,0 +1,18 @@
+{
+	"Settings" : [
+		{
+			"Tag": "Celestial", 
+			"CategoryID": "SensorsA",
+			"Type": "Upgrade",
+			"DefID": "Gear_Sensors_HighPowered_Default",
+			"Location": "Head"
+		},
+		{
+			"Tag": "Celestial", 
+			"CategoryID": "SensorsB",
+			"Type": "Upgrade",
+			"DefID": "Gear_FCS_Violator_Default",
+			"Location": "Head"
+		}
+	]
+}

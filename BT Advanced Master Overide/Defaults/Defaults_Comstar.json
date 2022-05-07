@@ -1,0 +1,18 @@
+{
+	"Settings" : [
+		{
+			"Tag": "ComStar", 
+			"CategoryID": "SensorsA",
+			"Type": "Upgrade",
+			"DefID": "Gear_Sensors_Improved_Default",
+			"Location": "Head"
+		},
+		{
+			"Tag": "ComStar", 
+			"CategoryID": "SensorsB",
+			"Type": "Upgrade",
+			"DefID": "Gear_FCS_Improved_Default",
+			"Location": "Head"
+		}
+	]
+}

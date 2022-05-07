@@ -1,0 +1,239 @@
+{
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Upper",
+			"RightLimit": "Upper"
+		}
+	},
+	"Description": {
+		"Cost": 6858430,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Catapult",
+		"Id": "chassisdef_catapult_CPLT-D1R1",
+		"Name": "Catapult",
+		"Details": "A merc modification of the D1 that turns it into a nightmare for anything on opposing it, the D1R1 mounts a clan XL325 engine to gain an additional jump jet, replaces all of the ammo with 4 bins of cased tandem warheads, and adds 2 Laser AMS systems deflect missiles with a rare Chameleon LPS system to make it even harder to hit. It also removes the single heats and cannibalises a heat sink kit from its royal cousin, the C1b.",
+		"Icon": "uixTxrIcon_catapult"
+	},
+	"MovementCapDefID": "movedef_catapult_CPLT-C1",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_catapult",
+	"PrefabIdentifier": "chrPrfMech_catapultBase-001",
+	"PrefabBase": "catapult",
+	"Tonnage": 65,
+	"InitialTonnage": 6.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 7144000,
+	"Heatsinks": 0,
+	"TopSpeed": 64,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 65,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 65,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 65,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 12,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "CPLT-D1R1",
+	"ChassisTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Striker Cavalry",
+	"YangsThoughts": "A merc modification of the D1 that turns it into a nightmare for anything on opposing it, the D1R1 mounts a clan XL325 engine to gain an additional jump jet, replaces all of the ammo with 4 bins of cased tandem warheads, and adds 2 Laser AMS systems deflect missiles with a rare Chameleon LPS system to make it even harder to hit. It also removes the single heats and cannibalises a heat sink kit from its royal cousin, the C1b.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NimbleJumper_Catapult",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+	]
+}

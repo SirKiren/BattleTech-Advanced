@@ -1,17 +1,17 @@
-[3/19/2022 9:34:32 AM] Start injecting...
-[3/19/2022 9:34:32 AM] Loading Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed from D:\Steam\steamapps\common\BattleTech\BattleTech_Data\Managed\Newtonsoft.Json.dll
-[3/19/2022 9:34:32 AM] Injected I_CombatAuraReticle
+[4/21/2022 9:11:29 PM] Start injecting...
+[4/21/2022 9:11:29 PM] Loading Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed from D:\Steam\steamapps\common\BattleTech\BattleTech_Data\Managed\Newtonsoft.Json.dll
+[4/21/2022 9:11:29 PM] Injected I_CombatAuraReticle
 
-[3/19/2022 9:34:32 AM] Loading UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null from D:\Steam\steamapps\common\BattleTech\BattleTech_Data\Managed\UnityEngine.CoreModule.dll
-[3/19/2022 9:34:32 AM] Injected I_BTLight
+[4/21/2022 9:11:29 PM] Loading UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null from D:\Steam\steamapps\common\BattleTech\BattleTech_Data\Managed\UnityEngine.CoreModule.dll
+[4/21/2022 9:11:29 PM] Injected I_BTLight
 
-[3/19/2022 9:34:32 AM] Injected I_BTLightController
+[4/21/2022 9:11:29 PM] Injected I_BTLightController
 
-[3/19/2022 9:34:32 AM] Found baseType: BattleTech.Data.DataManager
-[3/19/2022 9:34:32 AM] Found target nestedType: BattleTech.Data.DataManager/AmmunitionDefLoadRequest
-[3/19/2022 9:34:32 AM] Found injection point: System.Void HBS.Data.DataLoader::LoadResource(System.String,System.Action`1<System.String>)
+[4/21/2022 9:11:29 PM] Found baseType: BattleTech.Data.DataManager
+[4/21/2022 9:11:29 PM] Found target nestedType: BattleTech.Data.DataManager/AmmunitionDefLoadRequest
+[4/21/2022 9:11:29 PM] Found injection point: System.Void HBS.Data.DataLoader::LoadResource(System.String,System.Action`1<System.String>)
 
-[3/19/2022 9:34:32 AM] Injected I_StringDataLoadRequest
+[4/21/2022 9:11:29 PM] Injected I_StringDataLoadRequest
 
-[3/19/2022 9:34:33 AM] DOTween is up to date.
-[3/19/2022 9:34:33 AM] All good here.
+[4/21/2022 9:11:30 PM] DOTween is up to date.
+[4/21/2022 9:11:30 PM] All good here.

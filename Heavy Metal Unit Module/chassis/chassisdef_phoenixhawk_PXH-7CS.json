@@ -231,7 +231,9 @@
 	],
 	"VariantName": "PXH-7CS",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+		"ComStar"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Scout & Skirmisher",

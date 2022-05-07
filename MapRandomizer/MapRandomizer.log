@@ -1,1 +1,33 @@
-INFO: 2022-03-25T16:44:59 - Initializing us.tbone.MapRandomizer - Version 1.0.0.8
+INFO: 2022-05-06T18:25:31 - Initializing us.tbone.MapRandomizer - Version 1.0.0.8
+INFO: 2022-05-06T18:34:59 - Flareup: Defend Planet presetSeed: 1889136644
+INFO: 2022-05-06T18:34:59 - Flareup: Defend Planet contract.IsPriorityContract: True
+INFO: 2022-05-06T18:34:59 - Using 30000 for contract reward override
+INFO: 2022-05-06T18:34:59 - Final contract value: 30000
+INFO: 2022-05-06T18:35:33 - Terrorist Convoy presetSeed: 0
+INFO: 2022-05-06T18:35:33 - Terrorist Convoy contract.IsPriorityContract: False
+INFO: 2022-05-06T18:35:33 - Calculated contract Value using Contract.CalculateContractValueByContractType
+INFO: 2022-05-06T18:35:33 - Final contract value: 675000
+INFO: 2022-05-06T18:35:33 - Contested Will presetSeed: 0
+INFO: 2022-05-06T18:35:33 - Contested Will contract.IsPriorityContract: False
+INFO: 2022-05-06T18:35:33 - Calculated contract Value using Contract.CalculateContractValueByContractType
+INFO: 2022-05-06T18:35:33 - Final contract value: 548000
+INFO: 2022-05-06T18:35:33 - Settling a Grudge presetSeed: 0
+INFO: 2022-05-06T18:35:33 - Settling a Grudge contract.IsPriorityContract: False
+INFO: 2022-05-06T18:35:33 - Calculated contract Value using Contract.CalculateContractValueByContractType
+INFO: 2022-05-06T18:35:33 - Final contract value: 857000
+INFO: 2022-05-06T18:35:33 - At High Noon presetSeed: 0
+INFO: 2022-05-06T18:35:33 - At High Noon contract.IsPriorityContract: False
+INFO: 2022-05-06T18:35:33 - Calculated contract Value using Contract.CalculateContractValueByContractType
+INFO: 2022-05-06T18:35:33 - Final contract value: 861000
+INFO: 2022-05-06T18:35:34 - Training Day presetSeed: 0
+INFO: 2022-05-06T18:35:34 - Training Day contract.IsPriorityContract: False
+INFO: 2022-05-06T18:35:34 - Calculated contract Value using Contract.CalculateContractValueByContractType
+INFO: 2022-05-06T18:35:34 - Final contract value: 1129000
+INFO: 2022-05-06T18:35:34 - Raiding Party presetSeed: 0
+INFO: 2022-05-06T18:35:34 - Raiding Party contract.IsPriorityContract: False
+INFO: 2022-05-06T18:35:34 - Calculated contract Value using Contract.CalculateContractValueByContractType
+INFO: 2022-05-06T18:35:34 - Final contract value: 650000
+INFO: 2022-05-06T18:35:34 - Insurgent Leader presetSeed: 0
+INFO: 2022-05-06T18:35:34 - Insurgent Leader contract.IsPriorityContract: False
+INFO: 2022-05-06T18:35:34 - Calculated contract Value using Contract.CalculateContractValueByContractType
+INFO: 2022-05-06T18:35:34 - Final contract value: 1269000

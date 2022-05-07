@@ -15,12 +15,13 @@
 			"unit_noncontrollableTank",
 			"no_parts",
 			"unit_vehicle",
-			"unit_rarity_5",
 			"unit_medium",
 			"unit_wheels",
 			"unit_release",
+			"unit_rarity_5",
 			"Locals",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"unit_notsacellum"
 		],
 		"tagSetSourceFile": ""

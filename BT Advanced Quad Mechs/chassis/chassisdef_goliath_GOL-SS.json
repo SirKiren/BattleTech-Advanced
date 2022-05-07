@@ -349,6 +349,15 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_StableWeapon_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_standard",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

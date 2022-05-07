@@ -1,22 +1,37 @@
-16:44:59.165 === MOD CONFIG BEGIN ===
-16:44:59.165   DEBUG: False
-16:44:59.166   MRB Rollup Values: 40000.00, 60000.00, 90000.00, 130000.00, 180000.00, 240000.00
-16:44:59.166   Rollup Blacklists: 
-16:44:59.166   Rollup Blacklist Tags: 
-16:44:59.166 FACTION REPUTATION VALUES
-16:44:59.166   Reputation:LOATHED ComponentRollup:0 MechRollup:0 HoldbackTrigger:72%
-16:44:59.166   Reputation:HATED ComponentRollup:0 MechRollup:0 HoldbackTrigger:48%
-16:44:59.166   Reputation:DISLIKED ComponentRollup:0 MechRollup:0 HoldbackTrigger:32%
-16:44:59.166   Reputation:INDIFFERENT ComponentRollup:1 MechRollup:0 HoldbackTrigger:16%
-16:44:59.166   Reputation:LIKED ComponentRollup:5 MechRollup:20 HoldbackTrigger:8%
-16:44:59.166   Reputation:FRIENDLY ComponentRollup:9 MechRollup:40 HoldbackTrigger:4%
-16:44:59.168   Reputation:HONORED ComponentRollup:13 MechRollup:60 HoldbackTrigger:2%
-16:44:59.168   Reputation:ALLIED ComponentRollup:21 MechRollup:180 HoldbackTrigger:1%
-16:44:59.168 HOLDBACK - enabled? True
-16:44:59.168   Holdback Picks: 2 to 6
-16:44:59.168   Rep Range: 2 to 6
-16:44:59.168   Dispute Picks: 1 to 6
-16:44:59.168   Dispute SuccessBase:50 MRBSuccessFactor:10 SuccessRandomBound:0.2 MRBFeeFactor:-0.1
-16:44:59.168 === MOD CONFIG END ===
-16:44:59.168 INFO: No errors reading settings file.
-16:44:59.168 INFO: Registering custom components!
+18:25:31.350 === MOD CONFIG BEGIN ===
+18:25:31.350   DEBUG: False
+18:25:31.352   MRB Rollup Values: 40000.00, 60000.00, 90000.00, 130000.00, 180000.00, 240000.00
+18:25:31.352   Rollup Blacklists: 
+18:25:31.352   Rollup Blacklist Tags: 
+18:25:31.352 FACTION REPUTATION VALUES
+18:25:31.352   Reputation:LOATHED ComponentRollup:0 MechRollup:0 HoldbackTrigger:72%
+18:25:31.352   Reputation:HATED ComponentRollup:0 MechRollup:0 HoldbackTrigger:48%
+18:25:31.352   Reputation:DISLIKED ComponentRollup:0 MechRollup:0 HoldbackTrigger:32%
+18:25:31.352   Reputation:INDIFFERENT ComponentRollup:1 MechRollup:0 HoldbackTrigger:16%
+18:25:31.352   Reputation:LIKED ComponentRollup:5 MechRollup:20 HoldbackTrigger:8%
+18:25:31.352   Reputation:FRIENDLY ComponentRollup:9 MechRollup:40 HoldbackTrigger:4%
+18:25:31.353   Reputation:HONORED ComponentRollup:13 MechRollup:60 HoldbackTrigger:2%
+18:25:31.353   Reputation:ALLIED ComponentRollup:21 MechRollup:180 HoldbackTrigger:1%
+18:25:31.353 HOLDBACK - enabled? True
+18:25:31.353   Holdback Picks: 2 to 6
+18:25:31.353   Rep Range: 2 to 6
+18:25:31.353   Dispute Picks: 1 to 6
+18:25:31.353   Dispute SuccessBase:50 MRBSuccessFactor:10 SuccessRandomBound:0.2 MRBFeeFactor:-0.1
+18:25:31.353 === MOD CONFIG END ===
+18:25:31.353 INFO: No errors reading settings file.
+18:25:31.354 INFO: Registering custom components!
+18:43:24.265 At contract start for employer: Employer:(Kurita):  employerRep:INDIFFERENT  employerIsAllied:False  MRBRating: 3  MRBIndex: 3
+18:43:24.265  -- Contract Rollup Idx: 3 => RawRollup: 130000
+18:43:24.265  -- Faction Rep Idx: 3 => Reputation: INDIFFERENT  RollupMultiComponent: 1  RollupMultiMech: 0  HoldbackTrigger: 16  HoldbackValueCapMulti: 0.6
+18:45:07.144 Holdback roll:20% triggerChance:16% hasMechParts:True canHoldback:True
+18:45:07.145   Rolling up 2 of component salvage:'LRM20' with value:290000 threshold:130000
+18:45:07.146   Rolling up 2 of component salvage:'Heat Sink Double (D)' with value:200000 threshold:130000
+18:45:07.147   Rolling up 2 of component salvage:'M Laser' with value:60000 threshold:130000
+18:45:07.147   Rolling up 2 of component salvage:'LRM Ammo' with value:20000 threshold:130000
+18:45:07.147   Rolling up 2 of component salvage:'Standard Cockpit' with value:10000 threshold:130000
+18:45:07.147   Rolling up 2 of component salvage:'Standard Sensors' with value:10000 threshold:130000
+18:45:07.147   Rolling up 2 of component salvage:'FCS Standard' with value:10000 threshold:130000
+18:45:12.147 Selling Standard Sensors worth 20000 x 0.25 shopSellModifier = 5000
+18:45:12.152 All items sold
+18:45:13.014 Selling Standard Cockpit worth 20000 x 0.25 shopSellModifier = 5000
+18:45:13.016 All items sold

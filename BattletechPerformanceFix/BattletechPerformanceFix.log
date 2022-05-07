@@ -111,5 +111,25 @@ Levels :Spam True :Debug True :Info True :Warn True
 [Info] Patch out sensitive data log dumps
 [Info] LogLevel info
 Levels :Spam False :Debug False :Info True :Warn True
-[Info] Sorted in 177.7984 ms
-[Info] Sorted in 162.1338 ms
+[Info] Sorted in 38.3979 ms
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Flareup: Defend Planet :contract.Difficulty 0 :GetDifficulty 4 :GlobalDifficulty 0 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Flareup: Defend Planet :contract.Difficulty 0 :contract.Override.finalDifficulty 2 :UIDifficulty 2
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Terrorist Convoy :contract.Difficulty 4 :GetDifficulty 4 :GlobalDifficulty 0 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Terrorist Convoy :contract.Difficulty 4 :contract.Override.finalDifficulty 4 :UIDifficulty 5
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Contested Will :contract.Difficulty 3 :GetDifficulty 4 :GlobalDifficulty 0 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Contested Will :contract.Difficulty 3 :contract.Override.finalDifficulty 3 :UIDifficulty 3
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Settling a Grudge :contract.Difficulty 5 :GetDifficulty 4 :GlobalDifficulty 0 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Settling a Grudge :contract.Difficulty 5 :contract.Override.finalDifficulty 5 :UIDifficulty 5
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name At High Noon :contract.Difficulty 5 :GetDifficulty 4 :GlobalDifficulty 0 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name At High Noon :contract.Difficulty 5 :contract.Override.finalDifficulty 5 :UIDifficulty 5
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Training Day :contract.Difficulty 5 :GetDifficulty 4 :GlobalDifficulty 0 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Training Day :contract.Difficulty 5 :contract.Override.finalDifficulty 5 :UIDifficulty 5
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Raiding Party :contract.Difficulty 4 :GetDifficulty 4 :GlobalDifficulty 0 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Raiding Party :contract.Difficulty 4 :contract.Override.finalDifficulty 4 :UIDifficulty 4
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Insurgent Leader :contract.Difficulty 4 :GetDifficulty 4 :GlobalDifficulty 0 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Insurgent Leader :contract.Difficulty 4 :contract.Override.finalDifficulty 4 :UIDifficulty 4
+[Info] (CL) LanceOverride::RequestLance :contract.Name At High Noon :requestedDifficulty 5 :lanceDifficultyAdjustment 0 :contract.Difficulty 5
+[Info] (CL) LanceOverride::RequestLance :contract.Name At High Noon :requestedDifficulty 5 :lanceDifficultyAdjustment 2 :contract.Difficulty 5
+[Info] Sorted in 34.9029 ms
+[Info] Sorted in 29.3999 ms
+[Info] Sorted in 33.6386 ms

@@ -2,9 +2,9 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_5",
 			"unit_mech",
 			"unit_medium",
-			"unit_rarity_5",
 			"unit_lance_vanguard",
 			"unit_role_sniper",
 			"unit_advanced",
@@ -27,6 +27,7 @@
 			"Circinus",
 			"Rasalhague",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"AuriganPirates",

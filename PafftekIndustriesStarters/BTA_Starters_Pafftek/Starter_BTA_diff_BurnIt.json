@@ -17,8 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_FirestarterOmni,itemCollection_Mechs_Firestarter,itemCollection_Mechs_Firestarter,itemCollection_Mechs_Firestarter,itemCollection_Mechs_Firestarter,itemCollection_Mechs_Firestarter,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Scout,itemCollection_Mechs_Generic_BattleArmor_Everything
-										,itemCollection_Mechs_Generic_BattleArmor_Everything"
+					"ConstantValue": "itemCollection_Mechs_FirestarterOmni,itemCollection_Mechs_Firestarter,itemCollection_Mechs_Firestarter,itemCollection_Mechs_Firestarter,itemCollection_Mechs_Firestarter,itemCollection_Mechs_Firestarter,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Arty,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Scout,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything"
 				},
 				{
 					"ConstantType": "CareerMode",

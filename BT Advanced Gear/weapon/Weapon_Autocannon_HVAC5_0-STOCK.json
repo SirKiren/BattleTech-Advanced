@@ -49,6 +49,7 @@
 	"AOECapable": true,
 	"AOERange": 60,
 	"AOEDamage": 25,
+	"AOEEffectsFalloff": true,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
 	"Description": {
 		"Cost": 100000,

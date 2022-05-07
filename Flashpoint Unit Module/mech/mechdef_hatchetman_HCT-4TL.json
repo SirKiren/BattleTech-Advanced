@@ -3,10 +3,10 @@
 		"items": [
 			"unit_mech",
 			"unit_medium",
-			"unit_rarity_4",
 			"unit_role_brawler",
 			"unit_jumpOK",
 			"unit_release",
+			"unit_rarity_4",
 			"unit_dlc",
 			"unit_hatchetman",
 			"unit_range_short",

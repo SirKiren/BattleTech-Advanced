@@ -1,0 +1,18 @@
+{
+	"Settings" : [
+		{
+			"Tag": "3050Recon", 
+			"CategoryID": "SensorsA",
+			"Type": "Upgrade",
+			"DefID": "Gear_Sensors_Recon_Default",
+			"Location": "Head"
+		},
+		{
+			"Tag": "3050Recon", 
+			"CategoryID": "SensorsB",
+			"Type": "Upgrade",
+			"DefID": "Gear_FCS_NightSight_Default",
+			"Location": "Head"
+		}
+	]
+}

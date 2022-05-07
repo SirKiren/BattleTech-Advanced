@@ -6,6 +6,9 @@
 		},
 		{
 		  "CategoryID": "EnginePart"
+		},
+		{
+			"CategoryID": "DHSKit"
 		}
 	  ],
 	  "WorkOrderCosts": {
@@ -41,7 +44,7 @@
 		"SortKey": "00016"
 	  },
 	  "Lootable": {
-		"ItemID": "emod_kit_dhs"
+		"ItemID": "emod_kit_dhs_royal_looted"
 	  }
 	},
 	"DissipationCapacity": 6,

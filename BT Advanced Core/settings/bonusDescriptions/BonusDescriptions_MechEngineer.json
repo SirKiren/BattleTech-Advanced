@@ -787,6 +787,12 @@
 			"Full": "{0} Sensor Stealth Initial Signature Reduction. Reduces detection by Sensors."
 		},
 		{
+			"Bonus": "ECM",
+			"Short": "ECM",
+			"Long": "ECM",
+			"Full": "Electronic Counter-Measures provide Effect as Aura when Active, or provide Effect for Carrier when Passive."
+		},
+		{
 			"Bonus": "ActiveECM",
 			"Short": "AECM",
 			"Long": "AECM",
@@ -832,7 +838,7 @@
 			"Bonus": "IFFJammer",
 			"Short": "IffJammer",
 			"Long": "I.F.F. Jammer",
-			"Full": "Identify Friend/Foe Jammer- A low tier ECM that adds {0} to sensor checks but does not enable Stealth Systems."
+			"Full": "Identify Friend/Foe Jammer: Low-tier ECM granting {0} ECM Shield; Does not meet the ECM requirement to install Stealth Systems."
 		},
 		{
 			"Bonus": "Jammer",
@@ -844,7 +850,7 @@
 			"Bonus": "PirateJammer",
 			"Short": "PirateJammer",
 			"Long": "Pirate Jammer",
-			"Full": "A low tier ECM that adds {0} to sensor checks that can enable Stealth Systems but Lacks the ECM Bubble."
+			"Full": "Low-tier ECM granting a penalty of {0} to enemy Initiative and Resolve within {1} meters; cannot enable Stealth Systems."
 		},
 		{
 			"Bonus": "BlueShield",
@@ -1693,9 +1699,9 @@
 		},
 		{
 			"Bonus": "Sharer",
-			"Short": "Shares Sensors",
-			"Long": "Shares Sensors",
-			"Full": "Shares Sensor Information -currently not fully functional"
+			"Short": "FoW Reveal",
+			"Long": "FoW Reveal",
+			"Full": "Fog of War stays revealed around this unit."
 		},
 		{
 			"Bonus": "C3",
@@ -2844,6 +2850,12 @@
 			"Full": "{0} Initiative"
 		},
 		{
+			"Bonus": "TargetInitiative",
+			"Short": "{0} Ini",
+			"Long": "{0} Target Initiative",
+			"Full": "This equipment reduces the target's initiative by {0}."
+		},
+		{
 			"Bonus": "Crits",
 			"Short": "{0} Crit",
 			"Long": "{0} Criticals",
@@ -3370,6 +3382,12 @@
 			"Short": "{0} Lance Sight",
 			"Long": "{0} Lance Sight",
 			"Full": "{0} Lance Base Sight Distance"
+		},
+		{
+			"Bonus": "LanceSight3",
+			"Short": "{0} Lance Sight",
+			"Long": "{0} Lance Sight",
+			"Full": "{0} lance base sight distance to all Allies."
 		},
 		{
 			"Bonus": "Visibility",
@@ -4273,8 +4291,8 @@
 		},
 		{
 			"Bonus": "ICESpeed",
-			"Short": "Internal Combusion Engine Movement Penalty",
-			"Long": "Internal Combusion Engine Movement Penalty",
+			"Short": "Internal Combustion Engine Movement Penalty",
+			"Long": "Internal Combustion Engine Movement Penalty",
 			"Full": "Internal combustion engines are weak and slow, equating to a {0} movement penalty."
 		},
 		{
@@ -4644,6 +4662,18 @@
 			"Full": "3rd Generation Missile Launcher Ammo - {0} Shots"
 		},
 		{
+			"Bonus": "HPG",
+			"Short": "Ground Mobile HPG",
+			"Long": "Ground Mobile Hyperpulse Generator",
+			"Full": "This is a Ground Mobile Hyperpulse Generator, a miniturized version of the basis of all interstellar communication technology. The Ground Mobile HPG is capable of emitting a pulse that forces mechs into shutdown automatically, though it is slow to charge."
+		},
+		{
+			"Bonus": "HPGStrength",
+			"Short": "HPG Shutdown",
+			"Long": "HPG Shutdown Chance",
+			"Full": "The Ground Mobile HPG has a base chance to shut down its target of {0}, modified by the target's Guts skill."
+		},
+		{
 			"Bonus": "Taser",
 			"Short": "Mech Taser",
 			"Long": "Mech Taser Effects",
@@ -4666,6 +4696,198 @@
 			"Short": "Taser Accuracy",
 			"Long": "Taser Accuracy Debuff",
 			"Full": "The Mech Taser scrambles the target's systems, reducing accuracy by {0}."
+		},
+		{
+			"Bonus": "Carapace",
+			"Short": "Black Carapace",
+			"Long": "Black Carapace",
+			"Full": "Provides Stealth Charges. Making unit harder to hit. Is Self Repairing."
+		},
+		{
+			"Bonus": "AdvancedUAV",
+			"Short": "AdvUAV",
+			"Long": "AdvUAV",
+			"Full": "Advanced UAV: Makes Enemies Easier to Spot by {0} within {1} meters. Yellow Circle."
+		},
+		{
+			"Bonus": "StealthEnhance",
+			"Short": "Stealth Enhancement",
+			"Long": "Stealth Enhancement System",
+			"Full": "Provides Sensor Stealth when Activated. Can be Added to a Mimetic Armor System."
+		  },
+		  {
+			"Bonus": "MimeticEnhance",
+			"Short": "Mimetic Enhancement",
+			"Long": "Mimetic Enhancement System",
+			"Full": "Provides Mimetic Stealth when Activated. Can be Added to a Stealth Armor System."
+		  },
+		  {
+			"Bonus": "ActiveStealth",
+			"Short": "Stealthed",
+			"Long": "Stealth Systems",
+			"Full": "Provides Sensor Stealth when Activated. Making unit harder to hit and detect. Use Components Menu to Toggle. Countered by Probes."
+		  },
+		  {
+			"Bonus": "CLPS",
+			"Short": "CLPS",
+			"Long": "Chameleon",
+			"Full": "Provides Sensor and Mimetic Stealth when Activated. Making unit harder to hit and detect. Use Components Menu to Toggle. Countered by Probes."
+		  },
+		  {
+			"Bonus": "Mimetic",
+			"Short": "Mimetic",
+			"Long": "Mimetic Systems",
+			"Full": "Provides Mimetic Stealth when Activated. Making units harder to hit and detect. Use Components Menu to Toggle. Countered by Probes."
+		  },
+		  {
+			"Bonus": "UnFriendlyAura",
+			"Short": "DBuff Aura",
+			"Long": "Debuff Aura",
+			"Full": "Aura debuffs Enemy's within {0} meters. Red Circle."
+		  },
+		  {
+			"Bonus": "AccuracyDebuff",
+			"Short": "{0} Acc",
+			"Long": "{0} Accuracy",
+			"Full": "{0} Accuracy debuff to Enemies in Aura Range."
+		  },
+		  {
+			"Bonus": "DefenseDebuff",
+			"Short": "{0} Def",
+			"Long": "{0} Defense",
+			"Full": "{0} Defense debuff to Enemies in Aura Range."
+		  },
+		  {
+			"Bonus": "AuraCrits",
+			"Short": "{0} Crit",
+			"Long": "{0} Criticals",
+			"Full": "{0} chance to deal a critical hit for Lance Mates within {1} meters. Orange Circle."
+		  },
+		  {
+			"Bonus": "SensorLock",
+			"Short": "SL",
+			"Long": "Sensor Lock",
+			"Full": "Item enables Sensor Lock ability."
+		  },
+		  {
+			"Bonus": "SearchLight",
+			"Short": "SearchLight",
+			"Long": "SearchLight",
+			"Full": "Bonus of {0} to sensor detection within {1} meters. Orange Circle. Provides additional sensor information."
+		  },
+		  {
+			"Bonus": "CQBVisor",
+			"Short": "A{0}R{1} CQB",
+			"Long": "A{0}R{1} CQBVisor",
+			"Full": "CQBVisor: Ranged Accuracy Bonus of {0} decays by 1 every {1} meters."
+		  },
+		  {
+			"Bonus": "AllLanceSensors",
+			"Short": "{0} Sensors",
+			"Long": "{0} Inc.Sensor Range",
+			"Full": "{0} increased sensor range for the Lance."
+		  },
+		  {
+			"Bonus": "AllLanceSight",
+			"Short": "{0} Sight",
+			"Long": "{0} Inc.Sight Range",
+			"Full": "{0} increased sight range for the Lance."
+		  },
+		  {
+			"Bonus": "StealthReserved",
+			"Short": "{0} Slots",
+			"Long": "{0} Slots Reserved",
+			"Full": "Reserves {0} per Location except Head and CenterTorso."
+		  },
+		  {
+			"Bonus": "ActiveVisibility",
+			"Short": "{0} Vis",
+			"Long": "{0} Visibility",
+			"Full": "{0} reduced visibility when Active."
+		  },
+		  {
+			"Bonus": "ActiveSignature",
+			"Short": "{0} Sig",
+			"Long": "{0} Signature",
+			"Full": "{0} sensor signature when Active."
+		  },	  
+		  {
+			"Bonus": "MimeticStealth",
+			"Short": "M{0} Stealth",
+			"Long": "{0} Mimetic Stealth",
+			"Full": "{0} Mimetic Stealth Visibility Reduction with {1} Charges Multiplier. Charges Decay by 1 for every {2} Hex moved."
+		  },
+		  {
+			"Bonus": "EWSytem",
+			"Short": "EWS",
+			"Long": "EWS",
+			"Full": "Electronic Warfare Suites are combined packages of Advanced Sensors."
+		  },
+		  {
+			"Bonus": "ActiveEWS",
+			"Short": "EWS",
+			"Long": "EWS",
+			"Full": "EWS Protects allies with a {0} Shield and reduces Enemies Shield by {1} within {2} meters. Purple Circle."
+		  },
+		  {
+			"Bonus": "EWSSelf",
+			"Short": "EWS",
+			"Long": "EWS",
+			"Full": "EWS protects the carrier with ECM Shield of {0} and reduces Enemy Jamming by {1} on carrier."
+		  },
+		  {
+			"Bonus": "EWSProbe",
+			"Short": "Sensors",
+			"Long": "Sensors",
+			"Full": "EWS Probe increases Sight and Sensor Distance by {0}, counters Stealth/ECM by {1}, improves info readout by {2} and Detects Mines within {3} Meters."
+		  },
+		  {
+			"Bonus": "StartsPassive",
+			"Short": "Passive",
+			"Long": "Passive",
+			"Full": "ECM System starts battle in Passive Mode."
+		  },
+		  {
+			"Bonus": "GoatFi",
+			"Short": "{0} Initiative",
+			"Long": "{0} Initiative",
+			"Full": "Goat-Fi: {0} Initiative for lancemates in range."
+		  },
+		{
+			"Bonus": "ArmorAmmo",
+			"Short": "Armor Repair",
+			"Long": "Armor Repair Functionality",
+			"Full": "This component is a bin of armor repair components used for in-field armor repair. This component repairs armor at a rate of 1 point of armor for 1 point from the bin. It cannot repair armor on destroyed or missing locations and it can only repair armor up to {0} of the original total."
+		},
+		{
+			"Bonus": "ArmorAmmoCount",
+			"Short": "Armor Repair",
+			"Long": "Armor Repair Components",
+			"Full": "Armor Repair Components - {0} total armor points."
+		},
+		{
+			"Bonus": "SPAMMYAmmo",
+			"Short": "SPAMMY",
+			"Long": "SPAce Magic Modular by Yang",
+			"Full": "This component is a bin of SPAce Magic Modular by Yang. It permits the refilling of any ammunition using SPAMMY points. It uses SPAMMY points equal to the equivalent tonnage-per-shot of the ammo it is replacing (for example: an AC/20 round is 1/5th of an ammo bin so it costs 1/5th of the SPAMMY points in the SPAMMY bin to refill 1 AC/20 round)."
+		},
+		{
+			"Bonus": "SPAMMYAmmoCount",
+			"Short": "SPAMMY Ammo",
+			"Long": "SPAMMY Ammo Count",
+			"Full": "SPAMMY Ammunition - {0} total SPAMMY points"
+		},
+		{
+			"Bonus": "NotUsed",
+			"Short": "Not Used",
+			"Long": "Not Used",
+			"Full": "This piece of gear is not used for any useful purpose in combat."
+		},
+		{
+			"Bonus": "AntiMissileDefense",
+			"Short": "{0} Anti-Missile Defense",
+			"Long": "{0} Anti-Missile Defense",
+			"Full": "{0} Defense against being hit by missile weapons"
 		}
 	]
 }

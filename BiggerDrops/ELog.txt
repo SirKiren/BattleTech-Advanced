@@ -1,7 +1,6 @@
-[11:17:18.619]BiggerDrop log inited... D:\Steam\steamapps\common\BATTLETECH\Mods\BiggerDrops version: 0.0.0.3
-Log flushing
-[11:17:56.613]FinishedLoading
-[11:17:56.614]CustomUnitsAPI.CustomUnitsDetected
+[14:25:41.570]BiggerDrop log inited... D:\Steam\steamapps\common\BATTLETECH\Mods\BiggerDrops version: 0.0.0.3
+[14:25:52.570]FinishedLoading
+[14:25:52.571]CustomUnitsAPI.CustomUnitsDetected
  CustomUnits, Version=0.0.0.108, Culture=neutral, PublicKeyToken=null
   setLancesCount found
   setLanceData found
@@ -10,7 +9,7 @@ Log flushing
   BaysCount not found
   PushDropLayout found
  CU API detected:True CU API v2 detected:True
-[11:17:56.614]customResource:DropSlotDef
+[14:25:52.571]customResource:DropSlotDef
  Path:D:\Steam\steamapps\common\BATTLETECH\Mods\CustomUnits\drop_slots\default_ba_slot.json
  id:default_ba_slot
  {
@@ -127,6 +126,72 @@ Log flushing
   "SeparateLance": true,
   "HotDrop": false
 }
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+[14:36:14.022]LanceConfiguratorPanel.SetData postfix 12
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+[14:39:49.610]CombatHUDMechwarriorTray.SetTrayState
+[14:40:10.015]CombatHUDMechwarriorTray.SetTrayState
+Log flushing
+[14:40:19.026]CombatHUDMechwarriorTray.SetTrayState
+[14:40:33.203]CombatHUDMechwarriorTray.SetTrayState
+Log flushing
+[14:41:00.813]CombatHUDMechwarriorTray.SetTrayState
+Log flushing
+[14:41:26.116]CombatHUDMechwarriorTray.SetTrayState
+[14:41:30.633]CombatHUDMechwarriorTray.SetTrayState
+Log flushing
+[14:41:44.917]CombatHUDMechwarriorTray.SetTrayState
+[14:42:09.104]CombatHUDMechwarriorTray.SetTrayState
+Log flushing
+[14:42:27.505]CombatHUDMechwarriorTray.SetTrayState
+[14:42:36.907]CombatHUDMechwarriorTray.SetTrayState
+Log flushing
+[14:42:57.576]CombatHUDMechwarriorTray.SetTrayState
+[14:43:00.344]CombatHUDMechwarriorTray.SetTrayState
+Log flushing
+[14:43:24.176]CombatHUDMechwarriorTray.SetTrayState
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
+Log flushing
 Log flushing
 Log flushing
 Log flushing

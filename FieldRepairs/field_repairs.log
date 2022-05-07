@@ -1,55 +1,56 @@
-16:45:07.132 Assembly version: 0.2.1.1
-16:45:07.132  == Initializing Configuration
-16:45:07.132  -- Patched After Battle - {0}% 
-16:45:07.132  -- Battle Fatigue - {0}% 
-16:45:07.132  -- Mothballed - {0}% 
-16:45:07.132  -- Scavenged - {0}% 
-16:45:07.132  == Configuration Initialized
-16:45:07.132 ModDir is:D:\Steam\steamapps\common\BATTLETECH\Mods\FieldRepairs
-16:45:07.132 mod.json settings are:({"EnableTBAS_Injuries":true,"Debug":true,"Trace":false,"Skirmish":{"Tag":"spawn_poorly_maintained_50"},"DamageRollsConfig":{"MechRolls":{"PM25_MinRolls":2,"PM25_MaxRolls":3,"PM50_MinRolls":3,"PM50_MaxRolls":5,"PM75_MinRolls":4,"PM75_MaxRolls":7},"VehicleRolls":{"PM25_MinRolls":1,"PM25_MaxRolls":4,"PM50_MinRolls":2,"PM50_MaxRolls":5,"PM75_MinRolls":3,"PM75_MaxRolls":6},"TurretRolls":{"PM25_MinRolls":1,"PM25_MaxRolls":3,"PM50_MinRolls":1,"PM50_MaxRolls":4,"PM75_MinRolls":2,"PM75_MaxRolls":5}},"Themes":[{"Label":"Patched After Battle - {0}%","MechWeights":["Armor","Structure","Structure","Structure","Component","Component","Weapon","Weapon","AmmoBox","Skill"],"VehicleWeights":["Armor","Armor","Armor","Structure","Structure","Structure","Component","Weapon","AmmoBox","Skill"],"TurretWeights":["Armor","Armor","Armor","Structure","Structure","Structure","Component","Weapon","AmmoBox","Skill"]},{"Label":"Battle Fatigue - {0}%","MechWeights":["Armor","Armor","Armor","Structure","Weapon","AmmoBox","AmmoBox","HeatSink","Skill","Skill"],"VehicleWeights":["Armor","Armor","Armor","Armor","Structure","Weapon","AmmoBox","AmmoBox","Skill","Skill"],"TurretWeights":["Armor","Armor","Armor","Armor","Structure","Weapon","AmmoBox","AmmoBox","Skill","Skill"]},{"Label":"Mothballed - {0}%","MechWeights":["Structure","Component","Component","Weapon","Weapon","Weapon","Engine","Engine","Gyro","Gyro"],"VehicleWeights":["Armor","Armor","Structure","Structure","Component","Component","Component","Weapon","Weapon","Weapon"],"TurretWeights":["Armor","Armor","Structure","Structure","Component","Component","Component","Weapon","Weapon","Weapon"]},{"Label":"Scavenged - {0}%","MechWeights":["Armor","Structure","Component","Component","Weapon","Weapon","AmmoBox","HeatSink","Engine","Gyro"],"VehicleWeights":["Armor","Armor","Structure","Structure","Component","Component","Weapon","Weapon","AmmoBox","AmmoBox"],"TurretWeights":["Armor","Armor","Structure","Structure","Component","Component","Weapon","Weapon","AmmoBox","AmmoBox"]}],"CustomComponentCategories":{"Gyros":"Gyro","EngineParts":"EnginePart","Blacklisted":["Armor","Structure","CASE","Quirk","Cockpit","CrewCompartment"]},"HitPenalties":{"MinArmorLossPerHit":0.2,"MaxArmorLossPerHit":0.5,"MinStructureLossPerHit":0.1,"MaxStructureLossPerHit":0.3,"MinSkillPenaltyPerHit":1,"MaxSkillPenaltyPerHit":3,"MinAmmoRemaining":0.05,"MaxAmmoRemaining":0.25},"LocalizedText":{"ARMOR_DAMAGE":"<color=#FF0000>ARMOR DAMAGE</color>\n","STRUCT_DAMAGE":"<color=#FF0000>STRUCTURE DAMAGE</color>\n","COMP_DAMAGE":"<color=#FF0000>COMPONENT DAMAGE</color>\n","PILOT_DAMAGE":"<color=#FF0000>HEALTH DAMAGE</color>\n","SKILL_DAMAGE":"<color=#FF0000>SKILL PENALTY</color>\n","SKILL_GUNNERY":" - Gunnery: -{0}\n","SKILL_GUTS":" - Guts: -{0}\n","SKILL_PILOTING":" - Piloting: -{0}\n","SKILL_TACTICS":" - Tactics: -{0}\n","PILOT_HEALTH":" - Health: -{0}\n","PILOT_BONUS_HEALTH":" - Bonus Health: -{0}\n"}})
-16:45:07.136 === MOD CONFIG BEGIN ===
-16:45:07.136   DEBUG:True Trace:False
-16:45:07.136  --- SKIRMISH ---
-16:45:07.136   TAG: spawn_poorly_maintained_50
-16:45:07.136  --- DAMAGE ROLLS ---
-16:45:07.136   MECH ROLLS: 
-16:45:07.136     poorly_maintained_25 -> min: 2 / max: 3
-16:45:07.136     poorly_maintained_50 -> min: 3 / max: 5
-16:45:07.136     poorly_maintained_75 -> min: 4 / max: 7
-16:45:07.136   VEHICLE ROLLS: 
-16:45:07.136     poorly_maintained_25 -> min: 1 / max: 4
-16:45:07.136     poorly_maintained_50 -> min: 2 / max: 5
-16:45:07.136     poorly_maintained_75 -> min: 3 / max: 6
-16:45:07.136   TURRET ROLLS: 
-16:45:07.136     poorly_maintained_25 -> min: 1 / max: 3
-16:45:07.136     poorly_maintained_50 -> min: 1 / max: 4
-16:45:07.136     poorly_maintained_75 -> min: 2 / max: 5
-16:45:07.136  --- CUSTOM COMPONENTS CATEGORIES ---
-16:45:07.136   Gyros: Gyro  EngineParts: EnginePart  Blacklisted: Armor, Structure, CASE, PositiveQuirk, Cockpit, Armor, Structure, CASE, Quirk, Cockpit, CrewCompartment
-16:45:07.136  --- PER HIT PENALTIES ---
-16:45:07.136   ArmorLoss =>  min: 0.2 max: 0.5
-16:45:07.136   StructureLoss =>  min: 0.1 max: 0.3
-16:45:07.136   SkillPenalty =>  min: 1 max: 3
-16:45:07.136  --- THEMES ---
-16:45:07.136   THEME: Patched After Battle - {0}%
-16:45:07.137     MECH WEIGHTS: Armor, Structure, Structure, Structure, Component, Component, Weapon, Weapon, AmmoBox, Skill
-16:45:07.137     VEHICLE WEIGHTS: Armor, Armor, Armor, Structure, Structure, Structure, Component, Weapon, AmmoBox, Skill
-16:45:07.137     TURRET WEIGHTS: Armor, Armor, Armor, Structure, Structure, Structure, Component, Weapon, AmmoBox, Skill
-16:45:07.137  
-16:45:07.137   THEME: Battle Fatigue - {0}%
-16:45:07.137     MECH WEIGHTS: Armor, Armor, Armor, Structure, Weapon, AmmoBox, AmmoBox, HeatSink, Skill, Skill
-16:45:07.137     VEHICLE WEIGHTS: Armor, Armor, Armor, Armor, Structure, Weapon, AmmoBox, AmmoBox, Skill, Skill
-16:45:07.137     TURRET WEIGHTS: Armor, Armor, Armor, Armor, Structure, Weapon, AmmoBox, AmmoBox, Skill, Skill
-16:45:07.137  
-16:45:07.137   THEME: Mothballed - {0}%
-16:45:07.137     MECH WEIGHTS: Structure, Component, Component, Weapon, Weapon, Weapon, Engine, Engine, Gyro, Gyro
-16:45:07.137     VEHICLE WEIGHTS: Armor, Armor, Structure, Structure, Component, Component, Component, Weapon, Weapon, Weapon
-16:45:07.137     TURRET WEIGHTS: Armor, Armor, Structure, Structure, Component, Component, Component, Weapon, Weapon, Weapon
-16:45:07.137  
-16:45:07.137   THEME: Scavenged - {0}%
-16:45:07.137     MECH WEIGHTS: Armor, Structure, Component, Component, Weapon, Weapon, AmmoBox, HeatSink, Engine, Gyro
-16:45:07.137     VEHICLE WEIGHTS: Armor, Armor, Structure, Structure, Component, Component, Weapon, Weapon, AmmoBox, AmmoBox
-16:45:07.137     TURRET WEIGHTS: Armor, Armor, Structure, Structure, Component, Component, Weapon, Weapon, AmmoBox, AmmoBox
-16:45:07.137  
-16:45:07.137 === MOD CONFIG END ===
-16:45:07.137 INFO: No errors reading settings file.
+18:25:39.660 Assembly version: 0.2.1.1
+18:25:39.660  == Initializing Configuration
+18:25:39.660  -- Patched After Battle - {0}% 
+18:25:39.660  -- Battle Fatigue - {0}% 
+18:25:39.660  -- Mothballed - {0}% 
+18:25:39.660  -- Scavenged - {0}% 
+18:25:39.660  == Configuration Initialized
+18:25:39.660 ModDir is:D:\Steam\steamapps\common\BATTLETECH\Mods\FieldRepairs
+18:25:39.660 mod.json settings are:({"EnableTBAS_Injuries":true,"Debug":true,"Trace":false,"Skirmish":{"Tag":"spawn_poorly_maintained_50"},"DamageRollsConfig":{"MechRolls":{"PM25_MinRolls":2,"PM25_MaxRolls":3,"PM50_MinRolls":3,"PM50_MaxRolls":5,"PM75_MinRolls":4,"PM75_MaxRolls":7},"VehicleRolls":{"PM25_MinRolls":1,"PM25_MaxRolls":4,"PM50_MinRolls":2,"PM50_MaxRolls":5,"PM75_MinRolls":3,"PM75_MaxRolls":6},"TurretRolls":{"PM25_MinRolls":1,"PM25_MaxRolls":3,"PM50_MinRolls":1,"PM50_MaxRolls":4,"PM75_MinRolls":2,"PM75_MaxRolls":5}},"Themes":[{"Label":"Patched After Battle - {0}%","MechWeights":["Armor","Structure","Structure","Structure","Component","Component","Weapon","Weapon","AmmoBox","Skill"],"VehicleWeights":["Armor","Armor","Armor","Structure","Structure","Structure","Component","Weapon","AmmoBox","Skill"],"TurretWeights":["Armor","Armor","Armor","Structure","Structure","Structure","Component","Weapon","AmmoBox","Skill"]},{"Label":"Battle Fatigue - {0}%","MechWeights":["Armor","Armor","Armor","Structure","Weapon","AmmoBox","AmmoBox","HeatSink","Skill","Skill"],"VehicleWeights":["Armor","Armor","Armor","Armor","Structure","Weapon","AmmoBox","AmmoBox","Skill","Skill"],"TurretWeights":["Armor","Armor","Armor","Armor","Structure","Weapon","AmmoBox","AmmoBox","Skill","Skill"]},{"Label":"Mothballed - {0}%","MechWeights":["Structure","Component","Component","Weapon","Weapon","Weapon","Engine","Engine","Gyro","Gyro"],"VehicleWeights":["Armor","Armor","Structure","Structure","Component","Component","Component","Weapon","Weapon","Weapon"],"TurretWeights":["Armor","Armor","Structure","Structure","Component","Component","Component","Weapon","Weapon","Weapon"]},{"Label":"Scavenged - {0}%","MechWeights":["Armor","Structure","Component","Component","Weapon","Weapon","AmmoBox","HeatSink","Engine","Gyro"],"VehicleWeights":["Armor","Armor","Structure","Structure","Component","Component","Weapon","Weapon","AmmoBox","AmmoBox"],"TurretWeights":["Armor","Armor","Structure","Structure","Component","Component","Weapon","Weapon","AmmoBox","AmmoBox"]}],"CustomComponentCategories":{"Gyros":"Gyro","EngineParts":"EnginePart","Blacklisted":["Armor","Structure","CASE","Quirk","Cockpit","CrewCompartment"]},"HitPenalties":{"MinArmorLossPerHit":0.2,"MaxArmorLossPerHit":0.5,"MinStructureLossPerHit":0.1,"MaxStructureLossPerHit":0.3,"MinSkillPenaltyPerHit":1,"MaxSkillPenaltyPerHit":3,"MinAmmoRemaining":0.05,"MaxAmmoRemaining":0.25},"LocalizedText":{"ARMOR_DAMAGE":"<color=#FF0000>ARMOR DAMAGE</color>\n","STRUCT_DAMAGE":"<color=#FF0000>STRUCTURE DAMAGE</color>\n","COMP_DAMAGE":"<color=#FF0000>COMPONENT DAMAGE</color>\n","PILOT_DAMAGE":"<color=#FF0000>HEALTH DAMAGE</color>\n","SKILL_DAMAGE":"<color=#FF0000>SKILL PENALTY</color>\n","SKILL_GUNNERY":" - Gunnery: -{0}\n","SKILL_GUTS":" - Guts: -{0}\n","SKILL_PILOTING":" - Piloting: -{0}\n","SKILL_TACTICS":" - Tactics: -{0}\n","PILOT_HEALTH":" - Health: -{0}\n","PILOT_BONUS_HEALTH":" - Bonus Health: -{0}\n"}})
+18:25:39.663 === MOD CONFIG BEGIN ===
+18:25:39.663   DEBUG:True Trace:False
+18:25:39.663  --- SKIRMISH ---
+18:25:39.663   TAG: spawn_poorly_maintained_50
+18:25:39.663  --- DAMAGE ROLLS ---
+18:25:39.663   MECH ROLLS: 
+18:25:39.663     poorly_maintained_25 -> min: 2 / max: 3
+18:25:39.663     poorly_maintained_50 -> min: 3 / max: 5
+18:25:39.663     poorly_maintained_75 -> min: 4 / max: 7
+18:25:39.663   VEHICLE ROLLS: 
+18:25:39.663     poorly_maintained_25 -> min: 1 / max: 4
+18:25:39.663     poorly_maintained_50 -> min: 2 / max: 5
+18:25:39.663     poorly_maintained_75 -> min: 3 / max: 6
+18:25:39.663   TURRET ROLLS: 
+18:25:39.663     poorly_maintained_25 -> min: 1 / max: 3
+18:25:39.663     poorly_maintained_50 -> min: 1 / max: 4
+18:25:39.663     poorly_maintained_75 -> min: 2 / max: 5
+18:25:39.663  --- CUSTOM COMPONENTS CATEGORIES ---
+18:25:39.663   Gyros: Gyro  EngineParts: EnginePart  Blacklisted: Armor, Structure, CASE, PositiveQuirk, Cockpit, Armor, Structure, CASE, Quirk, Cockpit, CrewCompartment
+18:25:39.663  --- PER HIT PENALTIES ---
+18:25:39.663   ArmorLoss =>  min: 0.2 max: 0.5
+18:25:39.663   StructureLoss =>  min: 0.1 max: 0.3
+18:25:39.663   SkillPenalty =>  min: 1 max: 3
+18:25:39.663  --- THEMES ---
+18:25:39.663   THEME: Patched After Battle - {0}%
+18:25:39.663     MECH WEIGHTS: Armor, Structure, Structure, Structure, Component, Component, Weapon, Weapon, AmmoBox, Skill
+18:25:39.663     VEHICLE WEIGHTS: Armor, Armor, Armor, Structure, Structure, Structure, Component, Weapon, AmmoBox, Skill
+18:25:39.663     TURRET WEIGHTS: Armor, Armor, Armor, Structure, Structure, Structure, Component, Weapon, AmmoBox, Skill
+18:25:39.663  
+18:25:39.663   THEME: Battle Fatigue - {0}%
+18:25:39.663     MECH WEIGHTS: Armor, Armor, Armor, Structure, Weapon, AmmoBox, AmmoBox, HeatSink, Skill, Skill
+18:25:39.663     VEHICLE WEIGHTS: Armor, Armor, Armor, Armor, Structure, Weapon, AmmoBox, AmmoBox, Skill, Skill
+18:25:39.663     TURRET WEIGHTS: Armor, Armor, Armor, Armor, Structure, Weapon, AmmoBox, AmmoBox, Skill, Skill
+18:25:39.663  
+18:25:39.663   THEME: Mothballed - {0}%
+18:25:39.663     MECH WEIGHTS: Structure, Component, Component, Weapon, Weapon, Weapon, Engine, Engine, Gyro, Gyro
+18:25:39.663     VEHICLE WEIGHTS: Armor, Armor, Structure, Structure, Component, Component, Component, Weapon, Weapon, Weapon
+18:25:39.663     TURRET WEIGHTS: Armor, Armor, Structure, Structure, Component, Component, Component, Weapon, Weapon, Weapon
+18:25:39.663  
+18:25:39.663   THEME: Scavenged - {0}%
+18:25:39.663     MECH WEIGHTS: Armor, Structure, Component, Component, Weapon, Weapon, AmmoBox, HeatSink, Engine, Gyro
+18:25:39.663     VEHICLE WEIGHTS: Armor, Armor, Structure, Structure, Component, Component, Weapon, Weapon, AmmoBox, AmmoBox
+18:25:39.663     TURRET WEIGHTS: Armor, Armor, Structure, Structure, Component, Component, Weapon, Weapon, AmmoBox, AmmoBox
+18:25:39.663  
+18:25:39.663 === MOD CONFIG END ===
+18:25:39.663 INFO: No errors reading settings file.
+18:38:10.316 Set StateTheme to: Patched After Battle - {0}%

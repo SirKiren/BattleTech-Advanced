@@ -36,7 +36,7 @@
         "ATTACK_TAGGED" : "TAGGED"
     },
     "Floaties" : {
-        "FLOATIE_ECM_SHIELDED" : "ECM JAMMING",
+        "FLOATIE_ECM_SHIELDED" : "ECM SHIELDED",
         "FLOATIE_ECM_JAMMED" : "ECM JAMMING"
     },
     "TargetingComputer" : {

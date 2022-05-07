@@ -3,9 +3,9 @@
 		"items": [
 			"unit_jumpOK",
 			"unit_release",
+			"unit_rarity_6",
 			"unit_mech",
 			"unit_medium",
-			"unit_rarity_6",
 			"unit_ready",
 			"unit_lance_support",
 			"unit_role_sniper",
@@ -20,6 +20,7 @@
 			"Rasalhague",
 			"Ives",
 			"AuriganMercenaries",
+			"Mercenaries",
 			"LocalsBrockwayRefugees",
 			"MasonsMarauders",
 			"SteelBeast",

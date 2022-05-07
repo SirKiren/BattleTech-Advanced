@@ -2,13 +2,13 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_rarity_1",
 			"unit_mech",
 			"unit_light",
 			"unit_ready",
 			"unit_lance_support",
 			"unit_role_sniper",
 			"TaurianConcordat",
-			"unit_rarity_1",
 			"Rim",
 			"Locals",
 			"Hanse",

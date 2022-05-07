@@ -18,8 +18,8 @@
 		"tagSetsUnion": true,
 		"chanceToShuffle": 1,
 		"unShuffledBins": 1,
-		"blackListShuffleIn": ["Ammunition_GAUSS_PR","Ammunition_LRM_PR","Ammunition_LRM_ArtemisIV","Ammunition_SRM_ArtemisIV","Ammunition_MRM_Apollo","Ammunition_LongTom_Nuke","Ammunition_ArrowIV_Nuke","Ammunition_SRM_Nuke","Ammunition_SRM_Nuke2","Ammunition_Sniper_Nuke","Ammunition_Thumper_Nuke"],
-		"blackListShuffleOut": ["Ammunition_GAUSS_PR","Ammunition_LRM_PR","Ammunition_LRM_ArtemisIV","Ammunition_SRM_ArtemisIV","Ammunition_MRM_Apollo"],
+		"blackListShuffleIn": ["Ammunition_GAUSS_PR","Ammunition_LRM_PR","Ammunition_LRM_ArtemisIV","Ammunition_SRM_ArtemisIV","Ammunition_MRM_Apollo","Ammunition_LongTom_Nuke","Ammunition_ArrowIV_Nuke","Ammunition_SRM_Nuke","Ammunition_SRM_Nuke2","Ammunition_Sniper_Nuke","Ammunition_Thumper_Nuke", "Ammunition_LRM_ArtemisV"],
+		"blackListShuffleOut": ["Ammunition_GAUSS_PR","Ammunition_LRM_PR","Ammunition_LRM_ArtemisIV","Ammunition_SRM_ArtemisIV","Ammunition_MRM_Apollo", "Ammunition_LRM_ArtemisV"],
 		"mechDefTagAmmoList": 
 			{
 			},

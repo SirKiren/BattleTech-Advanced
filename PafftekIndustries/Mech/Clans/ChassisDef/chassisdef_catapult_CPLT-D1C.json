@@ -1,0 +1,249 @@
+{
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Upper",
+			"RightLimit": "Upper"
+		}
+	},
+	"Description": {
+		"Cost": 6858430,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Catapult",
+		"Id": "chassisdef_catapult_CPLT-D1C",
+		"Name": "Catapult",
+		"Details": "The Clans, having captured several Catapult D1s and D2s, decided to create their own version of the design. Mounting 6 Artemis IV slaved SRM-6 racks, the D1C can shred any hapless mech with fatal accuracy at close range, with 2 AMS systems, an ECM unit, and plenty of Ferro-Fibrous armor to help it reach an unfortunate soul, and should they try to hide, an Active Probe will allow the D1C to snuff them out. 6 tons of Artemis ammo for the SRMs and a ton of ammo per AMS system keep it relatively well fed, though 2 Extended Range Medium Lasers are present in the CT should the ammo stores be depleted. An XL300 and an Endo-Steel chassis free up weight and 4 jump jets allow it to keep moving closer, while 17 double heat sinks try to cool it to varying degrees of success.",
+		"Icon": "uixTxrIcon_catapult"
+	},
+	"MovementCapDefID": "movedef_catapult_CPLT-C1",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_catapult",
+	"PrefabIdentifier": "chrPrfMech_catapultBase-001",
+	"PrefabBase": "catapult",
+	"Tonnage": 65,
+	"InitialTonnage": 6.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 7144000,
+	"Heatsinks": 0,
+	"TopSpeed": 64,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 65,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 65,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 65,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 12,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "CPLT-D1C",
+	"ChassisTags": {
+		"items": [
+			"ClanMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Striker Cavalry",
+	"YangsThoughts": "The Clans, having captured several Catapult D1s and D2s, decided to create their own version of the design. Mounting 6 Artemis IV slaved SRM-6 racks, the D1C can shred any hapless mech with fatal accuracy at close range, with 2 AMS systems, an ECM unit, and plenty of Ferro-Fibrous armor to help it reach an unfortunate soul, and should they try to hide, an Active Probe will allow the D1C to snuff them out. 6 tons of Artemis ammo for the SRMs and a ton of ammo per AMS system keep it relatively well fed, though 2 Extended Range Medium Lasers are present in the CT should the ammo stores be depleted. An XL300 and an Endo-Steel chassis free up weight and 4 jump jets allow it to keep moving closer, while 17 double heat sinks try to cool it to varying degrees of success.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NimbleJumper_Catapult",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_clanendosteel",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+	]
+}

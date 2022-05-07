@@ -1,0 +1,26 @@
+{
+	"Settings" : [
+		{
+			"Tag": "3060Recon", 
+			"CategoryID": "SensorsA",
+			"Type": "Upgrade",
+			"DefID": "Gear_Sensors_Recon_Default",
+			"Location": "Head"
+		},
+		{ 
+			"Tag": "3060Recon", 
+			"CategoryID": "Cockpit", 
+			"Type": "Upgrade", 
+			"DefID": "Gear_Cockpit_Primitive_Standard", 
+			"Location": "Head", 
+			"AddIfNotPresent": true 
+		},
+		{
+			"Tag": "3060Recon", 
+			"CategoryID": "SensorsB",
+			"Type": "Upgrade",
+			"DefID": "Gear_FCS_NightSight_Default",
+			"Location": "Head"
+		}
+	]
+}

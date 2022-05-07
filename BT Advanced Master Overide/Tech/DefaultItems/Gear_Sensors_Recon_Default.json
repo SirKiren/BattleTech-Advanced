@@ -21,12 +21,19 @@
     },
     "Flags": {
       "flags": [
-        "not_broken"
+				"default",
+				"not_broken",
+				"no_salvage",
+				"autorepair"
       ]
     },
     "InventorySorter": {
       "SortKey": "00203"
-    }
+    },
+	"Lootable": {
+			"ItemID": "Gear_Sensors_Recon"
+		}
+	
   },
   "StatName": null,
   "RelativeModifier": 0,
@@ -38,7 +45,7 @@
     "Manufacturer": "Vandenberg",
     "Model": "Recon Sensors",
     "UIName": "Sensor Recon",
-    "Id": "Gear_Sensors_Recon",
+    "Id": "Gear_Sensors_Recon_Default",
     "Name": "Recon Sensor Package",
     "Details": "A upgraded sensor package combining advanced Rangefinders, Seismic Sensors and Scanning Algorithms with a IFF Jammer.",
     "Icon": "uixSvgIcon_equipment_Comms"
@@ -50,7 +57,7 @@
   "PrefabIdentifier": "",
   "BattleValue": 0,
   "InventorySize": 1,
-  "Tonnage": 1,
+  "Tonnage": 0,
   "AllowedLocations": "Head",
   "DisallowedLocations": "All",
   "CriticalComponent": false,

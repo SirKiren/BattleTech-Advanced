@@ -69,7 +69,12 @@
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Armor" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/EWAR" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Firecontrol" },	
-		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Sensors" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/SLDFPreExodus/Sensors" },
+		{ "Type": "UpgradeDef", "Path": "Tech/ComStarWOB/AdvancedDevices" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/ComStarWOB/Armor" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/ComStarWOB/EWAR" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/ComStarWOB/Firecontrol" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/ComStarWOB/Sensors" },	
 		{ "Type": "UpgradeDef", "Path": "Vehicle/Clans/VehicleQuirk" },	
 		{ "Type": "UpgradeDef", "Path": "Vehicle/DarkCaste/VehicleQuirk" },	
 		{ "Type": "UpgradeDef", "Path": "Vehicle/Hero/VehicleQuirk" },	
@@ -92,11 +97,10 @@
 		{ "Type": "WeaponDef", "Path": "Tech/Primitive/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" },
-		{ "Type": "CCDefaults", "Path": "Defaults/", "ShouldMergeJSON": false},
+		{ "Type": "CCDefaults", "Path": "Defaults/", "ShouldMergeJSON": true},
 		{ "Type": "UpgradeDef", "Path": "ChassisDefaults" },
 		{ "Type": "UpgradeDef",	"Path": "lootable/Internals" },
 		{ "Type": "UpgradeDef",	"Path": "lootable/Actuators" },
-		{ "Type": "HeatSinkDef", "Path": "lootable/Engines" },
-		{ "Type": "AbilityDef", "Path": "Abilities" }
+		{ "Type": "HeatSinkDef", "Path": "lootable/Engines" }
 	]
 }
