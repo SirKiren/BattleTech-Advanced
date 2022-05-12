@@ -1,0 +1,163 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"TRGBColor" : { "Color" : "#5F24AC" },		
+		"DynamicSlots": {
+			"ReservedSlots": 8,
+			"BackgroundColor": "OrangeHalf",
+			"ShowIcon": false,
+			"NameText": "LAM Structure",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
+		"Weights": {
+			"StructureFactor": 0.8
+		},
+		"StructureRepair": {
+			"StructureTPCost": 1.4,
+			"StructureCBCost": 1.6
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/6",
+				"CBillCost": "[[Chassis.Tonnage]] * 10"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "Structure"
+			}
+		],
+		"Flags": {
+			"flags": [
+				"not_broken",
+				"no_salvage"
+			]
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"JumpDistance: 10%",
+				"StructureFactor: +10%",
+				"StructureTPCost: 40%",
+				"StructureCBCost: 60%",
+				"Reserved: 4",
+				"ReqWings"
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "00010"
+		},
+        "ActivatableComponent": {
+            "ButtonName": "Black Carapace",
+            "CanNotBeActivatedManualy": true,
+            "NoUniqueCheck": true,
+            "ActivationMessage": "Healing",
+			"DeactivationMessage": "Healthy",
+            "presistantVFX": {
+                "VFXPrefab": "vfxprfprtl_heatventsm_loop",
+                "VFXScaleX": 1,
+                "VFXScaleY": 1,
+                "VFXScaleZ": 1
+            },
+            "Repair": {
+                "InnerStructure": 4,
+                "Armor": 12,
+                "MechStructureLocations": [],
+                "MechArmorLocations": [],
+                "VehicleLocations": [],
+                "BuildingLocations": [],
+                "AffectInstalledLocation": true,
+				"TurnsSinceDamage": 4,
+                "repairTrigger": {
+                    "OnActivation": false,
+                    "OnDamage": "None",
+                    "AtEndOfTurn": true
+                }
+            }
+        }
+	},
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 9,
+		"Purchasable": false,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Structure",
+		"UIName": "LAM Structure",
+		"Id": "emod_structureslots_EverEndoLAM",
+		"Name": "Self Healing LAM Structure",
+		"Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms. ",
+		"Icon": "uixSvgIcon_quantity"
+	},
+	"BonusValueA": "300% Jump Distance",
+	"BonusValueB": "Reserves 8 Slots",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Jump_Distance-T3",
+				"Name": "JUMP DISTANCE INCREASED",
+				"Details": "Conversion Gear increase Jump Distance by 10%",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.10",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

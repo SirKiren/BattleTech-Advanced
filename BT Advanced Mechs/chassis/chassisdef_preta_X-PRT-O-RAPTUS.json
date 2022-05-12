@@ -202,7 +202,8 @@
 	"VariantName": "X-PRT-O-RAPTUS",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"Celestial"
 		],
 		"tagSetSourceFile": ""
 	},

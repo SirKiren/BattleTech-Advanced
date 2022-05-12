@@ -218,7 +218,8 @@
 	"VariantName": "X-DVA-O-CONDITUS",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"Celestial"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -212,7 +212,9 @@
 	],
 	"VariantName": "GRF-6CS",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+		"ComStar"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Sniper & Fire Support",

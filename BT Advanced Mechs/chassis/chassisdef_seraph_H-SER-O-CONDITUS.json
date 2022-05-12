@@ -361,7 +361,8 @@
 	"VariantName": "H-SER-O-CONDITUS",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"Celestial"
 		],
 		"tagSetSourceFile": ""
 	},

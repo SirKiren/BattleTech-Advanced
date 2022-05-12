@@ -196,7 +196,9 @@
 	],
 	"VariantName": "OTT-9CS",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+		"ComStar"
+		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Pure Recon",
