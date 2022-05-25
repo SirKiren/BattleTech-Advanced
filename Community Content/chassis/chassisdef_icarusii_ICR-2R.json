@@ -152,7 +152,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 16,
 			"MaxArmor": 120,
 			"MaxRearArmor": 60,
 			"InternalStructure": 60
@@ -213,7 +213,7 @@
 	"YangsThoughts": "A limited run variant, the Icarus II ICR-2R carries a newly developed Light Autocannon/20 into combat as the primary weapon. However, due to the weight of the weapon, it has limited ammunition and few backup weapons, only carrying two Medium Lasers for defense once the AC runs dry. A 200-rated XL Engine powers the mech to a relatively low 84 kph while four jump jets give added mobility.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_IcarusII",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

@@ -15,7 +15,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Xerxes",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
