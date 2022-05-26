@@ -5256,7 +5256,7 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SLDFDroneHeavy",
+						"unitDefId": "vehicledef_HM_SLDFDroneHeavy",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -5289,7 +5289,7 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SLDFDroneHeavy",
+						"unitDefId": "vehicledef_HM_SLDFDroneHeavy",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -5418,7 +5418,7 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SLDFDroneHeavy",
+						"unitDefId": "vehicledef_HM_SLDFDroneHeavy",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -5451,7 +5451,7 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SLDFDroneHeavy",
+						"unitDefId": "vehicledef_HM_SLDFDroneHeavy",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"

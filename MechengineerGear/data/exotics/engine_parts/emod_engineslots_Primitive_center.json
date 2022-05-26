@@ -23,7 +23,8 @@
 				"vital",
 				"not_broken",
 				"engine_part",
-				"autorepair"
+				"autorepair",
+				"no_salvage"
 			]
 		},
 		"ArmorRepair": {
