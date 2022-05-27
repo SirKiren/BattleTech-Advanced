@@ -536,7 +536,9 @@
 	],
 	"VariantName": "S-NG-LAM",
 	"ChassisTags": {
-		"items": [],
+		"items": [
+			"Comstar"
+			],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Battlefield Specter",

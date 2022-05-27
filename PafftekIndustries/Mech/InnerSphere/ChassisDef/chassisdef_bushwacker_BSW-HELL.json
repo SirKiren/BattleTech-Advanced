@@ -39,7 +39,7 @@
     "Id": "chassisdef_bushwacker_BSW-HELL",
     "Name": "Bushwacker",
     "Details": "Hellion's personal 'Little Purple Tank' Bushwacker.  BSW-HELL has an ecletic mix of weapons that allow this Bushwacker to become the ultimate medium weight Backstabber and the features to make it survivable.",
-    "Icon": "bushwacker"
+    "Icon": "uixTxrIcon_bushwacker"
   },
   "VariantName": "BSW-HELL",
   "ChassisTags": {
