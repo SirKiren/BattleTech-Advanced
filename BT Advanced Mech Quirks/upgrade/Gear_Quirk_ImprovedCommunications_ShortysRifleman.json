@@ -2,9 +2,6 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "SensorsA"
-			},
-			{
 				"CategoryID": "Quirk"
 			}
 		],
@@ -24,7 +21,6 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"IsSensorsA",
 				"LanceResolve: +3",
 				"MaxResolveIncrease: 15"
 			]

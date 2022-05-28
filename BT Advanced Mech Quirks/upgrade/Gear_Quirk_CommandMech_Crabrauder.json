@@ -2,9 +2,6 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "SensorsB"
-			},
-			{
 				"CategoryID": "Quirk"
 			}
 		],
@@ -25,8 +22,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"Initiative: +1",
-				"IsSensorsB"
+				"Initiative: +1"
 			]
 		},
 		"InventorySorter": {
