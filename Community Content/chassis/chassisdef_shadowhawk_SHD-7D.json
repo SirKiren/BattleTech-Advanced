@@ -226,7 +226,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Generic",
+			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_ShadowHawk",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

@@ -13,7 +13,8 @@
 			"CategoryID": "SensorsA",
 			"Type": "Upgrade",
 			"DefID": "Gear_SensorsA_Primitive_Standard",
-			"Location": "Head"
+			"Location": "Head", 
+			"AddIfNotPresent": true
 		},
 		{ 
 			"Tag": "Primitive", 
@@ -28,7 +29,8 @@
 			"CategoryID": "SensorsB",
 			"Type": "Upgrade",
 			"DefID": "Gear_SensorsB_Primitive_Standard",
-			"Location": "Head"
+			"Location": "Head", 
+			"AddIfNotPresent": true
 		},
 		{ 
 			"Tag": "Primitive", 

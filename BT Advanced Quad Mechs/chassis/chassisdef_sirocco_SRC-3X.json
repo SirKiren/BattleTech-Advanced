@@ -334,7 +334,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": true
-	},    
+		},
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",

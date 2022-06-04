@@ -314,15 +314,26 @@
       "prefabName": "",
       "hasPrefabName": false
     },
-    {
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_StableWeapon_Generic",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-	},    
+	{
+		"MountedLocation": "LeftTorso",
+		"ComponentDefID": "Weapon_Gauss_Scattershot_Railgun_0-STOCK",
+		"SimGameUID": "",
+		"ComponentDefType": "Weapon",
+		"HardpointSlot": 0,
+		"GUID": null,
+		"DamageLevel": "Functional",
+		"prefabName": null,
+		"hasPrefabName": false
+	},
+  {
+    "MountedLocation": "CenterTorso",
+    "ComponentDefID": "Gear_Quirk_StableWeapon_Generic",
+    "ComponentDefType": "Upgrade",
+    "HardpointSlot": -1,
+    "DamageLevel": "Functional",
+    "prefabName": "",
+    "hasPrefabName": true
+  },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",
@@ -335,16 +346,5 @@
       "prefabName": "",
       "hasPrefabName": false
     }
-	{
-		"MountedLocation": "LeftTorso",
-		"ComponentDefID": "Weapon_Gauss_Scattershot_Railgun_0-STOCK",
-		"SimGameUID": "",
-		"ComponentDefType": "Weapon",
-		"HardpointSlot": 0,
-		"GUID": null,
-		"DamageLevel": "Functional",
-		"prefabName": null,
-		"hasPrefabName": false
-	}
   ]
 }

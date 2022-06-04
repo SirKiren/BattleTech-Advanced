@@ -173,7 +173,6 @@
 	"AIPeerToPeerFirewallPierceThrough": false,
 	"AIMStandalone": "AttackImprovementMod.dll",
 	"AdvancedCirtProcessing": true,
-	"AoECanCrit": false,
 	"DestroyedComponentsCritTrap": true,
 	"CritLocationTransfer": true,
 	"APMinCritChance": 0.1,
@@ -249,6 +248,6 @@
 	"AmmoNameInSidePanel": true,
 	"ShowEvasiveAsNumber": true,
 	"EvasiveNumberFontSize": 24,
-	"EvasiveNumberWidth": 100,
+	"EvasiveNumberWidth": 25,
 	"EvasiveNumberHeight": 20
 }

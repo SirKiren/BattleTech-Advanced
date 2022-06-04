@@ -21,7 +21,6 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"IsSensorsA",
 				"LanceResolve: +3",
 				"MaxResolveIncrease: 15"
 			]

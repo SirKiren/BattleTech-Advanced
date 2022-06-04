@@ -97,7 +97,7 @@
 		{ "Type": "WeaponDef", "Path": "Tech/Primitive/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" },
-		{ "Type": "CCDefaults", "Path": "Defaults/", "ShouldMergeJSON": true},
+		{ "Type": "CCDefaults", "Path": "Defaults", "ShouldMergeJSON": false},
 		{ "Type": "UpgradeDef", "Path": "ChassisDefaults" },
 		{ "Type": "UpgradeDef",	"Path": "lootable/Internals" },
 		{ "Type": "UpgradeDef",	"Path": "lootable/Actuators" },

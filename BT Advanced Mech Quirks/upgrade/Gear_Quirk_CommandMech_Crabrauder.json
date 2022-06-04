@@ -2,9 +2,6 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "LifeSupportB"
-			},
-			{
 				"CategoryID": "Quirk"
 			}
 		],
@@ -25,8 +22,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"Initiative: +1",
-				"IsSensorsB"
+				"Initiative: +1"
 			]
 		},
 		"InventorySorter": {
@@ -56,7 +52,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Head",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

@@ -1,21 +1,32 @@
 {
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Lower",
+			"RightLimit": "Lower"
+		},
+		"AssemblyVariant": {
+			"PrefabID": "Reconquista",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
-		"Cost": 13300000,
-		"Rarity": 5,
+		"Cost": 8372000,
+		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Royal Black Knight",
-		"Id": "chassisdef_blackknight_BL-6b-KNT",
-		"Name": "Black Knight Royal",
-		"Details": "The Black Knight 6B was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 6 does, but better-mostly thanks to its Double Heat Sinks, which are basically nonexistent these days.",
-		"Icon": "uixTxrIcon_blackknight"
+		"UIName": "Reconquista",
+		"Id": "chassisdef_reconquista_RCQ-0N",
+		"Name": "Reconquista",
+		"Details": "Crafted in the 2900s by the settlers in Nueva Castile in their war against the invading Umayyads, the Reconquista is an utterly primitive BattleMech with a terrible internal-combustion engine, bulky myomer, hand-built failure prone componnts, and poor controls with buggy software. That said, it was also durable and rugged, capable of taking an incredible beating, and was simple to produce. These traits led it to be scattered about the Deep Periphery over the following centuries, occasionally cropping up in the black. The Reconquista is armed with an AC/10 and LRM-10, as well as a Machine Gun.",
+		"Icon": "uixTxrIcon_orion"
 	},
-	"MovementCapDefID": "movedef_blackknight_BL-6-KNT",
+	"MovementCapDefID": "movedef_orion_ON1-K",
 	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_blackknight",
-	"PrefabIdentifier": "chrPrfMech_blackknightBase-001",
-	"PrefabBase": "blackknight",
+	"HardpointDataDefID": "hardpointdatadef_orion",
+	"PrefabIdentifier": "chrPrfMech_orionBase-001",
+	"PrefabBase": "orion",
 	"Tonnage": 75,
 	"InitialTonnage": 7.5,
 	"weightClass": "HEAVY",
@@ -39,26 +50,17 @@
 	"Signature": 0,
 	"Radius": 8,
 	"PunchesWithLeftArm": true,
-	"MeleeDamage": 85,
+	"MeleeDamage": 80,
 	"MeleeInstability": 40,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 85,
+	"DFADamage": 80,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 85,
+	"DFASelfDamage": 80,
 	"DFAInstability": 40,
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -68,18 +70,6 @@
 		{
 			"Location": "LeftArm",
 			"Hardpoints": [
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
 				{
 					"WeaponMount": "AntiPersonnel",
 					"Omni": false
@@ -95,11 +85,7 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Missile",
 					"Omni": false
 				}
 			],
@@ -120,16 +106,7 @@
 		},
 		{
 			"Location": "RightTorso",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 160,
@@ -140,19 +117,7 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMount": "Ballistic",
 					"Omni": false
 				}
 			],
@@ -184,51 +149,71 @@
 	"LOSSourcePositions": [
 		{
 			"x": 0,
-			"y": 18,
-			"z": 1
-		},
-		{
-			"x": 4,
 			"y": 16,
 			"z": 0
 		},
 		{
-			"x": -4,
-			"y": 16,
+			"x": 3.5,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 15,
 			"z": 0
 		}
 	],
 	"LOSTargetPositions": [
 		{
 			"x": 0,
-			"y": 18,
-			"z": 1
-		},
-		{
-			"x": 4,
 			"y": 16,
 			"z": 0
 		},
 		{
-			"x": -4,
-			"y": 16,
+			"x": 3.5,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 15,
 			"z": 0
 		},
 		{
 			"x": 3,
-			"y": 6,
+			"y": 5,
 			"z": 0
 		},
 		{
 			"x": -3,
-			"y": 6,
+			"y": 5,
 			"z": 0
 		}
 	],
+	"VariantName": "RCQ-0N",
+	"ChassisTags": {
+		"items": [
+			"Primitive"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Super-Primitive Brawler",
+	"YangsThoughts": "Crafted in the 2900s by the settlers in Nueva Castile in their war against the invading Umayyads, the Reconquista is an utterly primitive BattleMech with a terrible internal-combustion engine, bulky myomer, hand-built failure prone componnts, and poor controls with buggy software. That said, it was also durable and rugged, capable of taking an incredible beating, and was simple to produce. These traits led it to be scattered about the Deep Periphery over the following centuries, occasionally cropping up in the black. The Reconquista is armed with an AC/10 and LRM-10, as well as a Machine Gun.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_CommandMech_BlackKnight",
+			"ComponentDefID": "emod_engineslots_ICE_center",
+			"SimGameUID": "",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_PrimitiveRugged_Reconquista",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -236,37 +221,8 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_kit_dhs_royal",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
 		}
 	],
-	"VariantName": "BL-6B-KNT",
-	"ChassisTags": {
-		"items": [
-			"RoyalMech"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Brawler & Ranged Assault",
-	"YangsThoughts": "The Black Knight 6B was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 6 does, but better-mostly thanks to its Double Heat Sinks, which are basically nonexistent these days.",
 	"CustomParts": {
 		"CustomParts": []
 	}

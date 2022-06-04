@@ -1,36 +1,30 @@
 {
-	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Lower",
-			"RightLimit": "Lower"
-		}
-	},
 	"Description": {
-		"Cost": 9500000,
-		"Rarity": 3,
+		"Cost": 12490000,
+		"Rarity": 4,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Royal Marauder",
-		"Id": "chassisdef_marauder_MAD-2Rj",
-		"Name": "Royal Marauder",
-		"Details": "The Marauder-2Rj is a complete re-chassing of the Royal Marauder -2R.  What Pafftek Industries does in effect is build a new chassis and move the old equipment that is in good repair to the new Chassis.  Creating a new variant that has more potential due to the chassis upgrades.",
-		"Icon": "uixTxrIcon_marauder"
+		"UIName": "Corsair",
+		"Id": "chassisdef_corsair_COR-4HG",
+		"Name": "Corsair",
+		"Details": "T-bone, already a proficent Corsair jockey, wanted something that hit hard, moved fast and kept the enemy off kilter.  Enter the Corsair 4HG.  The 4HG, another 75 ton Corsair for T-bone, completely altered the already ramshackel Corsair 4 series into a Heavy Gauss carrier.",
+		"Icon": "uixTxrIcon_corsair"
 	},
-	"MovementCapDefID": "movedef_marauder_MAD-3R",
+	"MovementCapDefID": "movedef_corsair_COR-5R",
 	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_marauder",
-	"PrefabIdentifier": "chrPrfMech_marauderBase-001",
-	"PrefabBase": "marauder",
+	"HardpointDataDefID": "hardpointdatadef_rtcorsair1",
+	"PrefabIdentifier": "chrprfmech_rtcorsair1base-001",
+	"PrefabBase": "rtcorsair1",
 	"Tonnage": 75,
 	"InitialTonnage": 7.5,
 	"weightClass": "HEAVY",
-	"BattleValue": 7124000,
+	"BattleValue": 9360000,
 	"Heatsinks": 0,
-	"TopSpeed": 64,
+	"TopSpeed": 120,
 	"TurnRadius": 90,
 	"MaxJumpjets": 30,
-	"Stability": 160,
+	"Stability": 200,
 	"StabilityDefenses": [
 		0,
 		0,
@@ -45,22 +39,17 @@
 	"Signature": 0,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 95,
-	"MeleeInstability": 75,
+	"MeleeDamage": 80,
+	"MeleeInstability": 40,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 95,
+	"DFADamage": 80,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 95,
-	"DFAInstability": 95,
+	"DFASelfDamage": 80,
+	"DFAInstability": 40,
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Energy",
-					"Omni": true
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -71,16 +60,8 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Ballistic",
 					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": true
 				}
 			],
 			"Tonnage": 0,
@@ -93,12 +74,20 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				},
+				{
 					"WeaponMount": "Ballistic",
 					"Omni": false
 				},
 				{
 					"WeaponMount": "Ballistic",
-					"Omni": true
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -109,9 +98,14 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 230,
 			"MaxRearArmor": 115,
 			"InternalStructure": 115
@@ -120,13 +114,21 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				},
+				{
 					"WeaponMount": "Ballistic",
 					"Omni": false
 				},
 				{
 					"WeaponMount": "Ballistic",
-					"Omni": true
-				}
+					"Omni": false
+				}				
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
@@ -138,16 +140,8 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Ballistic",
 					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": true
 				}
 			],
 			"Tonnage": 0,
@@ -178,60 +172,60 @@
 	"LOSSourcePositions": [
 		{
 			"x": 0,
-			"y": 13.5,
-			"z": 1
+			"y": 17,
+			"z": 0
 		},
 		{
-			"x": 3,
-			"y": 13,
+			"x": 5,
+			"y": 16,
 			"z": -1
 		},
 		{
-			"x": -3,
-			"y": 13,
+			"x": -5,
+			"y": 16,
 			"z": -1
 		}
 	],
 	"LOSTargetPositions": [
 		{
 			"x": 0,
-			"y": 13.5,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
 			"z": 1
 		},
 		{
-			"x": 3,
-			"y": 13,
-			"z": -1
-		},
-		{
-			"x": -3,
-			"y": 13,
-			"z": -1
-		},
-		{
-			"x": 2.5,
-			"y": 7,
-			"z": -2.5
-		},
-		{
-			"x": -2.5,
-			"y": 7,
-			"z": -2.5
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
 		}
 	],
-	"VariantName": "MAD-2Rj",
+	"VariantName": "COR-4HG",
 	"ChassisTags": {
 		"items": [
-			"RoyalMech"			
+			"T-Bone's Heavy Gauss Ride"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Sniper & Ranged Assault",
-	"YangsThoughts": "Improved by Pafftek Industries, the Royal Marauder -2Rj is basically a new tech improvement on the Royal Marauder -2R.   It is unknown where some of these 'donor' mechs are comming from but every -2Rj has had the correct equipment for the Royal Marauder.",
+	"StockRole": "T-Bone's Ride",
+	"YangsThoughts": "So this is the Frankenmech that T-Bone made for himself.  I gotta say better than the 4A... by how much I don't know... but better.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_CommandMech_Marauder",
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Rugged_Corsair",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -242,27 +236,13 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_kit_dhs_royal",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_endosteel_3G",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
 	]
 }

@@ -136,15 +136,6 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_kit_dhs",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engine_220",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
