@@ -161,7 +161,7 @@
 			{
 				"MapId": "mapGeneral_splitRange_iGlc",
 				"ContractTypeName": "Rescue",
-				"IncreaseBoundarySizeByPercentage": 0.3
+				"IncreaseBoundarySizeByPercentage": 0.5
 			},
 			{
 				"MapId": "mapGeneral_centralPond_uTech",
@@ -214,7 +214,7 @@
 		],
 		"MinDistanceForZone": 50,
 		"MaxDistanceForZone": 288,
-		"DisorderlyWithdrawalCompatibility": true
+		"DisorderlyWithdrawalCompatibility": false
 	},
 	"AI": {
 		"FollowPlayer": {
