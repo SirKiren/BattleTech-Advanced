@@ -63,8 +63,8 @@
 			"ShowTerrainThroughFogOfWar": true
 		},
 		"Weather" : {
-			"LightFogDensity" : 3000.0,
-            "HeavyFogDensity" : 3600.0
+			"LightFogDensity" : 500.0,
+            "HeavyFogDensity" : 1100.0
 		},
 		"Probability": {
 			"Sigma": 3,

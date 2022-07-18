@@ -1,0 +1,69 @@
+{
+	"Custom": {
+		"Weights": {
+			"ReservedSlots": 4,
+			"EngineFactor": 0.5
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"EngineWeight: 50%",
+				"ReservedSlots: 6"
+			]
+		},
+		"WorkOrderCosts": {
+			"Default": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"Install": {
+				"TechCost": "1.2 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
+				"CBillCost": "2000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
+			}
+		},
+		"Flags": {
+            "flags": [
+                    "vital"
+            ]
+        },
+		"Category" : [
+			{"CategoryID": "EngineShield"},
+			{"CategoryID": "EnginePart"}
+		],
+		"Linked" : {
+			"Links" : [
+				{ "ComponentDefId" : "emod_engineslots_size2", "Location" : "LeftTorso" },
+				{ "ComponentDefId" : "emod_engineslots_size2", "Location" : "RightTorso" }
+			]
+		}
+	},
+    "Description" : {
+        "Cost" : 500000,
+        "Rarity" : 0,
+        "Purchasable" : false,
+        "Manufacturer" : "Lostech",
+        "Model" : "Improved Extra-light",
+        "UIName" : "Engine Improved XL",
+        "Id" : "emod_engineslots_ixl_center",
+        "Name" : "I-XL Engine",
+        "Details" : "Without changing how the XL engine works, the Exodus engineers changed the shape of the cooling system to reduce vulnerablity.  Mechs with this version of the XL engine can survive loosing ONE torso, however they loose a lot of space in the Center Torso.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,209 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"ArmorFactor: -11%",
+				"Reserved: 16"
+			]
+		},
+		"Category": {
+			"CategoryID": "Armor"
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 16,
+			"ShowIcon": false,
+			"BackgroundColor": "GoldHalf",
+			"NameText": "Ferro-Ai",
+			"BonusAText": "Dynamic Slot"
+		},
+		"Weights": {
+			"ArmorFactor": 0.89286
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "250 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 50"
+			}
+		},
+		"Flags": {
+			"flags": [
+				"ignore_damage",
+				"autorepair",
+				"not_broken"
+			]
+		}
+	},
+	"Description": {
+		"Cost": 150000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Lostech",
+		"Model": "Armor",
+		"UIName": "Ferro-Aluminium",
+		"Id": "emod_armorslots_ferroAl",
+		"Name": "Ferro-Aluminium Armor",
+		"Details": "Needing lighter Armor types for Aerospace units, A special Ferro alloy with aviation grade Aluminium resulted in the creation of this product.  Ferro-Aluminium.  Ferroal as it is often abreviated is similar in performance to Ferro Fiberous armor, with the exception of being even more bulky but providing extra aerodynamic benefits.",
+		"Icon": "uixSvgIcon_action_end"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-LAMHeatGen",
+                "Name": "HEAT GENERATION DECREASED",
+                "Details": "Heat generation reduced by 20%.",
+                "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "HeatGenerated",
+                "operation": "Float_Multiply",
+                "modValue": "0.9",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "LAMArmorSink",
+                "Name": "PARTIAL WING SYSTEM",
+                "Details": "The partial wing system's large surface area efficiently radiates excess heat.",
+                "Icon": "uixSvgIcon_designMask_mineral"
+            },
+            "statisticData": {
+                "statName": "HeatSinkCapacity",
+                "operation": "Int_Add",
+                "modValue": "9",
+                "modType": "System.Int32"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Jump_Distance-T3",
+                "Name": "JUMP DISTANCE INCREASED",
+                "Details": "Conversion Gear increase Jump Distance by 10%",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "JumpDistanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.1",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

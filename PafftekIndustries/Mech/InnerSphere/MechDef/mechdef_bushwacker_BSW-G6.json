@@ -70,7 +70,7 @@
 		"Id": "mechdef_bushwacker_BSW-G6",
 		"Name": "Bushwacker",
 		"Details": "Evolved via an order from a Private Mercenary company, the -G6 is an updated -W1 with new weapon systems introduced.  The Rotary Autocannon/5 and ER Large Laser are supported by 3 Streak Medium Lasers and an MML5 with 4 half ton bays of ammunition.   All ammunition has been provided with CASE.   All in all a good close to medium range brawler mech.",
-		"Icon": "bushwacker"
+		"Icon": "uixTxrIcon_bushwacker"
 	},
 	"simGameMechPartCost": 620000,
 	"Version": 1,

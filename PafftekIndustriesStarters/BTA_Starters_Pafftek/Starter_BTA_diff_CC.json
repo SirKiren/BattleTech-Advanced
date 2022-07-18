@@ -16,8 +16,8 @@
 				},
 				{
 					"ConstantType": "CareerMode",
-					"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_Hollander,itemCollection_Mechs_Wolfhound,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything"
+					"ConstantName": "StartingRandomMechLists",	
+					"ConstantValue":"itemCollection_Mechs_Hollander,itemCollection_Mechs_Hollander,itemCollection_Mechs_Wolfhound,itemCollection_Mechs_Wolfhound,itemCollection_Mechs_Wight,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything"
 				},
 				{
 					"ConstantType": "CareerMode",

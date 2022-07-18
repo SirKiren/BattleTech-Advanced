@@ -1,0 +1,227 @@
+{
+    "Custom": {
+        "Color": {
+            "UIColor": "Gold"
+        },
+        "DynamicSlots": {
+            "ReservedSlots": 18,
+            "BackgroundColor": "GoldHalf",
+            "ShowIcon": false,
+            "NameText": "LAM Ferro Armor",
+            "BonusAText": "Dynamic Slot",
+            "BonusBText": " ",
+			"ArmorWeightReduction": "11%"
+        },
+        "Weights": {
+            "ArmorFactor": 0.89286
+        },
+        "WorkOrderCosts": {
+            "Install": {
+                "TechCost": "[[Chassis.Tonnage]]/8",
+                "CBillCost": "[[Chassis.Tonnage]] * 1.6"
+            }
+        },
+        "Category": [{
+            "CategoryID": "Armor"
+        }],
+        "ArmorRepair": {
+            "ArmorTPCost": 1.1,
+            "ArmorCBCost": 1.15
+        },
+        "Flags": {
+            "flags": [
+                "not_broken",
+				"no_salvage"
+            ]
+        },
+		"CASE": {
+            "AllLocations": true
+        },	
+        "BonusDescriptions": {
+            "Bonuses": [
+                "JumpDistance: 10%",
+                "TEHeatgen: -10%",
+                "HeatPerTurn: -9",
+                "ArmorFactor: +10%",
+                "Reserved: 6",
+                "ArmorTPCost: 10%",
+                "ArmorCBCost: 15%",
+                "ReqWings"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00009"
+        }
+    },
+    "Description": {
+        "Cost": 1950000,
+        "Rarity": 5,
+        "Purchasable": false,
+        "Manufacturer": "Pafftek Industries",
+        "Model": "Armor Critical Slot",
+        "UIName": "LAM Ferro Aluminium Armor",
+        "Id": "emod_armorslots_fLAM",
+        "Name": "Ferro Aluminium Armor",
+        "Details": "Scientists at Pafftek Industries, after completing their LAM armor project looked at what was going on in other armor divisions.  The C-Ferro armor project had some unique chemical processes that might be applied to improve the C-LAM armor.  The result is bulky but lighter weight than C-LAM armor.<b><color=#0066ff>Reserves 18 Slots and requires Partial Wings System</color></b>",
+        "Icon": "uixSvgIcon_action_end"
+    },
+    "BonusValueA": "-6% Armor Weight",
+    "BonusValueB": "Reserves 18 Slots",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-LAMHeatGen",
+                "Name": "HEAT GENERATION DECREASED",
+                "Details": "Heat generation reduced by 20%.",
+                "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "HeatGenerated",
+                "operation": "Float_Multiply",
+                "modValue": "0.9",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "LAMArmorSink",
+                "Name": "PARTIAL WING SYSTEM",
+                "Details": "The partial wing system's large surface area efficiently radiates excess heat.",
+                "Icon": "uixSvgIcon_designMask_mineral"
+            },
+            "statisticData": {
+                "statName": "HeatSinkCapacity",
+                "operation": "Int_Add",
+                "modValue": "9",
+                "modType": "System.Int32"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Jump_Distance-T3",
+                "Name": "JUMP DISTANCE INCREASED",
+                "Details": "Conversion Gear increase Jump Distance by 10%",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "JumpDistanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.1",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+			"ClanArmor"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

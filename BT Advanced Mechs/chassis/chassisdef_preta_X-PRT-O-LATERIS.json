@@ -201,7 +201,8 @@
 	"VariantName": "X-PRT-O-LATERIS",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"Celestial"
 		],
 		"tagSetSourceFile": ""
 	},

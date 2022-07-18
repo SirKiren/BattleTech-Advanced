@@ -20,10 +20,10 @@
     },
     "Flags": {
       "flags": [
-				"default",
-				"not_broken",
-				"no_salvage",
-				"autorepair"
+			"default",
+			"not_broken",
+			"no_salvage",
+			"autorepair"
       ]
     },
     "InventorySorter": {

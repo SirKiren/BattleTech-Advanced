@@ -361,7 +361,8 @@
 	"VariantName": "H-SER-O-DEICIO",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"Celestial"
 		],
 		"tagSetSourceFile": ""
 	},

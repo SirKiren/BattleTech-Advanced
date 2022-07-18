@@ -1,1 +1,10 @@
-INFO: 2022-03-25T16:45:06 - Initializing us.tbone.DejaVu - Version 1.0.2.0
+INFO: 2022-05-07T13:30:36 - Initializing us.tbone.DejaVu - Version 1.0.2.0
+INFO: 2022-05-07T13:48:37 - DV-8G already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T13:53:08 - Mech DV-8G got < 2 kills, removing from dejavu.
+INFO: 2022-05-07T14:02:36 - FRB-2L already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - DV-8G already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - STN-3L already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - Adding WSP-3W to dejaVuMechs
+INFO: 2022-05-07T14:02:36 - Maxim already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - Regulator already exists in dejaVuMechs or AllMechs
+INFO: 2022-05-07T14:02:36 - PLX-BA already exists in dejaVuMechs or AllMechs

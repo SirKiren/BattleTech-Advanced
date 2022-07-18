@@ -1,0 +1,79 @@
+{
+    "Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/heavy"
+			}
+		],	
+        "BonusDescriptions": {
+            "Bonuses": [
+                "HeavyLaser"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "02005"
+        }
+    },
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "MediumLaser",
+    "MinRange": 0,
+    "MaxRange": 330,
+    "RangeSplit": [
+        90,
+        180,
+        270
+    ],
+    "AmmoCategory": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 35,
+    "Damage": 45,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 3,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 4.1,
+	"APDamage": 3,
+	"FireTerrainChance": 0.125,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Medium",
+    "Description": {
+        "Cost": 960000,
+        "Rarity": 10,
+        "Purchasable": true,
+        "Manufacturer": "CLAN",
+        "Model": "Medium Laser",
+        "UIName": "M. Heavy Laser (C)+",
+        "Id": "Weapon_Laser_HeavyMediumLaser_CLAN_1",
+        "Name": "Heavy M Laser (C)+",
+        "Details": "Pafftek Industries focused on improving the Heavy Laser, without the drastic changes wrought in the 'Improved' Heavy laser that other concerns have placed into production.  Gives up a little damage for increased penetration and accuracy",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_standard"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

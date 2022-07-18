@@ -20,7 +20,8 @@
 		"Flags": {
 			"flags": [
 				"engine_part",
-				"vital"
+				"vital",
+				"no_salvage"
 			]
 		},
 		"BonusDescriptions": {

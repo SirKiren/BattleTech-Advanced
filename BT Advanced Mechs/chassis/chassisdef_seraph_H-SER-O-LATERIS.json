@@ -361,7 +361,8 @@
 	"VariantName": "H-SER-O-LATERIS",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"Celestial"
 		],
 		"tagSetSourceFile": ""
 	},

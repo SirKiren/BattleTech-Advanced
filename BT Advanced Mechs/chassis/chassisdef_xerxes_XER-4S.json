@@ -16,7 +16,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Xerxes",
+			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Generic",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -140,7 +140,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 18,
+			"InventorySlots": 19,
 			"MaxArmor": 330,
 			"MaxRearArmor": 150,
 			"InternalStructure": 195

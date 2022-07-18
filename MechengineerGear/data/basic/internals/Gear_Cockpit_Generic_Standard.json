@@ -12,7 +12,8 @@
 		},
 		"Flags": {
 			"flags": [
-				"default"
+				"default",
+				"no_salvage"
 			]
 		},
 		"Lootable": {

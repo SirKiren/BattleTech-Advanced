@@ -39,7 +39,7 @@
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 0,
-	"ShotsWhenFired": 20,
+	"ShotsWhenFired": 15,
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 1,
 	"Instability": 1,
@@ -86,7 +86,6 @@
 			"isBaseMode": false,
 			"IndirectFireCapable": false,
 			"AmmoCategory": "LRM",
-			"HitGenerator": "Cluster",
 			"MissileHealth": 1
 		},
 		{
@@ -97,7 +96,6 @@
 			"AlwaysIndirectVisuals": true,
 			"IndirectFireCapable": true,
 			"AmmoCategory": "LRM",
-			"HitGenerator": "Cluster",
 			"MissileHealth": 1
 		}
 	],

@@ -33,11 +33,10 @@
 	  },
 	  "Flags": {
 		"flags": [
-		  "default",
-		  "not_broken",
-		  "no_salvage",
-		  "autorepair",
-		  "engine_part"
+			"ignore_damage",
+			"engine_part",
+			"default",
+			"no_salvage"
 		]
 	  },
 	  "InventorySorter": {

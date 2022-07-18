@@ -218,7 +218,8 @@
 	"VariantName": "X-DVA-O-RAPTUS",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"Celestial"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -218,7 +218,8 @@
 	"VariantName": "X-DVA-O-DEICIO",
 	"ChassisTags": {
 		"items": [
-			"OmniMech"
+			"OmniMech",
+			"Celestial"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -388,9 +388,10 @@
 	},
 	"CriticalEffects": {
 		"Enabled": true,
-		"DefaultMaxCritsPerSlots": 0,
+		"DefaultMaxCritsPerSlots": 1,
 		"DefaultMaxCritsComponentTypes": [
 			"Weapon",
+            "AmmunitionBox",
 			"JumpJet",
 			"Upgrade"
 		]

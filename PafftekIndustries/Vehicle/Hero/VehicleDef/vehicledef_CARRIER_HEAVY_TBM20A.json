@@ -247,17 +247,17 @@
 			"DamageLevel": "Functional"
 		},
 		{
+			"MountedLocation": "Front",
 			"ComponentDefID": "Tank_CrewCompartment_A",
 			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Front",
-			"HardpointSlot": 1,
+			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
+			"MountedLocation": "Front",
 			"ComponentDefID": "Tank_TTS_OmniLock",
 			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Front",
-			"HardpointSlot": 1,
+			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{

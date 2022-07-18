@@ -213,7 +213,7 @@
 	"YangsThoughts": "Designed alongside the ICR-1R and -2M, the -2T fixes the same issue the -2M does: the Icarus's reliance on heavy ballistic weaponry. Where the -2M used laser weaponry, the -2T switches the autocannon out for a Thunderbolt-15 missile launcher. The gigantic missile is backed up by a MML-3 for flexibility as well as a Medium and ER Small Laser for no-frills firepower. Endo-Steel and a 200-rated XL Engine give weight and speed to the mech while 10 Double Heat Sinks keep it all frosty.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_IcarusII",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

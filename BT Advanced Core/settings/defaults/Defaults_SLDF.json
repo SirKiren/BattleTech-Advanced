@@ -5,28 +5,24 @@
 			"CategoryID": "SensorsA",
 			"Type": "Upgrade",
 			"DefID": "Gear_SensorsA_SLDF_Standard",
-			"Location": "Head"
+			"Location": "Head", 
+			"AddIfNotPresent": true
 		},
 		{
 			"Tag": "RoyalMech",
 			"CategoryID": "Cockpit",
 			"Type": "Upgrade",
 			"DefID": "Gear_Cockpit_SLDF_Standard",
-			"Location": "Head"
+			"Location": "Head", 
+			"AddIfNotPresent": true
 		},
 		{
 			"Tag": "RoyalMech",
 			"CategoryID": "SensorsB",
 			"Type": "Upgrade",
 			"DefID": "Gear_SensorsB_SLDF_Standard",
-			"Location": "Head"
-		},
-		{
-			"Tag": "RoyalMech",
-			"CategoryID": "Cooling",
-			"Type": "HeatSinkDef",
-			"DefID": "emod_kit_dhs_royal",
-			"Location": "CenterTorso"
+			"Location": "Head", 
+			"AddIfNotPresent": true
 		}
 	]
 }

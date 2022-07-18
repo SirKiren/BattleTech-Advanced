@@ -1,0 +1,178 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "Cockpit"
+      }
+    ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.125 * [[Chassis.Tonnage]]",
+        "CBillCost": "1.3 * [[Chassis.Tonnage]]"
+      }
+    },
+    "BonusDescriptions": {
+      "Bonuses": [
+        "AcePilot",
+        "AdvancedSensors: 1",
+        "NightVision",
+        "SureFoot",
+        "InterfaceWeight: -30%",
+        "IsInterFaceCockpit",
+        "BleedReduction: 50%"
+      ]
+    },
+    "Flags": {
+      "flags": [
+        "ignore_shutdown",
+        "not_broken"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "00019"
+    },
+    "Sorter": {
+      "Order": 6
+    },
+    "Weights": {
+      "StructureFactor": 0.7
+    }
+  },
+  "Description": {
+    "Cost": 620000,
+    "Rarity": 4,
+    "Purchasable": false,
+    "Manufacturer": "Word of Blake",
+    "Model": "Interface Cockpit",
+    "UIName": "Cockpit Interface",
+    "Id": "Gear_Cockpit_Interface",
+    "Name": "Interface Cockpit",
+    "Details": "Designed to make use of the experimental Interface System developed by the Word of Blake based on Clan Protomech designs.",
+    "Icon": "interface"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 2,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "InterFaceMoveAfterShoot",
+        "Name": "ACE PILOT",
+        "Details": "This unit can use its movement before or after shooting.",
+        "Icon": "uixSvgIcon_run_n_gun"
+      },
+      "statisticData": {
+        "statName": "CanMoveAfterShooting",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "HeadShotDamageImmunity",
+        "Name": "HSIMMUNITY",
+        "Details": "Take no Headshot pilot Damage",
+        "Icon": "uixSvgIcon_ability_bulwark"
+      },
+      "statisticData": {
+        "statName": "IRIgnoreHeadInjuries",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ADVANCED_SENSORS",
+        "Name": "Advanced Sensors",
+        "Details": "Provides detailed information on enemy units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ADVANCED_SENSORS",
+        "operation": "Int_Add",
+        "modValue": "1",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "CockpitBleed",
+        "Name": "Bleed reduction",
+        "Details": "Bleed Rate x 0.6",
+        "Icon": "blood"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "BleedingRateMulti",
+        "operation": "Float_Multiply",
+        "modValue": "0.5",
+        "modType": "System.Single",
+        "targetCollection": "Pilot"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "ignore_shutdown",
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -143,7 +143,8 @@
 		{ "Type": "UpgradeDef", "Path": "Tech/Wonders" },	
 		{ "Type": "UpgradeDef", "Path": "Vehicle/Clans/VehicleQuirk" },	
 		{ "Type": "UpgradeDef", "Path": "Vehicle/DarkCaste/VehicleQuirk" },	
-		{ "Type": "UpgradeDef", "Path": "Vehicle/Hero/VehicleQuirk" },	
+		{ "Type": "UpgradeDef", "Path": "Vehicle/Hero/VehicleQuirk" },
+		{ "Type": "UpgradeDef", "Path": "Vehicle/Hero/SenFCSCockpit" },		
 		{ "Type": "UpgradeDef", "Path": "Vehicle/Periphery/VehicleQuirk" },	
 		{ "Type": "UpgradeDef", "Path": "Vehicle/Pirates/VehicleQuirk" },	
 		{ "Type": "UpgradeDef", "Path": "Vehicle/Primitive/VehicleQuirk" },	
@@ -164,6 +165,9 @@
 		{ "Type": "WeaponDef", "Path": "Tech/Primitive/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/SLDFPreExodus/Weapons" },
 		{ "Type": "WeaponDef", "Path": "Tech/FutureTech/Weapons" },
+		{ "Type": "UpgradeDef", "Path": "Tech/FutureTech/Upgrades" },
+		{ "Type": "Sprite", "Path": "Graphix"},
+		{ "Type": "Texture2D", "Path": "Graphix" },
 		{ "Type": "SVGAsset", "Path": "Icons", "ShouldMergeJSON": false }
 		
 	]
