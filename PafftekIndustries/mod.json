@@ -167,7 +167,12 @@
 		{ "Type": "WeaponDef", "Path": "Tech/FutureTech/Weapons" },
 		{ "Type": "UpgradeDef", "Path": "Tech/FutureTech/Upgrades" },
 		{ "Type": "Sprite", "Path": "Graphix"},
-		{ "Type": "Texture2D", "Path": "Graphix" },
+		{ "Type": "Texture2D", "Path": "Graphix" },	
+		{ "Type": "MechDef", "Path": "Mech/LV246/MechDef" },	
+		{ "Type": "ChassisDef", "Path": "Mech/LV246/ChassisDef", "AddToDB": true },	
+		{ "Type": "UpgradeDef", "Path": "Tech/LV246/Upgrades" },	
+		{ "Type": "WeaponDef", "Path": "Tech/LV246/Weapons" },		
+        { "Type": "JumpJetDef", "Path": "Tech/LV246/JumpJet" },	
 		{ "Type": "SVGAsset", "Path": "Icons", "ShouldMergeJSON": false }
 		
 	]

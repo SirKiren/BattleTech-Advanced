@@ -35,6 +35,8 @@
 			"Rasalhague",
 			"Ives",
 			"Marian",
+			"Illyrian",
+			"Lothian",
 			"JarnFolk",
 			"Hanse",
 			"Rim",
@@ -152,13 +154,6 @@
 			"MountedLocation": "Front",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
-		},
-		{
-		  "MountedLocation": "Front",
-		  "ComponentDefID": "Tank_Sensors_Generic",
-		  "ComponentDefType": "Upgrade",
-		  "HardpointSlot": -1,
-		  "DamageLevel": "Functional"
 		},
 		{
 			"ComponentDefID": "Tank_CrewCompartment",

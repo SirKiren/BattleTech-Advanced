@@ -13,7 +13,7 @@
 	"goodFaithStatementOverride": null,
 	"shortDescription": "We're currently trying to engage in long-term operations in this system, which runs counter to {TEAM_TAR.FactionDef.Demonym} interests. They've hired a well-regarded mercenary outfit to engage {TEAM_EMP.FactionDef.Name} operatives on the planet's surface, and the mercenaries have sent a single, well-armed lance. We'd like you to counter that lance, by intercepting and destroying it.",
 	"longDescription": "I don't like fighting other mercenaries, but that's the nature of the business.",
-	"salvagePotential": 16,
+	"salvagePotential": 12,
 	"requirementList": [
 		{
 			"Scope": "StarSystem",

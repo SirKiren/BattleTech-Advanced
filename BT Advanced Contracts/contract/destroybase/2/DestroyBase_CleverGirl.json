@@ -13,7 +13,7 @@
 	"goodFaithStatementOverride": null,
 	"shortDescription": "The Raptors are holed up at their Salinization Plant, converting all the raw materials they can get their hands on into salt. Intercepted transmissions from the facility have been somewhat garbled, but they're apparently on the brink of setting up something called a 'salt meme economy', whatever that is. What they're up to doesn't really matter; we're going to go in, demolish their operation, take them out, and collect that bounty.",
 	"longDescription": "The Raptors are notorious for using coordinated unit tactics, flanking, and misdirection. Be on your guard, Commander.",
-	"salvagePotential": 16,
+	"salvagePotential": 12,
 	"requirementList": [
 		{
 			"Scope": "StarSystem",

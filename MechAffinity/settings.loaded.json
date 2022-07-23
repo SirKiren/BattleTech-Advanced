@@ -120,7 +120,8 @@
         "chrprfmech_talonbase-001_35",
         "chrprfmech_fireballbase-001_20",
         "chrprfmech_baboonbase-001_20",
-        "chrprfmech_omegabase-001_30"
+        "chrprfmech_omegabase-001_30",
+        "Olympian_120"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -353,7 +354,7 @@
               },
               "durationData": {
                 "duration": -1,
-                "stackLimit": -1
+                "stackLimit": 1
               },
               "effectType": "StatisticEffect",
               "nature": "Buff",
@@ -721,7 +722,7 @@
         "Wasplam_30",
         "Stingerlam_30",
         "chrprfmech_foxbase-001_50",
-        "chrprfmech_freedombase-001_55"
+        "Hephaestus_55"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -863,7 +864,9 @@
         "chrprfmech_minskbase-001_70",
         "chrprfmech_gunslingerbase-001_85",
         "chrprfmech_shootistbase-001_70",
-        "chrprfmech_archangelbase-001_100"
+        "chrprfmech_archangelbase-001_100",
+        "CelestialChampion_30",
+        "UrbanKing_120"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -1068,7 +1071,8 @@
         "chrprfmech_digkingbase-001_30",
         "chrPrfMech_hatchetmanBase-001_45",
         "chrprfmech_iongrigoribase-001_60",
-        "chrPrfMech_pretabase-001_45"
+        "chrPrfMech_pretabase-001_45",
+        "chrprfmech_ettinbase-001_95"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -1252,7 +1256,9 @@
       "id": "please_fill_it_with_some_unique_id_13",
       "chassisNames": [
         "Barghest_70",
-        "Goliath_80"
+        "Goliath_80",
+        "Sirocco_95",
+        "Scorpion_55"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -1306,7 +1312,7 @@
         "RiflemanII_80",
         "chrprfmech_curifleman3base-001_90",
         "chrPrfMech_assassinBase-001_40",
-        "chrprfmech_ymirbase-001_90"
+        "Ymir_90"
       ],
       "idType": "AssemblyVariant",
       "affinityLevels": [
@@ -1691,7 +1697,7 @@
         "Kanazuchi_8",
         "BA Marauder_9",
         "Phalanx_6",
-        "BA Ravager_9",
+        "BA Ravager_10",
         "Grenadier_8"
       ],
       "idType": "AssemblyVariant",
@@ -2623,5 +2629,6 @@
     }
   ],
   "prefabOverrides": [],
-  "affinityGroups": []
+  "affinityGroups": [],
+  "iconColours": []
 }

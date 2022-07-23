@@ -22,32 +22,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "FactionReputation",
-					"ConstantValue": "Kurita:30"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "AuriganPirates:30"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "Davion:30"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "Wolfs_Dragoons:100"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "Liao:10"
-				},
-				{
-					"ConstantType": "CareerMode",
-					"ConstantName": "FactionReputation",
-					"ConstantValue": "Rasalhague:10"
+					"ConstantValue": "Kurita:30,AuriganPirates:30,Davion:30,Wolfs_Dragoons:100,Liao:10,Rasalhague:10"
 				}
 			]
 		}

@@ -4,8 +4,10 @@ mechdef_wasp_WSP-3W,Mech,1,4
 mechdef_wasp_WSP-2A-X,Mech,1,4
 mechdef_wasp_WSP-3M,Mech,1,4
 mechdef_wasp_WSP-4T,Mech,1,4
-mechdef_wasp_WSP-100A,Mech,1,2
-mechdef_wasp_WSP-100B,Mech,1,2
-mechdef_wasp_WSP-105,Mech,1,2
-mechdef_wasp_WSP-105M,Mech,1,2
-mechdef_wasp_WSP-103,Mech,1,2
+mechdef_wasp_WSP-100A,Mech,1,3
+mechdef_wasp_WSP-100B,Mech,1,3
+mechdef_wasp_WSP-105,Mech,1,3
+mechdef_wasp_WSP-105M,Mech,1,3
+mechdef_wasp_WSP-103,Mech,1,3
+mechdef_wasp_WSP-2A-XC,Mech,1,4
+mechdef_wasp_WSP-YJ,Mech,1,1

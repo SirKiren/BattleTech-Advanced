@@ -2,7 +2,7 @@
 	"Name": "CustomUnits",
 	"Enabled": true,
 	"Hidden": true,
-	"Version": "0.0.0.99",
+	"Version": "0.0.0.110",
 	"PackagedOn": "2021-05-16T00:00:00Z",
 	"DLL": "CustomUnits.dll",
 	"DLLEntryPoint": "CustomUnits.Core.Init",
@@ -121,7 +121,7 @@
 			"z": 1
 		},
 		"PartialMovementOnlyWalkByDefault": true,
-		"PartialMovementGuardDistance": 20.0,
+		"PartialMovementGuardDistance": 35.0,
 		"AllowRotateWhileJumpByDefault": true,
 		"DeployManual": true,
 		"AskForDeployManual": false,
@@ -240,7 +240,7 @@
 		"CannotPilotMechTag": "pilot_nomech_crew",
 		"CountContractMaxUnits4AsUnlimited": true,
 		"CanPilotVehicleProbability": 0.5,
-		"CanPilotAlsoMechProbability": 0.1,
+		"CanPilotAlsoMechProbability": 0.0,
 		"SquadStructureIcon": "ba_structure",
 		"SquadArmorOutlineIcon": "ba_armor_outline",
 		"SquadArmorIcon": "ba_armor",
@@ -670,9 +670,9 @@
 				"z": 0.9
 			},
 			"swd": {
-				"x": 0.9,
-				"y": 0.9,
-				"z": 0.9
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"talon": {
 				"x": 0.85,
@@ -731,6 +731,11 @@
 			}
 		},
 		"mechSizeMultiplierVectors": {
+			"mechdef_alpha_MAD-AL-SH": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
 			"mechdef_annihilator_ANH-II-L": {
 				"x": 0.85,
 				"y": 0.85,
@@ -812,14 +817,14 @@
 				"z": 0.85
 			},
 			"mechdef_griffin_GRF-1A": {
-				"x": 1.15,
-				"y": 1.15,
-				"z": 1.15
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
 			},
 			"mechdef_griffin_GRF-2N-X": {
-				"x": 1.15,
-				"y": 1.15,
-				"z": 1.15
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
 			},
 			"mechdef_hermesii_HER-2M": {
 				"x": 0.85,
@@ -866,6 +871,11 @@
 				"y": 0.9,
 				"z": 0.9
 			},
+			"mechdef_hollanderii_BZK-BI": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"mechdef_hollander_BZK-G1": {
 				"x": 0.8,
 				"y": 0.8,
@@ -891,7 +901,17 @@
 				"y": 0.8,
 				"z": 0.8
 			},
-			"mechdef_hollander_BZK-D2": {
+			"mechdef_hollander_BZK-H3": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"mechdef_hollander_BZK-F4": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"mechdef_hollander_BZK-BZ": {
 				"x": 0.8,
 				"y": 0.8,
 				"z": 0.8
@@ -935,6 +955,11 @@
 				"x": 1.15,
 				"y": 1.15,
 				"z": 1.15
+			},
+			"mechdef_scorch_MAD-IIC-SH": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
 			},
 			"mechdef_stonerhino_STR-1": {
 				"x": 0.8,
@@ -983,6 +1008,8 @@
 			  "uac": 0.8,
 			  "lbx5": 0.8,
 			  "uac5": 0.8,
+			  "ac10": 0.7,
+			  "ac20": 0.6,
 			  "mg": 0.5,
 			  "ppc": 0.2,
 			  "laser": 0.2,
@@ -1466,6 +1493,7 @@
 			"PrefabIdentifier": "artillery",
 			"HardpointCandidates": {
 			  "artillery": 1.0,
+			  "mortar": 0.95,
 			  "ac20": 0.9,
 			  "gauss": 0.8,
 			  "ac": 0.7,
@@ -1476,6 +1504,36 @@
 			  "mg": 0.1,
 			  "flamer": 0.1,
 			  "laser": 0.1
+			}
+		  },
+		  {
+			"PrefabIdentifier": "mortar",
+			"HardpointCandidates": {
+			  "artillery": 0.95,
+			  "mortar": 1.0,
+			  "ac5": 0.8,
+			  "ac": 0.9,
+			  "ac10": 0.8,
+			  "ac2": 0.8,
+			  "uac5": 0.9,
+			  "lbx5": 0.9,
+			  "lbx": 0.7,
+			  "rac2": 0.8,
+			  "uac2": 0.8,
+			  "lbx2": 0.8,
+			  "rac5": 0.9,
+			  "uac10": 0.8,
+			  "lbx10": 0.8,
+			  "rac10": 0.8,
+			  "ac20": 0.6,
+			  "lbx20": 0.6,
+			  "uac20": 0.6,
+			  "rac20": 0.6,
+			  "ppc": 0.5,
+			  "laser": 0.4,
+			  "mg": 0.3,
+			  "flamer": 0.3,
+			  "ams": 0.1
 			}
 		  },
 		  {

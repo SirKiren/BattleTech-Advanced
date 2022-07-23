@@ -1,0 +1,115 @@
+18:50:16.889 Loaded settings from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/settings.json. Version 1.0.8129.31778
+18:50:16.926 Listing all base game moods:
+18:50:17.286 ArcticDayFoggy: biomeIcyGlacier, biomeIcyTundra, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeDay, mood_weatherCloudy
+18:50:17.288 ArcticDayFrozen: biomeIcyGlacier, biomeIcyTundra, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeDay, mood_weatherClear
+18:50:17.288 ArcticNightFrozen: biomeIcyGlacier, biomeIcyTundra, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeNight, mood_weatherClear
+18:50:17.288 ArcticNightFoggy: biomeIcyGlacier, biomeIcyTundra, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeNight, mood_weatherClear
+18:50:17.289 ArcticSunsetFoggy: biomeIcyGlacier, biomeIcyTundra, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeSunset, mood_weatherClear
+18:50:17.289 ArcticSunsetFrozen: biomeIcyGlacier, biomeIcyTundra, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeSunset, mood_weatherClear
+18:50:17.289 JumbledKarstMood: biomeAridBadlands, biomeAridDesert, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeDay, mood_weatherClear
+18:50:17.289 AridDayClear: biomeAridBadlands, biomeAridDesert, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeDay, mood_weatherClear
+18:50:17.290 AridDayWindy: biomeAridBadlands, biomeAridDesert, mood_fogLight, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_musicVacuum, mood_timeDay, mood_weatherWindy
+18:50:17.290 AridNightClear: biomeAridBadlands, biomeAridDesert, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeNight, mood_weatherClear
+18:50:17.290 AridNightFoggy: biomeAridBadlands, biomeAridDesert, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeNight, mood_weatherClear
+18:50:17.290 AridSunsetClear: biomeAridBadlands, biomeAridDesert, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeSunset, mood_weatherClear
+18:50:17.290 AridSunsetFoggy: biomeAridBadlands, biomeAridDesert, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeSunset, mood_weatherCloudy
+18:50:17.290 AridTwilightClear: biomeAridBadlands, biomeAridDesert, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeSunset, mood_weatherClear
+18:50:17.290 Baseline: 
+18:50:17.290 DefaultMood: 
+18:50:17.290 DesolationAfternoon: mood_weatherCloudy, mood_timeDay, mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, mood_fogLight
+18:50:17.290 VerdantAfternoonFoggy: biomeVerdantHighlands, biomeVerdantLowlands, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeDay, mood_weatherCloudy
+18:50:17.290 VerdantDayFoggy: biomeVerdantHighlands, biomeVerdantLowlands, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeDay, mood_weatherCloudy
+18:50:17.290 VerdantNightFoggy: biomeVerdantHighlands, biomeVerdantLowlands, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeNight, mood_weatherClear
+18:50:17.291 RestorationItrom: 
+18:50:17.291 JungleSunsetClear: mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, biomeVerdantJungle, mood_timeSunset, mood_timeDay
+18:50:17.292 JungleDayAllergySeason: biomeVerdantJungle, mood_timeMorning, mood_timeDay, mood_weatherClear, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral
+18:50:17.292 JungleDayMisty: mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, biomeVerdantJungle, mood_timeDay, mood_timeNoon, mood_fogHeavy
+18:50:17.292 JungleDayMistyTwo: 
+18:50:17.292 JungleNightMisty: mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, biomeVerdantJungle, mood_timeNight, mood_weatherClear, mood_fogHeavy
+18:50:17.292 JungleSunsetFoggy: mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, biomeVerdantJungle, mood_timeDay, mood_timeSunset
+18:50:17.293 JungleAfternoonMonsoon: biomeVerdantJungle, mood_timeAfternoon, mood_timeDay, mood_weatherRain, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeGeneral, mood_mapTypeCampaign
+18:50:17.293 MartianAfternoon: 
+18:50:17.293 MartianAfternoonDusty: biomeBarrenMars, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_musicVacuum, mood_timeDay, mood_weatherClear, mood_weatherCloudy
+18:50:17.293 MartianSunsetDusty: 
+18:50:17.293 MartianNight: biomeBarrenMars, mood_fogLight, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_musicVacuum, mood_timeNight, mood_weatherClear
+18:50:17.293 MartianSunset: biomeBarrenMars, mood_fogLight, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_musicVacuum, mood_timeSunset, mood_weatherClear
+18:50:17.294 RestorationPanzyrAttack: 
+18:50:17.294 RestorationPanzyrDefense: 
+18:50:17.294 VerdantAfternoonCloudy: mood_weatherCloudy, mood_timeDay, mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, mood_fogLight, biomeVerdantLowlands, biomeVerdantHighlands
+18:50:17.294 VerdantDayRainy: biomeVerdantHighlands, biomeVerdantLowlands, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeDay, mood_weatherRain
+18:50:17.294 RestorationSmithonAttack: 
+18:50:17.294 RestorationSmithonDefense: 
+18:50:17.294 VerdantSunsetFoggy: biomeVerdantHighlands, biomeVerdantLowlands, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeSunset, mood_weatherClear
+18:50:17.294 RestorationTylron: 
+18:50:17.295 UrbanAfternoon: mood_weatherCloudy, mood_timeDay, mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, mood_fogLight, biomeCityUrban
+18:50:17.295 UrbanDaySmoggy: mood_weatherCloudy, mood_timeDay, mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, biomeCityUrban, mood_timeAfternoon, mood_fogHeavy
+18:50:17.295 UrbanNightFoggy: mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, mood_timeNight, mood_weatherClear, mood_fogHeavy, biomeCityUrban
+18:50:17.296 UrbanOvercast: mood_weatherCloudy, mood_timeDay, mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, mood_fogLight, biomeCityUrban
+18:50:17.297 UrbanSunsetFoggy: mood_weatherCloudy, mood_timeDay, mood_mapTypeGeneral, mood_mapTypeCampaign, mood_mapTypeArena, mood_fogLight, biomeCityUrban, mood_timeSunset
+18:50:17.297 LunarDay: 
+18:50:17.297 LunarNight: biomeBarrenMoon, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_musicVacuum, mood_timeNight, mood_weatherClear
+18:50:17.297 LunarSunset: biomeBarrenMoon, mood_fogClear, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_musicVacuum, mood_timeSunset, mood_weatherClear
+18:50:17.297 VerdantDaySunny: 
+18:50:17.297 BoulderFieldMood: biomeVerdantHighlands, biomeVerdantLowlands, mood_fogHeavy, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_timeSunset, mood_weatherClear
+18:50:17.297 VerdantDayWindy: biomeVerdantHighlands, biomeVerdantLowlands, mood_fogLight, mood_mapTypeArena, mood_mapTypeCampaign, mood_mapTypeGeneral, mood_musicVacuum, mood_timeDay, mood_weatherWindy
+18:50:17.297 Zero: 
+18:50:17.297 Initializing custom moods:
+18:50:17.323 Loaded custom mood EDM Arctic Day Blizzard, based on ArcticDayFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMArcticDayBlizzard.json.
+    It has 2 startMission dialogue chunks and applies the "DesignMaskArcticDayBlizzard" designMask
+18:50:17.323 Loaded custom mood EDM Arctic Day Foggy, based on ArcticDayFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMArcticDayFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskArcticDayFoggy" designMask
+18:50:17.323 Loaded custom mood EDM Arctic Night Foggy, based on ArcticNightFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMArcticNightFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskArcticNightFoggy" designMask
+18:50:17.324 Loaded custom mood EDM Arctic Night Frozen, based on ArcticNightFrozen from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMArcticNightFrozen.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskArcticNightFrozen" designMask
+18:50:17.324 Loaded custom mood EDM Arctic Sunset Foggy, based on ArcticSunsetFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMArcticSunsetFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskArcticSunsetFoggy" designMask
+18:50:17.324 Loaded custom mood EDM Arid Day Windy, based on AridDayWindy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMAridDayWindy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskAridDayWindy" designMask
+18:50:17.325 Loaded custom mood EDM Arid Dust Storm, based on MartianAfternoonDusty from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMAridDustStorm.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskAridDustStorm" designMask
+18:50:17.325 Loaded custom mood EDM Arid Night Clear, based on AridNightClear from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMAridNightClear.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskAridNightClear" designMask
+18:50:17.325 Loaded custom mood EDM Arid Night Foggy, based on AridNightFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMAridNightFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskAridNightFoggy" designMask
+18:50:17.326 Loaded custom mood EDM Arid Sunset Foggy, based on AridSunsetFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMAridSunsetFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskAridSunsetFoggy" designMask
+18:50:17.332 Loaded custom mood EDM Hurricane, based on JungleAfternoonMonsoon from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMHurricane.json.
+    It has 2 startMission dialogue chunks and applies the "DesignMaskHurricane" designMask
+18:50:17.332 Loaded custom mood EDM Jungle Afternoon Monsoon, based on JungleAfternoonMonsoon from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMJungleAfternoonMonsoon.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskJungleAfternoonMonsoon" designMask
+18:50:17.333 Loaded custom mood EDM Jungle Day Allergy Season, based on JungleDayAllergySeason from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMJungleDayAllergySeason.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskJungleDayAllergySeason" designMask
+18:50:17.333 Loaded custom mood EDM Jungle Day Misty, based on JungleDayMisty from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMJungleDayMisty.json.
+    It has 0 startMission dialogue chunks and applies the "DesignMaskJungleDayMisty" designMask
+18:50:17.333 Loaded custom mood EDM Jungle Night Misty, based on JungleNightMisty from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMJungleNightMisty.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskJungleNightMisty" designMask
+18:50:17.333 Loaded custom mood EDM Jungle Sunset Foggy, based on JungleSunsetFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMJungleSunsetFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskJungleSunsetFoggy" designMask
+18:50:17.334 Loaded custom mood EDM Lunar Night, based on LunarNight from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMLunarNight.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskLunarNight" designMask
+18:50:17.334 Loaded custom mood EDM Lunar Solar Storm, based on LunarSunset from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMLunarSolarStorm.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskLunarSolarStorm" designMask
+18:50:17.334 Loaded custom mood EDM Martian Afternoon Dusty, based on MartianAfternoonDusty from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMMartianAfternoonDusty.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskMartianAfternoonDusty" designMask
+18:50:17.335 Loaded custom mood EDM Martian Night, based on MartianNight from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMMartianNight.json.
+    It has 0 startMission dialogue chunks and applies the "DesignMaskMartianNight" designMask
+18:50:17.335 Loaded custom mood EDM Urban Day Smoggy, based on UrbanDaySmoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMUrbanDaySmoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskUrbanDaySmoggy" designMask
+18:50:17.335 Loaded custom mood EDM Urban Night Foggy, based on UrbanNightFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMUrbanNightFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskUrbanNightFoggy" designMask
+18:50:17.335 Loaded custom mood EDM Urban Sunset Foggy, based on UrbanSunsetFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMUrbanSunsetFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskUrbanSunsetFoggy" designMask
+18:50:17.336 Loaded custom mood EDM Verdant Afternoon Foggy, based on VerdantAfternoonFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMVerdantAfternoonFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskVerdantAfternoonFoggy" designMask
+18:50:17.336 Loaded custom mood EDM Verdant Day Foggy, based on VerdantDayFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMVerdantDayFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskVerdantDayFoggy" designMask
+18:50:17.336 Loaded custom mood EDM Verdant Day Rainy, based on VerdantDayRainy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMVerdantDayRainy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskVerdantDayRainy" designMask
+18:50:17.336 Loaded custom mood EDM Verdant Day Windy, based on VerdantDayWindy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMVerdantDayWindy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskVerdantDayWindy" designMask
+18:50:17.337 Loaded custom mood EDM Verdant Night Foggy, based on VerdantNightFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMVerdantNightFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskVerdantNightFoggy" designMask
+18:50:17.337 Loaded custom mood EDM Verdant Sunset Foggy, based on VerdantSunsetFoggy from D:\Steam\steamapps\common\BATTLETECH\Mods\EnvironmentalDesignMasks/customMoods\EDMVerdantSunsetFoggy.json.
+    It has 1 startMission dialogue chunks and applies the "DesignMaskVerdantSunsetFoggy" designMask
+18:50:32.462 Listening on http://localhost:3062/. Starting worker thread.

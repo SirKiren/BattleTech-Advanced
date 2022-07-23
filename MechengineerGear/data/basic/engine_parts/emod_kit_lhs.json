@@ -10,6 +10,9 @@
 		"Cooling": {
 			"HeatSinkDefId": "Gear_HeatSink_Generic_Laser_Clan"
 		},
+		"Color": {
+			"UIColor": "DarkGray"
+		},		
 		"WorkOrderCosts": {
 			"Default": {
 				"TechCost": "[[Chassis.Tonnage]] / 5",

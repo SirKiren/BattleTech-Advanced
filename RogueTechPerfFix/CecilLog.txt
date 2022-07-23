@@ -1,0 +1,17 @@
+[7/22/2022 5:19:47 PM] Start injecting...
+[7/22/2022 5:19:47 PM] Loading Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed from D:\Steam\steamapps\common\BattleTech\BattleTech_Data\Managed\Newtonsoft.Json.dll
+[7/22/2022 5:19:47 PM] Injected I_CombatAuraReticle
+
+[7/22/2022 5:19:47 PM] Loading UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null from D:\Steam\steamapps\common\BattleTech\BattleTech_Data\Managed\UnityEngine.CoreModule.dll
+[7/22/2022 5:19:47 PM] Injected I_BTLight
+
+[7/22/2022 5:19:47 PM] Injected I_BTLightController
+
+[7/22/2022 5:19:47 PM] Found baseType: BattleTech.Data.DataManager
+[7/22/2022 5:19:47 PM] Found target nestedType: BattleTech.Data.DataManager/AmmunitionDefLoadRequest
+[7/22/2022 5:19:47 PM] Found injection point: System.Void HBS.Data.DataLoader::LoadResource(System.String,System.Action`1<System.String>)
+
+[7/22/2022 5:19:47 PM] Injected I_StringDataLoadRequest
+
+[7/22/2022 5:19:48 PM] DOTween is up to date.
+[7/22/2022 5:19:48 PM] All good here.

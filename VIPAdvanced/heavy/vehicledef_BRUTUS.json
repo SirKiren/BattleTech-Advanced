@@ -1,8 +1,7 @@
 {
 	"VehicleTags": {
 		"items": [
-			"unit_noncontrollableTank",
-			"no_parts",
+			"unit_controllableTank",
 			"unit_vehicle",
 			"unit_heavy",
 			"unit_tracks",
@@ -28,6 +27,8 @@
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"Marian",
+			"Illyrian",
+			"Lothian",
 			"Hanse",
 			"Rim",
 			"Outworld",

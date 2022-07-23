@@ -24,7 +24,7 @@
 			"unit_generic",
 			"unit_bracket_med",
 			"ComStar",
-			"DarkCaste",
+"DarkCaste",
 			"Steiner",
 			"Marik",
 			"Davion",
@@ -36,6 +36,8 @@
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"Marian",
+			"Illyrian",
+			"Lothian",
 			"Hanse",
 			"Rim",
 			"Outworld",
@@ -224,13 +226,6 @@
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
-		},
-		{
-		  "MountedLocation": "Front",
-		  "ComponentDefID": "Tank_Sensors_Generic",
-		  "ComponentDefType": "Upgrade",
-		  "HardpointSlot": -1,
-		  "DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Turret",

@@ -1,9 +1,8 @@
 {
-	"RoninFromList": 0,
+	"RoninFromList": 10,
 	"ProceduralPilots": 0,
-	"RandomRonin": 10,
+	"RandomRonin": 0,
 	"PossibleStartingRonin": [
-		"pilot_sim_starter_dekker",
 		"pilot_tbone_t-bone",
 			"pilot_bd_Harmony",
 			"pilot_bd_Hardball",
@@ -11,13 +10,14 @@
 			"pilot_lts_Shade",
 			"pilot_tr_Turtrus",
 			"pilot_Raza5",
-			"pilot_wiki_Pharaoh",
+			"pilot_at_Axle",
+			"pilot_bd_Frost",
 			"pilot_at_Blaze",
 			"pilot_Hellion",
 			"pilot_bd_Iliad",
 			"pilot_at_Ridgeline",
-			"pilot_bd_Frost",
-			"pilot_at_Axle",
+			"pilot_sim_starter_dekker",
+			"pilot_wiki_Pharaoh",
 			"pilot_at_Virago"
 	]
 }

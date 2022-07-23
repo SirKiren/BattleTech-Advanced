@@ -162,7 +162,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_LAM",
+			"ComponentDefID": "emod_armorslots_fLAM",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
@@ -171,7 +171,7 @@
 		},
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_structureslots_LAM",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -227,17 +227,6 @@
 			"ComponentDefID": "emod_engineslots_std_center",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TTS_DeltaLock",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

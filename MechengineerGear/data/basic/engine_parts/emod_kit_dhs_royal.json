@@ -11,6 +11,9 @@
 			"CategoryID": "DHSKit"
 		}
 	  ],
+		"Color": {
+			"UIColor": "DarkGray"
+		},	  
 	  "WorkOrderCosts": {
 		"Default": {
 		  "TechCost": "0.2 * [[Chassis.Tonnage]]",

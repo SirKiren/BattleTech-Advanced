@@ -19,7 +19,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"JumpDistance: +15%"
+				"JumpDistance: +20%"
 			]
 		},
 		"InventorySorter": {
@@ -41,7 +41,7 @@
 		"Details": "This piece of gear represents the Wasp's inherent Nimble Jumper quirk. This gives the Wasp extra distance when jumping.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
-	"BonusValueA": "+15% Jump Distance",
+	"BonusValueA": "+20% Jump Distance",
 	"BonusValueB": "",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
@@ -79,7 +79,7 @@
 			"Description": {
 				"Id": "NimbleJumper",
 				"Name": "JUMP DISTANCE INCREASED",
-				"Details": "Increases Jump Jet jump distance by 15%",
+				"Details": "Increases Jump Jet jump distance by 20%",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"nature": "Buff",
@@ -88,7 +88,7 @@
 				"effectsPersistAfterDestruction": false,
 				"statName": "JumpDistanceMultiplier",
 				"operation": "Float_Multiply",
-				"modValue": "1.15",
+				"modValue": "1.2",
 				"modType": "System.Single",
 				"additionalRules": "NotSet",
 				"targetCollection": "NotSet",

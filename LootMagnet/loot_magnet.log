@@ -1,170 +1,22 @@
-13:30:28.106 === MOD CONFIG BEGIN ===
-13:30:28.106   DEBUG: False
-13:30:28.108   MRB Rollup Values: 40000.00, 60000.00, 90000.00, 130000.00, 180000.00, 240000.00
-13:30:28.108   Rollup Blacklists: 
-13:30:28.108   Rollup Blacklist Tags: 
-13:30:28.108 FACTION REPUTATION VALUES
-13:30:28.108   Reputation:LOATHED ComponentRollup:0 MechRollup:0 HoldbackTrigger:72%
-13:30:28.108   Reputation:HATED ComponentRollup:0 MechRollup:0 HoldbackTrigger:48%
-13:30:28.108   Reputation:DISLIKED ComponentRollup:0 MechRollup:0 HoldbackTrigger:32%
-13:30:28.108   Reputation:INDIFFERENT ComponentRollup:1 MechRollup:0 HoldbackTrigger:16%
-13:30:28.108   Reputation:LIKED ComponentRollup:5 MechRollup:20 HoldbackTrigger:8%
-13:30:28.108   Reputation:FRIENDLY ComponentRollup:9 MechRollup:40 HoldbackTrigger:4%
-13:30:28.108   Reputation:HONORED ComponentRollup:13 MechRollup:60 HoldbackTrigger:2%
-13:30:28.108   Reputation:ALLIED ComponentRollup:21 MechRollup:180 HoldbackTrigger:1%
-13:30:28.108 HOLDBACK - enabled? True
-13:30:28.108   Holdback Picks: 2 to 6
-13:30:28.108   Rep Range: 2 to 6
-13:30:28.108   Dispute Picks: 1 to 6
-13:30:28.108   Dispute SuccessBase:50 MRBSuccessFactor:10 SuccessRandomBound:0.2 MRBFeeFactor:-0.1
-13:30:28.108 === MOD CONFIG END ===
-13:30:28.108 INFO: No errors reading settings file.
-13:30:28.108 INFO: Registering custom components!
-13:52:44.189 At contract start for employer: Employer:(Locals):  employerRep:INDIFFERENT  employerIsAllied:False  MRBRating: 0  MRBIndex: 0
-13:52:44.189  -- Contract Rollup Idx: 0 => RawRollup: 40000
-13:52:44.189  -- Faction Rep Idx: 3 => Reputation: INDIFFERENT  RollupMultiComponent: 1  RollupMultiMech: 0  HoldbackTrigger: 16  HoldbackValueCapMulti: 0.6
-13:53:09.745 Holdback roll:4% triggerChance:16% hasMechParts:True canHoldback:False
-13:53:09.746   Rolling up 3 of component salvage:'Heat Sink Kit (DHS)' with value:2000000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'Fusion Core 175' with value:786000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'XL Engine' with value:500000 threshold:40000
-13:53:09.748   Rolling up 3 of component salvage:'Guardian ECM' with value:430000 threshold:40000
-13:53:09.748   Rolling up 5 of component salvage:'I.C. Engine' with value:250000 threshold:40000
-13:53:09.748   Rolling up 4 of component salvage:'Heat Sink Double (D)' with value:200000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'L Laser' with value:140000 threshold:40000
-13:53:09.748   Rolling up 3 of component salvage:'Standard Engine' with value:100000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'Cooling' with value:100000 threshold:40000
-13:53:09.748   Rolling up 3 of component salvage:'M Pulse' with value:95000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'SRM6' with value:90000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'LRM5' with value:80000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'M Laser' with value:60000 threshold:40000
-13:53:09.748   Rolling up 3 of component salvage:'AC/10 Precision Ammo' with value:60000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'Mortar/1' with value:50000 threshold:40000
-13:53:09.748   Rolling up 18 of component salvage:'Heat Sink Standard (S)' with value:30000 threshold:40000
-13:53:09.748   Rolling up 4 of component salvage:'S Laser' with value:20000 threshold:40000
-13:53:09.748   Rolling up 5 of component salvage:'Flamer' with value:20000 threshold:40000
-13:53:09.748   Rolling up 4 of component salvage:'LRM Ammo' with value:20000 threshold:40000
-13:53:09.748   Rolling up 6 of component salvage:'Standard Sensors' with value:10000 threshold:40000
-13:53:09.748   Rolling up 2 of component salvage:'MG Ammo' with value:10000 threshold:40000
-13:53:09.748   Rolling up 4 of component salvage:'SRM Ammo' with value:10000 threshold:40000
-13:53:09.748   Rolling up 6 of component salvage:'MG' with value:10000 threshold:40000
-13:53:09.748   Rolling up 4 of component salvage:'Standard Armor' with value:10000 threshold:40000
-13:53:16.315 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:53:16.357 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:53:16.372 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:53:16.430 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:53:16.459 SalvageStorageChassisWidget.OnPointerEnter chassisdef_firestarter_FS9-S1
-13:53:23.725 SalvageStorageChassisWidget.OnPointerExit chassisdef_firestarter_FS9-S1
-13:53:23.745 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:53:23.853 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:53:23.871 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:53:23.928 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:53:23.998 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:53:24.188 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:53:24.874 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_HUNTER
-13:53:25.186 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_HUNTER
-13:53:25.287 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_HUNTER
-13:53:25.393 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_HUNTER
-13:53:25.409 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_HUNTER
-13:53:26.176 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_HUNTER
-13:53:26.358 SalvageStorageChassisWidget.OnPointerEnter chassisdef_javelin_JVN-10N
-13:53:26.578 SalvageStorageChassisWidget.OnPointerExit chassisdef_javelin_JVN-10N
-13:53:26.684 SalvageStorageChassisWidget.OnPointerEnter chassisdef_javelin_JVN-10N
-13:53:27.209 SalvageStorageChassisWidget.OnPointerExit chassisdef_javelin_JVN-10N
-13:53:27.211 SalvageStorageChassisWidget.OnPointerEnter chassisdef_javelin_JVN-10N
-13:53:27.386 SalvageStorageChassisWidget.OnPointerExit chassisdef_javelin_JVN-10N
-13:53:27.475 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:53:28.160 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:53:28.236 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:53:28.454 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:53:28.456 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:53:28.870 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:53:28.932 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:53:31.816 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:53:31.884 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:53:32.246 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:53:32.249 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:53:49.820 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:53:49.873 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:53:50.020 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:53:50.121 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:53:50.248 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:53:59.404 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:53:59.455 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:53:59.457 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:53:59.506 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:53:59.533 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:53:59.864 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:53:59.888 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:53:59.935 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:53:59.963 SalvageStorageChassisWidget.OnPointerEnter chassisdef_javelin_JVN-10N
-13:54:00.326 SalvageStorageChassisWidget.OnPointerExit chassisdef_javelin_JVN-10N
-13:54:00.350 SalvageStorageChassisWidget.OnPointerEnter chassisdef_javelin_JVN-10N
-13:54:00.378 SalvageStorageChassisWidget.OnPointerExit chassisdef_javelin_JVN-10N
-13:54:00.379 SalvageStorageChassisWidget.OnPointerEnter chassisdef_javelin_JVN-10N
-13:54:00.402 SalvageStorageChassisWidget.OnPointerExit chassisdef_javelin_JVN-10N
-13:54:00.436 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_HUNTER
-13:54:00.775 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_HUNTER
-13:54:00.791 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_HUNTER
-13:54:00.819 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_HUNTER
-13:54:00.835 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_HUNTER
-13:54:00.858 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_HUNTER
-13:54:00.896 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:54:01.263 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:54:01.289 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:54:01.361 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:54:01.381 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:54:01.404 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:54:01.425 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:54:01.493 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:54:01.516 SalvageStorageChassisWidget.OnPointerEnter chassisdef_hermes_HER-4S
-13:54:02.763 SalvageStorageChassisWidget.OnPointerExit chassisdef_hermes_HER-4S
-13:54:02.773 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_HUNTER
-13:54:02.804 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_HUNTER
-13:54:02.820 SalvageStorageChassisWidget.OnPointerEnter vehiclechassisdef_HUNTER
-13:54:02.848 SalvageStorageChassisWidget.OnPointerExit vehiclechassisdef_HUNTER
-13:54:02.859 SalvageStorageChassisWidget.OnPointerEnter chassisdef_javelin_JVN-10N
-13:54:03.141 SalvageStorageChassisWidget.OnPointerExit chassisdef_javelin_JVN-10N
-13:54:03.145 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:54:03.173 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:54:03.174 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:54:03.202 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:54:03.206 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:03.230 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:03.232 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:03.248 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:03.473 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:03.500 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:25.263 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:25.291 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:25.293 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:25.319 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:25.343 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:25.365 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:25.388 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:54:25.448 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:54:25.449 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:54:25.873 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:54:25.874 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:54:25.943 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:54:25.968 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:26.038 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:27.755 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:28.970 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:28.972 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:29.015 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:30.024 SalvageStorageChassisWidget.OnPointerEnter chassisdef_raptor_RTX1-OA
-13:54:30.084 SalvageStorageChassisWidget.OnPointerExit chassisdef_raptor_RTX1-OA
-13:54:30.174 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:30.630 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:30.632 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:30.673 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:31.673 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:31.693 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:32.122 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:32.544 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:33.354 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:33.422 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:33.424 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:33.457 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
-13:54:33.487 SalvageStorageChassisWidget.OnPointerEnter chassisdef_urbanmech_UM-R26
-13:54:33.588 SalvageStorageChassisWidget.OnPointerExit chassisdef_urbanmech_UM-R26
+18:50:09.178 === MOD CONFIG BEGIN ===
+18:50:09.178   DEBUG: False
+18:50:09.179   MRB Rollup Values: 40000.00, 60000.00, 90000.00, 130000.00, 180000.00, 240000.00
+18:50:09.179   Rollup Blacklists: 
+18:50:09.179   Rollup Blacklist Tags: 
+18:50:09.179 FACTION REPUTATION VALUES
+18:50:09.179   Reputation:LOATHED ComponentRollup:0 MechRollup:0 HoldbackTrigger:72%
+18:50:09.179   Reputation:HATED ComponentRollup:0 MechRollup:0 HoldbackTrigger:48%
+18:50:09.179   Reputation:DISLIKED ComponentRollup:0 MechRollup:0 HoldbackTrigger:32%
+18:50:09.179   Reputation:INDIFFERENT ComponentRollup:1 MechRollup:0 HoldbackTrigger:16%
+18:50:09.179   Reputation:LIKED ComponentRollup:5 MechRollup:20 HoldbackTrigger:8%
+18:50:09.179   Reputation:FRIENDLY ComponentRollup:9 MechRollup:40 HoldbackTrigger:4%
+18:50:09.180   Reputation:HONORED ComponentRollup:13 MechRollup:60 HoldbackTrigger:2%
+18:50:09.180   Reputation:ALLIED ComponentRollup:21 MechRollup:180 HoldbackTrigger:1%
+18:50:09.180 HOLDBACK - enabled? True
+18:50:09.180   Holdback Picks: 2 to 6
+18:50:09.180   Rep Range: 2 to 6
+18:50:09.180   Dispute Picks: 1 to 6
+18:50:09.180   Dispute SuccessBase:50 MRBSuccessFactor:10 SuccessRandomBound:0.2 MRBFeeFactor:-0.1
+18:50:09.180 === MOD CONFIG END ===
+18:50:09.180 INFO: No errors reading settings file.
+18:50:09.180 INFO: Registering custom components!

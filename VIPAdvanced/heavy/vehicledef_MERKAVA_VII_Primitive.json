@@ -26,6 +26,8 @@
 			"Chainelane",
 			"Delphi",
 			"Marian",
+			"Illyrian",
+			"Lothian",
 			"Rim",
 			"Hanse",
 			"AuriganPirates",
@@ -150,13 +152,6 @@
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
-		},
-		{
-		  "MountedLocation": "Front",
-		  "ComponentDefID": "Tank_Sensors_Generic",
-		  "ComponentDefType": "Upgrade",
-		  "HardpointSlot": -1,
-		  "DamageLevel": "Functional"
 		},
 		{
 			"ComponentDefID": "Tank_Turret",
