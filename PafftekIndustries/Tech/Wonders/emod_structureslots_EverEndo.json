@@ -1,0 +1,111 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"TRGBColor" : { "Color" : "#5F24AC" },		
+		"DynamicSlots": {
+			"ReservedSlots": 8,
+			"BackgroundColor": "OrangeHalf",
+			"ShowIcon": false,
+			"NameText": "LAM Structure",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
+		"Weights": {
+			"StructureFactor": 0.75
+		},
+		"StructureRepair": {
+			"StructureTPCost": 1.4,
+			"StructureCBCost": 1.6
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/6",
+				"CBillCost": "[[Chassis.Tonnage]] * 10"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "Structure"
+			}
+		],
+		"Flags": {
+			"flags": [
+				"not_broken",
+				"no_salvage"
+			]
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"JumpDistance: 10%",
+				"StructureFactor: +10%",
+				"StructureTPCost: 40%",
+				"StructureCBCost: 60%",
+				"Reserved: 4",
+				"ReqWings"
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "00010"
+		},
+        "ActivatableComponent": {
+            "ButtonName": "Black Carapace",
+            "CanNotBeActivatedManualy": true,
+            "NoUniqueCheck": true,
+            "ActivationMessage": "Healing",
+			"DeactivationMessage": "Healthy",
+            "presistantVFX": {
+                "VFXPrefab": "vfxprfprtl_heatventsm_loop",
+                "VFXScaleX": 1,
+                "VFXScaleY": 1,
+                "VFXScaleZ": 1
+            },
+            "Repair": {
+                "InnerStructure": 4,
+                "Armor": 12,
+                "MechStructureLocations": [],
+                "MechArmorLocations": [],
+                "VehicleLocations": [],
+                "BuildingLocations": [],
+                "AffectInstalledLocation": true,
+				"TurnsSinceDamage": 4,
+                "repairTrigger": {
+                    "OnActivation": false,
+                    "OnDamage": "None",
+                    "AtEndOfTurn": true
+                }
+            }
+        }
+	},
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 9,
+		"Purchasable": false,
+		"Manufacturer": "Pafftek Industries",
+		"Model": "Structure",
+		"UIName": "Endo Structure",
+		"Id": "emod_structureslots_EverEndo",
+		"Name": "Self Healing Structure",
+		"Details": "Developed from HarJel in conjunction with the Black Carapace found on several worlds in clan Space, the EverEndo Endosteel structure is self healing.",
+		"Icon": "uixSvgIcon_quantity"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "Reserves 8 Slots",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

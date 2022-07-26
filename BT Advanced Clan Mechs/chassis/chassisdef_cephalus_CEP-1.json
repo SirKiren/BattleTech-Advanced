@@ -5,7 +5,16 @@
 			"RightLimit": "Upper"
 		}
 	},
-	"FixedEquipment": [
+	"FixedEquipment": [	
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Generic",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_structureslots_Composite",

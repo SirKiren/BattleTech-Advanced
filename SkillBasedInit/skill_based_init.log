@@ -1,0 +1,141 @@
+18:50:11.118 ModDir is:D:\Steam\steamapps\common\BATTLETECH\Mods\SkillBasedInit
+18:50:11.118 mod.json settings are:({"Debug":true,"Trace":false,"Icons":{"Stopwatch":"sbi_stopwatch"},"Colors":{"ColorFriendlyUnactivated":[0.231,0.694,0.262,1.0],"ColorFriendlyAlreadyActivated":[0.043,0.4,0.137,1.0],"ColorAlliedUnactivated":[0.521,0.858,0.964,1.0],"ColorAlliedAlreadyActivated":[0.345,0.545,0.682,1.0],"ColorNeutralUnactivated":[0.85,0.866,0.862,1.0],"ColorNeutralAlreadyActivated":[0.466,0.482,0.494,1.0],"ColorEnemyUnactivated":[1.0,0.031,0.0,1.0],"ColorEnemyAlreadyActivated":[0.486,0.039,0.007,1.0]},"Pilot":{"PilotTagModifiers":{"pilot_morale_high":2,"pilot_morale_low":-2,"pilot_reckless":1,"pilot_lucky":1,"pilot_cautious":-1}},"Mech":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ProneModifierMax":-9,"ProneModifierMin":-2,"ShutdownModifierMax":-8,"ShutdownModifierMin":-2,"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Trooper":{"TypeMod":0,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"0":20,"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"ShutdownModifierMax":-8,"ShutdownModifierMin":-2},"Naval":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Vehicle":{"TypeMod":-2,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"CrippledModifierMax":-13,"CrippledModifierMin":-5},"Turret":{"TypeMod":-6,"RandomnessMax":-10,"RandomnessMin":-2,"HesitationMax":-6,"HesitationMin":-2,"CalledShotRandMax":-6,"CalledShotRandMin":-2,"VigilanceRandMax":6,"VigilanceRandMin":2,"InspiredMax":3,"InspiredMin":1,"DefaultTonnage":120.0,"InitBaseByTonnage":{"5":19,"15":18,"25":17,"35":16,"45":15,"55":14,"65":13,"75":12,"85":11,"95":10,"100":9,"999":6},"LightTonnage":60.0,"MediumTonnage":80.0,"HeavyTonnage":100.0}})
+18:50:11.121 === MOD CONFIG BEGIN ===
+18:50:11.121   DEBUG:True Trace:False
+18:50:11.121   == Pilot Tag Modifiers
+18:50:11.121     tag:pilot_morale_high modifier:2
+18:50:11.121     tag:pilot_morale_low modifier:-2
+18:50:11.121     tag:pilot_reckless modifier:1
+18:50:11.121     tag:pilot_lucky modifier:1
+18:50:11.121     tag:pilot_cautious modifier:-1
+18:50:11.121 
+18:50:11.121   == MECH ==
+18:50:11.121   TypeMod: 0 DefaultTonnage: 120 CrippledMod (max: -13 min: -5) Hesitation: (max: -6 min: -2)  Prone: (max: -9 min: -2)  Randomness: (max: -10 min: -2)  Shutdown: (max: -8 min: -2)
+18:50:11.121 
+18:50:11.121   == TROOPER ==
+18:50:11.121   TypeMod: 0
+18:50:11.121 
+18:50:11.121   == VEHICLE ==
+18:50:11.121   TypeMod: -2 CrippledMod (max: -13 min: -5)
+18:50:11.121 
+18:50:11.121   == NAVAL ==
+18:50:11.121   TypeMod: -2 CrippledMod (max: -13 min: -5)
+18:50:11.121 
+18:50:11.121   == TURRET ==
+18:50:11.121   TypeMod: -6  Tonnages (Light:60  Medium:80  Heavy:100  Default:120) 
+18:50:11.121 
+18:50:11.121 === MOD CONFIG END ===
+18:50:11.122 Failed to read localizations from: D:\Steam\steamapps\common\BATTLETECH\Mods\SkillBasedInit\./mod_localized_text.json due to error!
+18:50:11.122 Could not find file "D:\Steam\steamapps\common\BATTLETECH\Mods\SkillBasedInit\mod_localized_text.json"
+18:50:11.122   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00067] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at (wrapper dynamic-method) System.IO.StreamReader..ctor_Patch1(object,string)
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at System.IO.File.ReadAllText (System.String path) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at SkillBasedInit.Mod.Init (System.String modDirectory, System.String settingsJSON) [0x000e9] in <6f40c18b7999432fb89ff6358f3ec529>:0 
+18:50:11.122Failed to read localizations from: D:\Steam\steamapps\common\BATTLETECH\Mods\SkillBasedInit\./mod_localized_text.json due to error!
+18:50:11.125 Assembly version: 2.1.2.0
+18:51:53.861 Calculating unit tonnage for mechDef: Helepolis
+18:51:53.861 Using initPhase: 12 => baseInit: 19 for mechDef: Helepolis with tonnage: 75
+18:51:53.862 Calculating type modifier for mechDef: Helepolis
+18:51:53.862 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:51:55.671 Calculating unit tonnage for mechDef: Lao Hu
+18:51:55.671 Using initPhase: 12 => baseInit: 19 for mechDef: Lao Hu with tonnage: 75
+18:51:55.671 Calculating type modifier for mechDef: Lao Hu
+18:51:55.671 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:51:57.338 Calculating unit tonnage for mechDef: Lao Hu
+18:51:57.338 Using initPhase: 12 => baseInit: 19 for mechDef: Lao Hu with tonnage: 75
+18:51:57.338 Calculating type modifier for mechDef: Lao Hu
+18:51:57.338 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:51:57.934 Calculating unit tonnage for mechDef: Lao Hu
+18:51:57.935 Using initPhase: 12 => baseInit: 19 for mechDef: Lao Hu with tonnage: 75
+18:51:57.935 Calculating type modifier for mechDef: Lao Hu
+18:51:57.935 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:51:58.565 Calculating unit tonnage for mechDef: Lao Hu
+18:51:58.565 Using initPhase: 12 => baseInit: 19 for mechDef: Lao Hu with tonnage: 75
+18:51:58.565 Calculating type modifier for mechDef: Lao Hu
+18:51:58.565 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:00.561 Calculating unit tonnage for mechDef: Lao Hu
+18:52:00.561 Using initPhase: 12 => baseInit: 19 for mechDef: Lao Hu with tonnage: 75
+18:52:00.561 Calculating type modifier for mechDef: Lao Hu
+18:52:00.561 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:01.174 Calculating unit tonnage for mechDef: Lao Hu
+18:52:01.174 Using initPhase: 12 => baseInit: 19 for mechDef: Lao Hu with tonnage: 75
+18:52:01.174 Calculating type modifier for mechDef: Lao Hu
+18:52:01.174 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:02.318 Calculating unit tonnage for mechDef: Mad Cat
+18:52:02.318 Using initPhase: 12 => baseInit: 19 for mechDef: Mad Cat with tonnage: 75
+18:52:02.318 Calculating type modifier for mechDef: Mad Cat
+18:52:02.318 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:03.465 Calculating unit tonnage for mechDef: Lao Hu
+18:52:03.465 Using initPhase: 12 => baseInit: 19 for mechDef: Lao Hu with tonnage: 75
+18:52:03.465 Calculating type modifier for mechDef: Lao Hu
+18:52:03.465 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:04.167 Calculating unit tonnage for mechDef: Marauder
+18:52:04.167 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:04.167 Calculating type modifier for mechDef: Marauder
+18:52:04.167 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:04.698 Calculating unit tonnage for mechDef: Marauder
+18:52:04.699 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:04.699 Calculating type modifier for mechDef: Marauder
+18:52:04.699 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:05.268 Calculating unit tonnage for mechDef: Marauder
+18:52:05.268 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:05.268 Calculating type modifier for mechDef: Marauder
+18:52:05.268 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:05.795 Calculating unit tonnage for mechDef: Marauder
+18:52:05.795 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:05.795 Calculating type modifier for mechDef: Marauder
+18:52:05.795 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:06.362 Calculating unit tonnage for mechDef: Marauder
+18:52:06.362 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:06.362 Calculating type modifier for mechDef: Marauder
+18:52:06.362 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:07.925 Calculating unit tonnage for mechDef: Marauder
+18:52:07.925 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:07.925 Calculating type modifier for mechDef: Marauder
+18:52:07.925 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:08.702 Calculating unit tonnage for mechDef: Marauder
+18:52:08.702 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:08.702 Calculating type modifier for mechDef: Marauder
+18:52:08.702 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:09.162 Calculating unit tonnage for mechDef: Marauder
+18:52:09.162 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:09.162 Calculating type modifier for mechDef: Marauder
+18:52:09.162 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:09.696 Calculating unit tonnage for mechDef: Marauder
+18:52:09.696 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:09.696 Calculating type modifier for mechDef: Marauder
+18:52:09.696 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:10.166 Calculating unit tonnage for mechDef: Marauder
+18:52:10.166 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:10.166 Calculating type modifier for mechDef: Marauder
+18:52:10.166 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:10.694 Calculating unit tonnage for mechDef: Marauder
+18:52:10.694 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:10.694 Calculating type modifier for mechDef: Marauder
+18:52:10.694 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:11.153 Calculating unit tonnage for mechDef: Marauder
+18:52:11.153 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:11.153 Calculating type modifier for mechDef: Marauder
+18:52:11.153 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:11.660 Calculating unit tonnage for mechDef: Marauder
+18:52:11.660 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:11.660 Calculating type modifier for mechDef: Marauder
+18:52:11.660 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:12.137 Calculating unit tonnage for mechDef: Marauder
+18:52:12.137 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:12.137 Calculating type modifier for mechDef: Marauder
+18:52:12.137 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+18:52:12.631 Calculating unit tonnage for mechDef: Marauder
+18:52:12.631 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+18:52:12.631 Calculating type modifier for mechDef: Marauder
+18:52:12.631 Mechdef GetTypeMod fallthrough, returning mech typeMod.
+19:05:25.096 Calculating unit tonnage for mechDef: Marauder
+19:05:25.096 Using initPhase: 12 => baseInit: 19 for mechDef: Marauder with tonnage: 75
+19:05:25.096 Calculating type modifier for mechDef: Marauder
+19:05:25.096 Mechdef GetTypeMod fallthrough, returning mech typeMod.

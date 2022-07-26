@@ -9,6 +9,9 @@
 				"CBillCost": "0"
 			}
 		},
+		"Color": {
+			"UIColor": "DarkGray"
+		},		
 		"Category": [
 			{
 				"CategoryID": "Cooling"

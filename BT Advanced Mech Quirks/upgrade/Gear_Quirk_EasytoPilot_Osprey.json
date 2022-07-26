@@ -18,7 +18,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"WalkSpeed: +20%"
+				"WalkSpeed: +10%"
 			]
 		}
 	},
@@ -37,7 +37,7 @@
 		"Details": "This piece of gear represents the Osprey's inherent Easy to Pilot quirk. This gives the Osprey a bonus to movement speed.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
-	"BonusValueA": "+20% Walk Speed",
+	"BonusValueA": "+10% Walk Speed",
 	"BonusValueB": "",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
@@ -81,7 +81,7 @@
 			"statisticData": {
 				"statName": "WalkSpeed",
 				"operation": "Float_Multiply",
-				"modValue": "1.2",
+				"modValue": "1.1",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"

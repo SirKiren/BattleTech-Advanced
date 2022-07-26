@@ -10,7 +10,10 @@
 	"Settings": {
 		"SearchableTags": {
 			"planet_gameworld": "game world",
-			"planet_factory": "factory world"
+			"planet_factory": "factory world",
+			"planet_factory_restricted": "restricted factory world",
+			"planet_industry_electronics": "electronics",
+			"planet_industry_chemicals": "chemicals"
 		}
 	}
 }

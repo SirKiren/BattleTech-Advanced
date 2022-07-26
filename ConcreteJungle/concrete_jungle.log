@@ -1,0 +1,130 @@
+18:50:19.605 Assembly version: 0.6.6.0
+18:50:19.606  == Initializing Configuration
+18:50:19.606  -- Initializing weights
+18:50:19.607  == Configuration Initialized
+18:50:19.607 ModDir is:D:\Steam\steamapps\common\BATTLETECH\Mods\ConcreteJungle
+18:50:19.607 mod.json settings are:({"Debug":true,"Trace":false,"Ambush":{"MaxPerMap":2,"MinDistanceBetween":300.0,"BaseChance":0.45,"ChancePerActor":0.05,"SearchRadius":250.0,"AmbushWeights":["Explosion","BattleArmor","Infantry","Infantry","Mech","Vehicle","Vehicle"],"EnableOnRound":2,"BlacklistedContracts":[]},"Devastation":{"Enabled":false,"DefaultRange":{"MinDevastation":0.3,"MaxDevastation":0.9},"RangesByPlanetTag":[{"PlanetTag":"FOO_FIXME","MinDevastation":0.3,"MaxDevastation":0.9},{"PlanetTag":"BAR_FIXME","MinDevastation":0.1,"MaxDevastation":0.3}]},"ExplosionAmbush":{"Enabled":true,"VFX":"WFX_Nuke","SFX":"big_explosion","Ambushes":[{"MinDifficulty":1,"MaxDifficulty":4,"MinSpawns":1,"MaxSpawns":1,"SpawnPool":[{"FloatieTextKey":"FT_IED_HE","Radius":60.0,"Damage":60.0,"Heat":5.0,"Stability":5.0,"FireRadius":1,"FireStrength":3,"FireChance":30.0,"FireDurationNoForest":2},{"FloatieTextKey":"FT_IED_INFERNO","Radius":60.0,"Damage":5.0,"Heat":60.0,"Stability":5.0,"FireRadius":3,"FireStrength":15,"FireChance":99.0,"FireDurationNoForest":3},{"FloatieTextKey":"FT_IED_VBIED","Radius":60.0,"Damage":5.0,"Heat":5.0,"Stability":60.0,"FireRadius":0,"FireStrength":0,"FireChance":0.0,"FireDurationNoForest":0}]},{"MinDifficulty":5,"MaxDifficulty":7,"MinSpawns":1,"MaxSpawns":1,"SpawnPool":[{"FloatieTextKey":"FT_IED_HE","Radius":90.0,"Damage":90.0,"Heat":5.0,"Stability":5.0,"FireRadius":2,"FireStrength":3,"FireChance":30.0,"FireDurationNoForest":2},{"FloatieTextKey":"FT_IED_INFERNO","Radius":90.0,"Damage":5.0,"Heat":60.0,"Stability":5.0,"FireRadius":4,"FireStrength":15,"FireChance":99.0,"FireDurationNoForest":3},{"FloatieTextKey":"FT_IED_VBIED","Radius":90.0,"Damage":5.0,"Heat":5.0,"Stability":90.0,"FireRadius":0,"FireStrength":0,"FireChance":0.0,"FireDurationNoForest":0}]},{"MinDifficulty":8,"MaxDifficulty":10,"MinSpawns":1,"MaxSpawns":1,"SpawnPool":[{"FloatieTextKey":"FT_IED_HE","Radius":120.0,"Damage":120.0,"Heat":5.0,"Stability":5.0,"FireRadius":2,"FireStrength":4,"FireChance":30.0,"FireDurationNoForest":2},{"FloatieTextKey":"FT_IED_INFERNO","Radius":120.0,"Damage":5.0,"Heat":60.0,"Stability":5.0,"FireRadius":3,"FireStrength":15,"FireChance":99.0,"FireDurationNoForest":3},{"FloatieTextKey":"FT_IED_VBIED","Radius":120.0,"Damage":5.0,"Heat":5.0,"Stability":120.0,"FireRadius":0,"FireStrength":0,"FireChance":0.0,"FireDurationNoForest":0}]}]},"InfantryAmbush":{"Enabled":true,"FreeAttackEnabled":true,"VisibleTrapTurrets":false,"Ambushes":[{"MinDifficulty":1,"MaxDifficulty":4,"MinSpawns":3,"MaxSpawns":6,"SpawnPool":[{"TurretDefId":"turretdef_infantryrifles","PilotDefId":"pilot_d3_turret"},{"TurretDefId":"turretdef_infantryrifles","PilotDefId":"pilot_d3_turret"},{"TurretDefId":"turretdef_infantrysrm","PilotDefId":"pilot_d3_turret"}]},{"MinDifficulty":5,"MaxDifficulty":7,"MinSpawns":3,"MaxSpawns":6,"SpawnPool":[{"TurretDefId":"turretdef_infantryrifles","PilotDefId":"pilot_d5_turret"},{"TurretDefId":"turretdef_infantryheavyrifles","PilotDefId":"pilot_d5_turret"},{"TurretDefId":"turretdef_infantryheavyrifles","PilotDefId":"pilot_d5_turret"},{"TurretDefId":"turretdef_infantryheavyrifles","PilotDefId":"pilot_d5_turret"},{"TurretDefId":"turretdef_infantrysrm","PilotDefId":"pilot_d5_turret"},{"TurretDefId":"turretdef_infantrysrm","PilotDefId":"pilot_d5_turret"},{"TurretDefId":"turretdef_infantryflamer","PilotDefId":"pilot_d5_turret"},{"TurretDefId":"turretdef_infantryflamer","PilotDefId":"pilot_d5_turret"}]},{"MinDifficulty":8,"MaxDifficulty":10,"MinSpawns":3,"MaxSpawns":6,"SpawnPool":[{"TurretDefId":"turretdef_infantryheavyrifles","PilotDefId":"pilot_d7_turret"},{"TurretDefId":"turretdef_infantryheavyrifles","PilotDefId":"pilot_d7_turret"},{"TurretDefId":"turretdef_infantryheavyrifles","PilotDefId":"pilot_d7_turret"},{"TurretDefId":"turretdef_infantrygauss","PilotDefId":"pilot_d7_turret"},{"TurretDefId":"turretdef_infantrymrm","PilotDefId":"pilot_d7_turret"},{"TurretDefId":"turretdef_infantrymrm","PilotDefId":"pilot_d7_turret"},{"TurretDefId":"turretdef_infantryflamer","PilotDefId":"pilot_d7_turret"},{"TurretDefId":"turretdef_infantryflamer","PilotDefId":"pilot_d7_turret"}]}]},"BattleArmorAmbush":{"Enabled":true,"FreeAttackEnabled":true,"Ambushes":[{"MinDifficulty":1,"MaxDifficulty":4,"MinSpawns":1,"MaxSpawns":2,"SpawnPool":[{"MechDefId":"mechdef_ba_is_standard","PilotDefId":"pilot_d3_gunner"},{"MechDefId":"mechdef_ba_achilles","PilotDefId":"pilot_d3_gunner"},{"MechDefId":"mechdef_ba_asterion","PilotDefId":"pilot_d3_gunner"},{"MechDefId":"mechdef_ba_rottweiler","PilotDefId":"pilot_d3_gunner"},{"MechDefId":"mechdef_ba_salamander","PilotDefId":"pilot_d3_gunner"}]},{"MinDifficulty":5,"MaxDifficulty":7,"MinSpawns":2,"MaxSpawns":3,"SpawnPool":[{"MechDefId":"mechdef_ba_achilles","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_ba_infiltratormkii","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_ba_void","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_ba_yinglong","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_ba_phalanx","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_ba_gnome","PilotDefId":"pilot_d5_gunner"}]},{"MinDifficulty":8,"MaxDifficulty":10,"MinSpawns":3,"MaxSpawns":4,"SpawnPool":[{"MechDefId":"mechdef_ba_ravager","PilotDefId":"pilot_d7_gladiator"},{"MechDefId":"mechdef_ba_kanazuchi","PilotDefId":"pilot_d7_gladiator"},{"MechDefId":"mechdef_ba_grenadier","PilotDefId":"pilot_d7_gladiator"},{"MechDefId":"mechdef_ba_marauder","PilotDefId":"pilot_d7_gladiator"},{"MechDefId":"mechdef_ba_raiden","PilotDefId":"pilot_d7_gladiator"},{"MechDefId":"mechdef_ba_tengu","PilotDefId":"pilot_d7_gladiator"}]}]},"MechAmbush":{"Enabled":true,"FreeAttackEnabled":true,"Ambushes":[{"MinDifficulty":1,"MaxDifficulty":4,"MinSpawns":1,"MaxSpawns":2,"SpawnPool":[{"MechDefId":"mechdef_urbanmech_UM-R60","PilotDefId":"pilot_d3_gunner"},{"MechDefId":"mechdef_urbanmech_UM-R60","PilotDefId":"pilot_d3_gunner"},{"MechDefId":"mechdef_urbanmech_UM-R60L","PilotDefId":"pilot_d3_gunner"},{"MechDefId":"mechdef_urbanmech_UM-R90","PilotDefId":"pilot_d3_gunner"},{"MechDefId":"mechdef_hollander_BZK-G1","PilotDefId":"pilot_d3_pilot"},{"MechDefId":"mechdef_commando_COM-2D","PilotDefId":"pilot_d3_pilot"}]},{"MinDifficulty":5,"MaxDifficulty":7,"MinSpawns":1,"MaxSpawns":2,"SpawnPool":[{"MechDefId":"mechdef_blitzkrieg_BTZ-3F","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_urbanmech_UM-R60","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_blackjack_BJ-2","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_firestarter_O-PRIME","PilotDefId":"pilot_d7_brawler"},{"MechDefId":"mechdef_kintaro_KTO-18","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_hunchback_HBK-4SP","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_hunchback_HBK-4G","PilotDefId":"pilot_d5_gunner"}]},{"MinDifficulty":8,"MaxDifficulty":10,"MinSpawns":2,"MaxSpawns":3,"SpawnPool":[{"MechDefId":"mechdef_grasshopper_GHR-5H","PilotDefId":"pilot_d7_sentinel"},{"MechDefId":"mechdef_banshee_BNC-3E","PilotDefId":"pilot_d7_gladiator"},{"MechDefId":"mechdef_banshee_BNC-3Q","PilotDefId":"pilot_d7_gladiator"},{"MechDefId":"mechdef_victor_VTR-9B","PilotDefId":"pilot_d7_sentinel"},{"MechDefId":"mechdef_victor_VTR-9B","PilotDefId":"pilot_d7_sentinel"},{"MechDefId":"mechdef_urbanmech_UM-R25","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_hunchback_HBK-4P","PilotDefId":"pilot_d5_gunner"},{"MechDefId":"mechdef_hunchback_HBK-4SP","PilotDefId":"pilot_d5_gunner"}]}]},"VehicleAmbush":{"Enabled":true,"FreeAttackEnabled":true,"Ambushes":[{"MinDifficulty":1,"MaxDifficulty":4,"MinSpawns":2,"MaxSpawns":2,"SpawnPool":[{"VehicleDefId":"vehicledef_HARASSER","PilotDefId":"pilot_d3_gunner"},{"VehicleDefId":"vehicledef_HARASSER","PilotDefId":"pilot_d3_gunner"},{"VehicleDefId":"vehicledef_SALADIN","PilotDefId":"pilot_d3_gunner"},{"VehicleDefId":"vehicledef_SAVANNAHMASTER","PilotDefId":"pilot_d3_gunner"},{"VehicleDefId":"vehicledef_SCIMITAR","PilotDefId":"pilot_d3_gunner"},{"VehicleDefId":"vehicledef_SCIMITAR","PilotDefId":"pilot_d3_gunner"},{"VehicleDefId":"vehicledef_CHEVALIER","PilotDefId":"pilot_d3_gunner"},{"VehicleDefId":"vehicledef_SCORPION_MRM","PilotDefId":"pilot_d3_gunner"}]},{"MinDifficulty":5,"MaxDifficulty":7,"MinSpawns":2,"MaxSpawns":3,"SpawnPool":[{"VehicleDefId":"vehicledef_BULLDOG","PilotDefId":"pilot_d5_gunner"},{"VehicleDefId":"vehicledef_BULLDOG","PilotDefId":"pilot_d5_gunner"},{"VehicleDefId":"vehicledef_MYRMIDON","PilotDefId":"pilot_d5_gunner"},{"VehicleDefId":"vehicledef_CARRIER_LIGHT_SRM","PilotDefId":"pilot_d5_gunner"},{"VehicleDefId":"vehicledef_HETZER","PilotDefId":"pilot_d5_gunner"},{"VehicleDefId":"vehicledef_HETZER","PilotDefId":"pilot_d5_gunner"},{"VehicleDefId":"vehicledef_VEDETTE_NETC","PilotDefId":"pilot_d5_gunner"},{"VehicleDefId":"vehicledef_VEDETTE_NETC","PilotDefId":"pilot_d5_gunner"}]},{"MinDifficulty":8,"MaxDifficulty":10,"MinSpawns":2,"MaxSpawns":4,"SpawnPool":[{"VehicleDefId":"vehicledef_ROMMEL","PilotDefId":"pilot_d7_lancer"},{"VehicleDefId":"vehicledef_VONLUCKNER_K70","PilotDefId":"pilot_d7_gunner"},{"VehicleDefId":"vehicledef_MANTICORE","PilotDefId":"pilot_d7_gunner"},{"VehicleDefId":"vehicledef_MANTICORE","PilotDefId":"pilot_d7_gunner"},{"VehicleDefId":"vehicledef_CARRIER_SRM","PilotDefId":"pilot_d7_gunner"},{"VehicleDefId":"vehicledef_BEHEMOTH","PilotDefId":"pilot_d7_lancer"},{"VehicleDefId":"vehicledef_DEMOLISHER","PilotDefId":"pilot_d7_lancer"},{"VehicleDefId":"vehicledef_ZHUKOV","PilotDefId":"pilot_d7_gunner"},{"VehicleDefId":"vehicledef_ZHUKOV","PilotDefId":"pilot_d7_gunner"}]}]},"Quips":{"ExplosiveAmbush":["Watch your step","Pushing the plunger","Boom goes the dynamite","Not this time invaders","Blast them!"],"InfantryAmbush":["Wrong neighborhood, mechwarriors!","Concentrate on the lead!","Open fire!","Fire, fire, fire!","Focus on the critical points!","Welcome to the jungle!"],"SpawnAmbush":["Charge!","Get'em boys!"]},"LocalizedText":{"FT_IED_DEFAULT":"Explosive IED","FT_IED_HE":"High Explosive IED","FT_IED_INFERNO":"Inferno IED","FT_IED_VBIED":"Vibration IED","TURRET_DEATH":"{0} DESTROYED"}})
+18:50:19.614 === MOD CONFIG BEGIN ===
+18:50:19.614   DEBUG:True Trace:False
+18:50:19.614  -- General Ambush Options
+18:50:19.614    MaxPerMap: 2  MinDistanceBetween: 300  BaseChance: 0.45  ChancePerActor: 0.05  SearchRadius: 250
+18:50:19.614  AmbushWeights: Explosion, BattleArmor, Infantry, Infantry, Mech, Vehicle, Vehicle  EnableOnRound: 2
+18:50:19.614  Blacklisted Contracts: 
+18:50:19.614  -- Devastation Options
+18:50:19.614    Enabled: False  DefaultMin: 0.3  DefaultMax: 0.9
+18:50:19.614  -- Explosive Ambush Options
+18:50:19.614    Enabled: True  
+18:50:19.614    -- Explosion Ambush Def
+18:50:19.614    Difficulty Min: 1 => Max: 4
+18:50:19.614    Spawns Min: 1 => Max: 1
+18:50:19.614    AOEBlastDefs:
+18:50:19.614    -- floatieLabel: 'FT_IED_HE' radius: 60 damage: 60 heat: 5 stability: 5
+18:50:19.614       fireRadius: 1 fireStrength: 3 fireChance: 30 fireDurationNoForest: 2
+18:50:19.614    -- floatieLabel: 'FT_IED_INFERNO' radius: 60 damage: 5 heat: 60 stability: 5
+18:50:19.614       fireRadius: 3 fireStrength: 15 fireChance: 99 fireDurationNoForest: 3
+18:50:19.614    -- floatieLabel: 'FT_IED_VBIED' radius: 60 damage: 5 heat: 5 stability: 60
+18:50:19.614       fireRadius: 0 fireStrength: 0 fireChance: 0 fireDurationNoForest: 0
+18:50:19.614    -- Explosion Ambush Def
+18:50:19.614    Difficulty Min: 5 => Max: 7
+18:50:19.614    Spawns Min: 1 => Max: 1
+18:50:19.614    AOEBlastDefs:
+18:50:19.614    -- floatieLabel: 'FT_IED_HE' radius: 90 damage: 90 heat: 5 stability: 5
+18:50:19.614       fireRadius: 2 fireStrength: 3 fireChance: 30 fireDurationNoForest: 2
+18:50:19.614    -- floatieLabel: 'FT_IED_INFERNO' radius: 90 damage: 5 heat: 60 stability: 5
+18:50:19.614       fireRadius: 4 fireStrength: 15 fireChance: 99 fireDurationNoForest: 3
+18:50:19.614    -- floatieLabel: 'FT_IED_VBIED' radius: 90 damage: 5 heat: 5 stability: 90
+18:50:19.614       fireRadius: 0 fireStrength: 0 fireChance: 0 fireDurationNoForest: 0
+18:50:19.614    -- Explosion Ambush Def
+18:50:19.614    Difficulty Min: 8 => Max: 10
+18:50:19.614    Spawns Min: 1 => Max: 1
+18:50:19.614    AOEBlastDefs:
+18:50:19.614    -- floatieLabel: 'FT_IED_HE' radius: 120 damage: 120 heat: 5 stability: 5
+18:50:19.614       fireRadius: 2 fireStrength: 4 fireChance: 30 fireDurationNoForest: 2
+18:50:19.614    -- floatieLabel: 'FT_IED_INFERNO' radius: 120 damage: 5 heat: 60 stability: 5
+18:50:19.614       fireRadius: 3 fireStrength: 15 fireChance: 99 fireDurationNoForest: 3
+18:50:19.614    -- floatieLabel: 'FT_IED_VBIED' radius: 120 damage: 5 heat: 5 stability: 120
+18:50:19.614       fireRadius: 0 fireStrength: 0 fireChance: 0 fireDurationNoForest: 0
+18:50:19.614  -- Infantry Ambush Options
+18:50:19.614    Enabled: True  FreeAttackEnabled: True.
+18:50:19.614    -- Infantry Ambush Def
+18:50:19.614    Difficulty Min: 1 => Max: 4
+18:50:19.614    Spawns Min: 3 => Max: 3
+18:50:19.614    Turret and PilotDefs: [ turretdef_infantryrifles::pilot_d3_turret, turretdef_infantryrifles::pilot_d3_turret, turretdef_infantrysrm::pilot_d3_turret,  ]
+18:50:19.614    -- Infantry Ambush Def
+18:50:19.614    Difficulty Min: 5 => Max: 7
+18:50:19.614    Spawns Min: 3 => Max: 3
+18:50:19.614    Turret and PilotDefs: [ turretdef_infantryrifles::pilot_d5_turret, turretdef_infantryheavyrifles::pilot_d5_turret, turretdef_infantryheavyrifles::pilot_d5_turret, turretdef_infantryheavyrifles::pilot_d5_turret, turretdef_infantrysrm::pilot_d5_turret, turretdef_infantrysrm::pilot_d5_turret, turretdef_infantryflamer::pilot_d5_turret, turretdef_infantryflamer::pilot_d5_turret,  ]
+18:50:19.614    -- Infantry Ambush Def
+18:50:19.614    Difficulty Min: 8 => Max: 10
+18:50:19.614    Spawns Min: 3 => Max: 3
+18:50:19.614    Turret and PilotDefs: [ turretdef_infantryheavyrifles::pilot_d7_turret, turretdef_infantryheavyrifles::pilot_d7_turret, turretdef_infantryheavyrifles::pilot_d7_turret, turretdef_infantrygauss::pilot_d7_turret, turretdef_infantrymrm::pilot_d7_turret, turretdef_infantrymrm::pilot_d7_turret, turretdef_infantryflamer::pilot_d7_turret, turretdef_infantryflamer::pilot_d7_turret,  ]
+18:50:19.614  -- Battle Armor Ambush Options
+18:50:19.614    Enabled: True  FreeAttackEnabled: True.
+18:50:19.614    -- Battle Armor Ambush Def
+18:50:19.614    Difficulty Min: 1 => Max: 4
+18:50:19.614    Spawns Min: 1 => Max: 1
+18:50:19.614    BA and PilotDefs: [ mechdef_ba_is_standard::pilot_d3_gunner, mechdef_ba_achilles::pilot_d3_gunner, mechdef_ba_asterion::pilot_d3_gunner, mechdef_ba_rottweiler::pilot_d3_gunner, mechdef_ba_salamander::pilot_d3_gunner,  ]
+18:50:19.614    -- Battle Armor Ambush Def
+18:50:19.614    Difficulty Min: 5 => Max: 7
+18:50:19.614    Spawns Min: 2 => Max: 2
+18:50:19.614    BA and PilotDefs: [ mechdef_ba_achilles::pilot_d5_gunner, mechdef_ba_infiltratormkii::pilot_d5_gunner, mechdef_ba_void::pilot_d5_gunner, mechdef_ba_yinglong::pilot_d5_gunner, mechdef_ba_phalanx::pilot_d5_gunner, mechdef_ba_gnome::pilot_d5_gunner,  ]
+18:50:19.614    -- Battle Armor Ambush Def
+18:50:19.614    Difficulty Min: 8 => Max: 10
+18:50:19.614    Spawns Min: 3 => Max: 3
+18:50:19.614    BA and PilotDefs: [ mechdef_ba_ravager::pilot_d7_gladiator, mechdef_ba_kanazuchi::pilot_d7_gladiator, mechdef_ba_grenadier::pilot_d7_gladiator, mechdef_ba_marauder::pilot_d7_gladiator, mechdef_ba_raiden::pilot_d7_gladiator, mechdef_ba_tengu::pilot_d7_gladiator,  ]
+18:50:19.614  -- Mech Ambush Options
+18:50:19.614    Enabled: True  FreeAttackEnabled: True.
+18:50:19.614    -- Mech Ambush Def
+18:50:19.614    Difficulty Min: 1 => Max: 4
+18:50:19.614    Spawns Min: 1 => Max: 1
+18:50:19.614    Mech and PilotDefs: [ mechdef_urbanmech_UM-R60::pilot_d3_gunner, mechdef_urbanmech_UM-R60::pilot_d3_gunner, mechdef_urbanmech_UM-R60L::pilot_d3_gunner, mechdef_urbanmech_UM-R90::pilot_d3_gunner, mechdef_hollander_BZK-G1::pilot_d3_pilot, mechdef_commando_COM-2D::pilot_d3_pilot,  ]
+18:50:19.614    -- Mech Ambush Def
+18:50:19.614    Difficulty Min: 5 => Max: 7
+18:50:19.614    Spawns Min: 1 => Max: 1
+18:50:19.614    Mech and PilotDefs: [ mechdef_blitzkrieg_BTZ-3F::pilot_d5_gunner, mechdef_urbanmech_UM-R60::pilot_d5_gunner, mechdef_blackjack_BJ-2::pilot_d5_gunner, mechdef_firestarter_O-PRIME::pilot_d7_brawler, mechdef_kintaro_KTO-18::pilot_d5_gunner, mechdef_hunchback_HBK-4SP::pilot_d5_gunner, mechdef_hunchback_HBK-4G::pilot_d5_gunner,  ]
+18:50:19.614    -- Mech Ambush Def
+18:50:19.614    Difficulty Min: 8 => Max: 10
+18:50:19.614    Spawns Min: 2 => Max: 2
+18:50:19.614    Mech and PilotDefs: [ mechdef_grasshopper_GHR-5H::pilot_d7_sentinel, mechdef_banshee_BNC-3E::pilot_d7_gladiator, mechdef_banshee_BNC-3Q::pilot_d7_gladiator, mechdef_victor_VTR-9B::pilot_d7_sentinel, mechdef_victor_VTR-9B::pilot_d7_sentinel, mechdef_urbanmech_UM-R25::pilot_d5_gunner, mechdef_hunchback_HBK-4P::pilot_d5_gunner, mechdef_hunchback_HBK-4SP::pilot_d5_gunner,  ]
+18:50:19.614  -- Vehicle Ambush Options
+18:50:19.614    Enabled: True  FreeAttackEnabled: True.
+18:50:19.614    -- Vehicle Ambush Def
+18:50:19.614    Difficulty Min: 1 => Max: 4
+18:50:19.614    Spawns Min: 2 => Max: 2
+18:50:19.614    Mech and PilotDefs: [ vehicledef_HARASSER::pilot_d3_gunner, vehicledef_HARASSER::pilot_d3_gunner, vehicledef_SALADIN::pilot_d3_gunner, vehicledef_SAVANNAHMASTER::pilot_d3_gunner, vehicledef_SCIMITAR::pilot_d3_gunner, vehicledef_SCIMITAR::pilot_d3_gunner, vehicledef_CHEVALIER::pilot_d3_gunner, vehicledef_SCORPION_MRM::pilot_d3_gunner,  ]
+18:50:19.614    -- Vehicle Ambush Def
+18:50:19.614    Difficulty Min: 5 => Max: 7
+18:50:19.614    Spawns Min: 2 => Max: 2
+18:50:19.614    Mech and PilotDefs: [ vehicledef_BULLDOG::pilot_d5_gunner, vehicledef_BULLDOG::pilot_d5_gunner, vehicledef_MYRMIDON::pilot_d5_gunner, vehicledef_CARRIER_LIGHT_SRM::pilot_d5_gunner, vehicledef_HETZER::pilot_d5_gunner, vehicledef_HETZER::pilot_d5_gunner, vehicledef_VEDETTE_NETC::pilot_d5_gunner, vehicledef_VEDETTE_NETC::pilot_d5_gunner,  ]
+18:50:19.614    -- Vehicle Ambush Def
+18:50:19.614    Difficulty Min: 8 => Max: 10
+18:50:19.614    Spawns Min: 2 => Max: 2
+18:50:19.614    Mech and PilotDefs: [ vehicledef_ROMMEL::pilot_d7_lancer, vehicledef_VONLUCKNER_K70::pilot_d7_gunner, vehicledef_MANTICORE::pilot_d7_gunner, vehicledef_MANTICORE::pilot_d7_gunner, vehicledef_CARRIER_SRM::pilot_d7_gunner, vehicledef_BEHEMOTH::pilot_d7_lancer, vehicledef_DEMOLISHER::pilot_d7_lancer, vehicledef_ZHUKOV::pilot_d7_gunner, vehicledef_ZHUKOV::pilot_d7_gunner,  ]
+18:50:19.614  -- Quips
+18:50:19.614  --- Explosive Quips
+18:50:19.615    'Watch your step'
+18:50:19.615    'Watch your step'
+18:50:19.615    'Pushing the plunger'
+18:50:19.615    'Boom goes the dynamite'
+18:50:19.615    'Not this time invaders'
+18:50:19.615    'Blast them!'
+18:50:19.615  --- Infantry Quips
+18:50:19.615    'Wrong neighborhood, fucko.'
+18:50:19.615    'Wrong neighborhood, mechwarriors!'
+18:50:19.615    'Concentrate on the lead!'
+18:50:19.615    'Open fire!'
+18:50:19.615    'Fire, fire, fire!'
+18:50:19.615    'Focus on the critical points!'
+18:50:19.615    'Welcome to the jungle!'
+18:50:19.615  --- Spawn Quips
+18:50:19.615    'Charge!'
+18:50:19.615    'Charge!'
+18:50:19.615    'Get'em boys!'
+18:50:19.615  -- Localized Text
+18:50:19.615    FT_IED_DEFAULT='Explosive IED'
+18:50:19.615    TURRET_DEATH='{0} DESTROYED'
+18:50:19.615    FT_IED_HE='High Explosive IED'
+18:50:19.615    FT_IED_INFERNO='Inferno IED'
+18:50:19.615    FT_IED_VBIED='Vibration IED'
+18:50:19.615 === MOD CONFIG END ===
+18:50:19.615 INFO: No errors reading settings file.

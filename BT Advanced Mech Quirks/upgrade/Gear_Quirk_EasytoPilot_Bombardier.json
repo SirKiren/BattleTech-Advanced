@@ -1,11 +1,10 @@
 {
 	"Custom": {
 		"Category": [
-{
-"CategoryID": "Quirk"
-}
-],
-		
+			{
+				"CategoryID": "Quirk"
+			}
+		],
 		"Flags": {
 			"flags": [
 				"default",
@@ -18,7 +17,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"WalkSpeed: +20%"
+				"WalkSpeed: +10%"
 			]
 		},
 		"InventorySorter": {
@@ -84,7 +83,7 @@
 			"statisticData": {
 				"statName": "WalkSpeed",
 				"operation": "Float_Multiply",
-				"modValue": "1.2",
+				"modValue": "1.1",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"

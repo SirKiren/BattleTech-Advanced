@@ -1,7 +1,7 @@
 {
 	"Name": "BT Advanced Core",
 	"Enabled": true,
-	"Version": "14.0K",
+	"Version": "14.1",
 	"Description": "For files that have nowhere else to live and are fundamental to the modpack's functionality.",
 	"DataAddendumEntries": [
 		{
@@ -68,7 +68,6 @@
 		"OnePointArmorStep",
 		"PanicSystem",
 		"PilotHealthPopup",
-		"Primitive Mechs",
 		"QuietDarius",
 		"Repair Bays",
 		"SkipIntro",
@@ -93,6 +92,7 @@
 		"CAB-Clan Mech",
 		"CAB-IS Mech",
 		"CAB-Tanks",
+		"CAB-3025",
 		"AbilityRealizer",
 		"SizeMatters",
 		"MechAffinity",
@@ -102,7 +102,9 @@
 		"RolePlayer",
 		"CollateralDamage",
 		"MonsterMashup",
-		"RarityTiedSpawner"
+		"RarityTiedSpawner",
+		"ScalingAIDifficulty",
+		"WarTechIIC"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"

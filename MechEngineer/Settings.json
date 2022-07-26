@@ -392,7 +392,6 @@
 		"DefaultMaxCritsPerSlots": 0.5,
 		"DefaultMaxCritsComponentTypes": [
 			"Weapon",
-            "AmmunitionBox",
 			"JumpJet",
 			"Upgrade"
 		],

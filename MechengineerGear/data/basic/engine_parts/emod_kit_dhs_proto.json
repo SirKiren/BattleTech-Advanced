@@ -37,6 +37,9 @@
 				"CategoryID": "PDHSKit"
 			}
 		],
+		"Color": {
+			"UIColor": "DarkGray"
+		},		
 		"Flags": {
 			"flags": [
 				"ignore_damage",

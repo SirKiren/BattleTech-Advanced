@@ -14,12 +14,12 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingSystems",
-						"ConstantValue": "Tiverton"
+						"ConstantValue": "\u00c5lborg"
 					},
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Mechs_Generic_APC,itemCollection_Mechs_Generic_Tank_Medium,itemCollection_Mechs_Generic_Tank_Light,itemCollection_Mechs_Generic_Primitive_Medium,itemCollection_Mechs_Generic_Primitive_Medium,itemCollection_Mechs_Generic_Primitive_Heavy,itemCollection_Mechs_Generic_Omni_Light,itemCollection_Mechs_Generic_BattleArmor,itemCollection_Mechs_Generic_BattleArmor"
+						"ConstantValue": "itemCollection_Mechs_Generic_Primitive_Light,itemCollection_Mechs_Generic_Primitive_Light,itemCollection_Mechs_Generic_Primitive_Light,itemCollection_Mechs_Generic_Primitive_Heavy,itemCollection_Mechs_Generic_Primitive_Heavy"
 					}
 				]
 			}

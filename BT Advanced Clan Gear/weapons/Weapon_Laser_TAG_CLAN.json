@@ -39,10 +39,11 @@
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 0,
-	"ShotsWhenFired": 1,
+	"ShotsWhenFired": 2,
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 1,
 	"Instability": 0,
+	"FireDelayMultiplier": 0.2,
 	"WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
 	"Description": {
 		"Cost": 363000,

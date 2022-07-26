@@ -18,7 +18,7 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"WalkSpeed: +20%"
+				"WalkSpeed: +10%"
 			]
 		},
 		"InventorySorter": {
@@ -40,7 +40,7 @@
 		"Details": "This piece of gear represents the Zeus's inherent Easy to Pilot quirk. This gives the Zeus a bonus to movement speed.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
-	"BonusValueA": "+20% Walk Speed",
+	"BonusValueA": "+10% Walk Speed",
 	"BonusValueB": "",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
@@ -84,7 +84,7 @@
 			"statisticData": {
 				"statName": "WalkSpeed",
 				"operation": "Float_Multiply",
-				"modValue": "1.2",
+				"modValue": "1.1",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"

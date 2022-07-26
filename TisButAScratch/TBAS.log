@@ -1,0 +1,52 @@
+18:50:18.224 Initializing TisButAScratch - Version 1.0.4.6
+18:50:18.226 Adding effects for BleedGutsLvl1!
+18:50:18.229 TEMPORARY: MechWarrior
+
+TBAS_SimBleed__Guts__-1
+
+BattleTech.SimGameStat[] AND {"Scope":1,"Requirements":null,"AddedTags":["TBAS_SimBleed__Guts__-1"],"RemovedTags":[],"Stats":[],"Actions":[],"ForceEvents":null,"TemporaryResult":true,"ResultDuration":10}!
+18:50:18.229 Adding effects for BleedGutsLvl2!
+18:50:18.229 TEMPORARY: MechWarrior
+
+TBAS_SimBleed__Guts__-3
+
+BattleTech.SimGameStat[] AND {"Scope":1,"Requirements":null,"AddedTags":["TBAS_SimBleed__Guts__-3"],"RemovedTags":[],"Stats":[],"Actions":[],"ForceEvents":null,"TemporaryResult":true,"ResultDuration":20}!
+18:50:18.229 Adding effects for BleedGutsLvl3!
+18:50:18.231 TEMPORARY: MechWarrior
+
+TBAS_SimBleed__Guts__-5
+
+BattleTech.SimGameStat[] AND {"Scope":1,"Requirements":null,"AddedTags":["TBAS_SimBleed__Guts__-5"],"RemovedTags":[],"Stats":[],"Actions":[],"ForceEvents":null,"TemporaryResult":true,"ResultDuration":30}!
+18:50:18.232 Adding effects for Shock!
+18:50:18.232 Adding effects for Dizzy!
+18:50:18.232 Adding effects for Groggy!
+18:50:18.233 Adding effects for Concussion!
+18:50:18.233 Adding effects for Broken Jaw!
+18:50:18.233 Adding effects for Severe Burns - Head!
+18:50:18.234 Adding effects for Barotrauma - Head!
+18:50:18.234 Adding effects for Severe Burns - Left Arm!
+18:50:18.234 Adding effects for Severe Burns - Right Arm!
+18:50:18.234 Adding effects for Simple Fracture - Left Arm!
+18:50:18.234 Adding effects for Simple Fracture - Right Arm!
+18:50:18.234 Adding effects for Compound Fracture - Left Arm!
+18:50:18.234 Adding effects for Compound Fracture - Right Arm!
+18:50:18.235 Adding effects for Severe Burns - Left Leg!
+18:50:18.235 Adding effects for Severe Burns - Right Leg!
+18:50:18.235 Adding effects for Simple Fracture - Left Leg!
+18:50:18.235 Adding effects for Compound Fracture - Left Leg!
+18:50:18.236 Adding effects for Simple Fracture - Right Leg!
+18:50:18.236 Adding effects for Compound Fracture - Right Leg!
+18:50:18.236 Adding effects for Internal Bleeding - Torso!
+18:50:18.236 Adding effects for Broken Ribs!
+18:50:18.236 Adding effects for Punctured Lung!
+18:50:18.236 Adding effects for Collapsed Lung!
+18:50:18.236 Adding effects for Severe Burns - Torso!
+18:50:18.237 Adding effects for Neural Feedback!
+18:51:40.015 WTF IS Arclight's GUID NULL?!, making a new GUID I guess.
+18:51:40.015 Arclight was also not in pilotInjuriesMap. Adding them.
+18:51:40.080 WTF IS Kraken's GUID NULL?!, making a new GUID I guess.
+18:51:40.080 Kraken was also not in pilotInjuriesMap. Adding them.
+18:51:40.143 WTF IS Wildfire's GUID NULL?!, making a new GUID I guess.
+18:51:40.143 Wildfire was also not in pilotInjuriesMap. Adding them.
+18:51:40.204 WTF IS Blockade's GUID NULL?!, making a new GUID I guess.
+18:51:40.204 Blockade was also not in pilotInjuriesMap. Adding them.

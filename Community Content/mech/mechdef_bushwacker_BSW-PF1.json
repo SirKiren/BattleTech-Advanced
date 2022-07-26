@@ -524,7 +524,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "LeftLeg",
 			"ComponentDefID": "Ammo_AmmunitionBox_Flare_Mortar_half",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -546,7 +546,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "RightLeg",
 			"ComponentDefID": "Ammo_AmmunitionBox_Suppressant_Mortar",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
