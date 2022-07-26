@@ -388,14 +388,30 @@
 	},
 	"CriticalEffects": {
 		"Enabled": true,
-		"DefaultMaxCritsPerSlots": 1,
+        "EnabledDescription" : "Allows custom multiple critical hit states for individual components.",
+		"DefaultMaxCritsPerSlots": 0.5,
 		"DefaultMaxCritsComponentTypes": [
 			"Weapon",
             "AmmunitionBox",
 			"JumpJet",
 			"Upgrade"
-		]
+		],
+		"DefaultMaxCritsComponentTypesDescription" : "For which types the default max crits are applied.",
+        "DescriptionIdentifier" : "Criticals",
+        "DescriptionTemplate" : "Critical Effects:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n",
+        "ElementTemplate" : " <indent=10%><line-indent=-5%><line-height=65%>{{element}}</line-height></line-indent></indent>\r\n",
+        "DescriptionUseName" : false,
+        "CritFloatieMessage" : "{0} CRIT",
+        "DestroyedFloatieMessage" : "{0} DESTROYED",
+        "CritHitText" : "HIT {0}: {1}",
+        "CritDestroyedText" : "DESTROYED: {0}",
+        "CritDestroyedDeathText" : "DESTROYED: Mech is incapacitated, reason is {0}",
+        "CritLinkedText" : "Critical hits are linked to '{0}'"
 	},
+	"DamageIgnore" : {
+        "Enabled" : true,
+        "EnabledDescription" : "Enables ignore_damage flag."
+    },
 	"Engine": {
 		"Enabled": true,
 		"EnabledDescription": "Provides engines that can be installed on mechs similar to how CBT works.",
