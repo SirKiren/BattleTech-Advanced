@@ -226,7 +226,7 @@
 		"ToHitSelfWalkMedium": 1,
 		"ToHitSelfWalkHeavy": 1,
 		"ToHitSelfWalkAssault": 1,
-		"ToHitSelfWalkVehicle": 2,
+		"ToHitSelfWalkVehicle": 1,
 		"SensorLockStripsEvasivePips": true,
 		"SensorLockPipsStripped": 2,
 		"StrayShotsEnabled": true,

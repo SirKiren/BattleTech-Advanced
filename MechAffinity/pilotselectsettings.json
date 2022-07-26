@@ -1,7 +1,7 @@
 {
-	"RoninFromList": 10,
+	"RoninFromList": 0,
 	"ProceduralPilots": 0,
-	"RandomRonin": 0,
+	"RandomRonin": 10,
 	"PossibleStartingRonin": [
 		"pilot_tbone_t-bone",
 			"pilot_bd_Harmony",

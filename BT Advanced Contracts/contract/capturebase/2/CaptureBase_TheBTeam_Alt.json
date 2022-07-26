@@ -753,22 +753,13 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "{TEAM_EMP.FactionValue.FactionDef.heraldryDefId}",
 						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitDefId": "mechdef_firebee_FRB-2E",
 						"unitTagSet": {
-							"items": [
-								"{TEAM_EMP.faction}",
-								"unit_mech",
-								"unit_medium"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
-							"items": [
-								"unit_assault",
-								"unit_heavy",
-								"unit_light",
-								"unit_bracket_low"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
@@ -795,22 +786,13 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "{TEAM_EMP.FactionValue.FactionDef.heraldryDefId}",
 						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitDefId": "mechdef_cicada_CDA-3C",
 						"unitTagSet": {
-							"items": [
-								"{TEAM_EMP.faction}",
-								"unit_mech",
-								"unit_light"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
-							"items": [
-								"unit_assault",
-								"unit_heavy",
-								"unit_medium",
-								"unit_bracket_low"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
@@ -837,22 +819,13 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "{TEAM_EMP.FactionValue.FactionDef.heraldryDefId}",
 						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitDefId": "mechdef_commando_COM-2D-BI",
 						"unitTagSet": {
-							"items": [
-								"{TEAM_EMP.faction}",
-								"unit_mech",
-								"unit_light"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
-							"items": [
-								"unit_assault",
-								"unit_heavy",
-								"unit_medium",
-								"unit_bracket_low"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {

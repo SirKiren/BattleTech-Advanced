@@ -16,7 +16,7 @@
 
         "TonnageDivisor" : 15.0,
         "TonnageCap" : 100.0,
-        "ModifierCap" : 5,
+        "ModifierCap" : 3,
 
         "VirtualTonnage" : {
             "LightTurret" : 40.0,
