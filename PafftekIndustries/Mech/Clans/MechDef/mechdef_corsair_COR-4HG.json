@@ -313,7 +313,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "lootable_Gyro_Ultralight_Stabilized",
+			"ComponentDefID": "Gear_Gyro_Ultralight_Stabilized",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,

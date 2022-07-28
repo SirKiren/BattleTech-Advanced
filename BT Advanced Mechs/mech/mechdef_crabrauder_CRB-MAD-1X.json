@@ -7,22 +7,11 @@
 			"unit_role_sniper",
 			"unit_release",
 			"unit_rarity_1",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
-========
-			"AuriganPirates",
-			"Tortuga",
-			"Circinus",
-			"Chainelane",
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 			"unit_notsacellum"
 		],
 		"tagSetSourceFile": ""
 	},
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 	"ChassisID": "chassisdef_crabrauder_CRB-MAD-1X",
-========
-	"ChassisID": "chassisdef_marauder_MAD-BM",
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 	"HeraldryID": null,
 	"Description": {
 		"Cost": 1553126,
@@ -30,19 +19,11 @@
 		"Purchasable": true,
 		"Manufacturer": null,
 		"Model": null,
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 		"UIName": "Crabrauder CRB-MAD-1X",
 		"Id": "mechdef_crabrauder_CRB-MAD-1X",
 		"Name": "Crabrauder",
 		"Details": "Crafted by the chief tech of the Black Warriors, an old SLDF command turned mercenary command turned pirate band turned military, the Crabrauder is the result of frankensteining together a Marauder, a King Crab, and a Catapult. From the Marauder comes the torso and legs, from the King Crab comes the arms, and from the Catapult comes a pair of giant missile boxes on the shoulders. Armed with a dead simple loadout of twin ER PPCs and twin MRM-20s with an Apollo fire control system, the Crabrauder proved surprisingly adept as a member of the Black Warriors.",
 		"Icon": "uixTxrIcon_crabrauder"
-========
-		"UIName": "Black Marauder MAD-BM",
-		"Id": "mechdef_marauder_MAD-BM",
-		"Name": "Black Marauder",
-		"Details": "A Periphery legend, the Black Marauder is simultaneously a pirate mech and also a monster given life. Supposedly driven by a pirate by the name of Black Kevin, the Black Marauder carries a reputation as dark as its paint, said to thrive on death and murder and supposedly responsible of dozens of atrocities throughout the Inner Sphere. All that's truly known is that this mech is cursed and he who drives it is equally cursed.",
-		"Icon": "uixTxrIcon_marauder"
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 	},
 	"simGameMechPartCost": 870000,
 	"Version": 1,
@@ -59,116 +40,64 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftArm",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"CurrentArmor": 150,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 85,
 			"AssignedArmor": 150,
-========
-			"CurrentArmor": 120,
-			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 60,
-			"AssignedArmor": 120,
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftTorso",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"CurrentArmor": 85,
 			"CurrentRearArmor": 40,
 			"CurrentInternalStructure": 80,
 			"AssignedArmor": 85,
 			"AssignedRearArmor": 40
-========
-			"CurrentArmor": 160,
-			"CurrentRearArmor": 80,
-			"CurrentInternalStructure": 80,
-			"AssignedArmor": 160,
-			"AssignedRearArmor": 80
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"CurrentArmor": 175,
 			"CurrentRearArmor": 70,
 			"CurrentInternalStructure": 115,
 			"AssignedArmor": 175,
 			"AssignedRearArmor": 70
-========
-			"CurrentArmor": 230,
-			"CurrentRearArmor": 115,
-			"CurrentInternalStructure": 115,
-			"AssignedArmor": 230,
-			"AssignedRearArmor": 115
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightTorso",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"CurrentArmor": 85,
 			"CurrentRearArmor": 40,
 			"CurrentInternalStructure": 80,
 			"AssignedArmor": 85,
 			"AssignedRearArmor": 40
-========
-			"CurrentArmor": 160,
-			"CurrentRearArmor": 80,
-			"CurrentInternalStructure": 80,
-			"AssignedArmor": 160,
-			"AssignedRearArmor": 80
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightArm",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"CurrentArmor": 150,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 85,
 			"AssignedArmor": 150,
-========
-			"CurrentArmor": 120,
-			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 60,
-			"AssignedArmor": 120,
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"CurrentArmor": 80,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 80,
 			"AssignedArmor": 80,
-========
-			"CurrentArmor": 145,
-			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 80,
-			"AssignedArmor": 145,
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"CurrentArmor": 80,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 80,
 			"AssignedArmor": 80,
-========
-			"CurrentArmor": 145,
-			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 80,
-			"AssignedArmor": 145,
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 			"AssignedRearArmor": -1
 		}
 	],
@@ -229,7 +158,6 @@
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engineslots_xl_center",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -428,18 +356,15 @@
 		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
-========
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
 		},
 		{
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
@@ -464,190 +389,6 @@
 		{
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Weapon_MRM_MRM20_0-STOCK",
-========
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_engineslots_size3",
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
-========
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "emod_engineslots_size3",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "emod_leg_hip",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "emod_leg_upper",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "emod_leg_lower",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "emod_leg_foot",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightLeg",
-			"ComponentDefID": "emod_leg_hip",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightLeg",
-			"ComponentDefID": "emod_leg_upper",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightLeg",
-			"ComponentDefID": "emod_leg_lower",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightLeg",
-			"ComponentDefID": "emod_leg_foot",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "emod_arm_part_shoulder",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "emod_arm_part_upper",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "emod_arm_part_lower",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "emod_arm_part_shoulder",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "emod_arm_part_upper",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "emod_arm_part_lower",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -657,57 +398,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
-			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC5",
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
-			"ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
-========
-			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC5",
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -720,9 +411,28 @@
 		{
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
-========
-			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC5",
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
@@ -744,11 +454,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
 			"ComponentDefID": "Weapon_MRM_MRM20_0-STOCK",
-========
-			"ComponentDefID": "Weapon_Autocannon_UAC5_0-STOCK",
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -781,7 +487,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -792,21 +498,6 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-<<<<<<<< HEAD:BT Advanced Mechs/mech/mechdef_crabrauder_CRB-MAD-1X.json
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-========
-			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
->>>>>>>> PappysteinDev:Community Content/mech/mechdef_marauder_MAD-BM.json
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
@@ -818,28 +509,6 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

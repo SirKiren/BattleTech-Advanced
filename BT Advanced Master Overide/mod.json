@@ -99,8 +99,8 @@
 		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" },
 		{ "Type": "CCDefaults", "Path": "Defaults", "ShouldMergeJSON": false},
 		{ "Type": "UpgradeDef", "Path": "ChassisDefaults" },
-		{ "Type": "UpgradeDef",	"Path": "lootable/Internals" },
-		{ "Type": "UpgradeDef",	"Path": "lootable/Actuators" },
-		{ "Type": "HeatSinkDef", "Path": "lootable/Engines" }
+		{ "Type": "UpgradeDef",	"Path": "Lootable/Internals" },
+		{ "Type": "UpgradeDef",	"Path": "Lootable/Actuators" },
+		{ "Type": "HeatSinkDef", "Path": "Lootable/Engines" }
 	]
 }

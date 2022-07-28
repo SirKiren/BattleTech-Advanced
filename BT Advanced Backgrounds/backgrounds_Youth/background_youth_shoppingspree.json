@@ -23,7 +23,7 @@
 			{
 				"typeString": "System.Int32",
 				"name": "Morale",
-				"value": "5",
+				"value": "3",
 				"set": false,
 				"valueConstant": null
 			},
