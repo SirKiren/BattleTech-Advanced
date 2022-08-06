@@ -21,7 +21,7 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Thermal Exchanger Clan II",
-		"UIName": "Exchanger Clan",
+		"UIName": "Exchanger Clan II",
 		"Id": "Gear_HeatSink_Generic_Thermal-Exchanger-Clan1",
 		"Name": "Thermal Exchanger Clan II",
 		"Details": "Thermal Exchangers reduce the overall heat generated from weapon attacks by a fixed percentage. Unlike Heat Sink components, Thermal Exchangers are not impacted by the surrounding environment.",
