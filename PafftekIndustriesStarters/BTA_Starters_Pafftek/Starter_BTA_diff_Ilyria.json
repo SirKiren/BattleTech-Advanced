@@ -17,7 +17,7 @@
 				{
 					"ConstantType": "CareerMode",
 					"ConstantName": "StartingRandomMechLists",	
-					"ConstantValue":"itemCollection_Mechs_PafftekStartingMediums,itemCollection_Mechs_MercuryII,itemCollection_Mechs_LongShot,itemCollection_Mechs_Scout_Light,itemCollection_Mechs_Nimble,itemCollection_Mechs_EasyToMaintain_Light,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Combat,itemCollection_Vehicle_Arty"
+					"ConstantValue":"itemCollection_Mechs_MercuryII,itemCollection_Mechs_LongShot,itemCollection_Mechs_Scout_Light,itemCollection_Mechs_Nimble,itemCollection_Mechs_EasyToMaintain_Light,itemCollection_Mechs_EasyToMaintain_Light,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Combat,itemCollection_Vehicle_Arty"
 				},
 				{
 					"ConstantType": "CareerMode",

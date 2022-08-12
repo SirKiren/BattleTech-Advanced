@@ -1,0 +1,20 @@
+{
+	"Settings" : [
+		{
+			"Tag": "TBoneRideBTA", 
+			"CategoryID": "SensorsA",
+			"Type": "Upgrade",
+			"DefID": "Gear_Sensors_HighPowered_Default",
+			"Location": "Head", 
+			"AddIfNotPresent": true
+		},
+		{
+			"Tag": "TBoneRideBTA", 
+			"CategoryID": "SensorsB",
+			"Type": "Upgrade",
+			"DefID": "Gear_FCS_AC2_Default",
+			"Location": "Head", 
+			"AddIfNotPresent": true
+		}
+	]
+}

@@ -1,30 +1,35 @@
 {
+	"Custom": {
+		"ArmActuatorSupport": {
+			"RightLimit": "Lower"
+		}
+	},
 	"Description": {
-		"Cost": 12490000,
-		"Rarity": 4,
+		"Cost": 7872000,
+		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Corsair",
-		"Id": "chassisdef_corsair_COR-4J",
-		"Name": "Corsair",
-		"Details": "Early on T-Bone fell in love with the Frankenmech known as the Corsair, seeing the minature -4A variant in battle gave him some unique ideas.   The COR-4J mixes just about every technology threashold T-Bone could strap onto the chasssis, from clan Ultra Autocannons to Periphery Rifles.  This unique Frankemech will set the world afire.",
-		"Icon": "uixTxrIcon_corsair"
+		"UIName": "Cataphract",
+		"Id": "chassisdef_cataphract_CTF-4JK",
+		"Name": "Cataphract",
+		"Details": "A one off custom Cataphract made for Scorch.  Despite his callsign, Scortch really loved standard Cataphracts.   Thus this high speed revision of the CTF-4L came into existance.   ",
+		"Icon": "uixTxrIcon_cataphract"
 	},
-	"MovementCapDefID": "movedef_corsair_COR-5R",
+	"MovementCapDefID": "movedef_cataphract_CTF-1X",
 	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_rtcorsair1",
-	"PrefabIdentifier": "chrprfmech_rtcorsair1base-001",
-	"PrefabBase": "rtcorsair1",
-	"Tonnage": 75,
-	"InitialTonnage": 7.5,
+	"HardpointDataDefID": "hardpointdatadef_cataphract",
+	"PrefabIdentifier": "chrPrfMech_cataphractBase-001",
+	"PrefabBase": "cataphract",
+	"Tonnage": 70,
+	"InitialTonnage": 7,
 	"weightClass": "HEAVY",
-	"BattleValue": 9360000,
+	"BattleValue": 6577000,
 	"Heatsinks": 0,
 	"TopSpeed": 120,
 	"TurnRadius": 90,
 	"MaxJumpjets": 30,
-	"Stability": 200,
+	"Stability": 160,
 	"StabilityDefenses": [
 		0,
 		0,
@@ -39,13 +44,13 @@
 	"Signature": 0,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 80,
-	"MeleeInstability": 40,
+	"MeleeDamage": 75,
+	"MeleeInstability": 35,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 80,
+	"DFADamage": 75,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 80,
-	"DFAInstability": 40,
+	"DFASelfDamage": 75,
+	"DFAInstability": 35,
 	"Locations": [
 		{
 			"Location": "Head",
@@ -60,27 +65,9 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Ballistic",
+					"WeaponMount": "Energy",
 					"Omni": false
 				},
-				{
-					"WeaponMount": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Ballistic",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 120,
-			"MaxRearArmor": -1,
-			"InternalStructure": 60
-		},
-		{
-			"Location": "LeftTorso",
-			"Hardpoints": [
 				{
 					"WeaponMount": "Energy",
 					"Omni": false
@@ -88,140 +75,137 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 160,
-			"MaxRearArmor": 80,
-			"InternalStructure": 80
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
 		},
 		{
 			"Location": "CenterTorso",
 			"Hardpoints": [
+
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "AntiPersonnel",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 230,
-			"MaxRearArmor": 115,
-			"InternalStructure": 115
+			"MaxArmor": 220,
+			"MaxRearArmor": 110,
+			"InternalStructure": 110
 		},
 		{
 			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
 			"Hardpoints": [
 				{
 					"WeaponMount": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}				
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 160,
-			"MaxRearArmor": 80,
-			"InternalStructure": 80
-		},
-		{
-			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Ballistic",
+					"WeaponMount": "Energy",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
+			"MaxArmor": 110,
 			"MaxRearArmor": -1,
-			"InternalStructure": 60
+			"InternalStructure": 55
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 160,
+			"MaxArmor": 150,
 			"MaxRearArmor": -1,
-			"InternalStructure": 80
+			"InternalStructure": 75
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 160,
+			"MaxArmor": 150,
 			"MaxRearArmor": -1,
-			"InternalStructure": 80
+			"InternalStructure": 75
 		}
 	],
 	"LOSSourcePositions": [
 		{
 			"x": 0,
-			"y": 17,
+			"y": 15,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 14,
 			"z": 0
 		},
 		{
-			"x": 5,
-			"y": 16,
-			"z": -1
-		},
-		{
-			"x": -5,
-			"y": 16,
-			"z": -1
+			"x": -4,
+			"y": 14,
+			"z": 0
 		}
 	],
 	"LOSTargetPositions": [
 		{
 			"x": 0,
-			"y": 17,
+			"y": 15,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 14,
 			"z": 0
 		},
 		{
-			"x": 5,
-			"y": 16,
-			"z": -1
+			"x": -4,
+			"y": 14,
+			"z": 0
 		},
 		{
-			"x": -5,
-			"y": 16,
-			"z": -1
+			"x": 3,
+			"y": 5,
+			"z": 0
 		},
 		{
-			"x": 3.5,
-			"y": 5.5,
-			"z": 1
-		},
-		{
-			"x": -3.5,
-			"y": 5.5,
-			"z": 1
+			"x": -3,
+			"y": 5,
+			"z": 0
 		}
 	],
-	"VariantName": "COR-4J",
-	"ChassisTags": {
-		"items": [
-			"TBoneRideBTA"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "T-Bone's Ride",
-	"YangsThoughts": "So this is the Frankenmech that T-Bone made for himself.  I gotta say better than the 4A... by how much I don't know... but better.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_Rugged_Corsair",
+			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Cataphract",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -240,5 +224,14 @@
             "prefabName" : "",
             "hasPrefabName" : true
         }
-	]
+	],
+	"VariantName": "CTF-4JK",
+	"ChassisTags": {
+		"items": [
+			"Celestial"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Stealth Sniper",
+	"YangsThoughts": "A one off conversion for Scorch, the CTF-4JK is basically an improved -4L."
 }

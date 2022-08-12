@@ -92,8 +92,8 @@
 			"UIName": "RapidFire",
 			"isBaseMode": false,
 			"Cooldown": 2,
-			"ShotsWhenFired": 3,
-			"RefireModifier": 5,
+			"ShotsWhenFired": 2,
+			"RefireModifier": 8,
 			"HeatGenerated": 22
 		},
 	
