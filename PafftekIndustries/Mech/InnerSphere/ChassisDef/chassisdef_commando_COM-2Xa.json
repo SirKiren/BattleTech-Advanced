@@ -1,14 +1,14 @@
 {
 	"Description": {
-		"Cost": 1406480,
-		"Rarity": 1,
+		"Cost": 2100000,
+		"Rarity": 0,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Primitive Commando",
-		"Id": "chassisdef_commando_COM-1AK",
-		"Name": "Commando Primitive",
-		"Details": "The original Commando used prototype equipment that was similarly primitive to those found in the first BattleMech, the Mackie. The COM-1AK is a Retrotech variant of the COM-1A, produced by Periphery powers who can't quite make a true BattleMech but need something to look scary to pirates. It drops the Large Laser of the -1A for two Medium Lasers and a Small Laser, with the rest of the tonnage going into armor.",
+		"UIName": "Super Commando",
+		"Id": "chassisdef_commando_COM-2Xa",
+		"Name": "Super Commando",
+		"Details": "Designed by rouge engineers looking for a 'Fun Project' the Super Commando adds 5 tons of mass to the bones of a standard Commando COM-2D.  This makes the mech just SLIGHTLY talller but much more survivable.   To quote one of the engineers: 'It is amazing what 5 extra tons of chassis mass can do'.  The COM-Xa is a Drop in replacement for a COM-2D in any lance.  However it does carry the nearly unique Improved Extra Light Shielding for the engine.",
 		"Icon": "uixTxrIcon_commando"
 	},
 	"MovementCapDefID": "movedef_commando_COM-2D",
@@ -16,8 +16,8 @@
 	"HardpointDataDefID": "hardpointdatadef_commando",
 	"PrefabIdentifier": "chrPrfMech_commandoBase-001",
 	"PrefabBase": "commando",
-	"Tonnage": 25,
-	"InitialTonnage": 2.5,
+	"Tonnage": 30,
+	"InitialTonnage": 3.0,
 	"weightClass": "LIGHT",
 	"BattleValue": 2061000,
 	"Heatsinks": 0,
@@ -39,12 +39,12 @@
 	"Signature": 0,
 	"Radius": 4,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 35,
+	"MeleeDamage": 40,
 	"MeleeInstability": 10,
-	"MeleeToHitModifier": -1,
-	"DFADamage": 35,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 40,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 35,
+	"DFASelfDamage": 40,
 	"DFAInstability": 10,
 	"Locations": [
 		{
@@ -53,7 +53,7 @@
 				{
 					"WeaponMount": "AntiPersonnel",
 					"Omni": false
-				}
+				}			
 			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
@@ -67,72 +67,103 @@
 				{
 					"WeaponMount": "Energy",
 					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 40,
-			"MaxRearArmor": -1,
-			"InternalStructure": 20
-		},
-		{
-			"Location": "LeftTorso",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 60,
-			"MaxRearArmor": 30,
-			"InternalStructure": 30
-		},
-		{
-			"Location": "CenterTorso",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 16,
-			"MaxArmor": 80,
-			"MaxRearArmor": 40,
-			"InternalStructure": 40
-		},
-		{
-			"Location": "RightTorso",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 60,
-			"MaxRearArmor": 30,
-			"InternalStructure": 30
-		},
-		{
-			"Location": "RightArm",
-			"Hardpoints": [
+				},				
 				{
 					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
+			"MaxArmor": 50,
 			"MaxRearArmor": -1,
-			"InternalStructure": 20
+			"InternalStructure": 25
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 16,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				}			
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}				
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": -1,
+			"InternalStructure": 25
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 60,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
-			"InternalStructure": 30
+			"InternalStructure": 35
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 60,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
-			"InternalStructure": 30
+			"InternalStructure": 35
 		}
 	],
 	"LOSSourcePositions": [
@@ -179,30 +210,34 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "COM-1AK",
+	"VariantName": "COM-2Xa",
 	"ChassisTags": {
-		"items": [
-			"Primitive"
-		],
+		"items": [],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Light Sniper & Scout",
-	"YangsThoughts": "The original Commando used prototype equipment that was similarly primitive to those found in the first BattleMech, the Mackie. The COM-1AK is a Retrotech variant of the COM-1A, produced by Periphery powers who can't quite make a true BattleMech but need something to look scary to pirates. It drops the Large Laser of the -1A for two Medium Lasers and a Small Laser, with the rest of the tonnage going into armor.",
+	"StockRole": "Light Striker & Scout",
+	"YangsThoughts": "Designed by Rogue Engineers, Produced where it could be when it could be, this mech has entered some interesting units.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_PrimitiveRugged_Commando",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Commando",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"GUID": null,
+			"IsFixed": true,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		}
-	],
-	"CustomParts": {
-		"CustomParts": []
-	}
+		},
+		{
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_endosteel",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        }
+	]
 }

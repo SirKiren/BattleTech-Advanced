@@ -208,6 +208,7 @@
   "VariantName": "BZK-F3S",
   "ChassisTags": {
     "items": [
+		"mr-resize-0.80-0.80-0.80"
 	],
     "tagSetSourceFile": ""
   },
