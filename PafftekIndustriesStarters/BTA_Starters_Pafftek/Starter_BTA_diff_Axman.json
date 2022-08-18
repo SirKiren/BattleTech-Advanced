@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_Axman",
+				"Name": "Axman",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.2,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Kaitangata"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+					"ConstantValue": "itemCollection_Mechs_Starting_Custom_Heavy,itemCollection_Mechs_Generic_SLDF_Medium,itemCollection_Mechs_Generic_SLDF_Medium,itemCollection_Mechs_Generic_SLDF_Light,itemCollection_Mechs_Generic_SLDF_Light"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "FactionReputation",
+						"ConstantValue": "Davion:30"
+					}
+				]
+			}
+		}
+	]
+}

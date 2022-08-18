@@ -18,7 +18,7 @@
 		"Purchasable": false,
 		"Manufacturer": "Generic",
 		"Model": "Reserved Slots",
-		"UIName": "Avionics",
+		"UIName": "Landing Gear",
 		"Id": "emod_LandingGear_size1",
 		"Name": "Landing Gear",
 		"Details": "Landing Gear for LAMs",

@@ -89,7 +89,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 16,
 			"MaxArmor": 220,
 			"MaxRearArmor": 110,
 			"InternalStructure": 110
@@ -200,28 +200,6 @@
 	"StockRole": "Age of War Heavy",
 	"YangsThoughts": "The second BattleMech model introduced by the Free Worlds League, the Hector entered service in 2471. Built by Corean Enterprises on Stewart, it used a simple design suited for mass production and quickly became the workhorse of the Free Worlds League Military's 'Mech regiments despite being limited by the primitive technology of the time. Even though it had respectable heavy mech speed for its era, the paltry Large Lasers and Machine Guns led to the Hector quickly being outclassed and was a lost design early on. However, the mech was eventually put back into production in retrotech factories in the Periphery in the 3060s.",
 	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_Primitive_center",
-			"SimGameUID": "",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Primitive",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Quirk_PrimitiveRugged_Hector",

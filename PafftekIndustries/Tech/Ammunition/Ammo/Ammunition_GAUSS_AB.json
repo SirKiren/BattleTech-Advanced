@@ -19,5 +19,5 @@
    "DamagePerShot": -15.0,
    "AOECapable": true,
 	"AOERange": 60,
-	"AOEDamage": 35
+	"AOEDamage": 15
 }

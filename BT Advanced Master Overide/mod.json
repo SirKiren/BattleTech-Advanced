@@ -101,6 +101,14 @@
 		{ "Type": "UpgradeDef", "Path": "ChassisDefaults" },
 		{ "Type": "UpgradeDef",	"Path": "Lootable/Internals" },
 		{ "Type": "UpgradeDef",	"Path": "Lootable/Actuators" },
-		{ "Type": "HeatSinkDef", "Path": "Lootable/Engines" }
+		{ "Type": "HeatSinkDef", "Path": "Lootable/Engines" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Verneuk Munitions/AdvancedDevices" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Verneuk Munitions/Internals" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Verneuk Munitions/EWAR" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Verneuk Munitions/Upgrades" },
+		{ "Type": "WeaponDef", "Path": "Tech/Verneuk Munitions/Weapons" },		
+        { "Type": "JumpJetDef", "Path": "Tech/Verneuk Munitions/JumpJets" },
+		{ "Type": "AmmunitionBoxDef", "Path": "Tech/Verneuk Munitions/Ammunition/AmmoBoxes" },	
+		{ "Type": "AmmunitionDef", "Path": "Tech/Verneuk Munitions/Ammunition/Ammo" }		
 	]
 }

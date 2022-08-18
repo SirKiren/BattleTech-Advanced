@@ -330,7 +330,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -341,7 +341,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -352,7 +352,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_-1-Agra",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -363,7 +363,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaser_-1-Agra",
+			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
@@ -429,7 +429,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -440,7 +440,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,

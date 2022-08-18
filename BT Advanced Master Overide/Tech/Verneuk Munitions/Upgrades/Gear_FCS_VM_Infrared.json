@@ -1,0 +1,146 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsB"
+      },
+      {
+        "CategoryID": "ThermalVision"
+      }
+    ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.1 * [[Chassis.Tonnage]]",
+        "CBillCost": "1.15 * [[Chassis.Tonnage]]"
+      }
+    },
+    "BonusDescriptions": {
+      "Bonuses": [
+        "ThermalVision: 1, 20, 300",
+        "FCS"
+      ]
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
+    },
+    "ActivatableComponent": {
+      "CanActivateAfterMove": false,
+      "CanActivateAfterFire": false,
+      "SafeActivation": true,
+      "ButtonName": "IR Vision Mode",
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": true,
+      "ActiveByDefault": false,
+      "ActivationMessage": "Active",
+      "DeactivationMessage": "Passive",
+      "Linkage": {
+        "OnActivate": {
+          "Activate": [],
+          "Deactivate": []
+        },
+        "OnDeactivate": {
+          "Activate": [],
+          "Deactivate": []
+        }
+      },
+      "statusEffects": [
+		{
+		  "durationData": {
+			"duration": -1,
+			"stackLimit": -1
+		  },
+		  "targetingData": {
+			"effectTriggerType": "Passive",
+			"effectTargetType": "Creator",
+			"showInTargetPreview": false,
+			"showInStatusPanel": false
+		  },
+		  "effectType": "StatisticEffect",
+		  "Description": {
+			"Id": "Heat Vision Effect",
+			"Name": "Bonus Accuracy against heat",
+			"Details": "heat bonus accuracy",
+			"Icon": "uixSvgIcon_ability_precisionstrike"
+		  },
+		  "nature": "Buff",
+		  "statisticData": {
+			"statName": "LV_HEAT_VISION",
+			"operation": "Set",
+			"modValue": "-1_20_300",
+			"modType": "System.String"
+		  }
+		},
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Stealth_Heat_Generation_Stealth",
+            "Name": "Increased Heat",
+            "Details": "Heat generation",
+            "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "HeatGenerated",
+            "operation": "Float_Add",
+            "modValue": "10",
+            "modType": "System.Single",
+            "targetCollection": "Weapon"
+          }
+        }		
+      ],
+      "offlineStatusEffects": [
+ 
+      ]
+    },		
+    "InventorySorter": {
+      "SortKey": "00201"
+    }
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 1150000,
+    "Rarity": 8,
+    "Purchasable": true,
+    "Manufacturer": "Doering Electronics",
+    "Model": "VM IR Vision",
+    "UIName": "FCS VM IR Vision",
+    "Id": "Gear_FCS_VM_Infrared",
+    "Name": "Weapons Computer",
+    "Details": "Verneuk Manufacturing, making your tech CHEEPER!  Verneuk now introduces the advanced Toggleable Infrared Heat improved Fire Control system.   This FCS allows you to target overheating enemy mechs with ease!  ",
+    "Icon": "uixSvgIcon_equipment_Rangefinder"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

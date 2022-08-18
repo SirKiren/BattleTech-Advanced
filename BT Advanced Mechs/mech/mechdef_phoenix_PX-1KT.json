@@ -324,7 +324,7 @@
 		},
 		{
 			"MountedLocation": "LeftLeg",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -335,7 +335,7 @@
 		},
 		{
 			"MountedLocation": "RightLeg",
-			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
+			"ComponentDefID": "Gear_HeatSink_Generic_Basic",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
