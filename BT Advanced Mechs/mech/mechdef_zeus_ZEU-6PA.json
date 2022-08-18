@@ -13,6 +13,8 @@
 			"Delphi",
 			"Rim",
 			"Marian",
+			"Illyrian",
+			"Lothian",
 			"Tortuga",
 			"Locals",
 			"AuriganMercenaries",
@@ -36,7 +38,7 @@
 			"BountyHunterAssociates",
 			"BaumannGroup",
 			"BlackWidowCompany",
-			"unit_notsacellum"
+			"unit_legal"
 		],
 		"tagSetSourceFile": ""
 	},

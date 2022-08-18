@@ -237,9 +237,9 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_kit_dhs_royal",
+			"ComponentDefID": "Gear_Quirk_Royal_BattleMechs",
 			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
