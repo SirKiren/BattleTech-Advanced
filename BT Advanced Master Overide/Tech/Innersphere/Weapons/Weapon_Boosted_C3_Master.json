@@ -11,7 +11,7 @@
 		"Linked": {
 			"Links": [
 				{
-					"ComponentDefId": "Gear_C3_Master",
+					"ComponentDefId": "Gear_boosted_C3_Master",
 					"Location": "CenterTorso",
 					"ComponentDefType": "Upgrade"
 				}
@@ -22,8 +22,8 @@
 				"C3",
 				"C3Master",
 				"C3ECMWeakness",
-				"C3MResolve: 120, +2",
-				"C3MEvasion: 120, +1",
+				"C3MResolve: 150, +2",
+				"C3MEvasion: 150, +2",
 				"TAG: 2",
 				"EvasionIgnored: 3"
 			]
@@ -33,11 +33,11 @@
 	"Type": "Laser",
 	"WeaponSubType": "SmallLaserER",
 	"MinRange": 0,
-	"MaxRange": 570,
+	"MaxRange": 750,
 	"RangeSplit": [
-		210,
-		360,
-		510
+		250,
+		450,
+		650
 	],
 	"AmmoCategory": "NotSet",
 	"StartingAmmoCapacity": 0,
@@ -55,7 +55,7 @@
 	"RefireModifier": 0,
 	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 1,
-	"AttackRecoil": 1,
+	"AttackRecoil": 0,
 	"Instability": 0,
 	"WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
 	"Description": {
@@ -63,10 +63,10 @@
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "Tanadi",
-		"Model": "C3 Master Unit",
-		"UIName": "C3 Master",
-		"Id": "Weapon_C3_Master",
-		"Name": "C3 Master",
+		"Model": "Boosted C3 Master Unit",
+		"UIName": "Boosted C3 Master",
+		"Id": "Weapon_Boosted_C3_Master",
+		"Name": "Boosted C3 Master",
 		"Details": "Acting as the core of a C3 Network, the C3 Master unit provides incredible coordination efforts for C3-equipped units, including increased resolve generation and evasion ignore for weapon attacks. It also functions as a super-powered TAG system, allowing for coordinated designation of targets. C3 Masters coordinate with other C3 units to provide targeting data for all units linked into the network, though Master units are not strictly necessary for the network to function even if they do provide the best benefits to units in the network.",
 		"Icon": "mesh-network"
 	},
@@ -76,8 +76,8 @@
 	"ComponentSubType": "Weapon",
 	"PrefabIdentifier": "Laser",
 	"BattleValue": 0,
-	"InventorySize": 3,
-	"Tonnage": 3,
+	"InventorySize": 5,
+	"Tonnage": 6,
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
@@ -86,7 +86,7 @@
 			"Id": "Gear_C3M_EvaIgnore",
 			"Name": "C3M Evasion Ignore",
 			"ReticleColor": "#1a91ea",
-			"Range": 120,
+			"Range": 150,
 			"RemoveOnSensorLock": false,
 			"State": "Persistent",
 			"ApplySelf": false,
@@ -94,7 +94,7 @@
 			"EnemyStealthAffection": "None",
 			"IsPositiveToAlly": true,
 			"IsNegativeToEnemy": true,
-			"neededTags": [ "C3B_Network" ],
+			"neededTags": [ "C3_Network" ],
 			"ownerVFX": [],
 			"targetVFX": [],
 			"removeOwnerVFX": [],
@@ -130,7 +130,7 @@
 					"statisticData": {
 						"statName": "EvasivePipsIgnored",
 						"operation": "Float_Add",
-						"modValue": "1.0",
+						"modValue": "2.0",
 						"modType": "System.Single",
 						"targetCollection": "Weapon"
 					}
@@ -141,7 +141,7 @@
 			"Id": "Gear_C3M_Resolve",
 			"Name": "C3M Resolve",
 			"ReticleColor": "#1a91ea",
-			"Range": 120,
+			"Range": 150,
 			"RemoveOnSensorLock": false,
 			"State": "Persistent",
 			"ApplySelf": true,
@@ -149,7 +149,7 @@
 			"EnemyStealthAffection": "None",
 			"IsPositiveToAlly": true,
 			"IsNegativeToEnemy": false,
-			"neededTags": [ "C3B_Network" ],
+			"neededTags": [ "C3_Network" ],
 			"ownerVFX": [],
 			"targetVFX": [],
 			"removeOwnerVFX": [],
