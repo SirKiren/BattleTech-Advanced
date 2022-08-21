@@ -19,7 +19,7 @@
 			"Mercenaries",
 			"AuriganPirates",
 			"HostileMercenaries",
-			"unit_notsacellum"  
+			"unit_legal"  
     ],
     "tagSetSourceFile": ""
   },

@@ -18,7 +18,7 @@
 			"Davion",
 			"Kurita",
 			"HouseNakano",
-			"unit_notsacellum"
+			"unit_legal"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -195,6 +195,13 @@
 			"ComponentDefID": "emod_engine_270",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_C3_Master",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Rear",
+			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 		{

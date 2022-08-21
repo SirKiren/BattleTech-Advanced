@@ -206,14 +206,18 @@
 			"Tag": "C3Slave",
 			"IncompatibleTags": [
 				"C3Master",
-				"C3i"
+				"C3i",
+				"NullSig",
+				"CLPS"
 			]
 		},
 		{
 			"Tag": "C3Master",
 			"IncompatibleTags": [
 				"C3Slave",
-				"C3i"
+				"C3i",
+				"NullSig",
+				"CLPS"
 			]
 		},
 		{

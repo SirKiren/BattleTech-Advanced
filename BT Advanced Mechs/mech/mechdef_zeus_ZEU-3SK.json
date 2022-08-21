@@ -11,6 +11,8 @@
 			"Steiner",
 			"Marik",
 			"Marian",
+			"Illyrian",
+			"Lothian",
 			"Rim",
 			"Hanse",
 			"Chainelane",
@@ -66,7 +68,7 @@
 			"BountyHunterAssociates",
 			"BaumannGroup",
 			"BlackWidowCompany",
-			"unit_notsacellum"
+			"unit_legal"
 		],
 		"tagSetSourceFile": ""
 	},

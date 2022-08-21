@@ -15,12 +15,18 @@
     },
     "Flags": {
       "flags": [
+		"default",	  
         "not_broken"
+			"no_salvage",
+			"autorepair"
       ]
     },
     "InventorySorter": {
       "SortKey": "00201"
-    }
+    },
+		"Lootable": {
+			"ItemID": "Gear_FCS_AC2"
+		}
   },
   "StatName": null,
   "RelativeModifier": 0,

@@ -86,7 +86,7 @@
 			"BountyHunterAssociates",
 			"BaumannGroup",
 			"BlackWidowCompany",
-			"unit_notsacellum"
+			"unit_legal"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -245,13 +245,6 @@
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Left",
 			"HardpointSlot": 1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Rear",
-			"ComponentDefID": "emod_engineslots_std_center",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
