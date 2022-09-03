@@ -1,0 +1,33 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_start_331",
+				"Name": "331st_RCT",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 0,
+				"CareerScoreModifier": 0.7,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Fatima"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_PafftekWolverines,itemCollection_Mechs_PafftekWolverines,itemCollection_Mechs_MercuryII,itemCollection_Mechs_PafftekStag,itemCollection_Mechs_Spider,itemCollection_Mechs_Spider,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Combat,itemCollection_Vehicle_Arty,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything"
+					},
+				{
+					"ConstantType": "CareerMode",
+					"ConstantName": "FactionReputation",
+					"ConstantValue": "Steiner:30,AuriganPirates:30,Kurita:30,ClanNovaCat:30,Wolfs_Dragoons:100,Rasalhague:30"
+				}
+				]
+			}
+		}
+	]
+}

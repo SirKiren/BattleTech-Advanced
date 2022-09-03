@@ -6,10 +6,10 @@
 			"Action": "ArrayAdd",
 			"Value": {
 				"ID": "diff_Axman",
-				"Name": "Axman",
+				"Name": "Hitter",
 				"TelemetryEventDesc": "",
 				"DifficultyValue": 0,
-				"CareerScoreModifier": 0.2,
+				"CareerScoreModifier": 0.4,
 				"DifficultyConstants": [
 					{
 						"ConstantType": "CareerMode",
@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-					"ConstantValue": "itemCollection_Mechs_Starting_Custom_Heavy,itemCollection_Mechs_Generic_SLDF_Medium,itemCollection_Mechs_Generic_SLDF_Medium,itemCollection_Mechs_Generic_SLDF_Light,itemCollection_Mechs_Generic_SLDF_Light"
+					"ConstantValue": "itemCollection_Mechs_Starting_Custom_Heavy,itemCollection_Mechs_Generic_SLDF_Medium,itemCollection_Mechs_PafftekStartingMediums,itemCollection_Mechs_Spider,itemCollection_Mechs_Spider,itemCollection_Vehicle_Scout,itemCollection_Vehicle_Combat,itemCollection_Vehicle_Arty,itemCollection_Mechs_Generic_BattleArmor_Everything,itemCollection_Mechs_Generic_BattleArmor_Everything"
 					},
 					{
 						"ConstantType": "CareerMode",

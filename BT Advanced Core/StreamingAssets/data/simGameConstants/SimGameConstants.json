@@ -1,6 +1,6 @@
 {
 	"Travel": {
-		"MaxJumpDistance": 50
+		"MaxJumpDistance": 65
 	},
 	"Finances": {
 		"QuarterLength": 30,
@@ -44,8 +44,8 @@
 		"ContractNegotiableReputationAddition": 5
 	},
 	"Story": {
-		"CampaignStartDate": "3062-01-01T05:00:00Z",
-		"MaxMechWarriorsPerPod" : 12,
+		"CampaignStartDate": "3061-01-01T05:00:00Z",
+		"MaxMechWarriorsPerPod" : 16,
 		"FriendlyMaxContractDifficulty": 6,
 		"HonoredMaxContractDifficulty": 6,
 		"DefaultRoninHiringChance": 0.2,
@@ -55,7 +55,8 @@
 		],
 		"HighRepNotificationValue": 50,
 		"DailyHealValue": 0,
-		"MedTechSkillMod": 1
+		"MedTechSkillMod": 1,
+		"EmployerRepBadFaithMod" : -1
 	},
 	"Flashpoints": {
 		"MaxActiveFlashpoints": 10,
@@ -63,7 +64,7 @@
 		"GreaterThanThisTotalWeightIsHeavyLance": 240
 	},
 	"CareerMode": {
-		"CampaignStartDate": "3062-01-01T05:00:00Z",
+		"CampaignStartDate": "3061-06-01T05:00:00Z",
 		"FlashpointStartRange": [
 			14,
 			21

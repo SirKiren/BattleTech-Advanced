@@ -9,7 +9,7 @@
 		{
 			"CategoryID": "SensorsA",
 			"Type": "Upgrade",
-			"DefID": "Gear_SensorsA_Generic_Standard",
+			"DefID": "Gear_Cockpit_SensorsA_Standard",
 			"Location": "Head"
 		},
 		{
@@ -21,7 +21,7 @@
 		{
 			"CategoryID": "SensorsB",
 			"Type": "Upgrade",
-			"DefID": "Gear_SensorsB_Generic_Standard",
+			"DefID": "Gear_Cockpit_SensorsB_Standard",
 			"Location": "Head"
 		},
 		{
@@ -129,6 +129,20 @@
 			"AnyLocation": false
 		},
 		{
+			"Tag": "RoyalMech",
+			"CategoryID": "LifeSupportB",
+			"Type": "Upgrade",
+			"DefID": "Gear_Quirk_Royal_BattleMechs",
+			"Location": "Head"
+		},
+		{
+			"Tag": "HeroMech",
+			"CategoryID": "LifeSupportB",
+			"Type": "Upgrade",
+			"DefID": "Gear_Quirk_Hero_BattleMech",
+			"Location": "Head"
+		},
+		{
 			"Tag": "QuadMech",
 			"CategoryID": "LegHip",
 			"Type": "Upgrade",
@@ -198,6 +212,20 @@
 			"Type": "Upgrade",
 			"DefID": "emod_armorslots_clstandard",
 			"Location": "CenterTorso"
+		},
+		{
+			"Tag": "ClanMech",
+			"CategoryID": "LifeSupportA",
+			"Type": "Upgrade",
+			"DefID": "Gear_LifeSupportA_Clan_Quirk",
+			"Location": "Head"
+		},
+		{
+			"Tag": "IndustrialMech",
+			"CategoryID": "LifeSupportB",
+			"Type": "Upgrade",
+			"DefID": "Gear_Quirk_Industrial_BattleMech",
+			"Location": "Head"
 		}
 	]
 }

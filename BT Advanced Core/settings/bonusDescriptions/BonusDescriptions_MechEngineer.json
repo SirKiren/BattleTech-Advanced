@@ -25,46 +25,46 @@
 			"Full": "{0} Modifier to Through Armor Critical Chance"
 		},
 		{
-			"Bonus": "AllSkills",
-			"Short": "{0} Skills",
-			"Long": "{0} Skills",
-			"Full": "Modifier of {0} to All Pilot Skills: Allows exceeding maximum skill level."
-		},
-		{
-			"Bonus": "SkillGunnery",
-			"Short": "{0} Gunnery",
-			"Long": "{0} Gunnery",
-			"Full": "Modifier of {0} to Gunnery: Allows exceeding maximum skill level."
-		},
-		{
-			"Bonus": "SkillGuts",
-			"Short": "{0} Guts",
-			"Long": "{0} Guts",
-			"Full": "Modifier of {0} to Guts: Allows exceeding maximum skill level."
-		},
-		{
-			"Bonus": "SkillTactics",
-			"Short": "{0} Tactics",
-			"Long": "{0} Tactics",
-			"Full": "Modifier of {0} to Tactics: Allows exceeding maximum skill level."
-		},
-		{
 			"Bonus": "Thunder",
-			"Short": "Thunder Munition",
-			"Long": "Thunder Munition",
-			"Full": "FASCAM munitions will create a minefield wherever a missile hit the ground"
+			"Short": "FASCAM Munition",
+			"Long": "FASCAM Munition",
+			"Full": "FASCAM munitions will create a minefield wherever a projectile hit the ground"
+		},
+		{
+			"Bonus": "ThunderAugmented",
+			"Short": "FASCAM Augmented Munition",
+			"Long": "FASCAM Augmented Munition",
+			"Full": "FASCAM Augmented munitions will create a minefield wherever a projectile hit the ground but do so in a larger area than normal FASCAM munitions do."
 		},
 		{
 			"Bonus": "ThunderCripple",
 			"Short": "FASCAM Crippling",
 			"Long": "FASCAM Crippling",
-			"Full": "FASCAM munitions automatically damage the triggering unit's legs and will stop movement through them if they damage leg structure directly."
+			"Full": "FASCAM deploys mines, which will stop movement through them if they damage structure points directly."
+		},
+		{
+			"Bonus": "ThunderSympathetic",
+			"Short": "{0} Mine Sympathy",
+			"Long": "{0} Mine Sympathetic Detonation",
+			"Full": "These mines are subject to Sympathetic Detonation at a {0} chance when nearby mines of the same type are detonated."
+		},
+		{
+			"Bonus": "ThunderBurnReactionDestroy",
+			"Short": "Mine Reaction",
+			"Long": "Mine Burn Reaction",
+			"Full": "When subjected to fire damage (such as inferno missiles or flamers), these mines are destroyed without detonation."
+		},
+		{
+			"Bonus": "ThunderBurnReactionImmunity",
+			"Short": "Mine Reaction",
+			"Long": "Mine Burn Reaction",
+			"Full": "These mines are immune to being destroyed by fire."
 		},
 		{
 			"Bonus": "ThunderMines",
 			"Short": "{0} Mines",
 			"Long": "{0} Mines",
-			"Full": "{0} Mines per Projectile"
+			"Full": "{0} Mines laid per Projectile"
 		},
 		{
 			"Bonus": "ThunderRadius",
@@ -74,15 +74,21 @@
 		},
 		{
 			"Bonus": "ThunderChance",
-			"Short": "{0} Chance",
-			"Long": "{0} Chance",
-			"Full": "{0} Mine Trigger Chance"
+			"Short": "{0} Trigger Chance",
+			"Long": "{0} Trigger Chance",
+			"Full": "{0} Mine Trigger Chance when moving through the minefield"
 		},
 		{
 			"Bonus": "ThunderDamage",
 			"Short": "{0} Direct Damage",
 			"Long": "{0} Direct Damage",
 			"Full": "{0} Direct Mine Damage"
+		},
+		{
+			"Bonus": "ThunderHeatDamage",
+			"Short": "{0} Direct Heat Dmg.",
+			"Long": "{0} Direct Heat Damage",
+			"Full": "{0} Direct Mine Heat Damage"
 		},
 		{
 			"Bonus": "ThunderAOERadius",
@@ -107,12 +113,6 @@
 			"Short": "{0} AoE Stability Damage",
 			"Long": "{0} AoE Stability Damage",
 			"Full": "{0} AoE Mine Stability Damage"
-		},
-		{
-			"Bonus": "ThunderHeatDamage",
-			"Short": "{0} Direct Heat Dmg.",
-			"Long": "{0} Direct Heat Damage",
-			"Full": "{0} Direct Mine Heat Damage"
 		},
 		{
 			"Bonus": "SawedOffArtillery",
@@ -409,6 +409,12 @@
 			"Full": "{0} Accuracy when Activated"
 		},
 		{
+			"Bonus": "ActiveEvasionIgnore",
+			"Short": "{0} Eva.Ignore",
+			"Long": "{0} Evasion Ignore",
+			"Full": "{0} Evasion Ignored when Activated"
+		},
+		{
 			"Bonus": "ActiveWeaponDamage",
 			"Short": "{0} Weapon Damage",
 			"Long": "{0} Weapon Damage",
@@ -467,6 +473,12 @@
 			"Short": "{0} Called Shot",
 			"Long": "{0} Called Shot",
 			"Full": "Improves Called Shot modifier by {0} when Activated"
+		},
+		{
+			"Bonus": "DeactivatedDamageReduction",
+			"Short": "{0} DR",
+			"Long": "{0} Damage Reduction while Off",
+			"Full": "Provides {0} damage reduction when Deactivated."
 		},
 		{
 			"Bonus": "PenaltyCalledShot",
@@ -787,48 +799,6 @@
 			"Full": "{0} Sensor Stealth Initial Signature Reduction. Reduces detection by Sensors."
 		},
 		{
-			"Bonus": "ECM",
-			"Short": "ECM",
-			"Long": "ECM",
-			"Full": "Electronic Counter-Measures provide Effect as Aura when Active, or provide Effect for Carrier when Passive."
-		},
-		{
-			"Bonus": "ActiveECM",
-			"Short": "AECM",
-			"Long": "AECM",
-			"Full": "Active ECM Jams Enemies by {0} and reduces Jamming on Allies by {1} within {2} Meters. Light Blue Circle."
-		  },
-		  {
-			"Bonus": "PassiveECM",
-			"Short": "ECM",
-			"Long": "ECM",
-			"Full": "Passive ECM provides the carrier with ECM Shield of {0} and reduces Enemy Jamming by {1} on carrier"
-		  },
-		  {
-			"Bonus": "ECMSelf",
-			"Short": "ECM",
-			"Long": "ECM",
-			"Full": "Active ECM protects the carrier with ECM Shield of {0} and reduces Enemy Jamming by {1} on carrier."
-		  },
-		  {
-			"Bonus": "PersistentECM",
-			"Short": "ECM",
-			"Long": "ECM",
-			"Full": "Persistent Electronic Counter-Measures cannot be Toggled"
-		  },
-		  {
-			"Bonus": "PersistentECMAura",
-			"Short": "ECM",
-			"Long": "ECM",
-			"Full": "Persistent ECM Jams Enemies by {0} and reduces Jamming on Allies by {1} within {2} Meters."
-		  },
-		  {
-			"Bonus": "PersistentECMSelf",
-			"Short": "ECM",
-			"Long": "ECM",
-			"Full": "Persistent ECM provides the carrier with ECM Shield of {0} and reduces Enemy Jamming by {1}"
-		  },
-		{
 			"Bonus": "IsECM",
 			"Short": "ECM",
 			"Long": "{0} Electronic Countermeasures Suite",
@@ -838,7 +808,7 @@
 			"Bonus": "IFFJammer",
 			"Short": "IffJammer",
 			"Long": "I.F.F. Jammer",
-			"Full": "Identify Friend/Foe Jammer: Low-tier ECM granting {0} ECM Shield; Does not meet the ECM requirement to install Stealth Systems."
+			"Full": "Identify Friend/Foe Jammer- A low tier ECM that adds {0} to sensor checks but does not enable Stealth Systems."
 		},
 		{
 			"Bonus": "Jammer",
@@ -850,7 +820,7 @@
 			"Bonus": "PirateJammer",
 			"Short": "PirateJammer",
 			"Long": "Pirate Jammer",
-			"Full": "Low-tier ECM granting a penalty of {0} to enemy Initiative and Resolve within {1} meters; cannot enable Stealth Systems."
+			"Full": "A low tier ECM that adds {0} to sensor checks that can enable Stealth Systems but Lacks the ECM Bubble."
 		},
 		{
 			"Bonus": "BlueShield",
@@ -1036,6 +1006,12 @@
 			"Short": "Proto DHS",
 			"Long": "Proto DHS",
 			"Full": "Enables the Battlemech to use Prototype Heatsinks"
+		},
+		{
+			"Bonus": "CoolingSystemSDHS",
+			"Short": "(S)DHS Kit",
+			"Long": "(S)DHS Kit",
+			"Full": "Enables the Battlemech to use Sanctuary Double Heat Sinks"
 		},
 		{
 			"Bonus": "BonusAmmo",
@@ -1458,6 +1434,12 @@
 			"Full": "Short Range Missile Ammo - {0} Shots"
 		},
 		{
+			"Bonus": "AmmoCount",
+			"Short": "{0} Ammo",
+			"Long": "{0} Ammo",
+			"Full": "This ammunition box contains {0} ammunition."
+		},
+		{
 			"Bonus": "IsCoilLauncher",
 			"Short": "CL Missiles",
 			"Long": "Coil-Launched Missiles",
@@ -1699,46 +1681,88 @@
 		},
 		{
 			"Bonus": "Sharer",
-			"Short": "FoW Reveal",
-			"Long": "FoW Reveal",
-			"Full": "Fog of War stays revealed around this unit."
+			"Short": "Shares Sensors",
+			"Long": "Shares Sensors",
+			"Full": "Shares Sensor Information -currently not fully functional"
 		},
 		{
-			"Bonus": "C3",
+			"Bonus": "C3Jamming",
+			"Short": "C3 Jammer",
+			"Long": "C3 Jammer",
+			"Full": "C3 networks are fragile and are vulnerable to jamming. ECM effects jam C3 effects within {0} meters when activated, preventing any unit in the area from being part of any C3 networks."
+		},
+		{
+			"Bonus": "C3ECMWeakness",
+			"Short": "ECM Weakness",
+			"Long": "ECM Weakness",
+			"Full": "C3 networks are inherently fragile, causing the networks to be disabled when in the range of any ECM source, friendly or enemy."
+		},
+		{
+			"Bonus": "C3Slave",
 			"Short": "C3 Slave",
 			"Long": "C3 Slave",
-			"Full": "C3 Network Slave Unit - Shares Sensor Information"
+			"Full": "C3 Network Slave Unit - Connects unit to a C3 network, allowing it to share sensor data with other C3-equipped units."
 		},
 		{
 			"Bonus": "C3Master",
 			"Short": "C3 Master",
 			"Long": "C3 Master",
-			"Full": "C3 Network Master Unit - Shares Sensor Information"
+			"Full": "C3 Network Master Unit - Connects unit to a C3 network, allowing it to share sensor data with other C3-equipped units"
+		},
+		{
+			"Bonus": "C3",
+			"Short": "C3 Network",
+			"Long": "C3 Network",
+			"Full": "C3 Networks provide all C3-equipped units with the best possible range accuracy to enemy targets based on the closest C3-equipped unit in the network to the target."
+		},
+		{
+			"Bonus": "C3MResolve",
+			"Short": "C3M Resolve",
+			"Long": "C3M Resolve Gain",
+			"Full": "C3 Master provides all C3-equipped units within {0} meters with {1} resolve gain."
+		},
+		{
+			"Bonus": "C3MEvasion",
+			"Short": "C3M Eva. Ign.",
+			"Long": "C3M Evasion Ignore",
+			"Full": "C3 Master provides all C3-equipped units within {0} meters with {1} evasion ignore on weapon attacks."
+		},
+		{
+			"Bonus": "C3iECMHardened",
+			"Short": "ECM Hardening",
+			"Long": "ECM Hardening",
+			"Full": "C3i networks, unlike C3 networks, are hardened against ECM interference. C3i is not disabled when in range of an ECM source."
+		},
+		{
+			"Bonus": "C3iUnit",
+			"Short": "C3i Unit",
+			"Long": "C3i Unit",
+			"Full": "Improved C3 Network Unit - Connects unit to a C3i network, allowing it to share sensor data with other C3i-equipped units"
 		},
 		{
 			"Bonus": "C3i",
-			"Short": "C3i",
-			"Long": "C3i",
-			"Full": "C3 Improved Network Unit - Shares Sensor Information"
+			"Short": "C3i Network",
+			"Long": "C3i Network",
+			"Full": "C3i Networks provide all C3i-equipped units with the best possible range accuracy to enemy targets based on the closest C3i-equipped unit in the network to the target."
 		},
 		{
-			"Bonus": "C3Radius",
-			"Short": "Radius",
-			"Long": "{0} Meter C3 Radius",
-			"Full": "{0} meter radius for the C3 system's effects."
+			"Bonus": "C3iResolve",
+			"Short": "C3i Resolve",
+			"Long": "C3i Resolve Gain",
+			"Full": "C3i provides all C3i-equipped units within {0} meters with {1} resolve gain."
 		},
 		{
-			"Bonus": "C3Sytem",
-			"Short": "C3 System",
-			"Long": "C3 System",
-			"Full": "C3 System: Enemies receive {0} Sensor Ping and {1} Visibility/Signature, Allies Receive {2} Sensors and {3} Sight Distance within {4} Meters. Green Circle"
-		  },
-		  {
-			"Bonus": "BoostedC3Sytem",
-			"Short": "BC3 System",
-			"Long": "BC3 System",
-			"Full": "Boosted C3 Systems Resist enemy Jamming by {0}."
-		  },
+			"Bonus": "C3iTargeting",
+			"Short": "C3i Targeting",
+			"Long": "C3i Targeting Bonus",
+			"Full": "C3i provides all C3i-equipped units within {0} meters with {1} accuracy on weapon attacks."
+		},
+		{
+			"Bonus": "DroneNetwork",
+			"Short": "Drone Network",
+			"Long": "Drone Network",
+			"Full": "Drone Networks provide all drone-equipped units with the best possible range accuracy to enemy targets based on the closest drone-equipped unit in the network to the target."
+		},
 		{
 			"Bonus": "NovaCEWS",
 			"Short": "Nova CEWS",
@@ -1840,6 +1864,24 @@
 			"Short": "Volatile",
 			"Long": "Pressurized Coolant",
 			"Full": "Pressurized Coolant can explode for {0} Heat, Damage and Stability"
+		},
+		{
+			"Bonus": "DmgIncrease",
+			"Short": "Dmg Increase",
+			"Long": "Damage Increase",
+			"Full": "Weapon damage increases to {0} of its starting value at long range."
+		},
+		{
+			"Bonus": "DmgIncreaseStart",
+			"Short": "Dmg Increase Start",
+			"Long": "Damage Increase Starting Distance",
+			"Full": "Weapon damage begins to increasing starting at {0} meters."
+		},
+		{
+			"Bonus": "DmgIncreaseEnd",
+			"Short": "Dmg Increase End",
+			"Long": "Damage Increase End Distance",
+			"Full": "Weapon damage stops increasing starting at {0} meters."
 		},
 		{
 			"Bonus": "DmgFallOff",
@@ -2296,6 +2338,12 @@
 			"Short": "CASEII {0}",
 			"Long": "CASEII {0}",
 			"Full": "CASE II reduces Ammo Explosion Damage to only {0} points of Damage."
+		},
+		{
+			"Bonus": "SHIELD",
+			"Short": "SHIELD {0}",
+			"Long": "SHIELD {0}",
+			"Full": "SHIELD reduces Ammo Explosion Damage to only {0} points of Damage."
 		},
 		{
 			"Bonus": "CASED",
@@ -3390,22 +3438,16 @@
 			"Full": "{0} Lance Base Sight Distance"
 		},
 		{
-			"Bonus": "LanceSight3",
-			"Short": "{0} Lance Sight",
-			"Long": "{0} Lance Sight",
-			"Full": "{0} lance base sight distance to all Allies."
-		},
-		{
 			"Bonus": "Visibility",
 			"Short": "{0} Vis",
 			"Long": "{0} Visibility",
-			"Full": "{0} reduced Visibility"
+			"Full": "This unit has {0} visibility to the enemy (negative is good, positive is bad)."
 		},
 		{
 			"Bonus": "Signature",
 			"Short": "{0} Sig",
 			"Long": "{0} Signature",
-			"Full": "{0} Reduced Signature on Enemy Sensors"
+			"Full": "This unit has {0} sensor signature to the enemy (negative is good, positive is bad)."
 		},
 		{
 			"Bonus": "Evasion",
@@ -3825,13 +3867,67 @@
 			"Bonus": "ElecLaser",
 			"Short": "Elec-Laser Debuff",
 			"Long": "Elec-Laser Debuff {0}",
-			"Full": "Elec-Laser scrambles Target's systems for {0} Accuracy"
+			"Full": "Elec-Lasers scramble the target's systems for {0} accuracy."
 		},
 		{
 			"Bonus": "DBAC",
 			"Short": "DB/AC",
 			"Long": "Double Barrel Autocannon",
 			"Full": "Double Barrel Autocannons fire a pair of shells at once with no risk of jamming."
+		},
+		{
+			"Bonus": "MassDriver",
+			"Short": "Mass Driver",
+			"Long": "Mass Driver Restrictions",
+			"Full": "Mass Drivers are heavy and bulky but also come with electronic restrictions on their mis-use, which prevents mounting more than 1 on a unit at any time."
+		},
+		{
+			"Bonus": "NPCDEBUFF",
+			"Short": "NPC Debuff",
+			"Long": "NPC Debuff {0}",
+			"Full": "The NPC scrambles the target's systems for {0} accuracy."
+		},
+		{
+			"Bonus": "DRMMoveDebuff",
+			"Short": "DRM Move",
+			"Long": "DRM Movement Debuff",
+			"Full": "DRMs inflict a {0} movement penalty, which stacks up to {1} times with itself."
+		},
+		{
+			"Bonus": "DRMHeatDebuff",
+			"Short": "DRM Heat",
+			"Long": "DRM Heat Debuff",
+			"Full": "DRMs inflict a {0} heat generation penalty, which stacks up to {1} times with itself."
+		},
+		{
+			"Bonus": "ModalLaser",
+			"Short": "Modal Laser",
+			"Long": "Modal Laser",
+			"Full": "Modal Lasers have 4 fire modes and let the user dial between them as desired."
+		},
+		{
+			"Bonus": "ModalBase",
+			"Short": "Modal Laser Base Mode",
+			"Long": "Modal Laser Base Mode",
+			"Full": "Modal Lasers base mode is a balance between accuracy, heat, damage, and range. The base mode has standard laser accuracy bonuses."
+		},
+		{
+			"Bonus": "ModalDmg",
+			"Short": "Modal Laser Damage Mode",
+			"Long": "Modal Laser Damage Mode",
+			"Full": "Modal Lasers damage mode increases the damage per trigger pull at the cost of generating much more heat and being less accurate."
+		},
+		{
+			"Bonus": "ModalAcc",
+			"Short": "Modal Laser Accuracy Mode",
+			"Long": "Modal Laser Accuracy Mode",
+			"Full": "Modal Lasers accuracy mode increases the weapon's accuracy significantly but reduces the damage per trigger pull and increases the heat generated."
+		},
+		{
+			"Bonus": "ModalRange",
+			"Short": "Modal Laser Range Mode",
+			"Long": "Modal Laser Range Mode",
+			"Full": "Modal Lasers range mode increases the weapon's range but reduced the damage per trigger pull and slightly decreases accuracy."
 		},
 		{
 			"Bonus": "IsCannon",
@@ -3898,6 +3994,12 @@
 			"Short": "C-Bill Loan",
 			"Long": "C-Bill Loan",
 			"Full": "This is a placeholder item representing a c-bill loan to the player's company. It cannot be equipped to or used by mechs in any way. To pay back the loan, sell this item in a store."
+		},
+		{
+			"Bonus": "EvasionIgnored",
+			"Short": "{0} Eva. Ign.",
+			"Long": "{0} Evasion Ignored",
+			"Full": "This weapon ignores {0} evasion on attacks."
 		},
 		{
 			"Bonus": "PunchDamageBonus",
@@ -4084,6 +4186,12 @@
 			"Short": "C3 Accuracy",
 			"Long": "C3 Accuracy",
 			"Full": "{0} accuracy to enemies within the C3 radius."
+		},
+		{
+			"Bonus": "ProjectilesPerShot",
+			"Short": "{0} Projectiles Per Shot",
+			"Long": "{0} Projectiles Per Shot",
+			"Full": "This weapon fires {0} projectiles per shot in the volley."
 		},
 		{
 			"Bonus": "ProjectileBurst",
@@ -4590,42 +4698,6 @@
 			"Full": "MagPulse munitions do little to no damage but instead inflict a {0} point accuracy penalty to the affected enemy. This penalty stacks up to {1} times and lasts until that unit finishes its next activation."
 		},
 		{
-			"Bonus": "AccuracySR",
-			"Short": "{0} SR Acc",
-			"Long": "{0} SR Accuracy",
-			"Full": "{0} accuracy at Short Range"
-		  },
-		  {
-			"Bonus": "AccuracyMR",
-			"Short": "{0} MedR Acc",
-			"Long": "{0} MedR Accuracy",
-			"Full": "{0} accuracy at Medium Range"
-		  },
-		  {
-			"Bonus": "AccuracyLR",
-			"Short": "{0} LR Acc",
-			"Long": "{0} LR Accuracy",
-			"Full": "{0} accuracy at Long Range"
-		  },
-		  {
-			"Bonus": "AccuracyER",
-			"Short": "{0} ER Acc",
-			"Long": "{0} ER Accuracy",
-			"Full": "{0} accuracy at Extreme Range"
-		  },
-		  {
-			"Bonus": "NightVision",
-			"Short": "NightVision",
-			"Long": "NightVision",
-			"Full": "Night Vision enables Day time visual Detection range during Night and Dark Conditions"
-		  },
-		  {
-			"Bonus": "AdvancedSensors",
-			"Short": "{0} Adv.S.",
-			"Long": "{0} Adv.Sensors",
-			"Full": "Bonus of {0} to sensor detection: provides additional target information"
-		  },
-		{
 			"Bonus": "BAMounts",
 			"Short": "BA Mountable",
 			"Long": "Battle Armor Mounting Points",
@@ -4660,6 +4732,24 @@
 			"Short": "{0} Damage Reduction",
 			"Long": "{0} Damage Reduction",
 			"Full": "This component provides a flat {0} Damage Reduction"
+		},
+		{
+			"Bonus": "BallisticDamageReduction",
+			"Short": "{0} Ballistic Damage Reduction",
+			"Long": "{0} Ballistic Damage Reduction",
+			"Full": "This component provides a flat {0} Damage Reduction to Ballistic weapon damage."
+		},
+		{
+			"Bonus": "MissileDamageReduction",
+			"Short": "{0} Missile Damage Reduction",
+			"Long": "{0} Missile Damage Reduction",
+			"Full": "This component provides a flat {0} Damage Reduction to Missile weapon damage."
+		},
+		{
+			"Bonus": "EnergyDamageReduction",
+			"Short": "{0} Energy Damage Reduction",
+			"Long": "{0} Energy Damage Reduction",
+			"Full": "This component provides a flat {0} Damage Reduction to Energy weapon damage."
 		},
 		{
 			"Bonus": "JumpHeat",
@@ -4734,162 +4824,6 @@
 			"Full": "The Mech Taser scrambles the target's systems, reducing accuracy by {0}."
 		},
 		{
-			"Bonus": "Carapace",
-			"Short": "Black Carapace",
-			"Long": "Black Carapace",
-			"Full": "Provides Stealth Charges. Making unit harder to hit. Is Self Repairing."
-		},
-		{
-			"Bonus": "AdvancedUAV",
-			"Short": "AdvUAV",
-			"Long": "AdvUAV",
-			"Full": "Advanced UAV: Makes Enemies Easier to Spot by {0} within {1} meters. Yellow Circle."
-		},
-		{
-			"Bonus": "StealthEnhance",
-			"Short": "Stealth Enhancement",
-			"Long": "Stealth Enhancement System",
-			"Full": "Provides Sensor Stealth when Activated. Can be Added to a Mimetic Armor System."
-		  },
-		  {
-			"Bonus": "MimeticEnhance",
-			"Short": "Mimetic Enhancement",
-			"Long": "Mimetic Enhancement System",
-			"Full": "Provides Mimetic Stealth when Activated. Can be Added to a Stealth Armor System."
-		  },
-		  {
-			"Bonus": "ActiveStealth",
-			"Short": "Stealthed",
-			"Long": "Stealth Systems",
-			"Full": "Provides Sensor Stealth when Activated. Making unit harder to hit and detect. Use Components Menu to Toggle. Countered by Probes."
-		  },
-		  {
-			"Bonus": "CLPS",
-			"Short": "CLPS",
-			"Long": "Chameleon",
-			"Full": "Provides Sensor and Mimetic Stealth when Activated. Making unit harder to hit and detect. Use Components Menu to Toggle. Countered by Probes."
-		  },
-		  {
-			"Bonus": "Mimetic",
-			"Short": "Mimetic",
-			"Long": "Mimetic Systems",
-			"Full": "Provides Mimetic Stealth when Activated. Making units harder to hit and detect. Use Components Menu to Toggle. Countered by Probes."
-		  },
-		  {
-			"Bonus": "UnFriendlyAura",
-			"Short": "DBuff Aura",
-			"Long": "Debuff Aura",
-			"Full": "Aura debuffs Enemy's within {0} meters. Red Circle."
-		  },
-		  {
-			"Bonus": "AccuracyDebuff",
-			"Short": "{0} Acc",
-			"Long": "{0} Accuracy",
-			"Full": "{0} Accuracy debuff to Enemies in Aura Range."
-		  },
-		  {
-			"Bonus": "DefenseDebuff",
-			"Short": "{0} Def",
-			"Long": "{0} Defense",
-			"Full": "{0} Defense debuff to Enemies in Aura Range."
-		  },
-		  {
-			"Bonus": "AuraCrits",
-			"Short": "{0} Crit",
-			"Long": "{0} Criticals",
-			"Full": "{0} chance to deal a critical hit for Lance Mates within {1} meters. Orange Circle."
-		  },
-		  {
-			"Bonus": "SensorLock",
-			"Short": "SL",
-			"Long": "Sensor Lock",
-			"Full": "Item enables Sensor Lock ability."
-		  },
-		  {
-			"Bonus": "SearchLight",
-			"Short": "SearchLight",
-			"Long": "SearchLight",
-			"Full": "Bonus of {0} to sensor detection within {1} meters. Orange Circle. Provides additional sensor information."
-		  },
-		  {
-			"Bonus": "CQBVisor",
-			"Short": "A{0}R{1} CQB",
-			"Long": "A{0}R{1} CQBVisor",
-			"Full": "CQBVisor: Ranged Accuracy Bonus of {0} decays by 1 every {1} meters."
-		  },
-		  {
-			"Bonus": "AllLanceSensors",
-			"Short": "{0} Sensors",
-			"Long": "{0} Inc.Sensor Range",
-			"Full": "{0} increased sensor range for the Lance."
-		  },
-		  {
-			"Bonus": "AllLanceSight",
-			"Short": "{0} Sight",
-			"Long": "{0} Inc.Sight Range",
-			"Full": "{0} increased sight range for the Lance."
-		  },
-		  {
-			"Bonus": "StealthReserved",
-			"Short": "{0} Slots",
-			"Long": "{0} Slots Reserved",
-			"Full": "Reserves {0} per Location except Head and CenterTorso."
-		  },
-		  {
-			"Bonus": "ActiveVisibility",
-			"Short": "{0} Vis",
-			"Long": "{0} Visibility",
-			"Full": "{0} reduced visibility when Active."
-		  },
-		  {
-			"Bonus": "ActiveSignature",
-			"Short": "{0} Sig",
-			"Long": "{0} Signature",
-			"Full": "{0} sensor signature when Active."
-		  },	  
-		  {
-			"Bonus": "MimeticStealth",
-			"Short": "M{0} Stealth",
-			"Long": "{0} Mimetic Stealth",
-			"Full": "{0} Mimetic Stealth Visibility Reduction with {1} Charges Multiplier. Charges Decay by 1 for every {2} Hex moved."
-		  },
-		  {
-			"Bonus": "EWSytem",
-			"Short": "EWS",
-			"Long": "EWS",
-			"Full": "Electronic Warfare Suites are combined packages of Advanced Sensors."
-		  },
-		  {
-			"Bonus": "ActiveEWS",
-			"Short": "EWS",
-			"Long": "EWS",
-			"Full": "EWS Protects allies with a {0} Shield and reduces Enemies Shield by {1} within {2} meters. Purple Circle."
-		  },
-		  {
-			"Bonus": "EWSSelf",
-			"Short": "EWS",
-			"Long": "EWS",
-			"Full": "EWS protects the carrier with ECM Shield of {0} and reduces Enemy Jamming by {1} on carrier."
-		  },
-		  {
-			"Bonus": "EWSProbe",
-			"Short": "Sensors",
-			"Long": "Sensors",
-			"Full": "EWS Probe increases Sight and Sensor Distance by {0}, counters Stealth/ECM by {1}, improves info readout by {2} and Detects Mines within {3} Meters."
-		  },
-		  {
-			"Bonus": "StartsPassive",
-			"Short": "Passive",
-			"Long": "Passive",
-			"Full": "ECM System starts battle in Passive Mode."
-		  },
-		  {
-			"Bonus": "GoatFi",
-			"Short": "{0} Initiative",
-			"Long": "{0} Initiative",
-			"Full": "Goat-Fi: {0} Initiative for lancemates in range."
-		  },
-		{
 			"Bonus": "ArmorAmmo",
 			"Short": "Armor Repair",
 			"Long": "Armor Repair Functionality",
@@ -4942,6 +4876,12 @@
 			"Short": "Aerospace Unit",
 			"Long": "Aerospace Unit",
 			"Full": "This piece of gear indicates this unit as an Aerospace unit. It ignores terrain, ignores all designmasks such as cover or fire, is unaffected by pathing restrictions, and ignores landmines."
+		},
+		{
+			"Bonus": "ReservedSlots",
+			"Short": "Reserved Slots {0}",
+			"Long": "Reserved Critical Slots {0}",
+			"Full": "This piece of equipment occupies {0} additional slots in a mech's critical locations."
 		}
 	]
 }

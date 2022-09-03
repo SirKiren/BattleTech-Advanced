@@ -156,12 +156,17 @@
 			{
 				"MapId": "mapGeneral_Interchange_aDes",
 				"ContractTypeName": "SimpleBattle",
-				"IncreaseBoundarySizeByPercentage": 0.25
+				"IncreaseBoundarySizeByPercentage": 0.4
 			},
 			{
 				"MapId": "mapGeneral_toxicMire_aBad",
 				"ContractTypeName": "CaptureEscort",
 				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
+				"MapId": "mapGeneral_terraceLakes_vLow",
+				"ContractTypeName": "CaptureEscort",
+				"IncreaseBoundarySizeByPercentage": 0.3
 			},
 			{
 				"MapId": "mapGeneral_sandyMesa_aDes",
@@ -189,6 +194,11 @@
 				"IncreaseBoundarySizeByPercentage": 0.2
 			},
 			{
+				"MapId": "mapGeneral_borealForest_iGlc",
+				"ContractTypeName": "ThreeWayBattle",
+				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
 				"MapId": "mapGeneral_lostWorld_vJung",
 				"ContractTypeName": "SimpleBattle",
 				"IncreaseBoundarySizeByPercentage": 0.5
@@ -211,6 +221,11 @@
 			{
 				"MapId": "mapGeneral_lushIsthmus_vJung",
 				"ContractTypeName": "DefendBase",
+				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
+				"MapId": "mapStory_storyEncounter7_vLow",
+				"ContractTypeName": "Blackout",
 				"IncreaseBoundarySizeByPercentage": 0.4
 			},
 			{

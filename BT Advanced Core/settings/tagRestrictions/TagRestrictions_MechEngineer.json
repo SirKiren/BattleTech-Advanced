@@ -228,6 +228,18 @@
 			]
 		},
 		{
+			"Tag": "NullSig",
+			"IncompatibleTags": [
+				"ECM"
+			]
+		},
+		{
+			"Tag": "CLPS",
+			"IncompatibleTags": [
+				"ECM"
+			]
+		},
+		{
 			"Tag": "Handhold",
 			"IncompatibleTags": [
 				"OmniGyro",
@@ -285,7 +297,34 @@
 				"DHSKit",
 				"LHSKit",
 				"CDHSKit",
-				"PDHSKit"
+				"PDHSKit",
+				"SDHSKit"
+			]
+		},
+		{
+			"Tag": "Negator",
+			"RequiredTags": [
+				"SDHSKit"
+			],
+			"IncompatibleTags": [
+				"DHSKit",
+				"LHSKit",
+				"CDHSKit",
+				"PDHSKit",
+				"SHSKit"
+			]
+		},
+		{
+			"Tag": "Controller",
+			"RequiredTags": [
+				"SDHSKit"
+			],
+			"IncompatibleTags": [
+				"DHSKit",
+				"LHSKit",
+				"CDHSKit",
+				"PDHSKit",
+				"SHSKit"
 			]
 		},
 		{
@@ -297,7 +336,8 @@
 				"CDHSKit",
 				"LHSKit",
 				"PDHSKit",
-				"SHSKit"
+				"SHSKit",
+				"SDHSKit"
 			]
 		},
 		{
@@ -309,7 +349,8 @@
 				"DHSKit",
 				"PDHSKit",
 				"CDHSKit",
-				"LHSKit"
+				"LHSKit",
+				"SDHSKit"
 			]
 		},
 		{
@@ -321,7 +362,8 @@
 				"DHSKit",
 				"PDHSKit",
 				"SHSKit",
-				"LHSKit"
+				"LHSKit",
+				"SDHSKit"
 			]
 		},
 		{
@@ -333,7 +375,8 @@
 				"DHSKit",
 				"CDHSKit",
 				"PDHSKit",
-				"SHSKit"
+				"SHSKit",
+				"SDHSKit"
 			]
 		},
 		{
@@ -345,20 +388,21 @@
 				"DHSKit",
 				"CDHSKit",
 				"SHSKit",
-				"LHSKit"
+				"LHSKit",
+				"SDHSKit"
 			]
 		},
 		{
-			"Tag": "BHS",
+			"Tag": "SDHS",
 			"RequiredTags": [
-				"BHSKit"
+				"SDHSKit"
 			],
 			"IncompatibleTags": [
 				"DHSKit",
-				"PDHSKit",
 				"CDHSKit",
+				"SHSKit",
 				"LHSKit",
-				"SHSKit"
+				"PDHSKit"
 			]
 		}
 	]

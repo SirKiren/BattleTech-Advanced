@@ -35,171 +35,116 @@
 		"ShutdownCausesInjury": false,
 		"ShowPeakHeat": false
 	},
-"Visibility": {
-    "BaseSpotterDistance": 1.0,
-    "SpotterTacticsMultiplier": 0.0,
-    "RatioFullVis": 0.79,
-    "RatioObstructedVis": 0.41,
-    "MinRatioFromActors": 0.2,
-    "ShutDownVisibilityModifier": 1.0,
-    "ShutDownSignatureModifier": 0.5,
-    "BaseSensorDistance": 1.0,
-    "UseAsymmetricalSensors": true,
-    "ShowExtendedBlipsBeforeContact": false,
-    "ExtendedSensorDistanceMultiplier": 1.0,
-    "SensorHysteresisAdditive": 50.0,
-    "ShutdownSpottingDistanceMultiplier": 0.1,
-    "ProneSpottingDistanceMultiplier": 0.25,
-    "AllowRearArcSpotting": true,
-    "NumSensorLockSteps": 1,
-    "SensorLockSingleStepEffect": {
-      "durationData": {
-        "duration": 12,
-        "ticksOnEndOfRound": true,
-        "ticksOnMovements": true,
-        "ticksOnActivations": true,
-        "stackLimit": 10
-      },
-      "targetingData": {
-        "effectTargetType": "SingleTarget",
-        "forceVisRebuild": true
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "AbilityT5SensorLock",
-        "Name": "SENSOR LOCK",
-        "Details": "SENSOR LOCK",
-        "Icon": "uixSvgIcon_action_sensorlock"
-      },
-      "statisticData": {
-        "statName": "SensorSignatureModifier",
-        "operation": "Float_Add",
-        "modValue": "10.0",
-        "modType": "System.Single"
-      },
-      "nature": "Debuff"
-    },
-    "NumSensorLockImpairedEffects": 1,
-    "SensorsImpairedEffect": {
-      "durationData": {
-        "duration": 8,
-        "ticksOnEndOfRound": true,
-        "ticksOnMovements": true,
-        "ticksOnActivations": true,
-        "stackLimit": 10
-      },
-      "targetingData": {
-        "effectTargetType": "SingleTarget",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false,
-        "forceVisRebuild": true
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "AbilityT5SensorLock2",
-        "Name": "SENSOR LOCK",
-        "Details": "SENSOR LOCK",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
-      },
-      "nature": "Debuff",
-      "statisticData": {
-        "statName": "SpottingVisibilityMultiplier",
-        "operation": "Float_Add",
-        "modValue": "1.0",
-        "modType": "System.Single"
-      }
-    },
-    "SensorLockAntiStealthEffect": {
-      "durationData": {
-        "duration": 6,
-        "ticksOnEndOfRound": true,
-        "ticksOnMovements": true,
-        "ticksOnActivations": true,
-        "stackLimit": 10
-      },
-      "targetingData": {
-        "effectTargetType": "SingleTarget",
-        "forceVisRebuild": true,
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "SensorLockAntiStealthEffect",
-        "Name": "SENSOR LOCK: STEALTH SUPPRESSED",
-        "Details": "Sensor Lock suppresses Stealth on this unit for 1 Round.",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
-      },
-      "nature": "Debuff",
-      "statisticData": {
-        "statName": "LV_PROBE_PING",
-        "operation": "Int_Add",
-        "modValue": "6",
-        "modType": "System.Int32"
-      }
-    },
-    "FiredWeaponsEffect": {
-      "durationData": {
-        "duration": 24,
-        "ticksOnEndOfRound": true,
-        "ticksOnMovements": true,
-        "ticksOnActivations": true,
-        "stackLimit": 10
-      },
-      "targetingData": {
-        "effectTriggerType": "OnActivation",
-        "effectTargetType": "SingleTarget"
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "FiredWeaponsSignatureEffect",
-        "Name": "FIRED WEAPONS",
-        "Details": "+60% SIGNATURE",
-        "Icon": "uixSvgIcon_genericDiamond"
-      },
-      "statisticData": {
-        "statName": "SensorSignatureModifier",
-        "operation": "Float_Multiply",
-        "modValue": "1.6",
-        "modType": "System.Single"
-      },
-      "nature": "Debuff"
-    },
-    "FiredWeaponsAntiStealthEffect": {
-      "durationData": {
-        "duration": 12,
-        "ticksOnEndOfRound": true,
-        "ticksOnMovements": true,
-        "ticksOnActivations": true,
-        "stackLimit": 10
-      },
-      "targetingData": {
-        "effectTriggerType": "OnActivation",
-        "effectTargetType": "SingleTarget",
-        "forceVisRebuild": true,
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "FiredWeaponsAntiStealthEffect",
-        "Name": "FIRED WEAPONS: STEALTH SUPPRESSED",
-        "Details": "Firing weapons suppresses Stealth on this unit for 1 Round.",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
-      },
-      "statisticData": {
-        "statName": "SpottingVisibilityMultiplier",
-        "operation": "Float_Multiply",
-        "modValue": "1.4",
-        "modType": "System.Single"
-      },
-      "nature": "Debuff"
-    },
-    "MaxShadowingDistance": 80.0,
-    "NumShadowingSteps": -1,
-    "GhostStatePipThreshold": 2,
-    "GhostStateHidesBlips": true
-  },
+	"Visibility": {
+		"BaseSpotterDistance": 375.0,
+		"BaseSensorDistance": 500.0,
+		"FiredWeaponsEffect": {
+			"durationData": {
+				"duration": 1,
+				"ticksOnEndOfRound": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "SingleTarget"
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "FiredWeaponsSignatureEffect",
+				"Name": "FIRED WEAPONS",
+				"Details": "+125% SIGNATURE",
+				"Icon": "uixSvgIcon_genericDiamond"
+			},
+			"statisticData": {
+				"statName": "SensorSignatureModifier",
+				"operation": "Float_Add",
+				"modValue": "0.25",
+				"modType": "System.Single"
+			},
+			"nature": "Debuff"
+		},
+		"NumSensorLockSteps": 1,
+		"SensorLockSingleStepEffect": {
+		  "durationData": {
+			"duration": 1,
+			"ticksOnEndOfRound": true,
+			"stackLimit": 1
+		  },
+		  "targetingData": {
+			"effectTargetType": "SingleTarget",
+			"forceVisRebuild": true
+		  },
+		  "effectType": "StatisticEffect",
+		  "Description": {
+			"Id": "AbilityDefT6A",
+			"Name": "SENSOR LOCK",
+			"Details": "SIGNATURE BOOSTED",
+			"Icon": "uixSvgIcon_action_sensorlock"
+		  },
+		  "statisticData": {
+			"statName": "ToHitThisActorDirectFire",
+			"operation": "Float_Add",
+			"modValue": "0.0",
+			"modType": "System.Single"
+		  },
+		  "nature": "Debuff"
+		},
+		"NumSensorLockImpairedEffects": 1,
+		"SensorsImpairedEffect": {
+		  "durationData": {
+			"duration": 1,
+			"ticksOnActivations": true,
+			"useActivationsOfTarget": true,
+			"stackLimit": 2
+		  },
+		  "targetingData": {
+			"effectTargetType": "SingleTarget",
+			"showInTargetPreview": true,
+			"showInStatusPanel": true
+		  },
+		  "effectType": "StatisticEffect",
+		  "Description": {
+			"Id": "AbilityDefPPC",
+			"Name": "SENSORS IMPAIRED",
+			"Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+			"Icon": "uixSvgIcon_status_sensorsImpaired"
+		  },
+		  "nature": "Debuff",
+		  "statisticData": {
+			"statName": "AccuracyModifier",
+			"operation": "Float_Add",
+			"modValue": "1.0",
+			"modType": "System.Single"
+		  }
+		},
+		"SensorLockAntiStealthEffect": {
+		  "durationData": {
+			"duration": 1,
+			"ticksOnEndOfRound": true,
+			"stackLimit": 1
+		  },
+		  "targetingData": {
+			"effectTargetType": "SingleTarget",
+			"forceVisRebuild" : true,
+			"showInTargetPreview": false,
+			"showInStatusPanel": false
+		  },
+		  "effectType": "StatisticEffect",
+		  "Description": {
+			"Id": "SensorLockAntiStealthEffect",
+			"Name": "SENSOR LOCK: STEALTH SUPPRESSED",
+			"Details": "Sensor Lock suppresses Stealth on this unit for 1 Round.",
+			"Icon": "uixSvgIcon_status_sensorsImpaired"
+		  },
+		  "nature": "Debuff",
+		  "statisticData": {
+			"statName": "GhostEffectStacks",
+			"operation": "Int_Add",
+			"modValue": "-999",
+			"modType": "System.Int32"
+		  }
+		}
+	},
 	"ToHit": {
 		"ToHitBaseFloor": 0.8,
 		"ToHitGunneryDivisor": 100,
@@ -388,61 +333,9 @@
 		"LegDamageRedPenalty": 0,
 		"LegDamageYellowPenalty": 0
 	},
-  "CameraConstants": {
-    "MoveSpeed": 560.0,
-    "MaxSpeed": 430.0,
-    "MoveFalloff": 0.5,
-    "ZoomSpeed": 2000.0,
-    "RotationSpeed": 19.0,
-    "RotationSpeedKeyboard": 21.0,
-    "TargetRotLerpFactor": 1.55,
-    "EdgePushSize": 0.025,
-    "EdgeAutoZoomSize": 0.25,
-    "MinDistToFocalPoint": 65.0,
-    "MinHeightAboveTerrain": 20.0,
-    "MaxHeightAboveTerrain": 600.0,
-    "MinAngle": 5.0,
-    "MaxAngle": 85.0,
-    "DefaultAngle": 50.0,
-    "DefaultFOV": 40.0,
-    "TutorialMoveTime": 1.0,
-    "TimeBetweenTutorials": 0.5,
-    "TutorialRotateTime": 0.5,
-    "TargetCamPosMultiplierSide": 1.5,
-    "TargetCamPosMultiplierBack": 4.5,
-    "TargetCamPosMultiplierHeight": 1.2,
-    "TargetCamTime": 0.2,
-    "RestorePlayerCamTime": 0.4,
-    "MovementCamTime": 0.25,
-    "ShowAttackCamTime": 0.5,
-    "DefaultBuildingHeight": 48.0,
-    "ShakyCamTime": 0.75,
-    "ShakyCamOffset": 0.5,
-    "ShakyMoveCamHeightMultiplier": 2.6,
-    "FollowCamGroundMin": 3.5,
-    "FollowCamIdealHeight": 2.5,
-    "FollowCamMinDistMult": 2.0,
-    "FollowCamMaxDistMult": 5.0,
-    "FollowCamTime": 0.6,
-    "FollowCamDelayTime": 0.75,
-    "CutAngleTolerance": 45.0,
-    "GroundCamFallbackHeight": 20.0,
-    "UrbanGroundCamFallbackHeight": 80.0,
-    "FramingSafeMultiplier": 1.5,
-    "FramingZoomMultiplier": 0.015,
-    "FrameRightMultiplier": 2.0,
-    "FrameUpMultiplier": 4.0,
-    "TimeToShowNewBlips": 0.6,
-    "MeleeAttackCamMinHeight": 85.0,
-    "CamDelayDeath": 0.5,
-    "CamDelayBuildingDeath": 0.75,
-    "CamDelayFall": 1.0,
-    "CamDelayLocationDestroyed": 0.75,
-    "CamDelayCriticalHit": 0.75,
-    "CamDelayComponentDestroyed": 0.75,
-    "CamDelayPilotInjured": 1.0,
-    "CamDelayPilotInspired": 1.5,
-    "CamDelayMiscInfo": 0.75,
-    "CamMultiplierSlowMove": 5.0
-  }
+	"CameraConstants": {
+		"MinHeightAboveTerrain": 20.0,
+		"MaxHeightAboveTerrain": 700.0,
+		"ZoomSpeed": 1800.0
+	}
 }

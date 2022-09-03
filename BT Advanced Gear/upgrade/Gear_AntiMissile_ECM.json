@@ -1,8 +1,10 @@
 {
 	"Custom": {
-		"Category": [{
-			"CategoryID": "ECM"
-		}],
+		"Category": [
+			{
+				"CategoryID": "ECM"
+			}
+		],
 		"Flags": {
 			"flags": [
 				"not_broken",
@@ -11,32 +13,44 @@
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"Defense: +1",
-				"AntiMissileDefense: +4",
-				"ECMRadius: 120"
+				"AntiMissileDefense: +6",
+				"ECMRadius: 150",
+				"C3Jamming: 120",
+				"SensorLockImmune"
 			]
 		},
 		"ActivatableComponent": {
-			"CanActivateAfterMove": true,
-			"CanActivateAfterFire": true,
-			"SafeActivation": true,
-			"ButtonName": "ECM Mode",
+			"ButtonName": "Anti-Missile ECM",
 			"CanNotBeActivatedManualy": false,
-			"NoUniqueCheck": true,
-			"ActiveByDefault": false,
-			"ActivationMessage": "Active",
-			"DeactivationMessage": "Passive",
-			"Linkage": {
-				"OnActivate": {
-					"Activate": [],
-					"Deactivate": []
-				},
-				"OnDeactivate": {
-					"Activate": [],
-					"Deactivate": []
-				}
-			},
-			"statusEffects": [{
+			"ActiveByDefault": true,
+			"FailFlatChance": 0.0,
+			"SafeActivation": true,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-SensorLockImmunity",
+						"Name": "Sensor Lock Immunity",
+						"Details": "This unit is immune to sensor lock.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "EvasiveSafeFromSensorLock",
+						"operation": "Set",
+						"modValue": "true",
+						"modType": "System.Boolean"
+					},
+					"nature": "Buff"
+				},{
 					"durationData": {
 						"duration": -1,
 						"stackLimit": -1
@@ -140,11 +154,8 @@
 						"modValue": "-3",
 						"modType": "System.Int32"
 					}
-				}
+				}	
 			]
-		},
-		"InventorySorter": {
-			"SortKey": "00024"
 		}
 	},
 	"StatName": null,
@@ -173,7 +184,8 @@
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
-	"Auras": [{
+	"Auras": [
+{
 			"Id": "Jammer_Aura",
 			"Name": "JAMMED",
 			"ReticleColor": "#00f2ff",
@@ -277,42 +289,143 @@
 				},
 				"nature": "Buff"
 			}]
+		},	
+		{
+			"Id": "Gear_AntiMissile_ECM_MissleScramble",
+			"Name": "Missile Scrambling",
+			"ReticleColor": "#ffffff",
+			"Range": 150,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_AntiMissileECM",
+						"Name": "Missile Scrambling",
+						"Details": "The Anti-Missile ECM scrambles enemy missile fire, giving a +4 penalty to enemy missile attacks. This penalty stacks with the normal ECM effect.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ToHitThisActorMissile",
+						"operation": "Float_Add",
+						"modValue": "6.0",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
 		},
 		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"specialRules": "NotSet",
-				"effectTargetType": "AlliesWithinRange",
-				"range": 0.0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect_AntiMissileECM",
-				"Name": "Missile Scrambling",
-				"Details": "The Anti-Missile ECM scrambles enemy missile fire, giving a +4 penalty to enemy missile attacks. This penalty stacks with the normal ECM effect.",
-				"Icon": "circuitry"
-			},
-			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "4.0",
-				"modType": "System.Single",
-				"targetAmmoCategory": "NotSet",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "Missile",
-				"targetWeaponSubType": "NotSet",
-				"targetWeaponType": "NotSet"
-			},
-			"nature": "Buff"
-		}
+			"Id": "Gear_AntiMissile_ECM_C3Scramble",
+			"Name": "C3 Scrambling",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Jamming",
+						"Name": "C3 Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
+						"operation": "Float_Add",
+						"modValue": "-2",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming",
+						"Name": "C3 Enemy Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
+						"operation": "Float_Add",
+						"modValue": "-2",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		}		
 	],
 	"statusEffects": [],
 	"ComponentTags": {
