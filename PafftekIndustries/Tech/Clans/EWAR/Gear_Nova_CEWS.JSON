@@ -31,7 +31,46 @@
     },
     "InventorySorter": {
       "SortKey": "00024"
-    }
+    },
+		"ActivatableComponent": {
+			"ButtonName": "NOVA Network",
+			"CanNotBeActivatedManualy": false,
+			"ActiveByDefault": true,
+			"FailFlatChance": 0.0,
+			"SafeActivation": true,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3i_Network_Engagement",
+						"Name": "C3i Network",
+						"Details": "PASSIVE: Can be part of C3i network.",
+						"Icon": ""
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_CC3i_Network",
+						"operation": "Float_Add",
+						"modValue": "1",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
   },
   "StatName": null,
   "RelativeModifier": 0,
@@ -370,7 +409,87 @@
           "nature": "Debuff"
         }
       ]
-    }
+    },
+		{
+			"Id": "Gear_C3i",
+			"Name": "C3i",
+			"ReticleColor": "#00f2ff",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": true,
+			"neededTags": [ "C3i_Network" ],
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3i-TargetInfo",
+						"Name": "C3i Targeting Information",
+						"Details": "Shares targeting information on nearby enemies, +1 to hit enemies in radius",
+						"Icon": "mesh-network"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "-1.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect-C3iResolve",
+						"Name": "C3i Resolve Gain",
+						"Details": "Provides a +2 bonus to Resolve",
+						"Icon": "mesh-network"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "MoraleBonusGain",
+						"operation": "Int_Add",
+						"modValue": "2",
+						"modType": "System.Int32"
+					}
+				}
+			]
+		}	
   ],
   "statusEffects": [
     {
