@@ -11,6 +11,7 @@
 			"unit_speed_low",
 			"ComStar",
 			"WordOfBlake",
+			"WoBProtectorateMilitia",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -330,17 +331,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_case",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

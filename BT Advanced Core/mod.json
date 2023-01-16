@@ -1,13 +1,9 @@
 {
 	"Name": "BT Advanced Core",
 	"Enabled": true,
-	"Version": "15.0.2.1",
+	"Version": "15.1.2",
 	"Description": "For files that have nowhere else to live and are fundamental to the modpack's functionality.",
 	"DataAddendumEntries": [
-		{
-			"name": "BattleTech.FactionEnumeration",
-			"path": "Faction.json"
-		},
 		{
 			"name": "BattleTech.AmmoCategoryEnumeration",
 			"path": "AmmoCategory.json"
@@ -106,7 +102,9 @@
 		"MonsterMashup",
 		"RarityTiedSpawner",
 		"ScalingAIDifficulty",
-		"WarTechIIC"
+		"WarTechIIC",
+		"MechSprayPaint",
+		"SearchAndRescue"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"
@@ -166,7 +164,8 @@
 		"Elite Forces",
 		"MASH",
 		"ContractSort",
-		"DontShootTheDead"
+		"DontShootTheDead",
+		"BT_Extended"
 	],
 	"Manifest": [
 		{
