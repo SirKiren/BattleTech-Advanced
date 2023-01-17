@@ -1,6 +1,6 @@
 {
 	"Name": "ExpandedInitiative",
-	"Enabled": true,
+	"Enabled": false,
 	"Hidden": true,
 	"Version": "0.2.1",
 	"Description": "Expands initiative turns from 5 to 10.",

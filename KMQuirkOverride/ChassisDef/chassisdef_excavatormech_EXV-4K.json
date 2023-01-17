@@ -1,0 +1,24 @@
+{
+  "TargetId": "chassisdef_excavatormech_EXV-4K",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_Reinforcement_Excavator')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_Reinforcement_Excavator",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional",
+          "prefabName": "",
+          "hasPrefabName": true
+        }
+      ]
+    }
+  ]
+}

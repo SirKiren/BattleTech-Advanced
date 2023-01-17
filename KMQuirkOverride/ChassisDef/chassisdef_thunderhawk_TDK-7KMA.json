@@ -1,0 +1,26 @@
+{
+  "TargetId": "chassisdef_thunderhawk_TDK-7KMA",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_CommandMech_ThunderHawk')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_CommandMech_ThunderHawk",
+          "SimGameUID": "",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "GUID": null,
+          "DamageLevel": "Functional",
+          "prefabName": "",
+          "hasPrefabName": false
+        }
+      ]
+    }
+  ]
+}

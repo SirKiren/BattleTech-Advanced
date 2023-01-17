@@ -1,0 +1,24 @@
+{
+  "TargetId": "chassisdef_hussar_HSR-350-D",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_ImprovedCommunications_Hussar')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_ImprovedCommunications_Hussar",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional",
+          "prefabName": "",
+          "hasPrefabName": true
+        }
+      ]
+    }
+  ]
+}

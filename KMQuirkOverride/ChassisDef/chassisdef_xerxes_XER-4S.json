@@ -1,0 +1,23 @@
+{
+  "TargetId": "chassisdef_xerxes_XER-4S",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_ImprovedTargeting_Xerxes')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_ImprovedTargeting_Xerxes",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "hasPrefabName": false,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}

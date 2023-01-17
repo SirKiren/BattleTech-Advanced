@@ -1,0 +1,23 @@
+{
+  "TargetID": "chassisdef_olympian_OLM-1MX",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_Battlefists_Olympian')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_Battlefists_Olympian",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "hasPrefabName": false,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}

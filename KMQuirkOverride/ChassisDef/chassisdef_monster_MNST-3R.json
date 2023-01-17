@@ -1,0 +1,23 @@
+{
+  "TargetId": "chassisdef_monster_MNST-3R",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_HardenedCockpit_Monster')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_HardenedCockpit_Monster",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "hasPrefabName": false,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}

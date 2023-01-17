@@ -1,0 +1,23 @@
+{
+  "TargetID": "chassisdef_omega_SHP-MK",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_CommandMech_Omega')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_CommandMech_Omega",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "hasPrefabName": false,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}
