@@ -1,0 +1,26 @@
+{
+  "TargetID": "chassisdef_javelin_JVN-11D",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_NimbleJumper_Javelin')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_NimbleJumper_Javelin",
+          "SimGameUID": "",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "GUID": null,
+          "DamageLevel": "Functional",
+          "prefabName": null,
+          "hasPrefabName": false
+        }
+      ]
+    }
+  ]
+}

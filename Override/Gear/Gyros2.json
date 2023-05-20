@@ -1,0 +1,12 @@
+{
+  "TargetIDs": ["Gear_Gyro_Quad_Compact",
+                "Gear_Gyro_Compact_Omni",
+                "Gear_Gyro_Compact"],
+  "Instructions": [
+    {
+      "JSONPath": "InventorySize",
+      "Action": "Replace",
+      "Value": "1"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "TargetID": "chassisdef_emperor_EMP-5A",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_ImprovedLifeSupport_Emperor')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Emperor",
+          "SimGameUID": "",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "GUID": null,
+          "DamageLevel": "Functional",
+          "prefabName": null,
+          "hasPrefabName": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "TargetID": "chassisdef_katana_CRK-5003-2",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_EasytoPilot_Katana')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_EasytoPilot_Katana",
+          "SimGameUID": "",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "GUID": null,
+          "DamageLevel": "Functional",
+          "prefabName": null,
+          "hasPrefabName": false
+        }
+      ]
+    }
+  ]
+}

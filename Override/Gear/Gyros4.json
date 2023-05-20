@@ -1,0 +1,13 @@
+{
+  "TargetIDs": ["Gear_Gyro_Heavy_Duty_Omni", 
+                "Gear_Gyro_Heavy_Duty", 
+                "Gear_Gyro_XL_Omni", 
+                "Gear_Gyro_XL"],
+  "Instructions": [
+    {
+      "JSONPath": "InventorySize",
+      "Action": "Replace",
+      "Value": "3"
+    }
+  ]
+}

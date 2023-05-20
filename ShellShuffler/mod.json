@@ -1,0 +1,34 @@
+{
+    "Name": "ShellShuffler",
+    "DLL": "ShellShuffler.dll",
+
+	"Hidden": true,
+    "Version": "1.1.0.0",
+    "Description": "Shamelessly Shuffles Shells for Shooting Shenanigans",
+    "Author": "T-Bone",
+    "Website": "https://github.com/ajkroeg/ShellShuffler",
+    "ConflictsWith": [],
+    "CustomResourceTypes": [],
+
+	"Settings": {
+		"enableLogging": true,
+		"shuffleMechs": true,
+		"shuffleVehicles": true,
+		"shuffleTurrets": true,
+		"tagSetsUnion": true,
+		"chanceToShuffle": 1,
+		"unShuffledBins": 1,
+		"blackListShuffleIn": ["Ammunition_GAUSS_PR","Ammunition_LRM_PR","Ammunition_LRM_ArtemisIV","Ammunition_SRM_ArtemisIV","Ammunition_MRM_Apollo","Ammunition_ArrowIV_Nuke"],
+		"blackListShuffleOut": ["Ammunition_GAUSS_PR","Ammunition_LRM_PR"],
+		"mechDefTagAmmoList": 
+			{
+			},
+		"factionAmmoList": 
+			{
+			},
+		"ammoWeight":
+			{
+			}
+	},
+    "Manifest": []
+}

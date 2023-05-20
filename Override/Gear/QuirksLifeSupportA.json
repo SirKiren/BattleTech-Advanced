@@ -1,0 +1,32 @@
+{
+  "TargetIDs": ["Gear_Quirk_ImprovedLifeSupport_DigKing",
+                "Gear_Quirk_ImprovedLifeSupport_Dragon",
+                "Gear_Quirk_ImprovedLifeSupport_Emperor",
+                "Gear_Quirk_ImprovedLifeSupport_Enfield",
+                "Gear_Quirk_ImprovedLifeSupport_Juggernaut",
+                "Gear_Quirk_ImprovedLifeSupport_Koschei",
+                "Gear_Quirk_ImprovedLifeSupport_ShadowHawk",
+                "Gear_Quirk_ImprovedLifeSupport_WolfHound",
+                "Gear_Quirk_ImprovedLifeSupport_ShadowHawkII"],
+  "Instructions": [
+    {
+      "JSONPath": "InventorySize",
+      "Action": "Replace",
+      "Value": "1"
+    },
+    {
+      "JSONPath": "Tonnage",
+      "Action": "Replace",
+      "Value": "-1"
+    },
+    {
+      "JSONPath": "AllowedLocations",
+      "Action": "Replace",
+      "Value": "CenterTorso"
+    },
+    {
+      "JSONPath": "Custom.Category[?(@.CategoryID == 'LifeSupportA')]",
+      "Action": "Remove"
+    }
+  ]
+}

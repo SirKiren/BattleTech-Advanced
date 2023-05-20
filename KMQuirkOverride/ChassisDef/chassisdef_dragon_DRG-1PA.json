@@ -1,0 +1,26 @@
+{
+  "TargetID": "chassisdef_dragon_DRG-1PA",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_ImprovedLifeSupport_Dragon')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Dragon",
+          "SimGameUID": "",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "GUID": null,
+          "DamageLevel": "Functional",
+          "prefabName": "",
+          "hasPrefabName": true
+        }
+      ]
+    }
+  ]
+}

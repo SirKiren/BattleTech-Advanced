@@ -1,0 +1,33 @@
+{
+  "TargetIDs": ["Gear_Quirk_MultiTrac_Crossbow",
+                "Gear_Quirk_MultiTrac_Devastator",
+                "Gear_Quirk_MultiTrac_Fox",
+                "Gear_Quirk_MultiTrac_LaoHu",
+                "Gear_Quirk_MultiTrac_Lynx",
+                "Gear_Quirk_MultiTrac_RiflemanIII",
+                "Gear_Quirk_MultiTrac_Thunderbolt",
+                "Gear_Quirk_MultiTrac_Toro",
+                "Gear_Quirk_MultiTrac_VonRohrs",
+                "Gear_Quirk_MultiTracTC_Thunderbolt"],
+  "Instructions": [
+    {
+      "JSONPath": "InventorySize",
+      "Action": "Replace",
+      "Value": "1"
+    },
+    {
+      "JSONPath": "Tonnage",
+      "Action": "Replace",
+      "Value": "-1"
+    },
+    {
+      "JSONPath": "AllowedLocations",
+      "Action": "Replace",
+      "Value": "CenterTorso"
+    },
+    {
+      "JSONPath": "Custom.Category[?(@.CategoryID == 'Cockpit')]",
+      "Action": "Remove"
+    }
+  ]
+}

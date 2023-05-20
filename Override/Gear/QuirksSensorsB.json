@@ -1,0 +1,30 @@
+{
+  "TargetIDs": ["Gear_Quirk_CommandMech_Battlemaster",
+                "Gear_Quirk_CommandMech_BlackKnight",
+                "Gear_Quirk_CommandMech_Crabrauder",
+                "Gear_Quirk_CommandMech_Hecatoncheires",
+                "Gear_Quirk_CommandMech_Imp",
+                "Gear_Quirk_CommandMech_Marauder",
+                "Gear_Quirk_CommandMech_Nightstar",
+                "Gear_Quirk_CommandMech_Omega",
+                "Gear_Quirk_CommandMech_Rampage",
+                "Gear_Quirk_CommandMech_Shootist",
+                "Gear_Quirk_CommandMech_ThunderHawk",
+                "Gear_Quirk_ImprovedTargeting_MarauderII"],
+  "Instructions": [
+    {
+      "JSONPath": "InventorySize",
+      "Action": "Replace",
+      "Value": "1"
+    },
+    {
+      "JSONPath": "AllowedLocations",
+      "Action": "Replace",
+      "Value": "CenterTorso"
+    },
+    {
+      "JSONPath": "Custom.Category[?(@.CategoryID == 'SensorsB')]",
+      "Action": "Remove"
+    }
+  ]
+}

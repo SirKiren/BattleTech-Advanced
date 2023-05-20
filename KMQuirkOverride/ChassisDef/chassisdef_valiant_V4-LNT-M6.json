@@ -1,0 +1,26 @@
+{
+  "TargetID": "chassisdef_valiant_V4-LNT-M6",
+  "Instructions": [
+    {
+      "JSONPath": "FixedEquipment[?(@.ComponentDefID == 'Gear_Quirk_ImprovedTargeting_Valiant')]",
+      "Action": "Remove"
+    },
+    {
+      "JSONPath": "FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "CenterTorso",
+          "ComponentDefID": "Gear_Quirk_ImprovedTargeting_Valiant",
+          "SimGameUID": "",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "GUID": null,
+          "DamageLevel": "Functional",
+          "prefabName": "",
+          "hasPrefabName": false
+        }
+      ]
+    }
+  ]
+}

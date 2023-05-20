@@ -1,0 +1,9 @@
+{
+  "TargetIDs": ["emod_kit_dhs_proto", "emod_kit_dhs", "emod_kit_lhs", "emod_kit_cdhs", "emod_kit_sdhs"],
+  "Instructions": [
+    {
+      "JSONPath": "Custom.Flags[1]",
+      "Action": "Remove"
+    }
+  ]
+}
