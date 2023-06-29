@@ -67,27 +67,27 @@
                     "Names" : [
                         {
                             "Location" : "LeftArm",
-                            "Label" : null,
+                            "Label" : "FRONT",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "RightArm",
-                            "Label" : null,
+                            "Label" : "REAR",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "LeftLeg",
-                            "Label" : null,
+                            "Label" : "LEFT SIDE",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "RightLeg",
-                            "Label" : null,
+                            "Label" : "RIGHT SIDE",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "Head",
-                            "Label" : null,
+                            "Label" : "TURRET",
                             "ShortLabel" : null
                         }
                     ]
@@ -95,28 +95,28 @@
             },
             {
                 "Tags" : [
-                    "Quad"
+                    "QuadMech"
                 ],
                 "Template" : {
                     "Names" : [
                         {
                             "Location" : "LeftArm",
-                            "Label" : null,
+                            "Label" : "Front Left Leg",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "RightArm",
-                            "Label" : null,
+                            "Label" : "Front Right Leg",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "LeftLeg",
-                            "Label" : null,
+                            "Label" : "Hind Left Leg",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "RightLeg",
-                            "Label" : null,
+                            "Label" : "Hind Right Leg",
                             "ShortLabel" : null
                         }
                     ]
@@ -124,183 +124,66 @@
             },
             {
                 "Tags" : [
-                    "Squad"
+                    "ProtoMech"
                 ],
                 "Template" : {
                     "Names" : [
                         {
                             "Location" : "LeftArm",
-                            "Label" : null,
+                            "Label" : "Trooper 5",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "RightArm",
-                            "Label" : null,
+                            "Label" : "Trooper 6",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "LeftLeg",
-                            "Label" : null,
+                            "Label" : "Trooper 7",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "RightLeg",
-                            "Label" : null,
+                            "Label" : "Trooper 8",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "CenterTorso",
-                            "Label" : null,
+                            "Label" : "Trooper 2",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "RightTorso",
-                            "Label" : null,
+                            "Label" : "Trooper 4",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "LeftTorso",
-                            "Label" : null,
+                            "Label" : "Trooper 3",
                             "ShortLabel" : null
                         },
                         {
                             "Location" : "Head",
-                            "Label" : null,
+                            "Label" : "Trooper 1",
                             "ShortLabel" : null
                         }
                     ]
                 }
             }
         ],
-        "GyroCategorizer" : {
-            "CategoryId" : "Gyro"
-        },
-        "GyroSlotChange" : {
-            "From" : 3,
-            "By" : 0,
-            "FromIsMin" : false,
-            "NewMin" : null
-        },
-        "CockpitCategorizer" : {
-            "CategoryId" : "Cockpit"
-        },
-        "CockpitTonnageChange" : {
-            "From" : 0,
-            "By" : 3,
-            "FromIsMin" : false,
-            "NewMin" : null
-        },
-        "CockpitSlotChange" : {
-            "From" : 1,
-            "By" : 0,
-            "FromIsMin" : false,
-            "NewMin" : null
-        },
-        "SensorsACategorizer" : {
-            "CategoryId" : "SensorsA"
-        },
-        "SensorsBCategorizer" : {
-            "CategoryId" : "SensorsB"
-        },
-        "SensorsBSlotChange" : {
-            "From" : 2,
-            "By" : -1,
-            "FromIsMin" : false,
-            "NewMin" : null
-        },
-        "LegUpgradesCategorizer" : {
-            "CategoryId" : "LegFootActuator"
-        },
-        "LegUpgradesSlotChange" : {
-            "From" : 3,
-            "By" : -1,
-            "FromIsMin" : true,
-            "NewMin" : 1
-        },
-        "ChassisDefSlotsChanges" : [
-            {
-                "Location" : "LeftTorso",
-                "Change" : {
-                    "From" : 10,
-                    "By" : 2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Location" : "RightTorso",
-                "Change" : {
-                    "From" : 10,
-                    "By" : 2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Location" : "LeftLeg",
-                "Change" : {
-                    "From" : 4,
-                    "By" : 2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Location" : "RightLeg",
-                "Change" : {
-                    "From" : 4,
-                    "By" : 2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Location" : "Head",
-                "Change" : {
-                    "From" : 1,
-                    "By" : 5,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Location" : "CenterTorso",
-                "Change" : {
-                    "From" : 4,
-                    "By" : 11,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Location" : "LeftLeg",
-                "Change" : {
-                    "From" : 2,
-                    "By" : 4,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Location" : "RightLeg",
-                "Change" : {
-                    "From" : 2,
-                    "By" : 4,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Location" : "Head",
-                "Change" : {
-                    "From" : 3,
-                    "By" : 3,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            }
-        ],
-        "ChassisDefInitialTonnage" : true,
+        "GyroCategorizer" : null,
+        "GyroSlotChange" : null,
+        "CockpitCategorizer" : null,
+        "CockpitTonnageChange" : null,
+        "CockpitSlotChange" : null,
+        "SensorsACategorizer" : null,
+        "SensorsBCategorizer" : null,
+        "SensorsBSlotChange" : null,
+        "LegUpgradesCategorizer" : null,
+        "LegUpgradesSlotChange" : null,
+        "ChassisDefSlotsChanges" : null,
+        "ChassisDefInitialTonnage" : false,
         "ChassisDefInitialToTotalTonnageFactor" : 0.1,
         "ChassisDefArmorStructureRatio" : true,
         "ChassisDefMaxJumpjets" : false,
@@ -321,36 +204,7 @@
             "BackgroundColor" : null
         },
         "AutoFixWeaponDefSlotsChanges" : [
-            {
-                "Type" : "AC5",
-                "SlotChange" : null,
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "AC10",
-                "SlotChange" : null,
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "AC20",
-                "SlotChange" : null,
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "Gauss",
-                "SlotChange" : null,
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "LargeLaserPulse",
-                "SlotChange" : null,
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "LRM20",
-                "SlotChange" : null,
-                "TonnageChange" : null
-            }
+            
         ],
         "ArmActuatorAdder" : {
             "Enabled" : true,
@@ -401,10 +255,10 @@
         "CritLinkedText" : "Critical hits are linked to '{0}'"
     },
     "CustomCapacities" : {
-        "Enabled" : false,
+        "Enabled" : true,
         "EnabledDescription" : "Enables some carry rules.",
         "CarryLeftOverTopOffDescription" : "Non CBT mechanism. The value is multiplied by the chassis tonnage. Carry in hand might have left overs, `top off` - `carry in hand usage` = `carry left over capacity`. Modifiable via custom capacity collection 'CarryLeftOverTopOff'.",
-        "CarryLeftOverTopOff" : 0.1,
+        "CarryLeftOverTopOff" : 0,
         "CarryHandErrorOneFreeHand" : "OVERWEIGHT: 'Mechs handheld carry weight requires one free hand.",
         "CarryWeight" : {
             "Description" : {
@@ -499,7 +353,7 @@
         "EnforceRulesForAdditionalInternalHeatSinksDescription" : "Can't have those juicy ++ cooling systems with smaller fusion cores than the rules allow it.",
         "KeepIncompatibleHeatSinks" : false,
         "KeepIncompatibleHeatSinksDescription" : "Replace incompatible heat sinks with compatible ones.",
-        "EngineMissingFallbackHeatSinkCapacity" : 0,
+        "EngineMissingFallbackHeatSinkCapacity" : 30,
         "EngineMissingFallbackHeatSinkCapacityDescription" : "Heat sink capacity if no engine is detected.",
         "CBTWalkAndRunMPRounding" : false,
         "AdditionalWalkSpeed" : 0,
@@ -1025,10 +879,6 @@
             "ignore_shutdown"
         ]
     },
-    "InvalidInventory" : {
-        "Enabled" : false,
-        "EnabledDescription" : "Make sure invalid mech configurations can't be saved in skirmish and can't be fielded in the campaign."
-    },
     "MechLabSlots" : {
         "Enabled" : true,
         "EnabledDescription" : "Makes the mech lab adhere to any custom mech slot counts.",
@@ -1039,7 +889,7 @@
         "HideHelpButton" : true,
         "HideECMButton" : true,
         "ZoomMaximumScale" : 0.95,
-        "MechLabStatusLeftShift" : 25,
+        "MechLabStatusLeftShift" : 0,
         "MechLabMechRightShift" : 0,
         "MechLabArmTopPadding" : 120,
         "TopLeftWidget" : {

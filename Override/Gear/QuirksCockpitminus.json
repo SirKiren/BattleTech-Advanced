@@ -1,0 +1,24 @@
+{
+  "TargetIDs": ["Gear_Quirk_MultiTrac_Crossbow"],
+  "Instructions": [
+    {
+      "JSONPath": "InventorySize",
+      "Action": "Replace",
+      "Value": "1"
+    },
+    {
+      "JSONPath": "Tonnage",
+      "Action": "Replace",
+      "Value": "-1"
+    },
+    {
+      "JSONPath": "AllowedLocations",
+      "Action": "Replace",
+      "Value": "CenterTorso"
+    },
+    {
+      "JSONPath": "Custom.Category[?(@.CategoryID == 'Cockpit')]",
+      "Action": "Remove"
+    }
+  ]
+}

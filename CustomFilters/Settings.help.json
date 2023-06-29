@@ -5,6 +5,17 @@
             "!ChassisTonnage",
             "ChassisName",
             "MechName"
+        ],
+        "MechUnitValidationEnabledDescription": "Show validation errors when scrolling the mech list in the MechBay.",
+        "MechUnitValidationEnabled": true,
+        "MechUnitValidationLevelDescription": "Validation level to run through with MechValidationRules.ValidateMechDef. If set to `null` will run validation through MechValidationRules' GetMechFieldableWarnings and ValidateMechCanBeFielded.",
+        "MechUnitValidationLevel": "Full",
+        "MechUnitValidationWarningsDescription": "Which validations to show as warnings, all others will be shown as error. Default set of validation types taken from MechValidationRules.GetMechFieldableWarnings(...).",
+        "MechUnitValidationWarnings": [
+            "Underweight",
+            "StructureDamaged",
+            "AmmoMissing",
+            "AmmoUnneeded"
         ]
     },
     "MechLab": {
@@ -21,6 +32,8 @@
         "SimGameItemsMinCount": 0,
         "LostechStockWeaponVariantDescription": "Fixes lostech variant weapon tagging by checking if id ends with -STOCK.",
         "LostechStockWeaponVariantFix": false,
+        "SkirmishMechDefQueryFilterDescription": "UnitDef filter when searching for MechDefs by tags via MDDB. CustomUnits converts VehicleDefs (2) to MechDefs (1) but does not add them to the MDDB, set the filter to \"(d.UnitTypeID = 1 OR d.UnitTypeID = 2)\" in that case.",
+        "SkirmishMechDefQueryFilter": "(d.UnitTypeID = 1)",
         "SkirmishOverloadWarningDescription": "Warn the user before loading into the SkirmishMechBay if too many 'Mech will be loaded.",
         "SkirmishOverloadWarningCount": 500,
         "SkirmishDefaultDescription": "The default settings used when no options panel is shown and the user enters the skirmish 'Mech bay directly.",

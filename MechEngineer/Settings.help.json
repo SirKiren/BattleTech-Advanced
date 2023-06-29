@@ -792,10 +792,6 @@
             "ignore_shutdown"
         ]
     },
-    "InvalidInventory" : {
-        "Enabled" : true,
-        "EnabledDescription" : "Make sure invalid mech configurations can't be saved in skirmish and can't be fielded in the campaign."
-    },
     "MechLabSlots" : {
         "Enabled" : true,
         "EnabledDescription" : "Makes the mech lab adhere to any custom mech slot counts.",

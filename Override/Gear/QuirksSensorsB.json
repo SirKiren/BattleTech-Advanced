@@ -9,8 +9,7 @@
                 "Gear_Quirk_CommandMech_Omega",
                 "Gear_Quirk_CommandMech_Rampage",
                 "Gear_Quirk_CommandMech_Shootist",
-                "Gear_Quirk_CommandMech_ThunderHawk",
-                "Gear_Quirk_ImprovedTargeting_MarauderII"],
+                "Gear_Quirk_CommandMech_ThunderHawk"],
   "Instructions": [
     {
       "JSONPath": "InventorySize",

@@ -1,0 +1,21 @@
+{
+  "TargetIDs": ["Gear_Quirk_Cowl_Cyclops",
+                "Gear_Quirk_Cowl_Gunslinger",
+                "Gear_Quirk_Cowl_Hatamoto",
+                "Gear_Quirk_Cowl_Highlander",
+                "Gear_Quirk_Cowl_Naginata",
+                "Gear_Quirk_Cowl_Thunder",
+                "Gear_Quirk_Cowl_Uziel"],
+  "Instructions": [
+    {
+      "JSONPath": "InventorySize",
+      "Action": "Replace",
+      "Value": "1"
+    },
+    {
+      "JSONPath": "AllowedLocations",
+      "Action": "Replace",
+      "Value": "CenterTorso"
+    }
+  ]
+}

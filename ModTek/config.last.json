@@ -28,12 +28,15 @@
             "Profiler": "Debug",
             "Debugger": "Debug",
             "AppDomain": "Debug",
+            "HarmonyX": "Log",
             "ModTek": 200
         },
         "IgnoreLoggerLogLevel": false,
         "DebugLogLevelSetters": false,
         "SkipOriginalLoggers": true,
-        "IgnoreSkipForLoggers": [],
+        "IgnoreSkipForLoggers": [
+            "ModTek"
+        ],
         "UnityConsoleAppenderEnabled": false,
         "UnityConsoleAppender": {
             "LogRotationCount": 1,
@@ -67,6 +70,24 @@
         },
         "MainLogFilePath": "battletech_log.txt",
         "Logs": {
+            "ModTek_cleaned.log": {
+                "LogRotationCount": 1,
+                "Includes": [
+                    {
+                        "LoggerNames": [
+                            "ModTek"
+                        ]
+                    }
+                ],
+                "IndentNewLines": true,
+                "NormalizeNewLines": true,
+                "MessageSanitizerRegex": "[\\p{C}-[\\r\\n\\t]]+",
+                "AbsoluteTimeEnabled": false,
+                "AbsoluteTimeUseUtc": false,
+                "AbsoluteFormat": "HH:mm:ss.fffffff",
+                "StartupTimeEnabled": false,
+                "StartupTimeFormat": "hh':'mm':'ss'.'fffffff"
+            },
             "ModTek.log": {
                 "LogRotationCount": 1,
                 "Includes": [
@@ -141,14 +162,15 @@
                     "CustomComponents [DEBUG] [CC]-- CustomComponents.Flags",
                     "CustomComponents [DEBUG] [CC]-- CustomComponents.AutoLinked",
                     "Data.DataManager [WARNING] LoadRequest for",
-                    "LewdableTanks [DEBUG] [LTMod]Fixing cost of",
+                    "LewdableTanks [DEBUG] Fixing cost of",
                     "CombatLog.Initialization [ERROR] Error instantiating VFX",
                     "PilotDef [WARNING] PilotDef already did Init From Save!",
                     "Achievements [LOG]",
                     "DataLoader [DEBUG] Loading:",
                     "Save.Core.SaveSystem [DEBUG]",
                     "Unity [ERROR] Generating SIM GAME UID while still loading!",
-                    "Unity [WARNING] HBS Tooltip on UI Element"
+                    "Unity [WARNING] HBS Tooltip on UI Element",
+                    "HarmonyX [LOG]"
                 ],
                 "IndentNewLines": true,
                 "NormalizeNewLines": true,

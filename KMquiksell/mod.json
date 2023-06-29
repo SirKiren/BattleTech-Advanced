@@ -1,0 +1,20 @@
+{
+	"Name": "Quiksell",
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": [ "Override","Custom Ammo Categories","Community Content","BT Advanced HM Unit Module","BT Advanced Quad Mechs","Heavy Metal Sanctuary Worlds Units","BT Advanced UW Unit Module","BT Advanced Clan Mechs", "BT Advanced Mechs", "BT Advanced Core"],
+	"Version": "1.0",
+	"Description": "Contains budget fun.",
+	"Manifest": [
+		{
+			"Type": "ChassisDef",
+			"Path": "chassis",
+			"AddToDB": true
+		},
+		{
+			"Type": "MechDef",
+			"Path": "mech",
+			"AddToDB": true
+		}
+	]
+}

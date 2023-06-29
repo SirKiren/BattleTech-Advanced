@@ -78,17 +78,33 @@
 		"RandomStructureOnRepairedLimbs": true,
 		"MinStructure": 1,
 		"RepairMechComponents": true,
-		"RepairComponentsFunctionalThreshold": 1,
-		"RepairComponentsNonFunctionalThreshold": 0,
-		"RepairChanceByTP": false,
+		"RepairComponentsFunctionalThreshold": 0.25,
+		"RepairComponentsNonFunctionalThreshold": 0.5,
+		"RepairChanceByTP": true,
 		"BaseTP": 10,
 		"LimbChancePerTp": 1,
-		"ComponentChancePerTp": 1,
+		"ComponentChancePerTp": 0.02,
 		"LimbMinChance": 1,
 		"LimbMaxChance": 1,
-		"ComponentMinChance": 1,
-		"ComponentMaxChance": 1,
-		"BrokeByTag": [],
+		"ComponentMinChance": 0.1,
+		"ComponentMaxChance": 0.95,
+		"BrokeByTag": [
+			{
+				"tag": "hard_to_repair",
+				"BaseTp": "30",
+				"Limb": "0.0075",
+				"Component": "0.0075"
+			},
+			{
+				"tag": "easy_to_repair",
+				"Limb": "0.015",
+				"Component": "0.015"
+			},
+			{
+				"tag": "poor_maintained",
+				"BaseTp": "20"
+			}
+		],
 		"AdaptPartBaseCost": 0.015,
 		"MaxAdaptMod": 5,
 		"AdaptModWeight": 2,

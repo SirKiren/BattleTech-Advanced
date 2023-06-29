@@ -3,7 +3,7 @@
     "Enabled": true,
 
     "Author": "Kiren, Etc",
-		"DependsOn": [ "Custom Ammo Categories","Community Content", "MechEngineerGear","BT Advanced HM Unit Module","BT Advanced Quad Mechs","Heavy Metal Sanctuary Worlds Units","BT Advanced UW Unit Module","BT Advanced Clan Mechs", "BT Advanced Mechs", "BT Advanced Core","BT Advanced Sanctuary Worlds Equipment"],
+		"DependsOn": [ "Custom Ammo Categories","Community Content","BT Advanced HM Unit Module","BT Advanced Quad Mechs","Heavy Metal Sanctuary Worlds Units","BT Advanced UW Unit Module","BT Advanced Clan Mechs", "BT Advanced Mechs", "BT Advanced Core","BT Advanced Sanctuary Worlds Equipment"],
 
 
     "CustomResourceTypes": [
